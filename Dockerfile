@@ -1,7 +1,8 @@
 FROM nginx:stable-alpine
 
-# Copy the static files to the nginx html directory
-COPY . /usr/share/nginx/html
+# Create the subpath directory and copy files there
+RUN mkdir -p /usr/share/nginx/html/quit_learn
+COPY . /usr/share/nginx/html/quit_learn
 
 # Copy the nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
