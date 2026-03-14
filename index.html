@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Learn - QuitMantra</title>
+<title data-i18n="title">Learn - QuitMantra</title>
+<script src="i18n/loader.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -87,13 +88,13 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(-
 <nav id="main-nav">
   <div class="nav-logo">Quit<span>Mantra</span></div>
   <div class="nav-tab-row">
-    <button class="nav-tab" onclick="window.open('./quitmantra-quiz-blue.html','_self')">Quiz</button>
-    <button class="nav-tab active">Learn</button>
+    <button class="nav-tab" onclick="window.open('./quitmantra-quiz-blue.html','_self')" data-i18n="nav_quiz">Quiz</button>
+    <button class="nav-tab active" data-i18n="nav_learn">Learn</button>
   </div>
 </nav>
 <div id="toast">
   <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" fill="#DCFCE7" stroke="#86EFAC" stroke-width="1.2"/><path d="M5 8l2.5 2.5 4-4" stroke="#16A34A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-  <span id="toast-txt">Lesson completed!</span>
+  <span id="toast-txt" data-i18n="toast_lesson_completed">Lesson completed!</span>
 </div>
 <div id="view-list">
   <div class="page-wrap">
@@ -103,7 +104,7 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(-
       <div class="crs-prog-track"><div class="crs-prog-fill" id="crs-fill"></div></div>
       <div class="crs-prog-row"><span id="crs-pct">Completed 0%</span><span class="crs-prog-count" id="crs-cnt"></span></div>
       <button class="crs-continue" id="crs-cont" onclick="continueCourse()">
-        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2.5 6.5h8M6.5 2.5l4 4-4 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Continue
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2.5 6.5h8M6.5 2.5l4 4-4 4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="btn_continue">Continue</span>
       </button>
     </div>
     <div class="phases" id="phases"></div>
@@ -112,7 +113,7 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(-
 <div id="view-art">
   <div class="art-bar">
     <button class="back-btn" onclick="closeArt()">
-      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M8.5 10.5L4.5 6.5l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Back
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M8.5 10.5L4.5 6.5l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="btn_back">Back</span>
     </button>
     <div class="read-track"><div class="read-fill" id="read-fill"></div></div>
   </div>
@@ -126,109 +127,84 @@ body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(-
     <div class="art-body" id="art-body"></div>
     <div class="art-footer" id="art-footer">
       <button class="done-btn" id="done-btn" onclick="markDone()">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Mark as Complete
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="btn_mark_complete">Mark as Complete</span>
       </button>
       <div class="fb-box">
-        <div class="fb-q">Was this lesson helpful?</div>
+        <div class="fb-q" data-i18n="fb_q">Was this lesson helpful?</div>
         <div class="fb-row">
           <button class="fb-btn" id="fb-y" onclick="giveFb(true)">
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M4.5 7.5V12.5M4.5 7.5l2-3.5a1.5 1.5 0 012.5 1.5V7h3l-1 5H4.5M2 7.5h2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>Yes
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M4.5 7.5V12.5M4.5 7.5l2-3.5a1.5 1.5 0 012.5 1.5V7h3l-1 5H4.5M2 7.5h2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="fb_yes">Yes</span>
           </button>
           <button class="fb-btn" id="fb-n" onclick="giveFb(false)">
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M10.5 7.5V2.5M10.5 7.5l-2 3.5a1.5 1.5 0 01-2.5-1.5V8h-3l1-5h7M13 7.5h-2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>No
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M10.5 7.5V2.5M10.5 7.5l-2 3.5a1.5 1.5 0 01-2.5-1.5V8h-3l1-5h7M13 7.5h-2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="fb_no">No</span>
           </button>
         </div>
-        <div class="fb-thanks" id="fb-thanks">Thank you for your feedback!</div>
+        <div class="fb-thanks" id="fb-thanks" data-i18n="fb_thanks">Thank you for your feedback!</div>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-const SUBS=[
-  {slug:'alcohol',   name:'Alcohol',        course:'Understanding Alcohol Use Disorder'},
-  {slug:'cannabis',  name:'Weed',           course:'Understanding Cannabis Addiction'},
-  {slug:'nicotine',  name:'Nicotine',       course:'Understanding Nicotine Dependence'},
-  {slug:'vaping',    name:'Vaping',         course:'Understanding Vaping Addiction'},
-  {slug:'cocaine',   name:'Cocaine',        course:'Understanding Cocaine Addiction'},
-  {slug:'opioids',   name:'Opioids',        course:'Understanding Opioid Use Disorder'},
-  {slug:'fentanyl',  name:'Fentanyl',       course:'Understanding Fentanyl Addiction'},
-  {slug:'heroin',    name:'Heroin',         course:'Understanding Heroin Addiction'},
-  {slug:'meth',      name:'Meth',           course:'Understanding Methamphetamine Addiction'},
-  {slug:'adderall',  name:'Adderall',       course:'Understanding Adderall Misuse'},
-  {slug:'benzos',    name:'Benzodiazepines',course:'Understanding Benzodiazepine Dependence'},
-  {slug:'xanax',     name:'Xanax',          course:'Understanding Xanax Dependence'},
-  {slug:'kratom',    name:'Kratom',         course:'Understanding Kratom Dependence'},
-  {slug:'mdma',      name:'MDMA',           course:'Understanding MDMA Use'},
-  {slug:'gambling',  name:'Gambling',       course:'Understanding Gambling Disorder'},
-  {slug:'porn',      name:'Pornography',    course:'Understanding Pornography Addiction'},
-  {slug:'sex',       name:'Sex',            course:'Understanding Compulsive Sexual Behavior'},
-  {slug:'shopping',  name:'Shopping',       course:'Understanding Compulsive Shopping'},
-  {slug:'social',    name:'Social Media',   course:'Understanding Social Media Addiction'},
-  {slug:'games',     name:'Video Games',    course:'Understanding Video Game Addiction'},
-];
+// Use get-prefixed vars to access translated data
+const getSUBS = () => t('subs', []);
+const getCURR = () => t('curr', []);
+const getARTICLES = () => t('articles', {});
 
-const CURR=[
-  {num:'01',phase:'Awareness & Readiness',lessons:[
-    {id:'why-quit', title:'Why Quit [S]?',                          mins:5, type:'Article'},
-    {id:'quiz',     title:'How Addicted Am I?',                     mins:5, type:'Assessment',isQuiz:true},
-    {id:'signs',    title:'The Signs of a [S] Problem',            mins:7, type:'Article'},
-    {id:'triggers', title:'How to Map Your [S] Triggers',          mins:6, type:'Article'},
-    {id:'lies',     title:'The Lies We Tell to Keep Using [S]',    mins:7, type:'Article'},
-  ]},
-  {num:'02',phase:'Detox & Early Healing',lessons:[
-    {id:'urge',       title:'How to Urge Surf',                    mins:6, type:'Article'},
-    {id:'thoughts',   title:'How to Defuse Thoughts About [S]',    mins:6, type:'Article'},
-    {id:'emotions',   title:'How to Tame Your Emotions',           mins:6, type:'Article'},
-    {id:'withdrawal', title:'What [S] Withdrawal Feels Like',      mins:8, type:'Article'},
-    {id:'sleep',      title:'How to Get Better Sleep in Recovery', mins:7, type:'Article'},
-  ]},
-  {num:'03',phase:'Recovery and Growth',lessons:[
-    {id:'perfect',   title:'How to Ditch Perfectionism in Recovery',           mins:7,  type:'Article'},
-    {id:'life',      title:"How to Build a Life You Don't Want to Run From",   mins:6,  type:'Article'},
-    {id:'relations', title:'How to Heal and Rebuild Relationships',            mins:10, type:'Article'},
-    {id:'ongoing',   title:'How to Keep Going with Sobriety',                 mins:7,  type:'Article'},
-    {id:'help',      title:'How to Get Help for [S] Addiction',               mins:7,  type:'Article'},
-  ]},
-];
+let sub = null;
+let curLess = null;
+const done = {};
+const fb = {};
 
-const ALL_LESSONS=CURR.flatMap(p=>p.lessons);
-const TOTAL=ALL_LESSONS.length;
-</script>
-<script>
-const ARTICLES = {"why-quit": "<p><strong>Your Goal:</strong> Discover a clear, personal reason for starting this journey - one that comes from within you, not from fear or pressure from others.</p>\n<h2>Let's Get Real. Why Are You Here?</h2>\n<p>Maybe someone told you to stop using [S]. Maybe you're scared of what might happen if you don't. Or maybe something deep inside you knows there's more to life than this. <strong>Here's the truth:</strong> external motivation - fear, pressure, consequences - can get you started, but it runs out fast.</p>\n<p><strong>What the science says:</strong> when your reason for change belongs to you - not your doctor, not your boss, not your partner - your prefrontal cortex activates. This is your brain's internal CEO. It connects your values to your actions and creates lasting motivation. This is called autonomous motivation, and it's the single strongest predictor of long-term recovery success.</p>\n<p><strong>Recovery reality check:</strong> you don't need to hit rock bottom to decide enough is enough. Many people who successfully quit [S] do so before their lives fall apart. Recognising the pattern early is a strength, not a weakness.</p>\n<h2>Finding Your Real \"Why\": The Five Whys Exercise</h2>\n<p>Start with: <strong>Why do you want to stop using [S]?</strong> Got an answer? Good. Now ask: <strong>Why is that important to you?</strong> Keep going. <strong>Why does that matter right now? Why is that meaningful for your future? What does this say about the kind of life you want to build?</strong></p>\n<p>Go five layers deep. That's where your real \"why\" lives. This isn't what you think you should say - if you're honest in this exercise, this is how you actually feel.</p>\n<h2>Making the Stakes Real</h2>\n<p><strong>The brain science behind this:</strong> one way to engage your prefrontal cortex is to make the stakes concrete. When you assess the real costs of [S] use across different areas of your life, it creates cognitive dissonance - a temporary, uncomfortable gap between your values and your actions. That discomfort is fuel for change.</p>\n<p>Take a moment to name what [S] has cost you. Look at relationships - who have you become distant from? Work or school - what opportunities have slipped by? Health - how do you feel mentally and physically? Self-respect - when have you acted in ways that didn't align with who you want to be?</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Write your top three reasons for quitting [S] somewhere you'll see them daily - your phone lock screen, a note on your mirror, or a journal entry.</li>\n<li>Complete the Five Whys exercise in writing. The act of writing bypasses the part of your brain that rationalises and speaks directly to your deeper self.</li>\n<li>Share your \"why\" with one trusted person. Saying it out loud makes it real in a way that keeping it private doesn't.</li>\n</ul>", "signs": "<p><strong>Your Goal:</strong> Recognise the specific patterns that indicate your [S] use has crossed from habit into dependency - so you can respond to it honestly.</p>\n<h2>Why Signs Are Easy to Dismiss</h2>\n<p>One of the defining features of addiction is that the brain becomes very good at explaining away its own symptoms. <strong>What this means for you:</strong> the same mind shaped by [S] use is the one you're using to evaluate whether you have a problem. This isn't a character flaw - it's neuroscience. The brain protects the behaviour tied to its reward system.</p>\n<p>The DSM-5 identifies 11 clinical criteria for Substance Use Disorder. Most people with a significant problem meet between 4 and 8 of them without ever labelling what they experience as addiction. They call it a habit, a coping tool, or just something they do.</p>\n<h2>The Signs Worth Taking Seriously</h2>\n<p><strong>Loss of control:</strong> you consistently use more [S] than you planned. You've set limits that you've broken. What starts as \"just a little\" regularly becomes much more.</p>\n<p><strong>Mental real estate:</strong> a growing portion of your mental energy goes toward [S] - obtaining it, planning around it, thinking about when you'll next use it, or recovering from it. When something occupies this much mental space, it is shaping your life whether you call it addiction or not.</p>\n<p><strong>Continued use despite consequences:</strong> this is the core definition of addiction. You're not using [S] because everything is fine - you're using despite knowing it is causing problems. That gap between knowing and stopping is where dependency lives.</p>\n<p><strong>Tolerance and withdrawal:</strong> if you need more [S] to get the same effect, or if stopping creates physical or psychological discomfort, your body has adapted. This is not weakness - it's physiology.</p>\n<h2>The Difference Between Habit and Dependency</h2>\n<p><strong>Here's the key distinction:</strong> a habit is something you do. A dependency is something that does you. With a habit, you're in the driver's seat. With dependency, the substance has significant influence over your decisions, your moods, and your sense of what's normal.</p>\n<p>If stopping [S] for a week feels impossible or genuinely threatening - that is important information. Not a reason for shame. Information.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Take the DSM-5 self-assessment in this course to get a clinical picture of where you currently stand.</li>\n<li>Write down the three signs from this article that resonate most strongly with your own experience. Specificity is the beginning of clarity.</li>\n<li>Speak to a GP or addiction counsellor if you recognise withdrawal symptoms - stopping some substances abruptly can be medically serious and should not be done alone.</li>\n</ul>", "triggers": "<p><strong>Your Goal:</strong> Build a personalised map of the specific people, places, emotions, and situations that reliably activate your desire to use [S] - so you can respond rather than react.</p>\n<h2>Why Triggers Are the Actual Battle</h2>\n<p>Most people who relapse don't do so because they decided to use [S] again. They relapse because they walked into a trigger without a plan. <strong>The research is clear:</strong> understanding your individual trigger landscape is one of the highest-leverage things you can do in early recovery.</p>\n<p>A trigger is anything that activates a craving. Your brain has spent significant time linking [S] with certain cues. These links are encoded as neural pathways and activate automatically, before your conscious mind has a chance to weigh in. The goal isn't to eliminate triggers - it's to see them coming.</p>\n<h2>The Four Categories of Triggers</h2>\n<p><strong>Environmental triggers:</strong> specific places, times of day, or physical objects associated with using [S]. Your couch. Finishing work. A particular drive. These cues can trigger cravings before you've even consciously processed what's happening.</p>\n<p><strong>Social triggers:</strong> certain people or social situations where [S] use is expected or normalised. Social pressure - spoken or unspoken - is one of the most powerful triggers there is.</p>\n<p><strong>Emotional triggers:</strong> emotions that have been consistently numbed, enhanced, or escaped through [S]. Boredom is the most commonly underestimated. Loneliness, anxiety, frustration, and even celebration can all be triggers depending on your history.</p>\n<p><strong>Cognitive triggers:</strong> thoughts and mental patterns that lead toward [S]. \"I deserve this.\" \"Just this once.\" \"I've had a terrible week.\" These thought patterns are often automatic and have been practised for years.</p>\n<h2>Building Your Trigger Map</h2>\n<p><strong>What this looks like in practice:</strong> take a blank page and write the headers: When, Where, Who, How I Feel, What I Was Thinking. Over the next week, every time you notice a craving for [S], complete one row. You'll see patterns within days.</p>\n<p>Most people discover their triggers fall into 3-5 recurring clusters. Once you can see them, you can do something about them - whether that's avoiding them in early recovery, building a coping plan, or gradually practising tolerating them without using.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>In the next 24 hours, identify your top three current triggers for [S] use. Write them as specifically as possible - not \"stress\" but \"Sunday evenings when I feel behind on everything.\"</li>\n<li>For each trigger, write one alternative response. It doesn't need to be comfortable - it just needs to create a pause between the trigger and the old behaviour.</li>\n<li>Consider removing or restructuring access to your highest-risk environments for the first 30 days. Distance from a trigger early in recovery is not avoidance - it's strategy.</li>\n</ul>", "lies": "<p><strong>Your Goal:</strong> Recognise the specific thought patterns your mind uses to justify continued [S] use - because you cannot argue your way out of something you can't yet see.</p>\n<h2>The Smartest Thing Addiction Does</h2>\n<p>Addiction doesn't just change your behaviour. It changes how you think about your behaviour. <strong>What the research tells us:</strong> the brain under the influence of addiction becomes exceptionally skilled at generating convincing reasons to continue. These aren't deliberate lies - they're rationalisations built by a brain that has learned to protect its supply.</p>\n<h2>The Most Common Stories We Tell Ourselves</h2>\n<p><strong>\"I can stop whenever I want.\"</strong> The proof offered is usually that you've stopped before - for a day, a week, a month. But the question isn't whether you can stop. It's whether you can stay stopped, and whether the decision is actually yours.</p>\n<p><strong>\"I only use because of [external reason].\"</strong> The job, the relationship, the stress. Once that thing changes, the [S] use will naturally stop - except when the thing changes, the use continues, because by now the [S] itself has become the reason.</p>\n<p><strong>\"I'm not as bad as [person].\"</strong> Comparing your use to someone whose situation is more visible or severe is a reliable way to avoid looking directly at your own. The clinical question isn't \"Am I the worst case?\" It's \"Is [S] making my life smaller?\"</p>\n<p><strong>\"I need it to function.\"</strong> This one is particularly powerful because it's often partially true - withdrawal can make it genuinely difficult to function without [S]. But needing something to function normally is the definition of dependency, not a reason to continue without help.</p>\n<p><strong>\"This time I'll control it.\"</strong> The most persistent of all. Each attempt feels like a fresh start. <strong>What this actually means:</strong> the part of your brain trained by [S] is incredibly good at projecting optimistic futures while minimising evidence from the past.</p>\n<h2>How to Work With These Thoughts</h2>\n<p>The goal isn't to fight every rationalisation head-on. The thoughts come faster than your conscious reasoning can respond. Instead, the goal is recognition. When you catch one of these thoughts, the move is not to argue with it. Name it: \"That's the rationalisation talking.\" Then redirect to your why.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Write down the two or three rationalisations you use most frequently about your [S] use. Seeing them on paper weakens their power significantly.</li>\n<li>For each one, write a single honest counter-statement - not an argument, just the truth. \"When I say I can stop whenever I want, what's actually true is that I haven't.\"</li>\n<li>Share these patterns with someone you trust or a counsellor. Rationalisations lose most of their power when spoken out loud to another person.</li>\n</ul>", "urge": "<p><strong>Your Goal:</strong> Learn to move through a craving for [S] without acting on it, using a technique backed by clinical research in addiction medicine.</p>\n<h2>What a Craving Actually Is</h2>\n<p>A craving is not a command. <strong>Here's what the neuroscience shows:</strong> cravings are waves of neurochemical activity that peak and then subside, typically within 15 to 30 minutes. They feel permanent in the moment - urgent, escalating, like they'll keep growing until something is done. But they don't. They crest and fall, reliably, every time.</p>\n<p>Urge surfing is a technique developed by psychologist Alan Marlatt as part of mindfulness-based relapse prevention. Instead of fighting the craving or distracting yourself from it, you observe it - the way a surfer rides a wave rather than fighting it or running from it.</p>\n<h2>How to Urge Surf Step by Step</h2>\n<p><strong>Step one - Notice it:</strong> as soon as you become aware of a craving for [S], acknowledge it rather than trying to suppress it. \"I notice I'm having a craving right now.\" This simple act of naming activates your prefrontal cortex and creates distance between you and the urge.</p>\n<p><strong>Step two - Locate it in your body:</strong> where do you feel it physically? A tightness in your chest? Restlessness? An ache somewhere? Cravings have a physical signature. Locating it turns a vague overwhelming feeling into something specific and observable.</p>\n<p><strong>Step three - Observe without judging:</strong> watch the sensation as if you were a curious scientist. You are not the craving. You are the one noticing the craving. That is a crucial difference.</p>\n<p><strong>Step four - Breathe through it:</strong> slow, deliberate breaths activate your parasympathetic nervous system - the braking system of your body - and directly reduce the intensity of the craving response. In for four counts, hold for four, out for six.</p>\n<p><strong>Step five - Ride it out:</strong> stay with the observation. The craving will peak, then begin to soften. Most people find this takes the peak intensity of a craving from overwhelming to manageable within 10 minutes.</p>\n<h2>Why This Works Better Than Distraction</h2>\n<p>Distraction works as a short-term strategy, but it doesn't build anything. Every time you white-knuckle through a craving by watching TV or scrolling, you're just waiting for it to pass. With urge surfing, you're actively building the neural pathway of \"I can feel this and not act on it.\" That pathway becomes stronger every time you use it.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Practice urge surfing the next time a craving for [S] arises. Even if the craving is small, use it as a training opportunity.</li>\n<li>Keep a brief note after each practice: how intense was it (1-10), how long did it last, and what happened when you surfed it instead of acting?</li>\n<li>Read about Mindfulness-Based Relapse Prevention (MBRP) if you want to go deeper with this approach.</li>\n</ul>", "thoughts": "<p><strong>Your Goal:</strong> Learn to unhook from intrusive thoughts about [S] so they lose their power to pull you toward using, without having to fight or suppress them.</p>\n<h2>Why Fighting Your Thoughts Doesn't Work</h2>\n<p>Try not to think about a white bear for 60 seconds. What happens? The bear appears almost immediately, and the more you push it away, the more present it becomes. <strong>What this means for recovery:</strong> attempting to suppress thoughts about [S] tends to increase their frequency and intensity. This is called the ironic process - the mental effort required to suppress a thought keeps it active.</p>\n<p>Defusion, a technique from Acceptance and Commitment Therapy (ACT), takes a different approach. Instead of fighting a thought, you simply change your relationship to it. You step back from the thought rather than stepping into it.</p>\n<h2>Defusion in Practice</h2>\n<p><strong>Naming the thought:</strong> instead of \"I need [S] right now,\" try \"I notice I'm having the thought that I need [S] right now.\" The first version IS the thought - you are fully inside it. The second version puts a slight but crucial gap between you and the thought. You become the observer.</p>\n<p><strong>Giving it a character:</strong> some people find it helpful to give their addiction thoughts a name. When the thought shows up, you acknowledge it the way you'd acknowledge a pushy salesperson: \"Ah yes, I see you. I'm not buying today.\" You don't need to argue with a salesperson to not buy from them.</p>\n<p><strong>Leaves on a stream:</strong> imagine you're sitting beside a gently flowing stream. Each thought that arises - including thoughts about [S] - you place on a leaf and watch it float past. You don't grab the leaf. You don't push it away. You just watch it move.</p>\n<h2>The Thoughts That Come in Recovery</h2>\n<p>Thoughts about [S] in early recovery are completely normal. They don't mean you're weak or failing. <strong>Recovery reality check:</strong> your brain has spent significant time with [S] as a central feature of its reward circuit. Thoughts about it arising is just that neural architecture doing what it does. The goal isn't to never have the thoughts. The goal is to not be governed by them.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Practice the \"I notice I'm having the thought that...\" reframing for one full day. Every time a thought about [S] arises, add that prefix before it.</li>\n<li>Try the leaves on a stream visualisation for five minutes before sleep tonight - this is when intrusive thoughts are often strongest.</li>\n<li>Look into Acceptance and Commitment Therapy (ACT) resources if defusion techniques resonate with you. ACT has strong clinical evidence specifically for addiction recovery.</li>\n</ul>", "emotions": "<p><strong>Your Goal:</strong> Build the capacity to feel difficult emotions without immediately reaching for [S] - because emotional tolerance is the foundation of sustained recovery.</p>\n<h2>Why [S] and Emotions Became Linked</h2>\n<p>For many people, [S] use started as an emotional solution. It numbed what was painful, amplified what was flat, or created a reliable state that felt better than the default. <strong>What the neuroscience shows:</strong> over time, the brain outsources emotional regulation to the substance. Natural coping pathways weaken through disuse, while the [S] pathway becomes the highway.</p>\n<p>This is why early recovery often feels emotionally overwhelming - emotions that were previously managed chemically now have to be handled directly. Emotional volatility in the early weeks is one of the most common reasons people return to [S] use.</p>\n<h2>The STOP Technique</h2>\n<p>When a difficult emotion arises and the pull toward [S] activates, STOP is a four-step grounding practice:</p>\n<p><strong>S - Stop:</strong> whatever you're doing, pause. Even for 10 seconds. This interrupts the automatic stimulus-response chain before it gains momentum.</p>\n<p><strong>T - Take a breath:</strong> one slow, deliberate breath activates your parasympathetic nervous system. It physiologically shifts your nervous system state within seconds.</p>\n<p><strong>O - Observe:</strong> what emotion is actually present? Name it as specifically as you can. Research shows that naming an emotion with precision - called affect labelling - reduces its intensity in the brain.</p>\n<p><strong>P - Proceed mindfully:</strong> choose your next action consciously rather than reflexively. You don't need to solve the emotion. You just need to make one deliberate choice rather than an automatic one.</p>\n<h2>Building Emotional Tolerance Over Time</h2>\n<p><strong>What people need to hear:</strong> emotional tolerance is not a personality trait you either have or don't have. It is a skill built through practice, incrementally, exactly like physical fitness. Every time you move through a difficult emotion without using [S], you're strengthening the neural pathways of emotional resilience.</p>\n<p>The emotions worth watching in recovery from [S] are usually: boredom, loneliness, restlessness, shame, and the deceptive ease of positive states like celebrations, which can lower your guard just as effectively as negative ones.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Practice the STOP technique once today, even if the emotion is minor. Building the habit in low-stakes moments means it will be available in high-stakes ones.</li>\n<li>For one week, keep a one-sentence daily emotional log: \"Today's hardest feeling was ___, and I responded by ___.\" You'll start to see patterns that are genuinely useful.</li>\n<li>Identify one person you can contact when emotions become difficult - not to fix anything, just to not be alone with it. Connection is the most underused emotional regulation tool in recovery.</li>\n</ul>", "withdrawal": "<p><strong>Your Goal:</strong> Understand what [S] withdrawal actually involves - physically and psychologically - so you can prepare for it, move through it, and recognise when to seek medical support.</p>\n<h2>Why Withdrawal Happens</h2>\n<p><strong>What this means for your body:</strong> when you use [S] regularly over time, your nervous system adapts to its presence. It recalibrates its baseline around the substance. When [S] is removed, the system is suddenly without what it had come to treat as normal - and withdrawal symptoms are the nervous system rebalancing itself.</p>\n<p>This is not punishment. It is physiology. Understanding it as physiology, rather than as a sign that something is broken, is one of the most important reframes in early recovery.</p>\n<h2>Common Withdrawal Experiences</h2>\n<p><strong>Physical symptoms</strong> vary significantly depending on the substance and the duration and intensity of use. Common experiences include sleep disruption, appetite changes, fatigue, muscle aches, sweating, and gastrointestinal discomfort. For some substances - particularly alcohol, benzodiazepines, and opioids - withdrawal can have serious medical components and should be managed with clinical support.</p>\n<p><strong>Psychological symptoms</strong> are frequently the harder and longer-lasting challenge. Anxiety, irritability, low mood, difficulty concentrating, and a pervasive sense of emptiness are common. The clinical term for this is anhedonia - a temporary reduction in the ability to feel pleasure from ordinary things. This happens because [S] was artificially stimulating dopamine pathways that now need time to recover their natural function.</p>\n<p><strong>What this actually feels like:</strong> many people describe early withdrawal as a period of high discomfort that then gives way to something duller and greyer - not dramatically painful, but flat. This flatness is often what drives people back to [S]. It's important to know this period is temporary. Dopamine system recovery takes weeks to months, but recovery is the default trajectory.</p>\n<h2>Managing the Process</h2>\n<p>The basics of physical recovery - hydration, nutrition, sleep, and gentle movement - are genuinely useful, not just platitudes. Your nervous system is doing real biological work during withdrawal and needs real biological support.</p>\n<p><strong>What people need to hear:</strong> if your withdrawal symptoms feel medically serious - severe anxiety, shaking, confusion, rapid heart rate - contact a healthcare provider immediately. Withdrawal from certain substances can be dangerous, and medical supervision makes both the safety and comfort of the process significantly better.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>If you're planning to stop using [S] soon, speak to a doctor beforehand about what to expect and whether medical supervision is recommended.</li>\n<li>Plan the first two weeks practically: reduce unnecessary obligations, arrange support from someone you trust, and stock up on basics that make physical comfort easier.</li>\n<li>Set a realistic expectation: aim to feel notably better at the 30-day mark, not the 3-day mark. Most withdrawal timelines are longer than people expect.</li>\n</ul>", "sleep": "<p><strong>Your Goal:</strong> Rebuild healthy sleep without [S] - and understand why this is one of the most important things you can do for lasting recovery.</p>\n<h2>Why Sleep and Recovery Are Inseparable</h2>\n<p>Sleep is the brain's maintenance window. During deep sleep, your brain consolidates learning, processes emotional memory, clears metabolic waste, and recalibrates the exact neurochemical systems most disrupted by [S] use. <strong>The research is unambiguous:</strong> sleep deprivation significantly increases craving intensity, reduces emotional regulation capacity, and is one of the top three relapse triggers across all substance categories.</p>\n<p>Many people used [S] partly to manage sleep. <strong>What's actually happening:</strong> most substances interfere with sleep architecture even when they seem to help. They reduce REM sleep, fragment deep sleep, and over time worsen the very problem they appear to solve.</p>\n<h2>The Sleep Recovery Protocol</h2>\n<p><strong>Anchor your wake time:</strong> the single most powerful lever for sleep quality is a consistent wake time - not a consistent bedtime. Set an alarm and get up at the same time every morning, regardless of how you slept. This regulates your circadian rhythm faster than any other intervention.</p>\n<p><strong>Cool, dark, and boring:</strong> your brain initiates sleep when core body temperature drops. A cool room, blackout curtains, and removing stimulation from the bedroom all accelerate this process.</p>\n<p><strong>The 90-minute rule:</strong> avoid caffeine after 1pm and intense exercise within 3 hours of sleep. Both delay the physiological process of winding down.</p>\n<p><strong>Use the bed only for sleep:</strong> if you're lying awake for more than 20 minutes, get up and do something quiet in low light until you feel genuinely sleepy. This is one of the most evidence-backed interventions in Cognitive Behavioural Therapy for Insomnia (CBT-I). The goal is to rebuild your brain's association between bed and sleep.</p>\n<h2>When Sleep Is Still Difficult</h2>\n<p><strong>Recovery reality check:</strong> sleep disruption in early recovery from [S] often lasts several weeks. This is normal. Most people report that sleep quality improves significantly by weeks 4-8 of sobriety. Melatonin at low doses (0.5-1mg) can be helpful in the short term.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Set a consistent wake time starting tomorrow and stick to it for two weeks, regardless of how you slept the night before.</li>\n<li>Remove screens from your bedroom or begin a screen-free 30 minutes before bed. This is a low-cost change with measurable impact on sleep onset time.</li>\n<li>If you're struggling significantly with sleep, look into CBT-I. It has the strongest evidence base of any sleep intervention, including sleep medication.</li>\n</ul>", "perfect": "<p><strong>Your Goal:</strong> Release the belief that recovery has to be perfect - and understand why perfectionism is one of the most reliable pathways back to [S] use.</p>\n<h2>How Perfectionism Fuels Addiction</h2>\n<p>Perfectionism and addiction are closely linked. <strong>What the research shows:</strong> perfectionism isn't primarily about high standards. It's primarily about fear of failure - and the shame that comes with it. Shame is one of the most potent relapse triggers in recovery from [S] use.</p>\n<p>One of the most common patterns is what clinicians call the \"abstinence violation effect.\" After one slip, all-or-nothing thinking kicks in: \"I've already ruined it. I might as well continue.\" This thinking turns a single slip into a full relapse. It is not inevitable. It is a pattern that can be interrupted once recognised.</p>\n<h2>What Recovery Actually Looks Like</h2>\n<p><strong>Here's the truth:</strong> recovery is not a straight line. The clinical literature on addiction recovery consistently shows that most people who achieve long-term sobriety from [S] had multiple attempts before they got there. Each attempt, including the ones that didn't last, built understanding, motivation, and skill.</p>\n<p>Recovery is a process of iteration, not a performance. The goal is not to be flawless. The goal is to get better at returning to the path when you leave it - and to get faster at recognising when you're drifting.</p>\n<p><strong>What this means in practice:</strong> treat a difficult day or a slip the way a good coach would treat a bad training session. Look at what happened, extract what's useful, adjust the plan, and continue. Curious and constructive, not punitive.</p>\n<h2>Building Self-Compassion as a Recovery Tool</h2>\n<p>Self-compassion is not self-pity or making excuses. <strong>What the science says:</strong> self-compassion - treating yourself with the same kindness you'd extend to a struggling friend - is positively correlated with recovery outcomes. It reduces shame, which reduces the emotional triggers that lead back to [S].</p>\n<p>The most useful question after a difficult moment in recovery is not \"What's wrong with me?\" It's \"What do I need right now, and what can I learn from this?\"</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Write a list of three specific ways perfectionism shows up in your recovery thinking. Common examples: \"If I slip I've failed,\" \"I should be further along by now,\" \"I shouldn't still be having cravings.\"</li>\n<li>Practice the self-compassion response after one difficult moment this week: acknowledge the difficulty, remind yourself it's part of shared human experience, and ask what you need.</li>\n<li>Set a \"good enough\" target for one area of your recovery practice this week. Consistency beats intensity every time.</li>\n</ul>", "life": "<p><strong>Your Goal:</strong> Begin building a life so genuinely engaging and meaningful that staying sober from [S] becomes desirable rather than merely disciplined.</p>\n<h2>The Problem With Just Quitting</h2>\n<p>Many people approach recovery as subtraction: remove [S], then life continues. But when [S] has been a central organising feature of your days - providing structure, reward, social connection, or emotional management - removing it leaves a vacuum. And vacuums get filled with something. <strong>What this means for you:</strong> the question isn't only how to stop using [S]. It's what you're building instead.</p>\n<p><strong>What the research shows:</strong> people who stay sober are not primarily defined by willpower. They are defined by having a life they genuinely want to be present for. The clinical term is \"recovery capital\" - the resources, relationships, and meaning that make sobriety worth maintaining. Building recovery capital is not a bonus. It's the work.</p>\n<h2>Rebuilding Reward</h2>\n<p><strong>What happens in your brain:</strong> prolonged [S] use suppresses the natural dopamine response to everyday experiences. When you stop, the brain's reward system is temporarily blunted - things that used to be pleasurable feel flat. This is temporary, but it creates a window where building new reward associations is both challenging and essential.</p>\n<p>The approach that works is gradual exposure - not forcing yourself to enjoy things, but showing up consistently and letting the brain's natural reward system recover its sensitivity. Physical exercise, creative projects, learning something new, time in nature, and authentic connection with other people all stimulate the same dopamine pathways that [S] was hijacking. The difference is that they build reward capacity rather than depleting it.</p>\n<h2>Identity and Recovery</h2>\n<p><strong>Here's the thing:</strong> for many people, [S] use was part of how they thought about themselves - who they socialised with, what they did, how they relaxed. Recovery requires building a new answer to \"Who am I when I'm not using [S]?\"</p>\n<p>This means: what do you value? What kind of person do you want to be? What experiences do you want to have? Answering these questions with specificity - and making small daily decisions aligned with those answers - is how a new identity is built.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Write a \"life I want to be living in two years\" paragraph - not a goals list, but a vivid description of a day in that life. Include who you're with, what you're doing, and how you feel.</li>\n<li>Identify one activity this week that has nothing to do with [S] recovery. Show up for it even if it doesn't feel immediately rewarding.</li>\n<li>Consider what community or social context could support the life you want to build - new spaces, new connections, or deepening existing relationships.</li>\n</ul>", "relations": "<p><strong>Your Goal:</strong> Understand how [S] use affected your relationships - and begin the deliberate process of repair, rebuilding, and choosing connections that support your recovery.</p>\n<h2>What [S] Did to Your Relationships</h2>\n<p>Addiction is often described as a relationship with a substance, but it is always also a disruption of relationships with people. The time, energy, emotional availability, and honesty that [S] consumed were resources that would otherwise have been invested in people who mattered.</p>\n<p>The impacts are wide-ranging. Trust may have been broken through broken promises or unpredictable behaviour. Emotional intimacy may have become shallow, because genuine intimacy requires presence - and [S] use consistently interferes with presence.</p>\n<h2>The Three Phases of Relationship Repair</h2>\n<p><strong>Phase one - Stabilise yourself first:</strong> attempting serious relationship repair before you have some stability tends to backfire. You need to be in a place where you can be honest, consistent, and present before asking someone else to trust you again. This phase is typically the first 60-90 days of sobriety.</p>\n<p><strong>Phase two - Honest acknowledgement:</strong> repair requires acknowledgement of specific harm, not general apology. \"I'm sorry I was difficult\" is harder to receive and work with than naming what specifically happened and that you understand what it meant. Specificity communicates that you actually know what happened.</p>\n<p><strong>Phase three - Consistent changed behaviour:</strong> words, however sincere, are the cheapest part of relationship repair. The currency of trust is behavioural consistency over time. People hurt by someone's [S] use are often highly attuned to inconsistency, and rightly so.</p>\n<h2>Choosing Relationships That Support Recovery</h2>\n<p><strong>What people need to hear:</strong> not every relationship in your life before recovery will be compatible with recovery. Some social connections were primarily organised around [S] use. Continuing those connections in the same way is a relapse risk, not a character obligation.</p>\n<p>Rebuilding also means actively investing in connections that support sobriety. Research consistently identifies social connection as one of the strongest protective factors in long-term recovery from [S] use.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>List the three relationships most affected by your [S] use. For each one, write one honest sentence about the specific impact.</li>\n<li>Identify one relationship you want to invest in actively this month and make one concrete gesture toward it this week.</li>\n<li>If relationship damage from [S] use is significant, consider working through this process with a therapist or counsellor who can guide repair safely for both parties.</li>\n</ul>", "ongoing": "<p><strong>Your Goal:</strong> Build the practices, mindset, and support structures that make long-term sobriety from [S] not just achievable but genuinely sustainable.</p>\n<h2>Why Long-Term Recovery Is Different From Early Recovery</h2>\n<p>Early recovery is largely about crisis management - getting through cravings, navigating withdrawal, avoiding high-risk situations. But these are not the same skills required for sustained long-term sobriety. <strong>What the research shows:</strong> relapse risk in [S] recovery doesn't disappear with time. It changes in character. Early risks are acute. Later risks are often subtler: complacency, gradual drift, and life stress.</p>\n<p>Long-term recovery requires ongoing maintenance, not because you're broken, but because the brain pathways associated with [S] use remain in the neural architecture for years. They don't get used, but they don't disappear either. The goal is to build pathways so much more reinforced - through meaning, connection, and daily habits - that the old ones become irrelevant.</p>\n<h2>The Daily Practices That Actually Matter</h2>\n<p><strong>What this means in practice:</strong> long-term sobriety is built in ordinary days. The people who sustain recovery from [S] over years tend to share a set of unglamorous daily habits: a consistent sleep schedule, regular physical movement, honest communication with at least one person, and some form of reflective practice - journalling, meditation, or therapy.</p>\n<p><strong>Connection above all else:</strong> if there is a single most consistently supported finding in the long-term recovery literature, it is this: social connection is protective, and isolation is dangerous. Real, honest, mutual human contact - not online, not shallow - is the antidote.</p>\n<h2>Managing the Risk of Complacency</h2>\n<p><strong>Recovery reality check:</strong> one of the most common patterns in long-term recovery is what researchers call HALT - Hungry, Angry, Lonely, Tired. These four states are responsible for a disproportionate share of late relapses among people with years of sobriety. Building the habit of checking in on these states daily - and responding to them with genuine self-care - is one of the most practical long-term maintenance strategies available.</p>\n<p>Ongoing recovery also means being willing to ask for help again when life becomes difficult. Reaching out to a counsellor, returning to a support group, or calling a recovery mentor when things get hard is not a sign that recovery is failing. It is recovery working exactly as intended.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Identify the two daily practices most important to your continued recovery and treat them as non-negotiable commitments - as essential as eating or sleeping.</li>\n<li>Do a HALT check-in once a day for the next week. Are you Hungry, Angry, Lonely, or Tired? Address whichever is present rather than using [S] as a shortcut.</li>\n<li>Identify one person or community you can be fully honest with about the ongoing experience of recovery - not just the wins, but the hard parts too. That kind of honesty is infrastructure.</li>\n</ul>", "help": "<p><strong>Your Goal:</strong> Know exactly what professional help looks like for [S] addiction, how to access it, and why seeking it is one of the strongest things you can do.</p>\n<h2>Why Getting Help Is a Decision, Not a Defeat</h2>\n<p>There is a persistent cultural story that recovery from [S] addiction should be a private, individual act of will. <strong>What the evidence actually shows:</strong> professional support significantly improves outcomes across every measurable metric - duration of sobriety, quality of life, mental health, and long-term recovery rates. Seeking help isn't a sign that you can't do it alone. It's a sign that you're taking the problem seriously enough to use the tools that actually work.</p>\n<h2>Types of Professional Support</h2>\n<p><strong>Your GP or family doctor</strong> is the best first step for most people. They can assess medical risks specific to your [S] use, refer you to appropriate services, and in some cases prescribe medication-assisted treatment that significantly reduces cravings and withdrawal severity.</p>\n<p><strong>Addiction counsellors and therapists</strong> provide evidence-based approaches including Cognitive Behavioural Therapy (CBT), Motivational Interviewing (MI), and Acceptance and Commitment Therapy (ACT). These have substantial clinical evidence specifically for [S] addiction and the thought patterns that maintain it.</p>\n<p><strong>Residential and intensive outpatient programmes</strong> provide structured, immersive support for those who need a higher level of care. These are appropriate when the home environment is not safe for recovery, when dependence on [S] is severe, or when previous outpatient attempts have not been successful.</p>\n<p><strong>Peer support groups</strong> - 12-step programmes, SMART Recovery, and other community-based groups - provide ongoing connection, accountability, and the particular understanding that comes from shared experience. Research consistently shows peer support improves long-term recovery outcomes.</p>\n<h2>In a Crisis: Where to Turn Now</h2>\n<p>If you are in crisis - experiencing severe withdrawal from [S], thoughts of self-harm, or serious medical symptoms - contact emergency services (999 / 911) or present to your nearest emergency department. Do not wait.</p>\n<p>In the UK, FRANK (0300 123 6600) provides free, confidential advice on [S] addiction and local services. In the US, SAMHSA's National Helpline (1-800-662-4357) is free, confidential, and available 24 hours a day, 7 days a week.</p>\n<h2>Your Next Steps</h2>\n<ul>\n<li>Make an appointment with your GP this week to discuss your [S] use. You don't need a crisis to access this conversation - you just need to show up honestly.</li>\n<li>Research what addiction services are available in your local area. Most countries have free or heavily subsidised support - the barrier is usually awareness, not access.</li>\n<li>If one-to-one support doesn't feel accessible yet, look up your nearest peer support meeting and attend once as an observer. You don't need to speak. You just need to be in the room.</li>\n</ul>"};
-</script>
-<script>
-let sub=SUBS.find(s=>s.slug==='cannabis');
-let curLess=null;
-const done={};const fb={};
-SUBS.forEach(s=>{done[s.slug]=new Set();});
+// We'll initialize these after language is loaded
+window.addEventListener('languageChanged', (e) => {
+  const SUBS = getSUBS();
+  if (SUBS.length > 0) {
+    if (!sub) {
+      // Default to cannabis or first sub
+      sub = SUBS.find(s => s.slug === 'cannabis') || SUBS[0];
+    } else {
+      // Refresh current sub object from new language data
+      sub = SUBS.find(s => s.slug === sub.slug) || SUBS[0];
+    }
+    SUBS.forEach(s => { if (!done[s.slug]) done[s.slug] = new Set(); });
+    buildPills();
+    buildCourse();
+  }
+});
 
-function init(){
-  buildPills();buildCourse();
-  document.getElementById('view-art').addEventListener('scroll',()=>{
-    const el=document.getElementById('view-art');
-    const pct=(el.scrollTop/(el.scrollHeight-el.clientHeight))*100||0;
-    document.getElementById('read-fill').style.width=Math.min(100,pct)+'%';
+function init() {
+  // languageChanged event will trigger the builds
+  document.getElementById('view-art').addEventListener('scroll', () => {
+    const el = document.getElementById('view-art');
+    const pct = (el.scrollTop / (el.scrollHeight - el.clientHeight)) * 100 || 0;
+    document.getElementById('read-fill').style.width = Math.min(100, pct) + '%';
   });
 }
 
-function buildPills(){
-  document.getElementById('pills').innerHTML=SUBS.map(s=>
-    `<button class="pill${s.slug===sub.slug?' on':''}" onclick="pickSub('${s.slug}')">${s.name}</button>`
+function buildPills() {
+  const SUBS = getSUBS();
+  document.getElementById('pills').innerHTML = SUBS.map(s =>
+    `<button class="pill${s.slug === sub.slug ? ' on' : ''}" onclick="pickSub('${s.slug}')">${s.name}</button>`
   ).join('');
-  setTimeout(()=>{
-    const el=document.querySelector('.pill.on');
-    if(el)el.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
-  },60);
+  setTimeout(() => {
+    const el = document.querySelector('.pill.on');
+    if (el) el.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+  }, 60);
 }
 
-function pickSub(slug){sub=SUBS.find(s=>s.slug===slug);buildPills();buildCourse();}
+function pickSub(slug) {
+  const SUBS = getSUBS();
+  sub = SUBS.find(s => s.slug === slug);
+  buildPills();
+  buildCourse();
+}
 
-function buildCourse(){
-  document.getElementById('crs-title').textContent=sub.course;
+function buildCourse() {
+  const CURR = getCURR();
+  document.getElementById('crs-title').textContent = sub.course;
   syncProgress();
-  document.getElementById('phases').innerHTML=CURR.map(p=>`
+  document.getElementById('phases').innerHTML = CURR.map(p => `
     <div class="phase-blk">
       <div class="phase-hd"><span class="phase-num">${p.num}.</span><span class="phase-lbl">${p.phase}</span></div>
       <hr class="phase-rule">
@@ -236,120 +212,129 @@ function buildCourse(){
     </div>`).join('');
 }
 
-function cardHTML(l){
-  const isDone=done[sub.slug].has(l.id);
-  const title=l.title.replace(/\[S\]/g,sub.name);
-  const doneIco=`<svg width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M4 9.5l3.5 3.5 8-8" stroke="#16A34A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-  const quizIco=`<svg width="19" height="19" viewBox="0 0 19 19" fill="none"><rect x="3.5" y="2.5" width="12" height="14" rx="2" stroke="#4F46E5" stroke-width="1.4"/><path d="M6.5 6.5h3M6.5 9.5h2M12 9.5l2 2.5-2 2" stroke="#4F46E5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-  const artIco=`<svg width="19" height="19" viewBox="0 0 19 19" fill="none"><rect x="3.5" y="2.5" width="12" height="14" rx="2" stroke="#4F46E5" stroke-width="1.4"/><path d="M6.5 6.5h6M6.5 9.5h6M6.5 13h4" stroke="#4F46E5" stroke-width="1.3" stroke-linecap="round"/></svg>`;
-  const ico=isDone?doneIco:l.isQuiz?quizIco:artIco;
-  const right=isDone
-    ?`<div style="width:21px;height:21px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5 4-4" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>`
-    :`<svg width="15" height="15" viewBox="0 0 15 15" fill="none" style="flex-shrink:0;color:var(--ink-4)"><path d="M5.5 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-  return `<div class="lc${isDone?' done':''}" onclick="openLesson('${l.id}')">
+function cardHTML(l) {
+  const isDone = done[sub.slug] && done[sub.slug].has(l.id);
+  const title = l.title.replace(/\[S\]/g, sub.name);
+  const doneIco = `<svg width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M4 9.5l3.5 3.5 8-8" stroke="#16A34A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const quizIco = `<svg width="19" height="19" viewBox="0 0 19 19" fill="none"><rect x="3.5" y="2.5" width="12" height="14" rx="2" stroke="#4F46E5" stroke-width="1.4"/><path d="M6.5 6.5h3M6.5 9.5h2M12 9.5l2 2.5-2 2" stroke="#4F46E5" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const artIco = `<svg width="19" height="19" viewBox="0 0 19 19" fill="none"><rect x="3.5" y="2.5" width="12" height="14" rx="2" stroke="#4F46E5" stroke-width="1.4"/><path d="M6.5 6.5h6M6.5 9.5h6M6.5 13h4" stroke="#4F46E5" stroke-width="1.3" stroke-linecap="round"/></svg>`;
+  const ico = isDone ? doneIco : l.isQuiz ? quizIco : artIco;
+  const right = isDone
+    ? `<div style="width:21px;height:21px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5 4-4" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>`
+    : `<svg width="15" height="15" viewBox="0 0 15 15" fill="none" style="flex-shrink:0;color:var(--ink-4)"><path d="M5.5 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  return `<div class="lc${isDone ? ' done' : ''}" onclick="openLesson('${l.id}')">
     <div class="lc-ico">${ico}</div>
     <div class="lc-body">
       <div class="lc-title">${title}</div>
       <div class="lc-meta">
         <svg width="11" height="11" viewBox="0 0 11 11" fill="none"><circle cx="5.5" cy="5.5" r="4.2" stroke="currentColor" stroke-width="1.1"/><path d="M5.5 3.5v2.2l1.5 1.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>
-        ${l.mins} min<span class="meta-dot"></span>${l.type}
+        ${l.mins} ${t('art_min_read')}<span class="meta-dot"></span>${l.type}
       </div>
     </div>${right}</div>`;
 }
 
-function syncProgress(){
-  const n=done[sub.slug].size,pct=Math.round(n/TOTAL*100);
-  document.getElementById('crs-fill').style.width=pct+'%';
-  document.getElementById('crs-pct').textContent=`Completed ${pct}%`;
-  document.getElementById('crs-cnt').textContent=n>0?`${n} / ${TOTAL} lessons`:'';
-  document.getElementById('crs-cont').classList.toggle('vis',n>0&&n<TOTAL);
+function syncProgress() {
+  const CURR = getCURR();
+  const ALL_LESSONS = CURR.flatMap(p => p.lessons);
+  const TOTAL = ALL_LESSONS.length;
+  const n = done[sub.slug] ? done[sub.slug].size : 0;
+  const pct = Math.round(n / TOTAL * 100) || 0;
+  document.getElementById('crs-fill').style.width = pct + '%';
+  document.getElementById('crs-pct').textContent = t('crs_completed') + pct + '%';
+  document.getElementById('crs-cnt').textContent = n > 0 ? `${n} / ${TOTAL}${t('crs_lessons')}` : '';
+  document.getElementById('crs-cont').classList.toggle('vis', n > 0 && n < TOTAL);
 }
 
-function openLesson(id){
-  const lesson=ALL_LESSONS.find(l=>l.id===id);if(!lesson)return;
-  curLess={sub,lesson};
-  const artEl=document.getElementById('view-art');
-  artEl.classList.add('open');artEl.scrollTop=0;
-  document.getElementById('main-nav').style.display='none';
-  document.getElementById('read-fill').style.width='0%';
-  const phase=CURR.find(p=>p.lessons.some(l=>l.id===id));
-  document.getElementById('art-eye').textContent=phase?.phase||'';
-  document.getElementById('art-h1').textContent=lesson.title.replace(/\[S\]/g,sub.name);
-  document.getElementById('art-time').textContent=`${lesson.mins} min read`;
-  if(lesson.isQuiz){showQuizCard();}else{showArticle(lesson.id);}
-  syncDoneBtn();syncFbBtns();
+function openLesson(id) {
+  const CURR = getCURR();
+  const ALL_LESSONS = CURR.flatMap(p => p.lessons);
+  const lesson = ALL_LESSONS.find(l => l.id === id); if (!lesson) return;
+  curLess = { sub, lesson };
+  const artEl = document.getElementById('view-art');
+  artEl.classList.add('open'); artEl.scrollTop = 0;
+  document.getElementById('main-nav').style.display = 'none';
+  document.getElementById('read-fill').style.width = '0%';
+  const phase = CURR.find(p => p.lessons.some(l => l.id === id));
+  document.getElementById('art-eye').textContent = phase?.phase || '';
+  document.getElementById('art-h1').textContent = lesson.title.replace(/\[S\]/g, sub.name);
+  document.getElementById('art-time').textContent = `${lesson.mins}${t('art_min_read')}`;
+  if (lesson.isQuiz) { showQuizCard(); } else { showArticle(lesson.id); }
+  syncDoneBtn(); syncFbBtns();
 }
 
-function closeArt(){
+function closeArt() {
   document.getElementById('view-art').classList.remove('open');
-  document.getElementById('view-art').scrollTop=0;
-  document.getElementById('main-nav').style.display='';
-  buildCourse();curLess=null;
+  document.getElementById('view-art').scrollTop = 0;
+  document.getElementById('main-nav').style.display = '';
+  buildCourse(); curLess = null;
 }
 
-function continueCourse(){
-  for(const p of CURR)for(const l of p.lessons)if(!done[sub.slug].has(l.id)){openLesson(l.id);return;}
+function continueCourse() {
+  const CURR = getCURR();
+  for (const p of CURR) for (const l of p.lessons) if (!done[sub.slug].has(l.id)) { openLesson(l.id); return; }
 }
 
-function showArticle(id){
-  const raw=ARTICLES[id]||'<p>Content coming soon.</p>';
-  document.getElementById('art-body').innerHTML=raw.replace(/\[S\]/g,sub.name);
-  document.getElementById('art-footer').style.display='block';
+function showArticle(id) {
+  const ARTICLES = getARTICLES();
+  const raw = ARTICLES[id] || '<p>Content coming soon.</p>';
+  document.getElementById('art-body').innerHTML = raw.replace(/\[S\]/g, sub.name);
+  document.getElementById('art-footer').style.display = 'block';
 }
 
-function showQuizCard(){
-  document.getElementById('art-body').innerHTML=`
+function showQuizCard() {
+  const quizTitle = t('quiz_title');
+  const quizDesc = t('quiz_desc_prefix') + sub.name.toLowerCase() + t('quiz_desc_suffix');
+  const quizBtn = t('quiz_btn');
+  
+  document.getElementById('art-body').innerHTML = `
     <div class="quiz-card">
       <div class="quiz-ico"><svg width="26" height="26" viewBox="0 0 26 26" fill="none"><rect x="4" y="3" width="18" height="20" rx="3" stroke="#4F46E5" stroke-width="1.7"/><path d="M8 9h10M8 13h6M15 17l2.5 2.5-2.5 2.5" stroke="#4F46E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <h2>How Addicted Am I?</h2>
-      <p>Take the DSM-5 Clinical Self-Assessment for ${sub.name.toLowerCase()}. 11 questions, about 2 minutes.</p>
-      <button class="quiz-card-btn" onclick="window.open('./quitmantra-quiz-blue.html#substance=${sub.slug}&view=quiz','_blank')">Take the Assessment</button>
+      <h2>${quizTitle}</h2>
+      <p>${quizDesc}</p>
+      <button class="quiz-card-btn" onclick="window.open('./quitmantra-quiz-blue.html#substance=${sub.slug}&view=quiz','_blank')">${quizBtn}</button>
     </div>`;
-  document.getElementById('art-footer').style.display='block';
+  document.getElementById('art-footer').style.display = 'block';
 }
 
-function markDone(){
-  if(!curLess)return;
-  const{sub:s,lesson}=curLess;
-  if(done[s.slug].has(lesson.id))return;
+function markDone() {
+  if (!curLess) return;
+  const { sub: s, lesson } = curLess;
+  if (done[s.slug].has(lesson.id)) return;
   done[s.slug].add(lesson.id);
-  toast('Lesson completed!');syncDoneBtn();
+  toast(t('toast_lesson_completed', 'Lesson completed!')); syncDoneBtn();
 }
 
-function syncDoneBtn(){
-  if(!curLess)return;
-  const isDone=done[curLess.sub.slug].has(curLess.lesson.id);
-  const btn=document.getElementById('done-btn');
-  btn.classList.toggle('completed',isDone);
-  btn.innerHTML=isDone
-    ?`<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Completed`
-    :`<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Mark as Complete`;
+function syncDoneBtn() {
+  if (!curLess) return;
+  const isDone = done[curLess.sub.slug].has(curLess.lesson.id);
+  const btn = document.getElementById('done-btn').querySelector('span');
+  btn.textContent = isDone ? t('btn_completed') : t('btn_mark_complete');
 }
 
-function giveFb(yes){
-  if(!curLess)return;
-  const key=`${curLess.sub.slug}:${curLess.lesson.id}`;
-  fb[key]=yes;
-  document.getElementById('fb-y').className='fb-btn'+(yes?' yes':'');
-  document.getElementById('fb-n').className='fb-btn'+(!yes?' no':'');
-  document.getElementById('fb-thanks').style.display='block';
+function giveFb(yes) {
+  if (!curLess) return;
+  const key = `${curLess.sub.slug}:${curLess.lesson.id}`;
+  fb[key] = yes;
+  document.getElementById('fb-y').classList.toggle('yes', yes);
+  document.getElementById('fb-n').classList.toggle('no', !yes);
+  document.getElementById('fb-thanks').style.display = 'block';
 }
 
-function syncFbBtns(){
-  if(!curLess)return;
-  const val=fb[`${curLess.sub.slug}:${curLess.lesson.id}`];
-  document.getElementById('fb-y').className='fb-btn'+(val===true?' yes':'');
-  document.getElementById('fb-n').className='fb-btn'+(val===false?' no':'');
-  document.getElementById('fb-thanks').style.display=val!==undefined?'block':'none';
+function syncFbBtns() {
+  if (!curLess) return;
+  const val = fb[`${curLess.sub.slug}:${curLess.lesson.id}`];
+  document.getElementById('fb-y').classList.toggle('yes', val === true);
+  document.getElementById('fb-n').classList.toggle('no', val === false);
+  document.getElementById('fb-thanks').style.display = val !== undefined ? 'block' : 'none';
 }
 
 let tTimer;
-function toast(msg){
-  const el=document.getElementById('toast');
-  document.getElementById('toast-txt').textContent=msg;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  document.getElementById('toast-txt').textContent = msg;
   clearTimeout(tTimer);
-  el.classList.remove('out');el.classList.add('in');
-  tTimer=setTimeout(()=>{el.classList.remove('in');el.classList.add('out');},2700);
+  el.classList.remove('out'); el.classList.add('in');
+  tTimer = setTimeout(() => { el.classList.remove('in'); el.classList.add('out'); }, 2700);
 }
 
 init();
