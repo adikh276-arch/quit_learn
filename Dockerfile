@@ -1,10 +1,10 @@
 FROM nginx:stable-alpine
 
-# Create the subpath directory and copy files there
+# Create subpath and copy files
 RUN mkdir -p /usr/share/nginx/html/quit_learn
-COPY . /usr/share/nginx/html/quit_learn
+COPY . /usr/share/nginx/html/quit_learn/
 
-# Copy the nginx configuration
+# Configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
