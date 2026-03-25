@@ -1,0 +1,137 @@
+{
+  "app_title": "Modulo di apprendimento",
+  "progress_label": "Progressi",
+  "back_label": "Indietro",
+  "minutes_label": "min",
+  "type_article": "Articolo",
+  "type_assessment": "Valutazione",
+  "type_activity": "Attività",
+  "substance_name": "Nicotina",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Comprendere le proprie abitudini",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Cosa fa la nicotina al tuo cervello",
+            "time": "5 min",
+            "type": "Articolo",
+            "content": "<p>La nicotina è una delle sostanze più addictive conosciute, principalmente per la rapidità con cui interagisce con il sistema di ricompensa del cervello. Quando si inala nicotina, questa raggiunge il cervello in pochi secondi, innescando il rilascio di dopamina, il neurotrasmettitore del &quot;benessere&quot;. Questo crea una temporanea sensazione di piacere e rilassamento, ma a caro prezzo. Il cervello si adatta rapidamente a questa stimolazione artificiale riducendo la propria produzione naturale di dopamina. Ciò significa che, col tempo, si ha bisogno di nicotina solo per sentirsi &quot;normali&quot;, piuttosto che per provare un piacere maggiore. Questo ciclo di uso e astinenza è ciò che crea la forte dipendenza fisica del fumo. Oltre alla dopamina, la nicotina influenza anche le sostanze chimiche legate all&#39;attenzione e alla memoria, motivo per cui i fumatori spesso pensano che li aiuti a concentrarsi. Tuttavia, questo è un effetto a breve termine che maschera il danno a lungo termine che la nicotina provoca alla chimica naturale del cervello. Comprendere questo meccanismo di manipolazione biologica è un passo fondamentale per smettere di fumare. Ti permette di capire che la tua voglia di fumare non è dovuta a una mancanza di forza di volontà, ma a una risposta fisiologica a un cervello che è stato ricalibrato da una sostanza chimica. Smettendo di fumare, il tuo cervello inizierà il lento ma inesorabile processo di ritorno al suo stato naturale, ripristinando la tua capacità di provare piacere e di concentrarti senza bisogno di una sigaretta.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "I fattori scatenanti del tuo vizio del fumo",
+            "time": "6 min",
+            "type": "Attività",
+            "content": "<p>Per molti fumatori, l&#39;abitudine è profondamente radicata nella vita quotidiana, legata ad attività, emozioni e luoghi specifici. Questi sono i tuoi fattori scatenanti. Tra i fattori scatenanti più comuni ci sono la prima tazza di caffè al mattino, guidare, finire un pasto o bere qualcosa a fine giornata. Anche le emozioni sono potenti fattori scatenanti; potresti accendere una sigaretta quando ti senti stressato, annoiato, solo o persino particolarmente felice. Le situazioni sociali, come stare in compagnia di altri fumatori, creano un forte desiderio di unirsi a loro. Per smettere con successo, devi identificare questi segnali in modo da poterti preparare. Inizia tenendo un &quot;registro dei fattori scatenanti&quot; per qualche giorno, annotando ogni volta che accendi una sigaretta o senti un forte desiderio di farlo. Cosa stavi facendo? Come ti sentivi? Con chi eri? Una volta che hai questa mappa, puoi iniziare a sviluppare risposte alternative. Se fumi sempre con il caffè, prova a passare al tè o a cambiare posto. Se lo stress è un fattore scatenante, trova un esercizio di respirazione di cinque minuti da fare al suo posto. Non stai semplicemente togliendo una sigaretta; Stai reimparando a gestire la tua giornata senza fumare. Anticipando i tuoi fattori scatenanti, elimini l&#39;automatismo dall&#39;abitudine e ti dai lo spazio per fare una scelta consapevole e senza fumo.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Il test di Fagerström spiegato",
+            "time": "5 min",
+            "type": "Valutazione",
+            "content": "<p>Il test di Fagerström per la dipendenza da nicotina è uno strumento clinico standard utilizzato per misurare l&#39;intensità della dipendenza fisica dalla nicotina. Prevede una serie di domande specifiche, come ad esempio quanto tempo dopo il risveglio si fuma la prima sigaretta, se si ha difficoltà ad astenersi dal fumare in luoghi dove è vietato e quante sigarette si fumano al giorno. L&#39;indicatore più significativo di un&#39;elevata dipendenza è spesso la &quot;prima sigaretta del giorno&quot;: se si sente il bisogno di fumare entro cinque o trenta minuti dal risveglio, il cervello sta segnalando un significativo bisogno fisico di nicotina per funzionare. Comprendere il proprio punteggio al test di Fagerström non significa etichettarsi, ma personalizzare la propria strategia per smettere di fumare. Chi ottiene un punteggio elevato potrebbe trovare particolarmente utile la terapia sostitutiva della nicotina (NRT) o i farmaci su prescrizione per gestire gli intensi sintomi fisici dell&#39;astinenza. Se il punteggio è più basso, le difficoltà potrebbero essere maggiormente legate agli aspetti sociali e comportamentali dell&#39;abitudine. Indipendentemente dal punteggio, conoscere il proprio livello di dipendenza permette di affrontare il processo di cessazione con aspettative realistiche. Ti aiuta a capire perché i primi giorni potrebbero sembrare particolarmente difficili e perché potrebbero essere necessari determinati strumenti per aiutarti a passare a una vita senza fumo.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "Perché smettere è così difficile",
+            "time": "7 min",
+            "type": "Articolo",
+            "content": "<p>Smettere di fumare è notoriamente difficile perché comporta una &quot;triplice minaccia&quot; di dipendenza: fisica, comportamentale e psicologica. La componente fisica è la sindrome da astinenza, che può includere irritabilità, ansia, difficoltà di concentrazione e un&#39;intensa voglia di fumare mentre il corpo elimina la nicotina. La componente comportamentale è la perdita dei numerosi rituali associati al fumo: il gesto di portare la sigaretta alla bocca, la &quot;pausa&quot; dal lavoro, il contatto sociale con gli altri fumatori. Questi rituali sono stati ripetuti migliaia di volte, creando profonde connessioni neurali che non scompaiono da un giorno all&#39;altro. La componente psicologica è forse la più complessa; per molti, la sigaretta è diventata un&#39;&quot;amica&quot; o un meccanismo di difesa affidabile per affrontare gli alti e bassi della vita. Quando si smette, si può provare un senso di tristezza o di perdita, come se si rinunciasse a una parte della propria identità. È importante riconoscere che questa difficoltà non è un segno di debolezza, ma una testimonianza del potere della sostanza. Molte persone hanno bisogno di diversi tentativi prima di riuscire a smettere definitivamente. Ogni tentativo non è un fallimento, ma un&#39;esperienza di apprendimento che ti avvicina al tuo obiettivo. Comprendendo perché ti sembra così difficile, puoi essere più compassionevole con te stesso durante il percorso e rimanere fedele ai benefici a lungo termine di una vita sana e senza fumo.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Fumo e salute mentale",
+            "time": "7 min",
+            "type": "Articolo",
+            "content": "<p>Esiste un mito persistente secondo cui fumare aiuta a gestire lo stress e l&#39;ansia, ma la realtà è ben diversa. Sebbene fumare possa offrire un sollievo temporaneo, in realtà aumenta i livelli di stress a lungo termine. Questo accade perché il &quot;rilassamento&quot; che si prova non è altro che l&#39;attenuazione dei sintomi di astinenza causati dalla sigaretta precedente. Tra una sigaretta e l&#39;altra, il corpo si trova in uno stato di lieve stress a causa del calo dei livelli di nicotina; fumare riporta semplicemente l&#39;organismo a uno stato di benessere di base, di cui un non fumatore gode costantemente. Inoltre, il fumo è stato collegato a tassi più elevati di depressione e disturbi d&#39;ansia. Le continue fluttuazioni chimiche nel cervello possono interferire con la regolazione emotiva e rendere più difficile la gestione dei problemi di salute mentale. Quando si smette di fumare, si potrebbe sperimentare un temporaneo aumento dell&#39;ansia o un umore basso mentre il cervello si riequilibra, ma con il tempo la maggior parte delle persone riscontra un significativo miglioramento della propria salute mentale. Riferiscono di sentirsi più stabili, meno ansiosi e con un maggiore controllo sulle proprie emozioni. Smettere di fumare è una delle cose più efficaci che si possano fare per sostenere il proprio benessere mentale a lungo termine. Stai passando da uno stato di dipendenza chimica a uno stato di naturale resilienza, in cui puoi affrontare le sfide della vita con una mente lucida e serena.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Strumenti per smettere di usare",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Opzioni di sostituzione della nicotina",
+            "time": "6 min",
+            "type": "Articolo",
+            "content": "<p>La terapia sostitutiva della nicotina (NRT) è uno strumento molto efficace per gestire i sintomi fisici dell&#39;astinenza che rendono così difficile smettere di fumare. La NRT fornisce al corpo una dose controllata di nicotina senza le migliaia di sostanze chimiche nocive presenti nel fumo di tabacco. Questo aiuta ad attenuare il desiderio di fumare, permettendoti di concentrarti sugli aspetti comportamentali e psicologici della cessazione. La NRT è disponibile in varie forme, tra cui cerotti a rilascio prolungato che forniscono un flusso costante di nicotina durante il giorno, e opzioni a rilascio rapido come gomme da masticare, pastiglie, inalatori e spray nasali che possono essere utilizzati per contrastare gli improvvisi attacchi di desiderio. La ricerca dimostra che l&#39;uso della NRT può raddoppiare le probabilità di smettere con successo rispetto a un&#39;interruzione improvvisa. Molte persone riscontrano che un approccio combinato – utilizzando un cerotto come dose di base e gomme da masticare per gli attacchi di desiderio – funziona meglio. È importante utilizzare la NRT correttamente e per tutta la durata raccomandata, di solito dalle 8 alle 12 settimane, per dare al cervello il tempo sufficiente per adattarsi. Sebbene alcune persone temano di sviluppare una dipendenza dalla terapia sostitutiva della nicotina (NRT), il rischio è molto inferiore rispetto alle sigarette e i benefici per la salute derivanti dallo smettere di fumare sono immediati e considerevoli. Parlate con il vostro farmacista o medico per trovare il piano di NRT più adatto a voi e al vostro livello di dipendenza.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "Il metodo del ritardo e della distrazione",
+            "time": "6 min",
+            "type": "Attività",
+            "content": "<p>Il metodo &quot;Ritarda e distrai&quot; è uno strumento comportamentale semplice ma efficace per gestire la voglia di fumare sul momento. Quando ti assale un forte desiderio di fumare, il primo passo è rimandare. Dì a te stesso: &quot;Non fumerò adesso; aspetterò dieci minuti&quot;. La maggior parte delle voglie, per quanto intense, raggiungono il picco per poi diminuire entro cinque-dieci minuti. Rimandando, permetti all&#39;ondata di desiderio di passare senza cedere alla tentazione. Durante quei dieci minuti, il secondo passo è distrarti. Fai qualcosa che richieda la tua completa attenzione o che cambi l&#39;ambiente circostante. Potrebbe essere bere un bicchiere d&#39;acqua, fare una camminata veloce, chiamare un amico o risolvere un cruciverba. L&#39;obiettivo è spostare la tua attenzione dalla sigaretta a qualcos&#39;altro. Spesso, trascorsi i dieci minuti, l&#39;intensità del desiderio si è ridotta significativamente e il pericolo immediato di accendere una sigaretta è passato. Ogni volta che utilizzi con successo questo metodo, indebolisci i segnali neurali che collegano un fattore scatenante alla sigaretta e rafforzi la tua capacità di gestire il disagio. È un modo pratico e concreto per dimostrare a te stesso di avere il controllo delle tue azioni, a prescindere da quanto ti faccia venire voglia di fumare.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "Come affrontare la prima settimana",
+            "time": "7 min",
+            "type": "Articolo",
+            "content": "<p>La prima settimana dopo aver smesso di fumare è spesso la più difficile, sia fisicamente che emotivamente. Il tuo corpo sta eliminando le ultime tracce di nicotina e il tuo cervello sta iniziando a ricalibrare il suo sistema di ricompensa. Potresti sperimentare una serie di sintomi di astinenza, tra cui irritabilità, irrequietezza, mal di testa e una persistente &quot;nebbia mentale&quot;. È importante affrontare questa settimana con un piano chiaro e molta autocompassione. Mantieni la tua agenda il più leggera possibile ed evita situazioni stressanti o eventi sociali in cui si fuma comunemente. Fai scorta di distrazioni salutari come gomme da masticare senza zucchero, bastoncini di carota o tisane. Mantieniti idratato e cerca di riposare il più possibile, poiché la stanchezza può indebolire le tue difese contro le voglie. Ricorda che le intense sensazioni che stai provando sono un segno che il tuo corpo si sta riprendendo: ogni minuto di disagio è un minuto in meno verso la libertà dal fumo. Molte persone trovano utile confidarsi con alcuni amici o familiari che ti sostengono, dicendo loro che stanno smettendo di fumare e che potrebbero essere un po&#39; irritabili per qualche giorno. Festeggia ogni piccola vittoria: la prima mattina senza sigaretta, il primo tragitto casa-lavoro completato con successo, la prima giornata portata a termine. Entro la fine della prima settimana, i sintomi fisici dell&#39;astinenza inizieranno a raggiungere il picco per poi diminuire, e avrai gettato solide basi per la tua nuova vita sana.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "Come si presenta la cronologia delle voglie",
+            "time": "7 min",
+            "type": "Articolo",
+            "content": "<p>Comprendere la tempistica delle voglie può aiutarti ad affrontare il processo di smettere con maggiore sicurezza. Nelle prime 24-72 ore, le voglie sono in genere più frequenti e intense, poiché la nicotina viene completamente eliminata dall&#39;organismo. Questo è spesso il periodo più difficile, in cui si può avere la sensazione di essere in una lotta costante contro le proprie voglie. Dopo i primi tre giorni, la frequenza e l&#39;intensità delle voglie fisiche di solito iniziano a diminuire. Tuttavia, si continueranno a incontrare fattori scatenanti psicologici: i &quot;ricordi del fumo&quot; che si manifestano in determinate situazioni o stati emotivi. Entro la fine della seconda settimana, molte persone riferiscono che l&#39;impulso &quot;costante&quot; di fumare è stato sostituito da ondate occasionali e gestibili. Entro la fine del primo mese, la dipendenza fisica è in gran parte superata e l&#39;attenzione si sposta sul mantenimento delle nuove abitudini e sulla gestione delle situazioni sociali. È importante ricordare che una voglia non è un comando; è solo una sensazione temporanea che passerà. Anche a distanza di mesi o anni, potresti avvertire un improvviso e fugace desiderio di fumare, magari scatenato da un odore particolare o da un evento particolarmente stressante. È normale e non significa che tu stia fallendo; sono solo tracce sbiadite di una vecchia abitudine. Conoscendo i tempi, puoi rimanere paziente e determinato, sapendo che ogni giorno senza fumare rende più facile il giorno successivo.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "Svapare: è davvero più sicuro?",
+            "time": "8 min",
+            "type": "Articolo",
+            "content": "<p>Lo svapo, ovvero l&#39;uso di sigarette elettroniche, viene spesso pubblicizzato come un&#39;alternativa più sicura al fumo tradizionale, ma è importante comprenderne appieno la portata. Sebbene lo svapo non implichi la combustione del tabacco, responsabile della maggior parte delle sostanze cancerogene come catrame e gas presenti nelle sigarette, non è esente da rischi. La maggior parte delle sigarette elettroniche rilascia comunque nicotina, il che significa che la dipendenza di base rimane. Inoltre, l&#39;aerosol prodotto dallo svapo contiene diverse sostanze chimiche, aromi e metalli pesanti, i cui effetti a lungo termine sulla salute sono ancora oggetto di studio. Per alcuni fumatori adulti, passare completamente allo svapo può rappresentare un passo verso la cessazione del fumo, ma dovrebbe essere considerato uno strumento di transizione piuttosto che la meta finale. Il doppio utilizzo, ovvero fumare e svapare, è particolarmente dannoso. Per i giovani e i non fumatori, lo svapo rappresenta un rischio significativo per la salute, che può portare alla dipendenza da nicotina e a danni ai polmoni e al cervello in via di sviluppo. L&#39;obiettivo finale per la propria salute è liberarsi completamente da tutte le sostanze inalate. Se si utilizza lo svapo come metodo per smettere di fumare, è fondamentale elaborare un piano per ridurre gradualmente l&#39;uso di entrambi. Meriti di respirare aria pulita e di avere un corpo libero dall&#39;influenza di qualsiasi dipendenza chimica. Concentrati sull&#39;obiettivo a lungo termine della totale liberazione dalla nicotina in tutte le sue forme.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Evitare di fumare",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Costruire la propria identità senza fumo",
+            "time": "7 min",
+            "type": "Attività",
+            "content": "<p>Un aspetto fondamentale per smettere di fumare con successo e a lungo termine è cambiare la percezione che si ha di sé. Invece di essere un &quot;fumatore che sta cercando di smettere&quot;, puntate a diventare un &quot;non fumatore&quot;. Questo è il processo di costruzione di un&#39;identità libera dal fumo. La vostra identità è plasmata dalle vostre azioni e dalle storie che vi raccontate su chi siete. Ogni volta che scegliete di non fumare in una situazione in cui normalmente lo fareste, state esprimendo un voto a favore della vostra nuova identità. Iniziate a concentrarvi sui benefici che ne state traendo: il profumo più gradevole dei vostri vestiti, il sapore migliore del cibo, i soldi in più in tasca e il senso di orgoglio per il vostro traguardo. Quando qualcuno vi offre una sigaretta, provate a dire &quot;Non fumo&quot; invece di &quot;Sto smettendo&quot;. Questo cambiamento di linguaggio rafforza la vostra nuova realtà. Pensate ai valori che sono importanti per voi – salute, libertà, rispetto di sé – e a come rimanere liberi dal fumo si allinei con essi. Non siete più una persona la cui giornata è dettata dal bisogno di un pacchetto di sigarette. Sei una persona che tiene alla propria salute e ha il controllo delle proprie scelte. Questa nuova identità diventa un potente scudo contro le ricadute, poiché fumare non sarebbe più &quot;compatibile&quot; con la persona che sei diventata. Stai costruendo una vita definita dai tuoi valori, non da un&#39;abitudine che hai superato.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Gestire lo stress senza fumare",
+            "time": "8 min",
+            "type": "Articolo",
+            "content": "<p>Una delle maggiori paure di chi decide di smettere di fumare è come gestirà lo stress senza il suo &quot;strumento di coping&quot;. È importante capire che le sigarette non hanno mai risolto i problemi; hanno solo fornito una breve distrazione durante la fase di astinenza da nicotina. Imparare nuovi modi per gestire lo stress è fondamentale per rimanere liberi dal fumo. Il primo passo è riconoscere i segnali fisici dello stress – tensione alle spalle, battito cardiaco accelerato, respiro superficiale – e reagire immediatamente. La respirazione diaframmatica profonda è uno dei modi più efficaci per segnalare al sistema nervoso che è possibile rilassarsi. Dedica qualche minuto ogni giorno a praticare respiri lenti e profondi. Anche l&#39;attività fisica è un potente antistress; persino una passeggiata di dieci minuti può ridurre significativamente i livelli di cortisolo. Trova altri modi salutari per rilassarti, come ascoltare musica, parlare con un amico o dedicarti a un hobby. È utile anche analizzare le fonti di stress nella tua vita e vedere se qualcuna può essere ridotta o eliminata. Stai costruendo una versione di te stesso più resiliente e meglio preparata ad affrontare le sfide della vita. Non hai bisogno di sostanze chimiche per rimanere calmo; possiedi la forza interiore e gli strumenti pratici per affrontare anche le giornate più stressanti con lucidità e serenità.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Cosa fare quando si scivola",
+            "time": "7 min",
+            "type": "Articolo",
+            "content": "<p>Se dopo aver deciso di smettere ti capita di fumare una sigaretta, si parla di &quot;scivolone&quot;. È un momento spiacevole, ma non deve per forza significare la fine del tuo percorso per smettere. Molte persone che sono riuscite a smettere definitivamente hanno avuto uno o più ricadute lungo il cammino. La chiave sta nella reazione. Evita la trappola del pensiero dicotomico: l&#39;idea che, siccome hai fumato una sola sigaretta, hai &quot;fallito&quot; e tanto vale finire il pacchetto. Questo modo di pensare trasforma un piccolo scivolone in una ricaduta completa. Considera invece lo scivolone come un&#39;esperienza di apprendimento. Cosa è successo? Cosa provavi? Con chi eri? C&#39;è stato un fattore scatenante che non avevi previsto? Sii onesto con te stesso, ma senza essere troppo severo. Usa queste informazioni per rafforzare il tuo piano. Forse devi evitare una certa situazione sociale per un po&#39; di tempo, o portare con te più spesso le gomme da masticare alla nicotina. Riprendi subito il tuo percorso senza fumo. Non aspettare domani o la prossima settimana; anche la prossima ora può essere senza fumo. Ricordati i motivi per cui hai smesso e tutti i progressi che hai già fatto. Una ricaduta è solo un piccolo ostacolo, non un motivo per tornare indietro. Sei ancora un non fumatore che ha avuto una temporanea flessione e hai la forza di continuare a perseguire i tuoi obiettivi.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Tempistiche di recupero a lungo termine",
+            "time": "8 min",
+            "type": "Articolo",
+            "content": "<p>Uno degli aspetti più motivanti dello smettere di fumare è la rapidità con cui il corpo inizia a ripararsi. Già dopo soli 20 minuti dall&#39;ultima sigaretta, la frequenza cardiaca e la pressione sanguigna iniziano a diminuire. Dopo 12 ore, il livello di monossido di carbonio nel sangue torna alla normalità, permettendo a una maggiore quantità di ossigeno di raggiungere organi e tessuti. Entro due settimane o tre mesi, la funzionalità polmonare inizia a migliorare e la circolazione sanguigna si stabilizza, facilitando l&#39;attività fisica. Dopo uno o nove mesi, le minuscole strutture simili a peli presenti nei polmoni, chiamate ciglia, riprendono a funzionare correttamente, eliminando il muco e riducendo il rischio di infezioni. La tosse e la difficoltà respiratoria tipiche del fumatore diminuiscono significativamente. Un anno dopo aver smesso di fumare, il rischio di cardiopatia coronarica si dimezza rispetto a quello di un fumatore. Dopo cinque anni, il rischio di tumori alla bocca, alla gola e all&#39;esofago si dimezza e il rischio di ictus inizia a diminuire, avvicinandosi a quello di un non fumatore. Dopo dieci anni, il rischio di morire di cancro ai polmoni è circa la metà di quello di chi continua a fumare. Dopo quindici anni, il rischio di sviluppare una malattia coronarica è lo stesso di una persona che non ha mai fumato. Questo percorso di guarigione è una potente testimonianza della resilienza del tuo corpo. Ogni giorno in cui rimani senza fumare è un investimento nella tua salute e longevità future.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Parlare con persone che fumano ancora",
+            "time": "8 min",
+            "type": "Articolo",
+            "content": "<p>Quando smetti di fumare, i rapporti con chi continua a farlo possono diventare complicati. Potresti avvertire un senso di distanza o persino temere che la tua scelta li metta a disagio. È utile avere un piano per gestire queste interazioni senza giudicare o mettere a rischio la tua sobrietà. Sii chiaro e onesto riguardo alla tua decisione: &quot;Ho deciso di smettere di fumare per la mia salute, quindi cercherò di evitare di stare in compagnia di fumatori per un po&#39;&quot;. I veri amici rispetteranno la tua scelta e ti sosterranno, anche se non sono ancora pronti a smettere. Nelle prime fasi, potrebbe essere meglio evitare le &quot;pause sigaretta&quot; o gli eventi sociali in cui fumare è all&#39;ordine del giorno. Se ti trovi in compagnia di fumatori, puoi rimanere nel gruppo ma allontanarti se qualcuno accende una sigaretta, oppure suggerire attività in cui non è consentito fumare, come andare al cinema o al ristorante. Evita la tentazione di fare la predica agli altri sul loro vizio del fumo; concentrati sul tuo percorso. Potresti scoprire che il tuo successo li ispirerà a pensare di smettere anche loro, ma questa è la loro strada. La tua priorità è proteggere la tua vita senza fumo e costruire legami basati su valori condivisi e interazioni autentiche, piuttosto che su un&#39;abitudine comune. Stai facendo progressi, e questo è motivo di orgoglio.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>MDMA Learn Module</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #A8308A;
+            --text-dark: #1A1A1A;
+            --text-meta: #717171;
+            --border: #EEEEEE;
+            --bg: #FFFFFF;
+        }
+
+        html, body {
+            overflow: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-dark);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        #app {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .view {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #list-view {
+            z-index: 10;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #reader-view {
+            z-index: 20;
+            transform: translateX(100%);
+            padding-top: 20px;
+        }
+
+        #reader-view.active {
+            transform: translateX(0);
+        }
+
+        #list-view.inactive {
+            transform: translateX(-20%);
+        }
+
+        .top-module {
+            padding: 24px 0 16px;
+            flex-shrink: 0;
+        }
+
+        .substance-pill {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: #F0F0F0;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .section-header {
+            margin: 32px 0 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-num {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--text-dark);
+        }
+
+        .article-row {
+            display: flex;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: background 0.2s;
+            min-height: 48px;
+        }
+
+        .article-row:hover {
+            opacity: 0.8;
+            background: #FAFAFA;
+        }
+
+        .doc-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            color: #999;
+            flex-shrink: 0;
+        }
+
+        .article-info {
+            flex: 1;
+        }
+
+        .article-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+            display: block;
+        }
+
+        .article-meta {
+            font-size: 11px;
+            color: var(--text-meta);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .type-badge {
+            background: #F0F0F0;
+            padding: 1px 6px;
+            border-radius: 3px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        .chevron {
+            color: #CCC;
+            font-size: 18px;
+            margin-left: 8px;
+            font-weight: 300;
+        }
+
+        .reader-nav {
+            margin-bottom: 8px;
+            flex-shrink: 0;
+        }
+
+        .back-arrow {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            margin-left: -14px;
+        }
+
+        .reader-header {
+            margin-bottom: 24px;
+            flex-shrink: 0;
+        }
+
+        .reader-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        .reader-content {
+            flex: 1;
+            overflow-y: auto;
+            height: calc(100vh - 120px);
+            padding-bottom: 80px;
+            scrollbar-width: none;
+        }
+
+        .reader-content p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #2D2D2D;
+            margin-bottom: 20px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+    
+        .lang-wrapper {
+            position: absolute;
+            top: 24px;
+            right: 0px;
+            z-index: 100;
+        }
+        .lang-picker {
+            appearance: none;
+            background: #F0F0F0;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #666;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .lang-picker:hover { background: #E5E5E5; }
+    
+    </style>
+    <script src="/i18n/loader.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="list-view" class="view">
+            <div class="top-module">
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-picker">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                    <option value="de">DE</option>
+                    <option value="hi">HI</option>
+                    <option value="ja">JA</option>
+                    <option value="zh-CN">ZH</option>
+                    <option value="ko">KO</option>
+                    <option value="ru">RU</option>
+                    <option value="it">IT</option>
+                    <option value="pt">PT</option>
+                    <option value="ar">AR</option>
+                    <option value="tr">TR</option>
+                    <option value="nl">NL</option>
+                    <option value="pl">PL</option>
+                    <option value="vi">VI</option>
+                    <option value="th">TH</option>
+                    <option value="id">ID</option>
+                    <option value="sv">SV</option>
+                    <option value="cs">CS</option>
+                </select>
+            </div>
+                <div class="substance-pill" data-i18n="substance_name">MDMA</div>
+                <div class="progress-container">
+                    <div id="main-progress" class="progress-bar"></div>
+                </div>
+            </div>
+            <div id="content-list"></div>
+        </div>
+
+        <div id="reader-view" class="view">
+            <div class="reader-nav">
+                <div class="back-arrow" onclick="closeReader()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </div>
+            </div>
+            <div class="reader-header">
+                <h1 class="reader-title" id="rt-title"></h1>
+                <div class="article-meta">
+                    <span id="rt-time"></span>
+                    <span class="type-badge" id="rt-type"></span>
+                </div>
+            </div>
+            <div class="reader-content" id="rt-content"></div>
+        </div>
+    </div>
+
+    <script>
+        let DATA = {
+            sections: [
+                {
+                    num: '01',
+                    title: 'Understanding MDMA',
+                    articles: [
+                        { id: 'm1', title: 'What MDMA Does to Serotonin', time: '5 min', type: 'Article', content: '<p>MDMA (3,4-methylenedioxymethamphetamine) is a synthetic drug that acts as both a stimulant and a hallucinogen. It works primarily by triggering a massive release of serotonin, as well as dopamine and norepinephrine, in the brain. Serotonin is a neurotransmitter that regulates mood, sleep, pain, and appetite, and is deeply involved in feelings of empathy, trust, and emotional closeness. This flood of serotonin is what creates the characteristic effects of MDMA: intense euphoria, increased energy, and a profound sense of connection with others. However, this artificial surge completely depletes the brain\'s natural serotonin stores. It takes the brain several days or even weeks to rebuild these stores, leading to a period of emotional depletion often called the \'mid-week blues.\' With frequent use, your brain may become less efficient at producing and responding to serotonin naturally, leading to long-term changes in mood and emotional stability. Understanding this biological \'borrowing\' of serotonin is essential for navigating the recovery process. It helps you recognize that the intense comedown you feel is a direct result of this depletion, not a permanent change in who you are. As you quit, your brain will begin the slow work of restoring its natural serotonin balance, allowing you to find genuine, stable joy and connection without the need for a substance.</p>' },
+                        { id: 'm2', title: 'The Emotional Crash — Why It Happens', time: '6 min', type: 'Article', content: '<p>The emotional crash following MDMA use is a direct consequence of the massive serotonin depletion discussed earlier. Often referred to as \'Suicide Tuesday\' or the \'comedown,\' it typically occurs two to four days after the substance was taken. As the brain\'s serotonin stores are exhausted, you may experience a range of intense negative emotions, including deep sadness, anxiety, irritability, and a pervasive sense of emptiness or hopelessness. You may also find it difficult to concentrate and experience disruptions in your sleep. This crash can be particularly jarring because it follows a period of intense, artificial euphoria. It\'s important to understand that this state is a physiological event, not a reflection of your true character or your long-term mental health. The brain is essentially in a period of \'recovery\' as it tries to rebuild its chemical balance. Recognizing the crash as temporary and biologically driven can help you resist the urge to use again to escape the discomfort. During this time, your focus should be on gentle self-care, honest communication with supportive others, and avoiding high-stress situations. Every time you move through a crash without returning to use, you are allowing your brain to take another step toward natural stability and authentic emotional resilience.</p>' },
+                        { id: 'm3', title: 'Long-term Use and Mental Health Risk', time: '5 min', type: 'Article', content: '<p>While MDMA is often perceived as a \'social\' or \'party\' drug, long-term or frequent use carries significant risks for your mental health. The repeated depletion of serotonin can lead to persistent changes in brain chemistry, resulting in chronic depression, anxiety disorders, and memory impairment. Some users report a condition called \'loss of magic,\' where the drug no longer produces the euphoric effects but still carries all the negative consequences. This is a sign of significant neuroadaptive changes in the brain\'s reward and emotional circuits. Long-term use has also been linked to difficulties with executive functions like decision-making and impulse control. If you find that your mood is consistently unstable, or if you are experiencing the \'mid-week blues\' more frequently and intensely, these are signals that your MDMA use is taking a toll on your mental well-being. Acknowledging these risks is a powerful motivator for choosing a life free from MDMA. By quitting, you are immediately reducing the strain on your brain\'s emotional regulation systems and allowing yourself to rebuild a foundation of stable, natural mental health. Recovery is about reclaiming your capacity for genuine joy and connection that isn\'t dependent on a chemical trigger.</p>' },
+                        { id: 'm4', title: 'Safe Use Guidelines — Testing, Dosing, Spacing', time: '7 min', type: 'Activity', content: '<p>For those who are not yet able or willing to stop using MDMA, understanding harm reduction through safe use guidelines is vital. One of the greatest dangers of MDMA is that substances sold as \'ecstasy\' or \'molly\' often contain other drugs, such as caffeine, amphetamines, or even fentanyl. Testing your substance using a reagent kit is a primary harm reduction step to ensure you know what you are taking. Dosing is also critical; \'less is often more\' with MDMA, as higher doses significantly increase the risk of neurotoxicity and a severe comedown without necessarily improving the experience. A standard dose is often considered to be your weight in kilograms plus 50 milligrams. Spacing out your use isperhaps the most essential guideline; the \'three-month rule\' is a widely accepted standard in the harm reduction community to allow the brain sufficient time to fully restore its serotonin levels and for the receptors to reset. Using more frequently than this significantly increases the risk of long-term damage and dependency. These guidelines are not about condoning use, but about valuing human life and providing the safety and support needed for someone to eventually choose a healthier, sober path. Your safety matters, and taking even small steps to reduce risk is an act of self-care.</p>' },
+                        { id: 'm5', title: 'MDMA and Anxiety Disorders', time: '7 min', type: 'Article', content: '<p>The relationship between MDMA and anxiety is complex and potentially hazardous. While the drug is being studied in highly controlled clinical settings for the treatment of PTSD, illicit use can often exacerbate existing anxiety disorders or甚至lead to the development of new ones. This paradox exists because while MDMA can temporarily lower social barriers and create a sense of calm, the subsequent serotonin depletion and the instability of the peak and crash cycle can significantly disrupt the brain\'s natural processes for managing fear and stress. Many users experience intense anxiety during the \'comedown\' phase, which can sometimes trigger panic attacks or a worsening of baseline anxiety. Furthermore, the risk of taking an adulterated substance can lead to unforeseen and frightening physical sensations that further increase anxiety. If you find that you are using MDMA to manage social anxiety or to escape from stress, you are likely creating a cycle of increasing dependency and decreasing resilience. Building a life free from MDMA involves developing a \'toolbox\' of sustainable, healthy strategies for managing anxiety—such as mindfulness, therapy, and regular physical activity. By choosing sobriety, you are allowing your nervous system to return to a state of natural balance and stability, where you can handle life\'s challenges with a clear and steady mind.</p>' }
+                    ]
+                },
+                {
+                    num: '02',
+                    title: 'After Use Care',
+                    articles: [
+                        { id: 'm6', title: 'The Integration Period', time: '6 min', type: 'Activity', content: '<p>The integration period is the time following MDMA use when you process the experiences and emotions encountered during the \'high.\' In the context of recovery, integration is also about understanding the impact of the drug on your life and reconnecting with your sober self. This period, which can last for days or weeks, is a time of both vulnerability and insight. You may find yourself reflecting on the sense of connection or empathy you felt and wondering how to cultivate those feelings naturally in your daily life. It\'s important to be honest about the \'disconnect\' between the artificial euphoria and your everyday reality. Integration involves bringing these insights together in a way that supports your long-term well-being and your goal of sobriety. This might involve journalling, talking with a counselor, or simply spending time in quiet reflection. It\'s a time to be patient and compassionate with yourself, acknowledging the difficulty of the comedown while focusing on the clarity you want to achieve. By actively integrating your experiences, you are moving beyond the cycle of use and crash and into a deeper understanding of yourself. You are choosing to value authentic, sustained growth over temporary, chemically induced experiences, and that is a powerful step on your recovery journey.</p>' },
+                        { id: 'm7', title: 'Managing the Comedown', time: '6 min', type: 'Activity', content: '<p>Managing the comedown after MDMA use is about prioritizing physical comfort and emotional stability as your brain performs the difficult work of rebuilding its serotonin stores. The first step is to ensure you are in a safe, quiet environment where you can rest. Your body and brain are depleted and need time to recover. Hydration is essential; drink plenty of water and electrolyte-rich fluids. Nutrition is also vital; focus on healthy, protein-rich foods that provide the amino acids your brain needs to rebuild serotonin. Emotionally, be prepared for intense feelings of sadness, anxiety, and irritability. Remind yourself constantly that these feelings are a temporary, biological result of the comedown and that they will pass. Avoid making any major life decisions or engaging in high-conflict conversations during this time. Contacting a supportive friend who understands MDMA recovery can provide a vital layer of safety and accountability. If your depression feels overwhelming or if you have thoughts of self-harm, seek professional help immediately. Managing the comedown is an act of self-care and the first step toward breaking the cycle of use. You are allowing your brain to begin the slow but certain process of returning to its natural balance and your life to move toward a more stable, healthy reality.</p>' },
+                        { id: 'm8', title: 'Sleep and Recovery', time: '6 min', type: 'Article', content: '<p>Sleep is often significantly disrupted by MDMA use, and rebuilding a healthy sleep pattern is a foundational part of recovery. MDMA is a stimulant that can lead to initial insomnia, followed by long \'recovery sleeps\' that are not restorative. The drug also disrupts the brain\'s natural serotonin levels, which are essential for regulating the sleep-wake cycle. When you stop using, your sleep architecture begins the slow process of repair. You might first experience a period of irregular sleep as your brain and body try to recover from chemical depletion. To support your sleep recovery, establish a consistent wake time and a relaxing bedtime routine. Avoid caffeine and screens for at least an hour before bed. Ensure your bedroom is cool, dark, and used only for sleep. If you find yourself lying awake and frustrated, get out of bed and do a quiet activity in low light until you feel genuinely sleepy. While it may take several weeks for your sleep to become truly restorative, persisting with these healthy habits will allow your brain to return to its natural rhythm. Good sleep is a vital source of genuine energy and emotional stability, providing the foundation you need for a lasting, healthy recovery from MDMA use.</p>' },
+                        { id: 'm9', title: 'Nutrition and Serotonin Recovery', time: '8 min', type: 'Article', content: '<p>Nutrition plays a vital role in supporting your brain\'s recovery after MDMA use, specifically in its ability to rebuild depleted serotonin stores. Serotonin is synthesized from an amino acid called tryptophan, which is found in a variety of high-quality protein foods. Focus on incorporating sources of tryptophan into your diet, such as turkey, eggs, fish, tofu, and nuts. Combining these with a healthy carbohydrate source—like whole grains or vegetables—can help the tryptophan cross into the brain more effectively. Antioxidant-rich foods, especially berries and leafy greens, are also important for reducing the neurochemical stress caused by the drug. It\'s also vital to stay well-hydrated and to avoid processed, sugary foods that lead to energy crashes and emotional instability. Nutritional support is not just about physical health; it is a way to directly support your emotional recovery and cognitive clarity. By giving your body the fuel it needs to perform its natural chemical synthesis, you are creating a solid foundation for the hard work of recovery. You are moving from a state of chemical depletion to a state of natural strength, where your brain can eventually find its own balance and your body can achieve its full potential for vitality.</p>' },
+                        { id: 'm10', title: 'When to Take a Break', time: '7 min', type: 'Article', content: '<p>Recognizing when to take a break from MDMA—and eventually when to stop entirely—is a significant sign of self-awareness and self-respect. If you find that the \'mid-week blues\' are becoming more intense, or if the drug no longer produces the positive effects it once did, your brain is signaling that it is overtaxed. Other signs that a break is necessary include your use interfering with your responsibilities at work or school, or if it is causing strain in your personal relationships. A period of total abstinence allows your serotonin system to reset and for your natural reward path ways to recover their sensitivity. Many people find that a 90-day break provides the clarity and perspective needed to reassess their relationship with the substance. This break is a time to observe how your mood, energy, and social life change when you\'re not on the \'chemical roller-coaster.\' Whether you choose to eventually return to use with more stringent rules or choose a sober life, the insights gained from a break are invaluable. You are giving yourself the gift of clarity and the opportunity to make decisions about your future from a place of strength and self-knowledge, rather than from the needs of an increasingly problematic habit.</p>' }
+                    ]
+                },
+                {
+                    num: '03',
+                    title: 'Mindful Use and Recovery',
+                    articles: [
+                        { id: 'm11', title: 'Recognising Problematic Patterns', time: '7 min', type: 'Assessment', content: '<p>Recognizing problematic patterns of MDMA use is the first step toward reclaiming your health and agency. Problematic use is characterized by a pattern that leads to significant distress or impairment in your daily life. Key indicators include using MDMA more frequently than you intended—such as breaking the \'three-month rule\'—or using larger amounts to achieve the same effect. You may find that you spend a significant amount of time planning for use, using the drug, or recovering from its emotional crash. Perhaps the most telling sign is continuing to use despite knowing it is exacerbating your anxiety, depression, or memory issues. You might also notice that you\'ve given up important social or occupational activities in favor of MDMA-related events. If you feel that your social life is entirely centered around the drug and that you can\'t have fun or connect with others without it, you are likely dealing with a problematic pattern. Acknowledging this is not a sign of failure, but a necessary realization that your current relationship with MDMA is no longer serving your long-term goals. Once you see the pattern, you can begin to make the choice to build a life where you are the one in control.</p>' },
+                        { id: 'm12', title: 'MDMA and Relationships', time: '8 min', type: 'Article', content: '<p>MDMA is often called the \'love drug\' because of the intense feelings of empathy and closeness it creates, but these chemically induced connections are often shallow and unsustainable. True relationships are built on authentic presence, consistent behavior, and shared vulnerability—all of which can be undermined by the cycle of MDMA use. The intense bonding felt while high can sometimes lead to \'false intimacy,\' where you feel a deep connection that doesn\'t translate into everyday life. Furthermore, the volatility of the peak and crash cycle can lead to increased conflict and emotional withdrawal from those you care about. To build genuine relationships, you must first commit to your own sobriety and stability. Authentic connection requires you to be fully present for the hard times as well as the good. By choosing to be sober, you are allowing yourself to develop the skills for real empathy and meaningful communication. You will find that your sober connections are far more rewarding and durable because they are based on who you really are, not on a temporary, chemical surge. You are building a life of authentic connection that is rooted in reality and your own values, and that is a truly beautiful thing.</p>' },
+                        { id: 'm13', title: 'The 3-Month Rule and Why It Exists', time: '8 min', type: 'Article', content: '<p>The \'3-month rule\' is a widely recognized harm reduction standard that suggests waiting at least 90 days between MDMA uses. This rule exists because of the profound impact MDMA has on the brain\'s serotonin system. It takes approximately that long for the brain to fully rebuild its depleted serotonin stores and for the receptors to recover their natural sensitivity. Using more frequently than every three months can lead to a condition where the brain is in a chronic state of depletion, significantly increasing the risk of long-term neurotoxicity, persistent depression, and cognitive impairment. Frequent use also leads rapidly to \'tolerance,\' where the euphoric effects diminish while the physical and emotional risks increase. For those who choose to continue using, the 3-month rule is a vital safeguard for their mental health. However, for many users, the difficulty of sticking to this rule is the first sign that their relationship with the drug has become problematic. If you find yourself unable or unwilling to wait the full 90 days, it\'s a signal that your dependency is taking hold. Recognizing the science behind this rule is not just about safer use; it\'s a way to understand the serious biological impact of the drug and to choose a path of genuine health and long-term recovery.</p>' },
+                        { id: 'm14', title: 'Seeking Support Without Shame', time: '7 min', type: 'Article', content: '<p>Seeking support for problematic MDMA use is one of the most proactive and powerful choices you can make for your future self. For many, the social stigma associated with \'party drug\' use can lead to feelings of shame that make it difficult to ask for help. It\'s important to understand that your struggle is a common response to a powerful chemical and is not a reflection of your character. Support provides you with the professional guidance, accountability, and emotional connection needed for a successful recovery. This might include a specialized addiction counselor who can help you develop new coping strategies and address any underlying mental health challenges. Support groups provide a safe space to share your journey with others who understand the specific challenges of MDMA recovery. You are acknowledging that your health, your clarity, and your future are too important to risk. There is no shame in reaching out for help; in fact, it is a significant sign of strength and self-respect. Whether you start with a trusted friend, a doctor, or a dedicated recovery program, taking that first step is the beginning of reclaiming your agency and building a life of stable, authentic well-being.</p>' },
+                        { id: 'm15', title: 'Moving Forward', time: '7 min', type: 'Article', content: '<p>Moving forward from MDMA use is a journey of reclaiming your natural capacity for joy, connection, and emotional stability. It involves building a life where your well-being is not dependent on a chemical trigger. This process starts with the commitment to stay away from the substance and continues with the daily work of self-care, healthy habit formation, and authentic connection. You will eventually find that your \'sober baseline\' is far more stable and rewarding than the highs and crashes of MDMA use. You are rediscovering who you are and what truly matters to you. This might mean developing new hobbies, deepening your genuine relationships, and pursuing goals that provide a sense of authentic achievement. Long-term recovery is about being present for your own life, with all its challenges and its beauty, and having the clarity and strength to navigate it all with a steady hand. You are no longer chasing a temporary, artificial euphoria; you are building a solid foundation of internal peace and resilience. This is the place from which you can truly engage with the world and create a future that is bright, stable, and entirely your own. Your journey has just begun, and it\'s full of genuine potential.</p>' }
+                    ]
+                }
+            ]
+        };
+
+        let readArticles = new Set(JSON.parse(localStorage.getItem('read_mdma') || '[]'));
+
+        function init() {
+            renderList();
+            updateProgress();
+        }
+
+        function renderList() {
+            const listEl = document.getElementById('content-list');
+            let html = '';
+
+            DATA.sections.forEach(sec => {
+                html += `
+                    <div class="section-header">
+                        <span class="section-num">${sec.num}.</span>
+                        <span class="section-title">${sec.title}</span>
+                    </div>
+                `;
+                sec.articles.forEach(art => {
+                    const isRead = readArticles.has(art.id);
+                    html += `
+                        <div class="article-row" onclick="openReader('${art.id}')">
+                            <div class="doc-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </div>
+                            <div class="article-info">
+                                <span class="article-title">${art.title}</span>
+                                <div class="article-meta">
+                                    <span>${art.time}</span>
+                                    <span class="type-badge">${art.type}</span>
+                                </div>
+                            </div>
+                            <div class="chevron">›</div>
+                        </div>
+                    `;
+                });
+            });
+            listEl.innerHTML = html;
+        }
+
+        function openReader(id) {
+            let article;
+            DATA.sections.forEach(s => {
+                const found = s.articles.find(a => a.id === id);
+                if (found) article = found;
+            });
+
+            if (!article) return;
+
+            document.getElementById('rt-title').textContent = article.title;
+            document.getElementById('rt-time').textContent = article.time;
+            document.getElementById('rt-type').textContent = article.type;
+            document.getElementById('rt-content').innerHTML = article.content;
+
+            readArticles.add(id);
+            localStorage.setItem('read_mdma', JSON.stringify([...readArticles]));
+            updateProgress();
+
+            document.getElementById('reader-view').classList.add('active');
+            document.getElementById('list-view').classList.add('inactive');
+            document.getElementById('rt-content').scrollTop = 0;
+        }
+
+        function closeReader() {
+            document.getElementById('reader-view').classList.remove('active');
+            document.getElementById('list-view').classList.remove('inactive');
+        }
+
+        function updateProgress() {
+            const total = DATA.sections.reduce((acc, s) => acc + s.articles.length, 0);
+            const pct = (readArticles.size / total) * 100;
+            document.getElementById('main-progress').style.width = pct + '%';
+        }
+
+        
+        window.initModule = (t) => {
+            if (t.DATA) DATA = t.DATA;
+            if (t.substance_name) document.querySelector('.substance-pill').textContent = t.substance_name;
+            renderList();
+            updateProgress();
+        };
+
+        const currentLang = localStorage.getItem('language') || 'en';
+        if (currentLang === 'en') {
+           init();
+        }
+        
+    </script>
+</body>
+</html>

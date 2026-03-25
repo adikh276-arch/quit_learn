@@ -1,0 +1,137 @@
+{
+  "app_title": "Mô-đun học tập",
+  "progress_label": "Tiến triển",
+  "back_label": "Mặt sau",
+  "minutes_label": "phút",
+  "type_article": "Bài báo",
+  "type_assessment": "Đánh giá",
+  "type_activity": "Hoạt động",
+  "substance_name": "MDMA",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Tìm hiểu về MDMA",
+        "articles": [
+          {
+            "id": "m1",
+            "title": "MDMA ảnh hưởng đến serotonin như thế nào?",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>MDMA (3,4-methylenedioxymethamphetamine) là một loại thuốc tổng hợp hoạt động như cả chất kích thích và chất gây ảo giác. Nó hoạt động chủ yếu bằng cách kích thích giải phóng ồ ạt serotonin, cũng như dopamine và norepinephrine, trong não. Serotonin là một chất dẫn truyền thần kinh điều chỉnh tâm trạng, giấc ngủ, đau đớn và thèm ăn, và có liên quan mật thiết đến cảm giác đồng cảm, tin tưởng và sự gần gũi về mặt cảm xúc. Sự gia tăng serotonin này là điều tạo ra các tác dụng đặc trưng của MDMA: hưng phấn mãnh liệt, tăng năng lượng và cảm giác kết nối sâu sắc với người khác. Tuy nhiên, sự gia tăng nhân tạo này làm cạn kiệt hoàn toàn lượng serotonin tự nhiên trong não. Não cần vài ngày hoặc thậm chí vài tuần để tái tạo lại lượng serotonin này, dẫn đến một giai đoạn suy giảm cảm xúc thường được gọi là &quot;nỗi buồn giữa tuần&quot;. Với việc sử dụng thường xuyên, não bộ của bạn có thể trở nên kém hiệu quả hơn trong việc sản xuất và phản ứng với serotonin một cách tự nhiên, dẫn đến những thay đổi lâu dài về tâm trạng và sự ổn định cảm xúc. Hiểu được sự &quot;mượn&quot; serotonin sinh học này là điều cần thiết để vượt qua quá trình phục hồi. Điều này giúp bạn nhận ra rằng cảm giác suy sụp dữ dội mà bạn trải qua là kết quả trực tiếp của sự thiếu hụt chất gây nghiện, chứ không phải là sự thay đổi vĩnh viễn trong con người bạn. Khi bạn cai nghiện, não bộ sẽ bắt đầu quá trình khôi phục chậm rãi sự cân bằng serotonin tự nhiên, cho phép bạn tìm thấy niềm vui và sự kết nối chân thực, ổn định mà không cần đến chất kích thích.</p>"
+          },
+          {
+            "id": "m2",
+            "title": "Sự suy sụp tinh thần — Tại sao nó xảy ra",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Cảm giác suy sụp tinh thần sau khi sử dụng MDMA là hậu quả trực tiếp của sự cạn kiệt serotonin nghiêm trọng đã được đề cập trước đó. Thường được gọi là &quot;Ngày thứ Ba tự sát&quot; hoặc &quot;cảm giác hụt hẫng&quot;, nó thường xảy ra từ hai đến bốn ngày sau khi sử dụng chất này. Khi lượng serotonin trong não cạn kiệt, bạn có thể trải qua một loạt các cảm xúc tiêu cực dữ dội, bao gồm nỗi buồn sâu sắc, lo lắng, cáu kỉnh và cảm giác trống rỗng hoặc tuyệt vọng bao trùm. Bạn cũng có thể thấy khó tập trung và bị gián đoạn giấc ngủ. Cảm giác suy sụp này có thể đặc biệt khó chịu vì nó xảy ra sau một giai đoạn hưng phấn mãnh liệt, giả tạo. Điều quan trọng là phải hiểu rằng trạng thái này là một hiện tượng sinh lý, không phản ánh tính cách thực sự của bạn hoặc sức khỏe tâm thần lâu dài của bạn. Về cơ bản, não đang trong giai đoạn &quot;phục hồi&quot; khi nó cố gắng xây dựng lại sự cân bằng hóa học của mình. Nhận ra rằng sự suy sụp này là tạm thời và do sinh học gây ra có thể giúp bạn chống lại sự thôi thúc sử dụng lại để thoát khỏi sự khó chịu. Trong thời gian này, bạn nên tập trung vào việc tự chăm sóc bản thân một cách nhẹ nhàng, giao tiếp trung thực với những người hỗ trợ và tránh các tình huống căng thẳng cao. Mỗi lần bạn vượt qua được một cú sốc mà không quay trở lại sử dụng thiết bị, bạn đang cho phép bộ não của mình tiến thêm một bước nữa hướng tới sự ổn định tự nhiên và khả năng phục hồi cảm xúc đích thực.</p>"
+          },
+          {
+            "id": "m3",
+            "title": "Sử dụng lâu dài và nguy cơ ảnh hưởng đến sức khỏe tâm thần",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>Mặc dù MDMA thường được coi là một loại thuốc &quot;xã hội&quot; hoặc &quot;dùng trong các bữa tiệc&quot;, việc sử dụng lâu dài hoặc thường xuyên tiềm ẩn những rủi ro đáng kể đối với sức khỏe tâm thần. Sự suy giảm serotonin lặp đi lặp lại có thể dẫn đến những thay đổi dai dẳng trong hóa học não bộ, gây ra chứng trầm cảm mãn tính, rối loạn lo âu và suy giảm trí nhớ. Một số người dùng báo cáo về tình trạng gọi là &quot;mất đi sự kỳ diệu&quot;, trong đó thuốc không còn tạo ra hiệu ứng hưng phấn nhưng vẫn mang lại tất cả những hậu quả tiêu cực. Đây là dấu hiệu của những thay đổi thích nghi thần kinh đáng kể trong các mạch cảm xúc và phần thưởng của não bộ. Sử dụng lâu dài cũng có liên quan đến những khó khăn trong các chức năng điều hành như ra quyết định và kiểm soát xung động. Nếu bạn thấy tâm trạng của mình liên tục không ổn định, hoặc nếu bạn trải qua &quot;nỗi buồn giữa tuần&quot; thường xuyên và dữ dội hơn, đây là những dấu hiệu cho thấy việc sử dụng MDMA đang ảnh hưởng đến sức khỏe tinh thần của bạn. Nhận thức được những rủi ro này là động lực mạnh mẽ để lựa chọn một cuộc sống không có MDMA. Bằng cách bỏ thuốc, bạn ngay lập tức giảm bớt áp lực lên hệ thống điều chỉnh cảm xúc của não bộ và cho phép bản thân xây dựng lại nền tảng sức khỏe tinh thần ổn định, tự nhiên. Phục hồi là việc lấy lại khả năng cảm nhận niềm vui và sự kết nối chân chính mà không phụ thuộc vào chất kích thích hóa học.</p>"
+          },
+          {
+            "id": "m4",
+            "title": "Hướng dẫn sử dụng an toàn — Kiểm tra, liều lượng, khoảng cách",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Đối với những người chưa thể hoặc chưa sẵn sàng ngừng sử dụng MDMA, việc hiểu rõ các biện pháp giảm thiểu tác hại thông qua hướng dẫn sử dụng an toàn là vô cùng quan trọng. Một trong những mối nguy hiểm lớn nhất của MDMA là các chất được bán dưới dạng &quot;ecstasy&quot; hoặc &quot;molly&quot; thường chứa các loại thuốc khác, chẳng hạn như caffeine, amphetamine, hoặc thậm chí là fentanyl. Kiểm tra chất bạn sử dụng bằng bộ dụng cụ thử nghiệm là bước giảm thiểu tác hại cơ bản để đảm bảo bạn biết mình đang dùng gì. Liều lượng cũng rất quan trọng; &quot;ít hơn thường tốt hơn&quot; với MDMA, vì liều lượng cao hơn làm tăng đáng kể nguy cơ nhiễm độc thần kinh và hội chứng cai thuốc nghiêm trọng mà không nhất thiết cải thiện trải nghiệm. Liều lượng tiêu chuẩn thường được coi là trọng lượng của bạn tính bằng kilogam cộng thêm 50 miligam. Giãn cách thời gian sử dụng có lẽ là hướng dẫn quan trọng nhất; &quot;quy tắc ba tháng&quot; là một tiêu chuẩn được chấp nhận rộng rãi trong cộng đồng giảm thiểu tác hại để cho phép não bộ có đủ thời gian phục hồi hoàn toàn mức serotonin và các thụ thể được thiết lập lại. Sử dụng thường xuyên hơn mức này làm tăng đáng kể nguy cơ tổn thương lâu dài và phụ thuộc. Những hướng dẫn này không nhằm mục đích dung túng việc sử dụng chất kích thích, mà là để trân trọng mạng sống con người và cung cấp sự an toàn cũng như hỗ trợ cần thiết để ai đó cuối cùng có thể lựa chọn một con đường lành mạnh và tỉnh táo hơn. Sự an toàn của bạn là điều quan trọng, và ngay cả những bước nhỏ để giảm thiểu rủi ro cũng là một hành động tự chăm sóc bản thân.</p>"
+          },
+          {
+            "id": "m5",
+            "title": "MDMA và rối loạn lo âu",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Mối quan hệ giữa MDMA và chứng lo âu rất phức tạp và tiềm ẩn nhiều nguy hiểm. Mặc dù thuốc này đang được nghiên cứu trong môi trường lâm sàng được kiểm soát chặt chẽ để điều trị rối loạn căng thẳng sau chấn thương (PTSD), việc sử dụng bất hợp pháp thường có thể làm trầm trọng thêm các rối loạn lo âu hiện có hoặc dẫn đến sự phát triển của các rối loạn mới. Nghịch lý này tồn tại bởi vì trong khi MDMA có thể tạm thời làm giảm các rào cản xã hội và tạo ra cảm giác bình tĩnh, thì sự suy giảm serotonin sau đó và sự bất ổn của chu kỳ đỉnh điểm và suy sụp có thể làm gián đoạn đáng kể các quá trình tự nhiên của não bộ trong việc quản lý nỗi sợ hãi và căng thẳng. Nhiều người dùng trải qua chứng lo âu dữ dội trong giai đoạn &quot;hạ cơn&quot;, đôi khi có thể gây ra các cơn hoảng loạn hoặc làm trầm trọng thêm chứng lo âu sẵn có. Hơn nữa, nguy cơ sử dụng chất bị pha trộn có thể dẫn đến những cảm giác thể chất không lường trước được và đáng sợ, làm tăng thêm lo âu. Nếu bạn thấy mình đang sử dụng MDMA để kiểm soát chứng lo âu xã hội hoặc để trốn tránh căng thẳng, rất có thể bạn đang tạo ra một vòng luẩn quẩn của sự phụ thuộc ngày càng tăng và khả năng phục hồi ngày càng giảm. Xây dựng một cuộc sống không phụ thuộc vào MDMA bao gồm việc phát triển một &quot;bộ công cụ&quot; gồm các chiến lược lành mạnh và bền vững để quản lý chứng lo âu - chẳng hạn như chánh niệm, trị liệu và hoạt động thể chất thường xuyên. Bằng cách lựa chọn lối sống tỉnh táo, bạn đang cho phép hệ thần kinh của mình trở lại trạng thái cân bằng và ổn định tự nhiên, nơi bạn có thể đối mặt với những thử thách trong cuộc sống với một tâm trí minh mẫn và vững vàng.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Hướng dẫn chăm sóc sau khi sử dụng",
+        "articles": [
+          {
+            "id": "m6",
+            "title": "Thời kỳ hội nhập",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Giai đoạn hội nhập là khoảng thời gian sau khi sử dụng MDMA, khi bạn xử lý những trải nghiệm và cảm xúc gặp phải trong lúc &quot;phê&quot;. Trong bối cảnh phục hồi, hội nhập cũng là việc hiểu được tác động của thuốc đối với cuộc sống của bạn và kết nối lại với bản thân khi tỉnh táo. Giai đoạn này, có thể kéo dài vài ngày hoặc vài tuần, là thời điểm vừa dễ bị tổn thương vừa thấu hiểu. Bạn có thể thấy mình suy ngẫm về cảm giác kết nối hoặc đồng cảm mà bạn đã cảm nhận và tự hỏi làm thế nào để nuôi dưỡng những cảm xúc đó một cách tự nhiên trong cuộc sống hàng ngày. Điều quan trọng là phải trung thực về sự &quot;mất kết nối&quot; giữa cảm giác hưng phấn nhân tạo và thực tại hàng ngày của bạn. Hội nhập bao gồm việc kết hợp những hiểu biết này theo cách hỗ trợ sức khỏe lâu dài và mục tiêu cai nghiện của bạn. Điều này có thể bao gồm viết nhật ký, nói chuyện với chuyên viên tư vấn hoặc đơn giản là dành thời gian tĩnh lặng suy ngẫm. Đó là thời gian để kiên nhẫn và cảm thông với chính mình, thừa nhận sự khó khăn của giai đoạn hồi phục trong khi tập trung vào sự sáng suốt mà bạn muốn đạt được. Bằng cách chủ động hội nhập những trải nghiệm của mình, bạn đang vượt qua chu kỳ sử dụng và suy sụp để tiến đến sự hiểu biết sâu sắc hơn về bản thân. Bạn đang lựa chọn coi trọng sự phát triển bền vững, chân thực hơn là những trải nghiệm nhất thời, do chất kích thích gây ra, và đó là một bước tiến mạnh mẽ trên hành trình phục hồi của bạn.</p>"
+          },
+          {
+            "id": "m7",
+            "title": "Quản lý giai đoạn hồi phục sau cai thuốc",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Việc kiểm soát cơn khó chịu sau khi sử dụng MDMA tập trung vào việc ưu tiên sự thoải mái về thể chất và ổn định tinh thần khi não bộ thực hiện công việc khó khăn là tái tạo lại lượng serotonin dự trữ. Bước đầu tiên là đảm bảo bạn ở trong một môi trường an toàn, yên tĩnh để nghỉ ngơi. Cơ thể và não bộ của bạn đang kiệt sức và cần thời gian để phục hồi. Việc bổ sung nước rất cần thiết; hãy uống nhiều nước và các chất lỏng giàu chất điện giải. Dinh dưỡng cũng rất quan trọng; hãy tập trung vào các thực phẩm lành mạnh, giàu protein cung cấp các axit amin mà não bộ cần để tái tạo serotonin. Về mặt cảm xúc, hãy chuẩn bị tinh thần cho những cảm giác buồn bã, lo lắng và cáu kỉnh dữ dội. Hãy luôn tự nhắc nhở bản thân rằng những cảm giác này là kết quả sinh học tạm thời của cơn khó chịu và chúng sẽ qua đi. Tránh đưa ra bất kỳ quyết định quan trọng nào trong cuộc sống hoặc tham gia vào các cuộc trò chuyện căng thẳng trong thời gian này. Liên lạc với một người bạn hiểu rõ về quá trình phục hồi sau khi sử dụng MDMA có thể mang lại sự an toàn và trách nhiệm cần thiết. Nếu bạn cảm thấy trầm cảm quá mức hoặc có ý nghĩ tự làm hại bản thân, hãy tìm kiếm sự trợ giúp chuyên nghiệp ngay lập tức. Kiểm soát cơn khó chịu là một hành động tự chăm sóc bản thân và là bước đầu tiên để phá vỡ chu kỳ sử dụng. Bạn đang cho phép bộ não của mình bắt đầu quá trình chậm nhưng chắc chắn trở lại trạng thái cân bằng tự nhiên và cuộc sống của bạn hướng tới một thực tại ổn định và lành mạnh hơn.</p>"
+          },
+          {
+            "id": "m8",
+            "title": "Giấc ngủ và sự phục hồi",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Việc sử dụng MDMA thường làm gián đoạn giấc ngủ một cách đáng kể, và việc xây dựng lại một mô hình giấc ngủ lành mạnh là một phần cơ bản của quá trình phục hồi. MDMA là một chất kích thích có thể dẫn đến chứng mất ngủ ban đầu, tiếp theo là những giấc ngủ &quot;phục hồi&quot; dài nhưng không thực sự giúp phục hồi sức khỏe. Thuốc này cũng làm rối loạn mức serotonin tự nhiên của não, vốn rất cần thiết để điều chỉnh chu kỳ ngủ - thức. Khi bạn ngừng sử dụng, cấu trúc giấc ngủ của bạn sẽ bắt đầu quá trình phục hồi chậm. Ban đầu, bạn có thể trải qua một giai đoạn ngủ không đều khi não và cơ thể cố gắng phục hồi sau sự thiếu hụt hóa chất. Để hỗ trợ quá trình phục hồi giấc ngủ, hãy thiết lập một giờ thức dậy nhất quán và một thói quen thư giãn trước khi đi ngủ. Tránh caffeine và màn hình ít nhất một giờ trước khi đi ngủ. Đảm bảo phòng ngủ của bạn mát mẻ, tối và chỉ được sử dụng để ngủ. Nếu bạn thấy mình nằm trằn trọc và bực bội, hãy ra khỏi giường và thực hiện một hoạt động nhẹ nhàng trong ánh sáng yếu cho đến khi bạn cảm thấy thực sự buồn ngủ. Mặc dù có thể mất vài tuần để giấc ngủ của bạn trở nên thực sự phục hồi, nhưng việc kiên trì với những thói quen lành mạnh này sẽ cho phép não bộ của bạn trở lại nhịp điệu tự nhiên. Giấc ngủ ngon là nguồn năng lượng thiết yếu và sự ổn định cảm xúc, tạo nền tảng cần thiết cho quá trình phục hồi lâu dài và lành mạnh sau khi sử dụng MDMA.</p>"
+          },
+          {
+            "id": "m9",
+            "title": "Dinh dưỡng và sự phục hồi Serotonin",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Dinh dưỡng đóng vai trò thiết yếu trong việc hỗ trợ phục hồi não bộ sau khi sử dụng MDMA, đặc biệt là khả năng tái tạo lượng serotonin đã cạn kiệt. Serotonin được tổng hợp từ một axit amin gọi là tryptophan, có trong nhiều loại thực phẩm giàu protein chất lượng cao. Hãy tập trung bổ sung các nguồn tryptophan vào chế độ ăn uống của bạn, chẳng hạn như thịt gà tây, trứng, cá, đậu phụ và các loại hạt. Kết hợp những thực phẩm này với nguồn carbohydrate lành mạnh—như ngũ cốc nguyên hạt hoặc rau củ—có thể giúp tryptophan đi vào não hiệu quả hơn. Thực phẩm giàu chất chống oxy hóa, đặc biệt là các loại quả mọng và rau lá xanh, cũng rất quan trọng để giảm căng thẳng hóa học thần kinh do thuốc gây ra. Điều quan trọng nữa là phải uống đủ nước và tránh các thực phẩm chế biến sẵn, nhiều đường vì chúng dẫn đến tình trạng suy giảm năng lượng và bất ổn cảm xúc. Hỗ trợ dinh dưỡng không chỉ liên quan đến sức khỏe thể chất; đó là cách trực tiếp hỗ trợ phục hồi cảm xúc và sự minh mẫn về nhận thức của bạn. Bằng cách cung cấp cho cơ thể nhiên liệu cần thiết để thực hiện quá trình tổng hợp hóa học tự nhiên, bạn đang tạo ra một nền tảng vững chắc cho quá trình phục hồi đầy khó khăn. Bạn đang chuyển từ trạng thái suy giảm hóa chất sang trạng thái sức mạnh tự nhiên, nơi não bộ cuối cùng có thể tìm thấy sự cân bằng của chính nó và cơ thể có thể đạt được tiềm năng đầy sức sống của mình.</p>"
+          },
+          {
+            "id": "m10",
+            "title": "Khi nào nên nghỉ ngơi",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Nhận biết khi nào cần tạm dừng sử dụng MDMA—và cuối cùng là khi nào cần ngừng hoàn toàn—là một dấu hiệu quan trọng của sự tự nhận thức và lòng tự trọng. Nếu bạn thấy rằng &quot;cảm giác chán nản giữa tuần&quot; ngày càng trở nên dữ dội hơn, hoặc nếu thuốc không còn mang lại những tác dụng tích cực như trước đây, não bộ của bạn đang báo hiệu rằng nó đang bị quá tải. Các dấu hiệu khác cho thấy cần phải tạm dừng bao gồm việc sử dụng thuốc ảnh hưởng đến trách nhiệm của bạn tại nơi làm việc hoặc trường học, hoặc nếu nó gây căng thẳng trong các mối quan hệ cá nhân của bạn. Một khoảng thời gian kiêng cữ hoàn toàn cho phép hệ thống serotonin của bạn được thiết lập lại và các con đường dẫn đến cảm giác thỏa mãn tự nhiên của bạn phục hồi độ nhạy. Nhiều người nhận thấy rằng việc tạm dừng 90 ngày mang lại sự minh mẫn và cái nhìn cần thiết để đánh giá lại mối quan hệ của họ với chất gây nghiện. Khoảng thời gian này là lúc để quan sát xem tâm trạng, năng lượng và cuộc sống xã hội của bạn thay đổi như thế nào khi bạn không còn ở trong &quot;cuộc phiêu lưu hóa học&quot;. Cho dù bạn chọn quay lại sử dụng với những quy tắc nghiêm ngặt hơn hay chọn một cuộc sống tỉnh táo, những hiểu biết thu được từ việc tạm dừng là vô giá. Bạn đang tự trao cho mình món quà của sự sáng suốt và cơ hội đưa ra quyết định về tương lai từ vị thế mạnh mẽ và hiểu biết bản thân, thay vì từ nhu cầu của một thói quen ngày càng trở nên rắc rối.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Sử dụng có ý thức và phục hồi",
+        "articles": [
+          {
+            "id": "m11",
+            "title": "Nhận diện các mô hình có vấn đề",
+            "time": "7 min",
+            "type": "Đánh giá",
+            "content": "<p>Nhận biết các kiểu sử dụng MDMA có vấn đề là bước đầu tiên để lấy lại sức khỏe và quyền tự chủ của bạn. Sử dụng có vấn đề được đặc trưng bởi một kiểu sử dụng dẫn đến sự đau khổ hoặc suy giảm đáng kể trong cuộc sống hàng ngày của bạn. Các dấu hiệu chính bao gồm sử dụng MDMA thường xuyên hơn dự định – chẳng hạn như vi phạm “quy tắc ba tháng” – hoặc sử dụng liều lượng lớn hơn để đạt được hiệu quả tương tự. Bạn có thể thấy mình dành một lượng thời gian đáng kể để lên kế hoạch sử dụng, sử dụng thuốc hoặc phục hồi sau khi bị suy sụp tinh thần. Có lẽ dấu hiệu rõ ràng nhất là tiếp tục sử dụng mặc dù biết rằng nó đang làm trầm trọng thêm chứng lo âu, trầm cảm hoặc các vấn đề về trí nhớ của bạn. Bạn cũng có thể nhận thấy rằng mình đã từ bỏ các hoạt động xã hội hoặc công việc quan trọng để ưu tiên cho các sự kiện liên quan đến MDMA. Nếu bạn cảm thấy cuộc sống xã hội của mình hoàn toàn xoay quanh loại thuốc này và bạn không thể vui vẻ hoặc kết nối với người khác nếu không có nó, rất có thể bạn đang đối mặt với một kiểu sử dụng có vấn đề. Thừa nhận điều này không phải là dấu hiệu của sự thất bại, mà là sự nhận thức cần thiết rằng mối quan hệ hiện tại của bạn với MDMA không còn phục vụ mục tiêu dài hạn của bạn nữa. Khi đã nhận ra quy luật đó, bạn có thể bắt đầu lựa chọn xây dựng một cuộc sống mà bạn là người nắm quyền kiểm soát.</p>"
+          },
+          {
+            "id": "m12",
+            "title": "MDMA và các mối quan hệ",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>MDMA thường được gọi là &quot;thuốc tình yêu&quot; vì cảm giác đồng cảm và gần gũi mãnh liệt mà nó tạo ra, nhưng những kết nối do hóa chất gây ra này thường hời hợt và không bền vững. Các mối quan hệ đích thực được xây dựng trên sự hiện diện chân thành, hành vi nhất quán và sự dễ tổn thương được chia sẻ - tất cả đều có thể bị phá vỡ bởi chu kỳ sử dụng MDMA. Cảm giác gắn bó mãnh liệt khi phê thuốc đôi khi có thể dẫn đến &quot;sự thân mật giả tạo&quot;, nơi bạn cảm thấy một kết nối sâu sắc nhưng không thể chuyển hóa thành cuộc sống hàng ngày. Hơn nữa, sự bất ổn của chu kỳ đỉnh điểm và suy sụp có thể dẫn đến xung đột gia tăng và sự xa cách về mặt cảm xúc với những người bạn yêu thương. Để xây dựng các mối quan hệ chân chính, trước tiên bạn phải cam kết với sự tỉnh táo và ổn định của chính mình. Kết nối đích thực đòi hỏi bạn phải hiện diện trọn vẹn trong những lúc khó khăn cũng như thuận lợi. Bằng cách lựa chọn sống tỉnh táo, bạn đang cho phép bản thân phát triển các kỹ năng đồng cảm thực sự và giao tiếp có ý nghĩa. Bạn sẽ thấy rằng các kết nối khi tỉnh táo của bạn sẽ bổ ích và bền vững hơn nhiều vì chúng dựa trên con người thật của bạn, chứ không phải trên một sự bùng nổ tạm thời do hóa chất gây ra. Bạn đang xây dựng một cuộc sống kết nối đích thực bắt nguồn từ thực tế và các giá trị của chính bạn, và đó là một điều thực sự tuyệt vời.</p>"
+          },
+          {
+            "id": "m13",
+            "title": "Quy tắc 3 tháng và lý do tồn tại của nó",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>&quot;Quy tắc 3 tháng&quot; là một tiêu chuẩn giảm thiểu tác hại được công nhận rộng rãi, khuyến nghị nên chờ ít nhất 90 ngày giữa các lần sử dụng MDMA. Quy tắc này tồn tại do tác động sâu sắc của MDMA lên hệ thống serotonin của não. Phải mất khoảng thời gian đó để não bộ tái tạo hoàn toàn lượng serotonin đã cạn kiệt và các thụ thể phục hồi độ nhạy tự nhiên. Sử dụng thường xuyên hơn 3 tháng có thể dẫn đến tình trạng não bộ bị cạn kiệt mãn tính, làm tăng đáng kể nguy cơ nhiễm độc thần kinh lâu dài, trầm cảm dai dẳng và suy giảm nhận thức. Sử dụng thường xuyên cũng nhanh chóng dẫn đến &quot;dung nạp&quot;, trong đó tác dụng gây hưng phấn giảm đi trong khi các rủi ro về thể chất và cảm xúc tăng lên. Đối với những người chọn tiếp tục sử dụng, quy tắc 3 tháng là một biện pháp bảo vệ quan trọng cho sức khỏe tâm thần của họ. Tuy nhiên, đối với nhiều người dùng, khó khăn trong việc tuân thủ quy tắc này là dấu hiệu đầu tiên cho thấy mối quan hệ của họ với thuốc đã trở nên có vấn đề. Nếu bạn thấy mình không thể hoặc không muốn chờ đủ 90 ngày, đó là tín hiệu cho thấy sự phụ thuộc của bạn đang hình thành. Hiểu được cơ sở khoa học đằng sau quy tắc này không chỉ đơn thuần là về việc sử dụng an toàn hơn; Đây là cách để hiểu được tác động sinh học nghiêm trọng của thuốc và lựa chọn con đường hướng đến sức khỏe thực sự và sự phục hồi lâu dài.</p>"
+          },
+          {
+            "id": "m14",
+            "title": "Tìm kiếm sự hỗ trợ mà không cần xấu hổ",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Tìm kiếm sự hỗ trợ cho việc sử dụng MDMA có vấn đề là một trong những lựa chọn chủ động và mạnh mẽ nhất bạn có thể thực hiện cho tương lai của mình. Đối với nhiều người, sự kỳ thị xã hội liên quan đến việc sử dụng &quot;ma túy giải trí&quot; có thể dẫn đến cảm giác xấu hổ khiến họ khó lòng yêu cầu giúp đỡ. Điều quan trọng là phải hiểu rằng sự đấu tranh của bạn là một phản ứng phổ biến đối với một chất hóa học mạnh và không phản ánh tính cách của bạn. Sự hỗ trợ cung cấp cho bạn sự hướng dẫn chuyên nghiệp, trách nhiệm giải trình và kết nối cảm xúc cần thiết để phục hồi thành công. Điều này có thể bao gồm một chuyên gia tư vấn cai nghiện có thể giúp bạn phát triển các chiến lược đối phó mới và giải quyết bất kỳ thách thức sức khỏe tâm thần tiềm ẩn nào. Các nhóm hỗ trợ cung cấp một không gian an toàn để chia sẻ hành trình của bạn với những người khác hiểu được những thách thức cụ thể của việc phục hồi sau khi sử dụng MDMA. Bạn đang thừa nhận rằng sức khỏe, sự minh mẫn và tương lai của bạn quá quan trọng để mạo hiểm. Không có gì đáng xấu hổ khi tìm kiếm sự giúp đỡ; trên thực tế, đó là một dấu hiệu quan trọng của sức mạnh và lòng tự trọng. Cho dù bạn bắt đầu với một người bạn đáng tin cậy, một bác sĩ hay một chương trình phục hồi chuyên dụng, bước đầu tiên đó là sự khởi đầu của việc lấy lại quyền tự chủ và xây dựng một cuộc sống ổn định, hạnh phúc đích thực.</p>"
+          },
+          {
+            "id": "m15",
+            "title": "Tiến về phía trước",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Vượt qua việc sử dụng MDMA là một hành trình khôi phục khả năng tự nhiên của bạn về niềm vui, sự kết nối và sự ổn định cảm xúc. Nó bao gồm việc xây dựng một cuộc sống mà hạnh phúc của bạn không phụ thuộc vào chất kích thích hóa học. Quá trình này bắt đầu bằng cam kết tránh xa chất gây nghiện và tiếp tục với việc chăm sóc bản thân hàng ngày, hình thành thói quen lành mạnh và kết nối chân thành. Cuối cùng, bạn sẽ thấy rằng &quot;trạng thái tỉnh táo&quot; của bạn ổn định và bổ ích hơn nhiều so với những cảm giác hưng phấn và suy sụp khi sử dụng MDMA. Bạn đang khám phá lại chính mình và những gì thực sự quan trọng đối với bạn. Điều này có thể có nghĩa là phát triển những sở thích mới, làm sâu sắc thêm các mối quan hệ chân thành và theo đuổi những mục tiêu mang lại cảm giác thành tựu đích thực. Phục hồi lâu dài là sống trọn vẹn cuộc sống của chính mình, với tất cả những thách thức và vẻ đẹp của nó, và có sự minh mẫn và sức mạnh để vượt qua tất cả một cách vững vàng. Bạn không còn theo đuổi cảm giác hưng phấn tạm thời, nhân tạo nữa; bạn đang xây dựng một nền tảng vững chắc về sự bình an nội tâm và khả năng phục hồi. Đây là nơi bạn có thể thực sự hòa nhập với thế giới và tạo ra một tương lai tươi sáng, ổn định và hoàn toàn thuộc về bạn. Hành trình của bạn chỉ mới bắt đầu, và nó chứa đầy tiềm năng thực sự.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "app_title": "Moduł nauki",
+  "progress_label": "Postęp",
+  "back_label": "Z powrotem",
+  "minutes_label": "min",
+  "type_article": "Artykuł",
+  "type_assessment": "Ocena",
+  "type_activity": "Działalność",
+  "substance_name": "Nikotyna",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Zrozumienie swojego nawyku",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Jak nikotyna wpływa na mózg",
+            "time": "5 min",
+            "type": "Artykuł",
+            "content": "<p>Nikotyna jest jedną z najbardziej uzależniających substancji, głównie ze względu na szybkość, z jaką oddziałuje na układ nagrody w mózgu. Wdychanie nikotyny dociera do mózgu w ciągu kilku sekund, powodując uwolnienie dopaminy – neuroprzekaźnika „dobrego samopoczucia”. Daje to chwilowe poczucie przyjemności i relaksu, ale ma swoją cenę. Mózg szybko adaptuje się do tej sztucznej stymulacji, zmniejszając własną naturalną produkcję dopaminy. Oznacza to, że z czasem potrzebujesz nikotyny po prostu po to, by czuć się „normalnie”, a nie po to, by odczuwać dodatkową przyjemność. Ten cykl zażywania i odstawiania jest tym, co powoduje silne fizyczne uzależnienie od palenia. Oprócz dopaminy, nikotyna wpływa również na substancje chemiczne związane z uwagą i pamięcią, dlatego palacze często uważają, że pomaga im się skoncentrować. Jest to jednak efekt krótkotrwały, który maskuje długoterminowe szkody, jakie nikotyna wyrządza naturalnej chemii mózgu. Zrozumienie tego biologicznego „przejęcia kontroli” jest kluczowym krokiem w rzucaniu palenia. Pozwala ci zrozumieć, że twoje pragnienia nie wynikają z braku silnej woli, ale z fizjologicznej reakcji mózgu, który został skalibrowany przez substancję chemiczną. Gdy rzucisz palenie, twój mózg rozpocznie powolny, ale skuteczny proces powrotu do naturalnego stanu, przywracając ci zdolność odczuwania przyjemności i skupienia bez potrzeby sięgania po papierosa.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "Twoje wyzwalacze palenia",
+            "time": "6 min",
+            "type": "Działalność",
+            "content": "<p>Dla wielu palaczy nawyk ten jest głęboko wpleciony w tkankę codziennego życia, związany z określonymi czynnościami, emocjami i miejscami. To są Twoje wyzwalacze. Typowe wyzwalacze to pierwsza filiżanka kawy rano, jazda samochodem, kończenie posiłku lub wypicie drinka pod koniec dnia. Emocje są również silnymi motorami napędowymi; możesz sięgnąć po papierosa, gdy czujesz się zestresowany, znudzony, samotny lub nawet szczególnie szczęśliwy. Sytuacje społeczne, takie jak przebywanie w towarzystwie innych palaczy, tworzą silną potrzebę dołączenia do nich. Aby skutecznie rzucić palenie, musisz zidentyfikować te wskazówki, aby móc się na nie przygotować. Zacznij od prowadzenia „dziennika wyzwalaczy” przez kilka dni, notując za każdym razem, gdy zapalasz papierosa lub czujesz silną potrzebę zrobienia tego. Co robiłeś? Jak się czułeś? Z kim byłeś? Gdy już będziesz miał tę mapę, możesz zacząć rozwijać alternatywne reakcje. Jeśli zawsze palisz kawę, spróbuj przejść na herbatę lub zmień miejsce, w którym siedzisz. Jeśli wyzwalaczem jest stres, znajdź pięciominutowe ćwiczenie oddechowe, które możesz wykonać zamiast tego. Nie tylko wyjmujesz papierosa; Uczysz się na nowo, jak radzić sobie bez niego w ciągu dnia. Przewidując bodźce wyzwalające, pozbywasz się „automatyzmu” z nawyku i dajesz sobie przestrzeń do świadomego, wolnego od dymu wyboru.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Wyjaśnienie testu Fagerströma",
+            "time": "5 min",
+            "type": "Ocena",
+            "content": "<p>Test Fagerströma na Uzależnienie od Nikotyny to standardowe narzędzie kliniczne służące do pomiaru intensywności fizycznego uzależnienia od nikotyny. Zadaje on szereg szczegółowych pytań, takich jak: jak szybko po przebudzeniu zapalasz pierwszego papierosa, czy trudno Ci powstrzymać się od palenia w miejscach, gdzie jest to zabronione, oraz ile papierosów wypalasz dziennie. Najbardziej wymownym wskaźnikiem wysokiego uzależnienia jest często „pierwszy papieros dnia” – jeśli musisz zapalić w ciągu pięciu lub trzydziestu minut po przebudzeniu, Twój mózg sygnalizuje znaczną fizyczną potrzebę nikotyny do funkcjonowania. Zrozumienie swojego wyniku Fagerströma nie polega na etykietowaniu siebie, ale na dostosowaniu strategii rzucania palenia. Osoby z wysokim wynikiem mogą odkryć, że nikotynowa terapia zastępcza (NRT) lub leki na receptę są szczególnie pomocne w radzeniu sobie z intensywnymi fizycznymi objawami odstawienia. Jeśli Twój wynik jest niższy, Twoje wyzwania mogą być bardziej związane ze społecznymi i behawioralnymi aspektami nałogu. Niezależnie od wyniku, znajomość swojego poziomu uzależnienia pozwala Ci rozpocząć proces rzucania palenia z realistycznymi oczekiwaniami. Pomaga zrozumieć, dlaczego pierwsze kilka dni może wydawać się szczególnie trudne i dlaczego pewne narzędzia mogą okazać się niezbędne, aby pomóc Ci w przejściu na życie wolne od dymu tytoniowego.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "Dlaczego rzucenie nałogu wydaje się takie trudne",
+            "time": "7 min",
+            "type": "Artykuł",
+            "content": "<p>Rzucenie nikotyny jest niezwykle trudne, ponieważ wiąże się z „potrójnym zagrożeniem” uzależnienia: fizycznym, behawioralnym i psychicznym. Część fizyczna to zespół abstynencyjny, który może obejmować drażliwość, lęk, trudności z koncentracją i intensywny głód nikotynowy, gdy organizm oczyszcza się z nikotyny. Część behawioralna to utrata wielu rytuałów związanych z paleniem – ruchu dłoni do ust, „przerwy” w pracy, więzi społecznych z innymi palaczami. Rytuały te powtarzane są tysiące razy, tworząc głębokie ścieżki neuronowe, które nie znikają z dnia na dzień. Część psychologiczna jest prawdopodobnie najbardziej złożona; dla wielu papieros stał się „przyjacielem” lub niezawodnym mechanizmem radzenia sobie z życiowymi wzlotami i upadkami. Rzucając palenie, możesz odczuwać żal lub stratę, jakbyś rezygnował z części swojej tożsamości. Ważne jest, aby zdać sobie sprawę, że ta trudność nie jest oznaką słabości; to dowód mocy tej substancji. Wiele osób potrzebuje wielu prób, zanim uda im się skutecznie rzucić palenie na dobre. Każda próba nie jest porażką, ale doświadczeniem, które przybliża Cię do celu. Rozumiejąc, dlaczego jest to takie trudne, możesz być dla siebie bardziej wyrozumiały w trakcie tego procesu i wytrwać w dążeniu do długoterminowych korzyści płynących ze zdrowego życia bez dymu tytoniowego.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Palenie i zdrowie psychiczne",
+            "time": "7 min",
+            "type": "Artykuł",
+            "content": "<p>Istnieje uporczywy mit, że palenie pomaga radzić sobie ze stresem i lękiem, ale rzeczywistość jest zupełnie inna. Chociaż palenie może zapewnić chwilową ulgę, w rzeczywistości zwiększa poziom stresu w dłuższej perspektywie. Dzieje się tak, ponieważ odczuwany „relaks” to w rzeczywistości ulga w objawach odstawienia, które wywołał poprzedni papieros. Pomiędzy papierosami organizm znajduje się w stanie niskiego poziomu stresu, ponieważ poziom nikotyny spada; palenie po prostu przywraca poziom podstawowy, który osoba niepaląca odczuwa przez cały czas. Co więcej, palenie wiąże się z wyższym wskaźnikiem depresji i zaburzeń lękowych. Ciągłe wahania chemiczne w mózgu mogą zakłócać regulację emocji i utrudniać radzenie sobie z problemami ze zdrowiem psychicznym. Po rzuceniu palenia możesz doświadczyć chwilowego wzrostu lęku lub obniżonego nastroju, ponieważ mózg się rekalibruje, ale z czasem większość osób zauważa znaczną poprawę zdrowia psychicznego. Zgłaszają oni poczucie większej stabilności, mniejszego lęku i większej kontroli nad swoimi emocjami. Rzucenie palenia to jedna z najskuteczniejszych rzeczy, jakie możesz zrobić, aby wspierać swoje długotrwałe dobre samopoczucie psychiczne. Przechodzisz ze stanu uzależnienia chemicznego do stanu naturalnej odporności, w którym potrafisz stawiać czoła wyzwaniom życiowym z jasnym i stabilnym umysłem.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Narzędzia do rzucania",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Opcje zastępowania nikotyny",
+            "time": "6 min",
+            "type": "Artykuł",
+            "content": "<p>Nikotynowa Terapia Zastępcza (NRT) to niezwykle skuteczne narzędzie w radzeniu sobie z fizycznymi objawami odstawienia, które utrudniają rzucanie palenia. NRT dostarcza organizmowi kontrolowaną dawkę nikotyny, bez tysięcy szkodliwych substancji chemicznych obecnych w dymie tytoniowym. Pomaga to złagodzić głód nikotynowy, pozwalając skupić się na behawioralnych i psychologicznych aspektach rzucania palenia. NRT występuje w różnych formach, w tym w postaci plastrów długo działających, które zapewniają stały dopływ nikotyny przez cały dzień, oraz w postaci krótko działających, takich jak gumy do żucia, pastylki do ssania, inhalatory i aerozole do nosa, które można stosować w celu zwalczania nagłych napadów głodu. Badania pokazują, że stosowanie NRT może podwoić szanse na skuteczne rzucenie palenia w porównaniu z całkowitym odstawieniem. Wiele osób uważa, że najlepiej sprawdza się podejście łączone – stosowanie plastrów jako punktu wyjścia i gum do żucia w celu złagodzenia głodu nikotynowego. Ważne jest, aby stosować NRT prawidłowo i przez cały zalecany czas, zazwyczaj około 8 do 12 tygodni, aby dać mózgowi wystarczająco dużo czasu na adaptację. Chociaż niektórzy obawiają się uzależnienia od NRT, ryzyko jest znacznie niższe niż w przypadku papierosów, a korzyści zdrowotne z rzucenia palenia są natychmiastowe i ogromne. Porozmawiaj z farmaceutą lub lekarzem, aby znaleźć plan NRT odpowiedni dla Ciebie i Twojego poziomu uzależnienia.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "Metoda opóźniania i odwracania uwagi",
+            "time": "6 min",
+            "type": "Działalność",
+            "content": "<p>Metoda „Opóźnij i rozprosz” to proste, ale skuteczne narzędzie behawioralne do radzenia sobie z chwilowym pragnieniem nikotyny. Kiedy dopadnie Cię silna potrzeba zapalenia papierosa, pierwszym krokiem jest opóźnienie. Powiedz sobie: „Nie będę teraz palić; poczekam dziesięć minut”. Większość pragnień, niezależnie od intensywności, osiąga szczyt, a następnie zaczyna ustępować w ciągu pięciu do dziesięciu minut. Opóźniając, pozwalasz fali pragnienia minąć bez działania. W ciągu tych dziesięciu minut drugim krokiem jest odwrócenie uwagi. Zrób coś, co wymaga pełnej uwagi lub zmień otoczenie. Może to być wypicie dużej szklanki wody, szybki spacer, telefon do znajomego lub rozwiązanie krzyżówki. Celem jest odwrócenie uwagi od papierosa i skupienie się na czymś innym. Często, po upływie dziesięciu minut, intensywność pragnienia znacznie spada, a bezpośrednie zagrożenie sięgnięcia po papierosa mija. Za każdym razem, gdy skutecznie zastosujesz tę metodę, osłabiasz sygnały neuronalne łączące bodziec z papierosem i wzmacniasz swoją zdolność radzenia sobie z dyskomfortem. To praktyczny i praktyczny sposób na udowodnienie sobie, że masz kontrolę nad swoimi działaniami, niezależnie od tego, jak odczuwasz głód nikotynowy.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "Radzenie sobie z pierwszym tygodniem",
+            "time": "7 min",
+            "type": "Artykuł",
+            "content": "<p>Pierwszy tydzień rzucania palenia jest często najtrudniejszy pod względem fizycznym i emocjonalnym. Twój organizm pozbywa się ostatnich śladów nikotyny, a mózg rozpoczyna pracę nad rekalibracją układu nagrody. Możesz odczuwać szereg objawów odstawienia, takich jak drażliwość, niepokój, bóle głowy i uporczywa „mgła mózgowa”. Ważne jest, aby rozpocząć ten tydzień z jasnym planem i dużą dawką współczucia dla siebie. Staraj się, aby Twój harmonogram był jak najlżejszy i unikaj sytuacji stresowych lub spotkań towarzyskich, gdzie palenie jest powszechne. Zaopatrz się w zdrowe rozrywki, takie jak guma bez cukru, marchewki w słupkach lub herbata ziołowa. Dbaj o nawodnienie i staraj się jak najwięcej odpoczywać, ponieważ zmęczenie może osłabić Twoją odporność na głód nikotynowy. Pamiętaj, że intensywne odczucia, których doświadczasz, są oznaką, że Twój organizm się goi – każda minuta dyskomfortu przybliża Cię do całkowitego rzucenia palenia. Wiele osób uważa za pomocne poinformowanie kilku wspierających przyjaciół lub członków rodziny, że rzucają palenie i mogą być przez kilka dni nieco w złym humorze. Świętuj każde małe zwycięstwo: pierwszy poranek bez papierosa, pierwszy udany dojazd do pracy, pierwszy ukończony dzień. Pod koniec pierwszego tygodnia fizyczne objawy odstawienia zaczną się nasilać, a potem zaczną ustępować, a Ty zbudujesz solidny fundament pod swoje nowe, zdrowe życie.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "Jak wygląda oś czasu zachcianek",
+            "time": "7 min",
+            "type": "Artykuł",
+            "content": "<p>Zrozumienie chronologii głodu nikotynowego może pomóc Ci pewniej przejść przez proces rzucania palenia. W ciągu pierwszych 24 do 72 godzin głód nikotynowy jest zazwyczaj najczęstszą i najbardziej intensywną formą głodu, ponieważ nikotyna całkowicie znika z organizmu. To często najtrudniejszy okres, w którym możesz czuć się, jakbyś toczył nieustanną walkę z pragnieniami. Po pierwszych trzech dniach częstotliwość i intensywność fizycznego głodu nikotynowego zazwyczaj zaczynają spadać. Nadal jednak będziesz zmagać się z psychologicznymi bodźcami – „wspomnieniami o paleniu”, które pojawiają się w określonych sytuacjach lub stanach emocjonalnych. Pod koniec drugiego tygodnia wiele osób zgłasza, że „ciągły” głód nikotynowy został zastąpiony sporadycznymi, łatwymi do opanowania falami. Pod koniec pierwszego miesiąca uzależnienie fizyczne jest w dużej mierze przełamane, a Ty skupiasz się na utrzymaniu nowych nawyków i radzeniu sobie z sytuacjami społecznymi. Ważne jest, aby pamiętać, że głód nikotynowy nie jest nakazem; to tylko chwilowe odczucie, które minie. Nawet po miesiącach lub latach możesz odczuwać przypadkową, przelotną potrzebę zapalenia papierosa, być może wywołaną konkretnym zapachem lub szczególnie stresującym wydarzeniem. To normalne i nie oznacza, że Ci się nie udaje; to tylko zanikające echa starego nawyku. Znając harmonogram, możesz zachować cierpliwość i zaangażowanie, wiedząc, że każdy dzień, w którym nie palisz, ułatwia kolejny dzień.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "Wapowanie — czy jest rzeczywiście bezpieczniejsze?",
+            "time": "8 min",
+            "type": "Artykuł",
+            "content": "<p>Wapowanie, czyli używanie elektronicznych papierosów, jest często reklamowane jako bezpieczniejsza alternatywa dla tradycyjnego palenia, ale ważne jest, aby zrozumieć pełny obraz sytuacji. Chociaż wapowanie nie wiąże się ze spalaniem tytoniu, który wytwarza większość rakotwórczych substancji smolistych i gazów w papierosach, nie jest ono pozbawione ryzyka. Większość waporyzatorów nadal dostarcza nikotynę, co oznacza, że uzależnienie pozostaje. Co więcej, aerozol wytwarzany podczas wapowania zawiera różnorodne substancje chemiczne, aromaty i metale ciężkie, których długoterminowy wpływ na zdrowie jest wciąż badany. Dla niektórych dorosłych palaczy całkowite przejście na wapowanie może być krokiem w kierunku rzucenia palenia, ale należy je postrzegać jako narzędzie przejściowe, a nie cel ostateczny. Podwójne użycie – zarówno palenie, jak i wapowanie – jest szczególnie szkodliwe. Dla osób młodych i niepalących wapowanie stanowi poważne zagrożenie dla zdrowia, które może prowadzić do uzależnienia od nikotyny i uszkodzenia rozwijających się płuc i mózgu. Ostatecznym celem dla Twojego zdrowia jest uwolnienie się od wszystkich wdychanych substancji. Jeśli używasz waporyzatora jako sposobu na rzucenie palenia, opracuj plan stopniowego zmniejszania dawki obu substancji. Zasługujesz na oddychanie czystym powietrzem i na ciało wolne od wpływu wszelkich uzależnień chemicznych. Skoncentruj się na długoterminowym celu, jakim jest całkowita wolność od nikotyny we wszystkich jej formach.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Pozostań wolny od dymu",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Budowanie swojej tożsamości wolnej od dymu",
+            "time": "7 min",
+            "type": "Działalność",
+            "content": "<p>Kluczowym elementem skutecznego, długoterminowego rzucania palenia jest zmiana sposobu postrzegania siebie. Zamiast być „palaczem, który próbuje rzucić”, dąż do stania się „niepalącym”. To proces budowania tożsamości osoby wolnej od dymu. Twoja tożsamość jest kształtowana przez Twoje działania i historie, które opowiadasz sobie o tym, kim jesteś. Za każdym razem, gdy decydujesz się nie palić w sytuacji, w której normalnie byś to zrobił, głosujesz na swoją nową tożsamość. Zacznij koncentrować się na korzyściach, których doświadczasz: lepszym zapachu ubrań, lepszym smaku jedzenia, dodatkowych pieniądzach w kieszeni i poczuciu dumy z osiągnięć. Kiedy ktoś oferuje Ci papierosa, ćwicz mówienie „Nie palę” zamiast „Rzucam”. Ta zmiana języka wzmacnia Twoją nową rzeczywistość. Pomyśl o wartościach, które są dla Ciebie ważne – zdrowiu, wolności, szacunku do samego siebie – i o tym, jak pozostawanie osobą wolną od dymu jest z nimi zgodne. Nie jesteś już osobą, której dzień dyktuje potrzeba sięgnięcia po paczkę papierosów. Jesteś osobą, która ceni swoje zdrowie i ma kontrolę nad swoimi wyborami. Ta nowa tożsamość staje się potężną tarczą przed nawrotem, ponieważ palenie nie „pasuje” już do tego, kim się stałeś. Budujesz życie, które definiuje to, co cenisz, a nie nawyk, z którego wyrosłeś.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Radzenie sobie ze stresem bez papierosów",
+            "time": "8 min",
+            "type": "Artykuł",
+            "content": "<p>Jednym z największych lęków osób rzucających palenie jest to, jak poradzą sobie ze stresem bez swojego „narzędzia do radzenia sobie”. Ważne jest, aby zdać sobie sprawę, że papierosy nigdy tak naprawdę nie rozwiązywały problemów; zapewniały jedynie chwilową rozrywkę podczas odstawienia nikotyny. Nauka nowych sposobów radzenia sobie ze stresem jest niezbędna, aby pozostać wolnym od dymu. Pierwszym krokiem jest rozpoznanie fizycznych oznak stresu – napięcia w ramionach, przyspieszonego bicia serca, płytkiego oddechu – i natychmiastowa reakcja na nie. Głębokie, przeponowe oddychanie to jeden z najskuteczniejszych sposobów na zasygnalizowanie układowi nerwowemu, że można się zrelaksować. Poświęć kilka minut dziennie na ćwiczenie powolnych, głębokich oddechów. Aktywność fizyczna to kolejny skuteczny sposób na odstresowanie; nawet dziesięciominutowy spacer może znacznie obniżyć poziom kortyzolu. Znajdź inne zdrowe sposoby na relaks, takie jak słuchanie muzyki, rozmowa z przyjacielem lub hobby. Pomocne jest również przyjrzenie się źródłom stresu w swoim życiu i sprawdzenie, czy można je zmniejszyć lub wyeliminować. Budujesz wersję siebie, która jest bardziej odporna i lepiej przygotowana do radzenia sobie z wyzwaniami życia. Nie potrzebujesz środków chemicznych, żeby zachować spokój. Masz wewnętrzną siłę i praktyczne narzędzia, dzięki którym nawet najbardziej stresujące dni będziesz w stanie przejść jasno i z wdziękiem.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Co robić, gdy się poślizgniesz",
+            "time": "7 min",
+            "type": "Artykuł",
+            "content": "<p>Jeśli zapalisz papierosa po podjęciu decyzji o rzuceniu, nazywa się to „wpadką”. To niewygodny moment, ale nie musi oznaczać końca twojej drogi do rzucenia palenia. Wiele osób, które z powodzeniem rzuciły palenie na dobre, miało po drodze jedną lub więcej wpadek. Kluczem jest twoja reakcja. Unikaj pułapki myślenia „wszystko albo nic” – przekonania, że skoro zaciągnąłeś się raz, to „poniosłeś porażkę” i równie dobrze możesz skończyć paczkę. Ten tok myślenia zmienia drobny wpad w pełnowymiarowy nawrót. Zamiast tego potraktuj wpadkę jako doświadczenie, z którego się uczysz. Co się stało? Co czułeś? Z kim przebywałeś? Czy był jakiś czynnik wyzwalający, którego się nie spodziewałeś? Bądź szczery ze sobą, ale nie agresywnie. Wykorzystaj te informacje, aby wzmocnić swój plan. Może powinieneś unikać pewnych sytuacji towarzyskich jeszcze przez jakiś czas lub częściej nosić przy sobie gumę NRT. Natychmiast wróć na ścieżkę bezdymną. Nie czekaj do jutra ani do przyszłego tygodnia; następna godzina może być wolna od dymu. Przypomnij sobie powody, dla których rzuciłeś palenie i wszystkie postępy, jakie już osiągnąłeś. Potknięcia to drobne potknięcie na drodze, a nie powód do zawracania. Nadal jesteś osobą niepalącą, która miała chwilowy wpad i masz siłę, by nadal dążyć do swoich celów.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Harmonogram długoterminowego powrotu do zdrowia",
+            "time": "8 min",
+            "type": "Artykuł",
+            "content": "<p>Jednym z najbardziej motywujących aspektów rzucania palenia jest to, jak szybko organizm zaczyna się regenerować. W ciągu zaledwie 20 minut od wypalenia ostatniego papierosa tętno i ciśnienie krwi zaczynają spadać. Po 12 godzinach poziom tlenku węgla we krwi wraca do normy, umożliwiając dopływ większej ilości tlenu do narządów i tkanek. W ciągu dwóch tygodni do trzech miesięcy funkcja płuc zaczyna się poprawiać, a krążenie poprawia się, co ułatwia aktywność fizyczną. Po upływie jednego do dziewięciu miesięcy maleńkie, włoskowate struktury w płucach, zwane rzęskami, zaczynają ponownie prawidłowo pracować, usuwając śluz i zmniejszając ryzyko infekcji. Kaszel i duszność u palacza znacznie się zmniejszą. Rok po rzuceniu palenia ryzyko choroby wieńcowej jest o połowę niższe niż u palacza. Po pięciu latach ryzyko raka jamy ustnej, gardła i przełyku zmniejsza się o połowę, a ryzyko udaru mózgu zaczyna zbliżać się do ryzyka osoby niepalącej. Po dziesięciu latach ryzyko zgonu z powodu raka płuc jest o około połowę niższe niż u osoby, która nadal pali. Po piętnastu latach ryzyko choroby wieńcowej jest takie samo jak u osoby, która nigdy nie paliła. Ta droga do uzdrowienia to potężny dowód odporności Twojego organizmu. Każdy dzień, w którym nie palisz, to inwestycja w Twoje przyszłe zdrowie i długowieczność.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Rozmowy z osobami, które nadal palą",
+            "time": "8 min",
+            "type": "Artykuł",
+            "content": "<p>Kiedy rzucisz palenie, twoje relacje z osobami, które nadal palą, mogą się skomplikować. Możesz odczuwać dystans, a nawet martwić się, że twój wybór ich zaniepokoi. Pomocne jest posiadanie planu, jak radzić sobie z tymi interakcjami bez osądzania i narażania własnej trzeźwości na ryzyko. Bądź jasny i szczery w swojej decyzji: „Postanowiłem rzucić palenie dla zdrowia, więc staram się unikać kontaktu z nim przez jakiś czas”. Prawdziwi przyjaciele uszanują twój wybór i będą cię wspierać, nawet jeśli sami nie są gotowi rzucić. Na wczesnym etapie najlepiej unikać „przerw na papierosa” lub spotkań towarzyskich, gdzie palenie jest w centrum uwagi. Jeśli znajdziesz się w towarzystwie palaczy, możesz pozostać w grupie, ale odejść, gdy ktoś zapali papierosa, lub zaproponować aktywności, gdzie palenie jest zabronione, takie jak wyjście do kina czy restauracji. Unikaj pokusy wygłaszania pouczeń na temat palenia; skup się na swojej drodze. Możesz odkryć, że twój sukces ostatecznie zainspiruje ich do rzucenia palenia, ale to ich droga. Twoim priorytetem jest ochrona własnego życia bez dymu tytoniowego i budowanie relacji opartych na wspólnych wartościach i autentycznej interakcji, a nie na wspólnym nawyku. Robisz postępy i to powód do dumy.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

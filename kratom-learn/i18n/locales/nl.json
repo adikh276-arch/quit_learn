@@ -1,0 +1,137 @@
+{
+  "app_title": "Leermodule",
+  "progress_label": "Voortgang",
+  "back_label": "Rug",
+  "minutes_label": "min",
+  "type_article": "Artikel",
+  "type_assessment": "Onderzoek",
+  "type_activity": "Activiteit",
+  "substance_name": "Kratom",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Bewustzijn en paraatheid",
+        "articles": [
+          {
+            "id": "k1",
+            "title": "Wat kratom is en hoe het je hersenen beïnvloedt",
+            "time": "5 min",
+            "type": "Artikel",
+            "content": "<p>Kratom is een tropische boom afkomstig uit Zuidoost-Azië, waar de bladeren al eeuwenlang worden gebruikt vanwege hun stimulerende en opioïde-achtige effecten. De actieve stoffen in kratom, mitragynine en 7-hydroxymitragynine, werken in op de opioïde receptoren in de hersenen. In lage doses werkt kratom stimulerend en verhoogt het de energie, alertheid en sociale vaardigheden. In hogere doses heeft het een kalmerend en pijnstillend effect, vergelijkbaar met traditionele opioïden. Hoewel veel mensen kratom gebruiken om chronische pijn of angst te verlichten, of om te stoppen met andere middelen, brengt het een aanzienlijk risico op afhankelijkheid met zich mee. Regelmatig gebruik kan ertoe leiden dat de hersenen hun eigen natuurlijke belonings- en pijnregulatiesystemen minder reguleren, waardoor je meer kratom nodig hebt om je &#39;normaal&#39; te voelen. Deze cyclus van gebruik en ontwenning is wat fysieke en psychologische verslaving veroorzaakt. Het is cruciaal om te begrijpen dat kratom een krachtige psychoactieve stof is met daadwerkelijke biologische effecten, een eerste stap in het evalueren van je gebruik. Door te begrijpen hoe het middel op je hersenen inwerkt, kun je beter onderbouwde beslissingen nemen over je relatie met de substantie en de weg inslaan naar het herwinnen van je cognitieve helderheid en natuurlijke emotionele stabiliteit.</p>"
+          },
+          {
+            "id": "k2",
+            "title": "Hoe verslaafd ben ik? — Een zelfevaluatie",
+            "time": "5 min",
+            "type": "Onderzoek",
+            "content": "<p>Het evalueren van je relatie met kratom vereist een mate van radicale eerlijkheid die ongemakkelijk kan aanvoelen, maar noodzakelijk is voor persoonlijke groei. Het is nuttig om &#39;verslaving&#39; niet langer als een binaire toestand te zien, maar je gebruik te beschouwen als een spectrum van afhankelijkheid. Vraag jezelf af: vind je het moeilijk om je dag te beginnen of eenvoudige taken uit te voeren zonder kratom? Merk je dat je tolerantie toeneemt, waardoor je grotere hoeveelheden moet kopen of vaker moet innemen om hetzelfde effect te bereiken? Een belangrijke indicator is of je ontwenningsverschijnselen ervaart, zoals prikkelbaarheid, angst of spierpijn, wanneer je probeert af te bouwen. Besteed je veel tijd aan het denken over kratom, het verkrijgen ervan of het herstellen van de effecten? Als je kratomgebruik je wereld kleiner maakt, je relaties onder druk zet of je professionele doelen in de weg staat, zijn dit duidelijke tekenen dat er een afhankelijkheid is ontstaan. Deze zelfevaluatie is niet bedoeld om te oordelen; het is een hulpmiddel om informatie te verzamelen. Zodra je weet waar je staat, kun je weloverwogen beslissingen nemen over de weg vooruit die het beste aansluit bij je welzijn en je toekomst.</p>"
+          },
+          {
+            "id": "k3",
+            "title": "De tekenen van een kratomprobleem",
+            "time": "6 min",
+            "type": "Artikel",
+            "content": "<p>De tekenen van een problematische relatie met kratom zijn vaak subtiel voordat ze onmiskenbaar worden. Je merkt misschien dat je de omvang van je gebruik voor vrienden en familie probeert te verbergen, bijvoorbeeld door het in het geheim te gebruiken of excuses te verzinnen voor je gedrag. Deze sociale maskering is een veelvoorkomend verdedigingsmechanisme wanneer je je onbewust realiseert dat je gebruik de gezonde grenzen heeft overschreden. Fysiek kun je last hebben van ongewone vermoeidheid, spijsverteringsproblemen of prikkelbaarheid die pas na een dosis verdwijnt. Je interesse in hobby&#39;s die je voorheen leuk vond, kan afnemen en plaatsmaken voor activiteiten waarbij kratomgebruik centraal staat. Een ander belangrijk teken is het &#39;reboundeffect&#39;, waarbij de symptomen die je met kratom probeerde te verlichten – zoals pijn of angst – in alle hevigheid terugkeren wanneer de werking van de stof afneemt. Je merkt misschien ook dat je steeds defensiever reageert wanneer mensen in je omgeving hun bezorgdheid uiten over je gebruik. Als je je recht om kratom te gebruiken meer beschermt dan je eigen gezondheid en gemoedsrust, is dat een duidelijk signaal dat de stof een belangrijke plaats in je leven heeft verworven. Het herkennen van deze signalen is de eerste stap om de controle over je eigen leven terug te winnen.</p>"
+          },
+          {
+            "id": "k4",
+            "title": "Hoe je je kratom-triggers in kaart brengt",
+            "time": "5 min",
+            "type": "Activiteit",
+            "content": "<p>Triggers zijn de specifieke interne of externe prikkels die een bijna automatisch verlangen naar kratom opwekken. Om je gebruik succesvol te beheersen, moet je je eigen patronen leren herkennen. Let op de &#39;vier P&#39;s&#39;: Mensen, Plaatsen, Tijdstippen en Lichamelijke Toestanden. Misschien is er een bepaalde stressfactor op het werk waardoor je altijd naar je kratom grijpt, of een specifiek moment van de dag – zoals de middagdip – waarop je een oppepper nodig hebt. Lichamelijke toestanden zoals honger, woede, eenzaamheid of vermoeidheid (het acroniem HALT) zijn beruchte triggers. Emoties, zowel positief als negatief, zijn ook belangrijk; je gebruikt kratom misschien om een overwinning te vieren of om de pijn van een zware dag te verzachten. Door een paar dagen een eenvoudig logboek bij te houden en elke keer dat je de drang voelt om kratom te gebruiken te noteren, zul je patronen gaan zien ontstaan. Je zou kunnen ontdekken dat je hunkering gekoppeld is aan specifieke, voorspelbare gebeurtenissen in plaats van willekeurig te zijn. Zodra je dit overzicht hebt, kun je alternatieve reacties gaan bedenken. Door je triggers in kaart te brengen, verander je een vage, overweldigende strijd in een beheersbare reeks strategische beslissingen, waardoor je doelgericht kunt reageren in plaats van automatisch.</p>"
+          },
+          {
+            "id": "k5",
+            "title": "De leugens die we vertellen om kratom te kunnen blijven gebruiken",
+            "time": "6 min",
+            "type": "Artikel",
+            "content": "<p>Het brein is opmerkelijk bedreven in het beschermen van gewoontes, en als het om kratom gaat, zal het vaak zeer overtuigende argumenten bedenken om voortgezet gebruik te rechtvaardigen. Deze tactische leugens worden door de geest gebruikt om het ongemak van verandering te vermijden. Je zou jezelf kunnen vertellen: &#39;Ik gebruik het alleen voor mijn rugpijn&#39;, waarmee je de verantwoordelijkheid legt bij een fysieke aandoening en suggereert dat je geen andere keuze hebt. Of je zou kunnen zeggen: &#39;Het is maar een plant, dus het zal wel veilig zijn&#39;, waarmee je de realiteit van de krachtige psychoactieve eigenschappen en het potentieel voor afhankelijkheid minimaliseert. Een andere veelvoorkomende is: &#39;Ik ben productiever als ik het gebruik&#39;, waarbij je je professionele doelen gebruikt om de gewoonte aan kritiek te onttrekken. Dan is er nog de leugen dat je kunt stoppen wanneer je wilt, een belofte die &#39;s ochtends wordt gedaan maar die &#39;s middags vaak niet standhoudt. Het herkennen van deze &#39;verslavingsfluisteringen&#39; is een cruciale vaardigheid. Wanneer je na een stressvolle dag die stem hoort zeggen &#39;je verdient dit&#39;, herken dan wat het is: een oude neurale verbinding die actief probeert te blijven. Door deze leugens aan de kaak te stellen zodra ze zich voordoen, ontneem je ze hun macht en herinner je jezelf aan de waarheid: je bent beter af zonder.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Ontgifting en vroegtijdig herstel",
+        "articles": [
+          {
+            "id": "k6",
+            "title": "Hoe je de behoefte aan kratom tijdens het surfen kunt opwekken",
+            "time": "6 min",
+            "type": "Activiteit",
+            "content": "<p>Wanneer je hunkert naar kratom, kan het voelen als een onwrikbaar, onwrikbaar gebod dat alleen verdwijnt als je eraan toegeeft. &#39;Urge surfing&#39; is een techniek die je leert om een hunkering te zien als een golf. Net als een golf in de oceaan begint een hunkering klein, neemt de intensiteit toe, bereikt een piek en breekt dan onvermijdelijk af. Het duurt niet eeuwig. Om een hunkering te &#39;surfen&#39;, is de eerste stap om deze zonder oordeel op te merken. Zeg tegen jezelf: &#39;Ik merk dat ik nu een hunkering naar kratom heb.&#39; Deze simpele handeling, het benoemen ervan, creëert afstand tussen jou en de impuls. Richt vervolgens je aandacht op je lichaam. Waar voel je de hunkering? Concentreer je op die fysieke sensatie en adem erdoorheen. Probeer de hunkering niet weg te duwen, want dat maakt hem vaak alleen maar sterker. Stel je in plaats daarvan voor dat je bovenop de sensatie surft, aanwezig en in balans blijft totdat de hunkering begint af te nemen. De meeste hunkeringen bereiken hun piek en beginnen binnen 15 tot 30 minuten af te zwakken. Elke keer dat je met succes een impuls bedwingt, versterk je het deel van je hersenen dat zelfregulatie regelt, waardoor de volgende golf nog makkelijker te bedwingen is en je je eigen veerkracht bewijst.</p>"
+          },
+          {
+            "id": "k7",
+            "title": "Hoe je gedachten over kratom kunt ontkrachten",
+            "time": "6 min",
+            "type": "Activiteit",
+            "content": "<p>Cognitieve defusie is de oefening waarbij je afstand neemt van je gedachten en ze ziet als slechts woorden of beelden, in plaats van absolute waarheden of bevelen. Wanneer je probeert je kratomgebruik te verminderen of te stoppen, produceert je geest gedachten als &#39;Ik heb een dosis nodig&#39; of &#39;Ik kan deze taak niet afmaken zonder&#39;. Als je deze gedachten letterlijk neemt, kunnen ze overweldigend aanvoelen. Defusie stelt je in staat om afstand te creëren. Een eenvoudige manier om dit te doen is door een voorvoegsel toe te voegen: in plaats van &#39;Ik heb een dosis nodig&#39; zeg je &#39;Ik heb de gedachte dat ik een dosis nodig heb&#39;. Deze subtiele verschuiving herinnert je eraan dat de gedachte een gebeurtenis in je geest is, geen vereiste voor actie. Je kunt ook proberen je geest te &#39;bedanken&#39; voor de gedachte: &#39;Bedankt, geest, voor die suggestie over de kratom, maar ik ga vandaag een andere richting op.&#39; Dit haalt het conflict uit de innerlijke dialoog. Je hoeft de gedachte niet te weerleggen; je hoeft hem alleen maar te erkennen als een product van de oude programmering van je hersenen. Jij bent degene die kiest op welke gedachten je handelt en welke je loslaat. Door defusie te oefenen, voorkom je dat je een slaaf wordt van elke impuls.</p>"
+          },
+          {
+            "id": "k8",
+            "title": "Je emoties beheersen tijdens je herstel.",
+            "time": "6 min",
+            "type": "Artikel",
+            "content": "<p>Kratom wordt vaak gebruikt om emoties chemisch te beheersen, van de verveling van een rustige middag tot de angst voor een sociale situatie. Wanneer je stopt met gebruiken, word je vaak geconfronteerd met een &#39;rauwe&#39; versie van je gevoelens die intens en onbeheersbaar kunnen aanvoelen. Het temmen van deze emoties begint met het besef dat ze tijdelijk zijn en je geen kwaad kunnen doen. Gevoelens zoals rusteloosheid of frustratie, die vaak voorkomen in de beginfase van herstel, zijn slechts signalen dat je hersenen op zoek zijn naar hun oude beloning. In plaats van naar kratom te grijpen om je gevoel te veranderen, probeer de emotie simpelweg te benoemen: &#39;Ik voel me nu angstig.&#39; Het benoemen van een emotie blijkt de fysieke intensiteit ervan in de hersenen te verminderen. Zoek vervolgens een gezonde manier om ermee om te gaan, zoals diep ademhalen, schrijven in een dagboek of een wandeling maken. Je probeert de emotie niet direct te laten verdwijnen; je bouwt je &#39;emotionele spier&#39; op door te leren omgaan met ongemak. Na verloop van tijd zullen je hersenen weer op natuurlijke wijze leren hoe ze hun eigen stemmingen kunnen reguleren. Je zult ontdekken dat je veel veerkrachtiger bent dan je dacht en in staat bent om de ups en downs van het leven aan te kunnen zonder chemische hulpmiddelen.</p>"
+          },
+          {
+            "id": "k9",
+            "title": "Hoe voelt het om kratom te ontwennen?",
+            "time": "8 min",
+            "type": "Artikel",
+            "content": "<p>Kratomontwenning is het proces waarbij je lichaam en hersenen zich opnieuw afstemmen na de constante aanwezigheid van de stof. Symptomen beginnen doorgaans binnen enkele uren na de laatste dosis en kunnen variëren van mild tot ernstig, afhankelijk van je gebruik. Fysiek kun je last hebben van spierpijn, een loopneus en spijsverteringsproblemen. Een veelvoorkomend en bijzonder vervelend symptoom is rusteloze benen, wat slapen moeilijk kan maken. Je kunt ook koude rillingen krijgen of overmatig zweten. Psychologisch wordt de ontwenning gekenmerkt door verhoogde angst, prikkelbaarheid en een algeheel gevoel van neerslachtigheid of gebrek aan energie. Het is belangrijk om te begrijpen dat deze symptomen de manier zijn waarop je lichaam herstelt – het probeert te leren hoe het moet functioneren zonder een psychoactieve booster. Hoewel oncomfortabel, is kratomontwenning over het algemeen niet medisch gevaarlijk voor de meeste mensen, maar het vereist geduld en zelfcompassie. De eerste dagen kunnen uitputtend en emotioneel slopend zijn, maar het ongemak is een tijdelijke brug naar een leven van echte gezondheid. Zorg dat je voldoende drinkt, geef rust prioriteit en onthoud dat deze gevoelens een teken zijn van je vooruitgang naar een helderdere, stabielere versie van jezelf. Elk uur dat je doorbrengt zonder drugs te gebruiken, is een stap dichter bij vrijheid van afhankelijkheid.</p>"
+          },
+          {
+            "id": "k10",
+            "title": "Het beheersen van kratomverslaving op de lange termijn",
+            "time": "7 min",
+            "type": "Artikel",
+            "content": "<p>Het beheersen van kratomverslaving op de lange termijn vereist voortdurende zelfreflectie en een proactieve benadering van je omgeving. Verlangens verdwijnen niet altijd zodra de fysieke ontwenningsverschijnselen voorbij zijn; ze kunnen terugkeren als &#39;echo&#39;s&#39; van je oude gewoonte, vaak getriggerd door stress of nostalgie. Een belangrijke strategie is het behouden van de gezonde routines die je hebt opgebouwd: voldoende slaap, regelmatige beweging en eerlijke communicatie. Wanneer een verlangen opkomt, gebruik dan de hulpmiddelen die je hebt geoefend: benoem de gedachte, erken de emotie en pas de &#39;Uitstellen en Afleiden&#39;-methode toe. Herinner jezelf aan de redenen waarom je ervoor hebt gekozen om te stoppen of je gebruik te verminderen en aan de voordelen die je sindsdien hebt ervaren. Het is ook nuttig om verbonden te blijven met een ondersteunend netwerk, of dat nu vrienden, familie of een gemeenschap van anderen in herstel is. Iemand hebben om mee te praten wanneer je je kwetsbaar voelt, geeft direct een gevoel van verantwoordelijkheid en verbondenheid. Beheersing op de lange termijn draait om waakzaamheid zonder angst. Je bouwt aan een leven dat zo vol en betekenisvol is dat de incidentele drang om kratom te gebruiken zijn kracht verliest om je innerlijke rust te verstoren. Je hebt de controle over je keuzes, en met elke dag die voorbijgaat, groeien je kracht en helderheid.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Een evenwichtig leven opbouwen",
+        "articles": [
+          {
+            "id": "k11",
+            "title": "Nieuwe gewoonten en routines opbouwen",
+            "time": "7 min",
+            "type": "Activiteit",
+            "content": "<p>Wanneer je je kratomgebruik vermindert of stopt, merk je vaak dat er &#39;lege&#39; momenten in je dag ontstaan die voorheen werden gevuld met het ritueel van het klaarmaken en consumeren van de substantie. Het creëren van nieuwe, gezonde routines draait om het bewust vullen van deze ruimte met activiteiten die je welzijn bevorderen. Begin met het identificeren van je &#39;risicozones&#39; – de momenten van de dag waarop je het meest geneigd was om te gebruiken – en plan een specifieke activiteit zonder kratom voor die momenten. Dit kan een ochtendtraining in de sportschool zijn, een wandeling in de middag of een nieuw avondritueel zoals lezen met een speciale thee. Routine biedt een gevoel van veiligheid en voorspelbaarheid, wat enorm helpt bij het behouden van balans. Het helpt je de dag door te komen zonder constant een reeks uitputtende beslissingen te hoeven nemen. Je nieuwe gewoonten kunnen bijvoorbeeld een regelmatig slaapschema, bewust eten en dagelijkse reflectie omvatten. Na verloop van tijd zullen deze nieuwe gedragingen net zo automatisch worden als de oude. Je bent niet alleen &#39;geen kratom meer aan het gebruiken&#39;; je bouwt actief aan een leven dat zo is gestructureerd dat gezondheid en stabiliteit de natuurlijke en gemakkelijkste keuze zijn. Je creëert een toekomst vol interessante en bevredigende activiteiten die de beste versie van jezelf ondersteunen.</p>"
+          },
+          {
+            "id": "k12",
+            "title": "Sociale situaties doorstaan zonder kratom",
+            "time": "8 min",
+            "type": "Artikel",
+            "content": "<p>In een wereld waarin kratom vaak wordt aangeprezen als een onschadelijk supplement, zul je waarschijnlijk sociale situaties tegenkomen waarin het gebruik ervan wordt genormaliseerd. Leren om met zelfvertrouwen door deze momenten te navigeren is een essentiële vaardigheid voor herstel op de lange termijn. Voordat je een sociale gelegenheid betreedt, bepaal je standpunt en zorg je dat je een eenvoudig, direct antwoord paraat hebt. Een vastberaden &#39;Nee, bedankt, het gaat goed&#39; of &#39;Ik heb besloten om er een tijdje mee te stoppen&#39; is meestal voldoende. Je bent niemand een gedetailleerde uitleg van je herstelproces verschuldigd. Als mensen aandringen, bedenk dan dat hun aandringen vaak meer hun eigen relatie met de stof weerspiegelt dan die van jou. In de beginfase is het prima om risicovolle evenementen helemaal te vermijden. Jouw gemoedsrust en je vooruitgang staan voorop. Het vinden van een &#39;sober buddy&#39; of iemand in je omgeving die je keuze steunt, kan een enorm verschil maken en zorgt voor een direct gevoel van verbondenheid en verantwoordelijkheid. Je zult uiteindelijk merken dat je een rijk sociaal leven kunt leiden en oprecht plezier kunt hebben zonder dat kratom centraal staat in je interacties. Je bouwt aan een levensstijl gebaseerd op authenticiteit en je eigen waarden, iets waar je echt trots op kunt zijn.</p>"
+          },
+          {
+            "id": "k13",
+            "title": "Het herstellen van vertrouwen en relaties",
+            "time": "8 min",
+            "type": "Artikel",
+            "content": "<p>Kratomgebruik kan relaties op subtiele maar significante manieren beïnvloeden, vaak leidend tot emotionele terugtrekking of een gebrek aan consistentie. Na verloop van tijd kan je focus verschoven zijn naar de substantie, waardoor dierbaren zich verwaarloosd of verward voelen. Het herstellen van deze banden is een proces dat geduld, eerlijkheid en consistente actie vereist. Een verontschuldiging is een goed begin, maar het echte werk gebeurt door je dagelijkse keuzes. Door op te komen dagen wanneer je zegt dat je er zult zijn, emotioneel aanwezig te zijn en je nieuwe gewoonten vol te houden, bouw je langzaam het fundament van vertrouwen weer op. Het is nuttig om eerlijke gesprekken te voeren over de impact van je gebruik en anderen de ruimte te geven om hun gevoelens te uiten zonder defensief te worden. Dit kan moeilijk zijn, maar het is noodzakelijk voor echt herstel. Sommige relaties zijn mogelijk gecentreerd geraakt rond je gebruik en passen misschien niet meer in je nieuwe leven, en dat is een pijnlijke maar gezonde constatering. Voor de relaties die je wilt behouden, wees erop voorbereid dat herstel een marathon is, geen sprint. Mensen hebben tijd nodig om te zien dat je verandering echt en blijvend is. Naarmate je herstelt, zullen je banden dieper en authentieker worden, omdat ze gebaseerd zijn op wie je werkelijk bent.</p>"
+          },
+          {
+            "id": "k14",
+            "title": "Strategieën ter voorkoming van terugval",
+            "time": "7 min",
+            "type": "Artikel",
+            "content": "<p>Terugvalpreventie is een actieve, dagelijkse bezigheid waarbij je je risico&#39;s herkent en een plan hebt om ze te beheersen. Het is nuttig om terugval niet te zien als een eenmalige mislukking, maar als een proces dat vaak begint met een afwijking in je gewoonten en denkwijze. Vroege waarschuwingssignalen zijn onder andere het verwaarlozen van je fysieke zelfzorg, je isoleren van mensen die je steunen en het &#39;romantiseren&#39; van je vroegere kratomgebruik. Om een terugval te voorkomen, moet je ingrijpen zodra je deze signalen opmerkt. Blijf in contact met je steunnetwerk en wees eerlijk over de uitdagingen waar je voor staat. Stel een &#39;terugvalpreventieplan&#39; op met een lijst van mensen die je kunt bellen en gezonde activiteiten die je kunt ondernemen wanneer je de drang voelt om terug te vallen in je oude gewoonte. Als je toch terugvalt, reageer dan eerlijk in plaats van je te schamen. Een enkele terugval verpest niet alles waar je voor hebt gewerkt; het is een signaal om je plan aan te passen en je opnieuw te richten op je doelen. Je bouwt aan vaardigheden en een leven dat steeds veerkrachtiger wordt. Blijf alert, houd je aan je routines en ga door. Je hebt de middelen en de kracht om je vooruitgang te beschermen en verder te bouwen aan een toekomst van gezondheid en echt welzijn.</p>"
+          },
+          {
+            "id": "k15",
+            "title": "Een mentaliteit voor welzijn op de lange termijn",
+            "time": "7 min",
+            "type": "Artikel",
+            "content": "<p>Welzijn op de lange termijn na het stoppen met kratom draait om een fundamentele verschuiving in hoe je jezelf en je plek in de wereld ziet. Het betekent dat je overstapt van een mindset van &#39;beperking&#39; – het gevoel dat je iets mist – naar een mindset van &#39;overvloed&#39;, waarin je inziet dat nuchterheid je helderheid, je autonomie en je gezondheid teruggeeft. Op de lange termijn ga je verder dan de strijd om een dosis te vermijden en betreed je het domein van persoonlijke groei en voldoening. Deze mindset vereist een voortdurende zelfreflectie en de bereidheid om je comfortabel te voelen met &#39;anders zijn&#39; in een wereld die vaak snelle oplossingen voorrang geeft. Je blijft je stressniveau in de gaten houden, je emotionele gezondheid bewaken en de connecties onderhouden die je steunen. Je begint diepe vreugde te vinden in kleine, alledaagse ervaringen – de schoonheid van de natuur, een betekenisvol gesprek of de voldoening van je eigen harde werk. Het doel is niet om een eindbestemming te bereiken die &#39;hersteld&#39; heet, maar om een levenslange reis te omarmen om de beste versie van jezelf te worden. Je bouwt aan een leven dat zo oprecht boeiend en betekenisvol is, dat je niet langer de behoefte voelt om eraan te ontsnappen. Dat is het ultieme geschenk van een evenwichtig, kratomvrij leven.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

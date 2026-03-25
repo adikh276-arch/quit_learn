@@ -1,0 +1,137 @@
+{
+  "app_title": "Mô-đun học tập",
+  "progress_label": "Tiến triển",
+  "back_label": "Mặt sau",
+  "minutes_label": "phút",
+  "type_article": "Bài báo",
+  "type_assessment": "Đánh giá",
+  "type_activity": "Hoạt động",
+  "substance_name": "Cần sa",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Hiểu cách bạn sử dụng",
+        "articles": [
+          {
+            "id": "c1",
+            "title": "Cần sa có gây nghiện không? - Câu trả lời trung thực",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>Trong nhiều năm, người ta tin rộng rãi rằng cần sa không phải là chất gây nghiện. Tuy nhiên, khi hiểu biết của chúng ta về khoa học não bộ ngày càng phát triển, câu trả lời trung thực đã trở nên rõ ràng: đúng vậy, cần sa có thể gây nghiện. Mặc dù cơ chế hoạt động khác với các chất như opioid hoặc nicotine, việc sử dụng cần sa thường xuyên có thể dẫn đến cái mà các bác sĩ lâm sàng gọi là Rối loạn Sử dụng Cần sa (CUD). Điều này xảy ra vì THC, thành phần hoạt chất chính gây tác động tâm thần của cần sa, tương tác với hệ thống endocannabinoid nội sinh của não, hệ thống này giúp điều chỉnh tâm trạng, trí nhớ, giấc ngủ và sự thèm ăn. Khi bạn sử dụng cần sa thường xuyên, não bộ bắt đầu giảm hoạt động của các thụ thể tự nhiên để bù đắp cho lượng THC dư thừa. Điều này có nghĩa là theo thời gian, bạn cần nhiều chất hơn để cảm nhận được hiệu quả tương tự, và não bộ trở nên kém hiệu quả hơn trong việc thực hiện các chức năng điều chỉnh tự nhiên nếu thiếu nó. Khoảng 1 trong 10 người trưởng thành sử dụng cần sa sẽ bị nghiện, và con số này tăng lên 1 trong 6 đối với những người bắt đầu sử dụng ở tuổi thiếu niên. Nhận thức được khả năng gây nghiện không phải là để lên án cây cần sa, mà là để hiểu được tiềm năng phụ thuộc hóa học. Một khi bạn chấp nhận khả năng này, bạn có thể nhìn nhận một cách trung thực hơn về việc sử dụng cần sa của bản thân và đưa ra những quyết định sáng suốt về việc liệu mối quan hệ của bạn với cần sa có phục vụ cho các mục tiêu lâu dài và sức khỏe của bạn hay không.</p>"
+          },
+          {
+            "id": "c2",
+            "title": "THC, CBD và tác động của chúng lên não bộ",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Để hiểu cần sa ảnh hưởng đến bạn như thế nào, điều cần thiết là phải hiểu vai trò của THC và CBD. THC (Tetrahydrocannabinol) là thành phần gây ra cảm giác &quot;phê&quot;. Nó bắt chước một chất dẫn truyền thần kinh tự nhiên gọi là anandamide và gắn vào các thụ thể cannabinoid ở các phần của não bộ ảnh hưởng đến khoái cảm, trí nhớ, suy nghĩ, sự tập trung, nhận thức về giác quan và thời gian, cũng như sự phối hợp vận động. Sự bắt chước này tạo ra cảm giác hưng phấn, nhưng nó cũng làm gián đoạn hệ thống giao tiếp tự nhiên của não bộ. Mặt khác, CBD (Cannabidiol) không gây ra cảm giác &quot;phê&quot; và thực tế có thể giúp chống lại một số tác dụng gây lo lắng của THC. Tuy nhiên, thị trường cần sa hiện đại đã chứng kiến sự gia tăng đáng kể hàm lượng THC trong khi hàm lượng CBD vẫn ở mức thấp hoặc bị loại bỏ hoàn toàn trong quá trình lai tạo. Sự chuyển hướng sang các sản phẩm có hàm lượng THC cao đã làm tăng nguy cơ phụ thuộc và các vấn đề về sức khỏe tâm thần. Khi bạn sử dụng cần sa có hàm lượng THC cao thường xuyên, về cơ bản bạn đang &quot;huấn luyện quá mức&quot; các trung tâm khen thưởng của não bộ, điều này có thể dẫn đến giảm động lực và tăng lo lắng theo thời gian. Hiểu được sự cân bằng hóa học này giúp bạn nhận ra rằng những cảm giác bạn có được từ cần sa là một phản ứng sinh học phức tạp, chứ không chỉ đơn giản là trạng thái &quot;thư giãn&quot;. Hiểu được cách các chất hóa học này tương tác với não bộ của bạn là bước đầu tiên để lấy lại sự minh mẫn và cân bằng cảm xúc.</p>"
+          },
+          {
+            "id": "c3",
+            "title": "Cần sa và sức khỏe tâm thần",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Mối quan hệ giữa cần sa và sức khỏe tâm thần là vấn đề rất riêng tư và thường bị hiểu sai. Mặc dù nhiều người sử dụng cần sa để kiểm soát lo âu, trầm cảm hoặc căng thẳng, nhưng bằng chứng cho thấy đối với nhiều người, nó thực sự có thể làm trầm trọng thêm các tình trạng này theo thời gian. Điều này thường được gọi là &quot;nghịch lý cần sa&quot;. Trong ngắn hạn, một liều THC có thể làm dịu tâm trí lo lắng, nhưng khi tác dụng giảm dần, nó có thể dẫn đến hiệu ứng phản hồi khiến lo lắng quay trở lại dữ dội hơn. Sử dụng thường xuyên cũng có thể can thiệp vào quá trình xử lý cảm xúc tự nhiên, khiến việc phát triển các cơ chế đối phó lành mạnh trở nên khó khăn hơn. Nghiêm trọng hơn, việc sử dụng cần sa có nồng độ cao có liên quan chặt chẽ đến nguy cơ mắc các rối loạn tâm thần cao hơn, đặc biệt là ở những người có tiền sử gia đình mắc các vấn đề sức khỏe tâm thần. Nó cũng có thể gây ra trạng thái &quot;hội chứng mất động lực&quot;, trong đó người dùng cảm thấy thiếu động lực lan tỏa và giảm hứng thú với các mục tiêu xã hội và nghề nghiệp. Nếu bạn thấy sức khỏe tâm thần của mình có liên quan mật thiết đến việc sử dụng cần sa, hoặc nếu bạn cảm thấy thế giới của mình trở nên nhỏ bé và kém sôi động hơn, thì bạn nên xem xét tác động của chất này. Phục hồi là việc khôi phục khả năng tự nhiên của não bộ trong việc điều chỉnh tâm trạng và cái nhìn, cho phép bạn trải nghiệm đầy đủ các cung bậc cảm xúc của con người một cách rõ ràng và kiên cường.</p>"
+          },
+          {
+            "id": "c4",
+            "title": "Sử dụng nhiều và động lực",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Một trong những tác động thường được ghi nhận nhất của việc sử dụng cần sa lâu dài và liều cao là ảnh hưởng đáng kể đến động lực và sự quyết tâm. Đây không phải là khuyết điểm về tính cách hay dấu hiệu của sự lười biếng; mà là kết quả trực tiếp của cách THC tương tác với hệ thống dopamine của não. Dopamine là chất hóa học báo hiệu phần thưởng và khuyến khích chúng ta theo đuổi mục tiêu, cho dù đó là hoàn thành một nhiệm vụ tại nơi làm việc, học một kỹ năng mới hay duy trì các mối quan hệ xã hội. Khi não bộ thường xuyên bị ngập tràn bởi phần thưởng &quot;dễ dàng&quot; từ cần sa, nó bắt đầu làm rối loạn các thụ thể dopamine tự nhiên. Điều này có thể dẫn đến tình trạng các hoạt động bình thường không còn cảm thấy bổ ích hoặc thú vị nữa, một tình trạng đôi khi được gọi là &quot;hội chứng mất động lực&quot;. Bạn có thể thấy mình ưu tiên việc sử dụng cần sa hơn các mục tiêu quan trọng trước đây hoặc cảm thấy thờ ơ với tương lai của mình. Phá vỡ chu kỳ này bao gồm một khoảng thời gian kiêng cữ để cho phép hệ thống dopamine của bạn thiết lập lại và hiệu chỉnh. Nó cũng đòi hỏi việc thực hành có chủ đích tham gia vào các hoạt động không liên quan đến ma túy mang lại cảm giác thành tựu tự nhiên. Khi bạn giảm dần việc sử dụng các công nghệ, bạn sẽ nhận thấy sự trở lại dần dần của &quot;động lực nội tại&quot; và khả năng kiên trì, tập trung cao độ hơn. Bạn đang lấy lại nguồn lực quý giá nhất của mình: khả năng hình dung tương lai và thực hiện các bước cần thiết để biến nó thành hiện thực.</p>"
+          },
+          {
+            "id": "c5",
+            "title": "Nhận biết chứng rối loạn sử dụng cần sa",
+            "time": "5 min",
+            "type": "Đánh giá",
+            "content": "<p>Nhận biết chứng rối loạn sử dụng cần sa (CUD) đòi hỏi phải nhìn nhận một cách trung thực về tác động của chất này đến cuộc sống và nhận thức về bản thân bạn. CUD được định nghĩa là một kiểu sử dụng cần sa có vấn đề dẫn đến suy giảm chức năng hoặc đau khổ đáng kể về mặt lâm sàng. Các dấu hiệu chính bao gồm sử dụng cần sa nhiều hơn dự định hoặc trong thời gian dài hơn dự định. Bạn có thể luôn muốn giảm hoặc ngừng sử dụng nhưng lại không thể làm được. Bạn có thể dành nhiều thời gian để tìm kiếm, sử dụng hoặc hồi phục sau tác dụng của cần sa. Có lẽ dấu hiệu rõ ràng nhất là khi bạn tiếp tục sử dụng mặc dù biết rằng nó đang gây ra hoặc làm trầm trọng thêm các vấn đề về thể chất hoặc tâm lý. Bạn cũng có thể nhận thấy rằng mình đã từ bỏ các hoạt động xã hội, công việc hoặc giải trí quan trọng để ưu tiên sử dụng cần sa. Các dấu hiệu thể chất bao gồm khả năng dung nạp – cần nhiều hơn để đạt được hiệu quả tương tự – và các triệu chứng cai nghiện như cáu gắt, khó ngủ và giảm cảm giác thèm ăn khi không sử dụng. Nếu bạn cảm thấy cần sa đã trở thành &quot;trung tâm&quot; của thế giới và bạn không còn là người kiểm soát nữa, rất có thể bạn đang đối mặt với CUD. Nhận thức được điều này là bước đầu tiên để xây dựng một cuộc sống mà các quyết định của bạn dựa trên giá trị và mục tiêu của chính bạn, chứ không phải dựa trên nhu cầu của một thói quen.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Nghỉ giải lao",
+        "articles": [
+          {
+            "id": "c6",
+            "title": "Cách lập kế hoạch cho giai đoạn nghỉ ngơi để kiểm soát dung sai",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Thời gian cai nghiện, hay còn gọi là &quot;T-break&quot;, là một khoảng thời gian kiêng cữ có chủ đích—thường từ 21 đến 30 ngày—được thiết kế để cho phép các thụ thể cannabinoid trong não bộ của bạn được thiết lập lại. Đối với những người sử dụng thường xuyên, điều này có thể cải thiện đáng kể sự minh mẫn, mức năng lượng và sức khỏe tổng thể. Lập kế hoạch cho một kỳ T-break thành công bắt đầu bằng việc chọn ngày bắt đầu và dọn dẹp môi trường xung quanh bạn khỏi cần sa và các dụng cụ liên quan. Điều này &quot;tạo ra một khoảng cách&quot; giữa sự thôi thúc sử dụng và khả năng sử dụng. Điều quan trọng nữa là xác định thời gian sử dụng thông thường của bạn và lên kế hoạch cho các hoạt động cụ thể, không liên quan đến cần sa trong những khoảng thời gian đó. Ví dụ, nếu bạn thường hút vào buổi tối, bạn có thể lên kế hoạch tập gym hoặc xem phim. Thông báo cho một vài người bạn đáng tin cậy và ủng hộ cũng có thể tạo thêm sự trách nhiệm. Hãy chuẩn bị tinh thần rằng vài ngày đầu tiên sẽ là khó khăn nhất, khi cơ thể bạn điều chỉnh để thích nghi với việc thiếu THC. Bạn có thể trải nghiệm sự cáu kỉnh, bồn chồn và những giấc mơ sống động khi cấu trúc giấc ngủ của bạn bắt đầu tự phục hồi. Hãy coi T-break như một thử nghiệm cá nhân để xem bạn cảm thấy thế nào và bạn là ai khi không có ảnh hưởng của chất này. Nhiều người nhận thấy rằng sau 30 ngày, &quot;mức độ&quot; hạnh phúc cơ bản của họ cao hơn nhiều so với dự kiến. Cho dù bạn chọn quay lại sử dụng một cách có kiểm soát hơn hay tiếp tục kiêng cữ, sự minh mẫn mà bạn có được từ việc tạm ngừng sử dụng cần sa là một công cụ vô giá cho sức khỏe lâu dài của bạn.</p>"
+          },
+          {
+            "id": "c7",
+            "title": "Cảm giác cai nghiện cần sa thực sự như thế nào?",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Mặc dù hội chứng cai cần sa nhìn chung không nguy hiểm về mặt y tế, nhưng đó là một trải nghiệm rất thực tế và thường khó chịu, có thể kéo dài vài tuần. Các triệu chứng thường bắt đầu trong vòng 24 đến 72 giờ sau lần sử dụng cuối cùng và đạt đỉnh điểm trong tuần đầu tiên. Về mặt tâm lý, bạn có thể trải nghiệm sự cáu kỉnh, lo lắng và bồn chồn dai dẳng. Bạn có thể cảm thấy &quot;trống rỗng&quot; hoặc mất hứng thú với những điều từng khiến bạn thích thú, khi hệ thống dopamine của bạn bắt đầu quá trình thiết lập lại chậm rãi. Về mặt thể chất, triệu chứng phổ biến nhất là rối loạn giấc ngủ nghiêm trọng. Bạn có thể khó ngủ hoặc khó duy trì giấc ngủ, và khi ngủ, bạn có thể trải nghiệm những giấc mơ mãnh liệt, sống động khi não bộ bước vào giai đoạn &quot;phục hồi REM&quot;. Bạn cũng có thể nhận thấy giảm cảm giác thèm ăn, thỉnh thoảng buồn nôn hoặc khó chịu ở bụng. Đau đầu và đổ mồ hôi đêm cũng phổ biến khi cơ thể bạn đào thải THC tích trữ. Điều quan trọng là phải hiểu rằng những triệu chứng này là cách não bộ và cơ thể bạn tự chữa lành - chúng là dấu hiệu cho thấy các hệ thống tự nhiên của bạn đang hoạt động trở lại. Biết rằng sự khó chịu chỉ là tạm thời và được dự đoán trước có thể giúp bạn kiên trì với quá trình này. Hãy đối xử tốt với bản thân, uống đủ nước và nhớ rằng sự minh mẫn và khả năng phục hồi mà bạn đang xây dựng được hoàn toàn xứng đáng với những thử thách ban đầu trong vài tuần tới.</p>"
+          },
+          {
+            "id": "c8",
+            "title": "Quản lý giấc ngủ trong giờ nghỉ",
+            "time": "8 min",
+            "type": "Hoạt động",
+            "content": "<p>Giấc ngủ thường là thách thức lớn nhất khi cai nghiện cần sa, vì nhiều người đã coi nó như một phần thói quen hàng đêm của mình. Khi ngừng sử dụng, bạn có thể gặp khó khăn khi đi vào giấc ngủ và trải qua một giai đoạn mơ mộng sống động. Điều này là do cần sa ức chế giấc ngủ REM (chuyển động mắt nhanh); khi bạn bỏ thuốc, não bộ sẽ bù đắp bằng cách đi vào giai đoạn REM thường xuyên và mạnh mẽ hơn. Để vượt qua giai đoạn chuyển tiếp này, điều cần thiết là thiết lập một thói quen &quot;vệ sinh giấc ngủ&quot;. Hãy bắt đầu bằng việc thức dậy vào một giờ cố định, bất kể bạn ngủ bao nhiêu tiếng đêm trước đó. Điều này giúp điều chỉnh nhịp sinh học tự nhiên của bạn. Tránh sử dụng màn hình – điện thoại, máy tính bảng và TV – ít nhất một giờ trước khi đi ngủ, vì ánh sáng xanh can thiệp vào quá trình sản xuất melatonin. Thay vào đó, hãy thử tắm nước ấm, đọc sách hoặc uống trà đặc biệt. Đảm bảo phòng ngủ của bạn mát mẻ, tối và chỉ được sử dụng để ngủ. Nếu bạn thấy mình nằm trằn trọc hơn 20 phút, hãy ra khỏi giường và làm một hoạt động nhẹ nhàng trong ánh sáng yếu cho đến khi bạn cảm thấy buồn ngủ trở lại. Điều này ngăn não bộ của bạn liên kết việc nằm trên giường với sự bực bội và tỉnh táo. Mặc dù hai tuần đầu có thể khó khăn, nhưng hầu hết mọi người nhận thấy rằng đến tuần thứ ba, họ trải nghiệm được chất lượng giấc ngủ phục hồi tốt hơn bao giờ hết so với khi sử dụng cần sa. Bạn đang trao cho bộ não của mình món quà của sự nghỉ ngơi tự nhiên, có tác dụng chữa lành.</p>"
+          },
+          {
+            "id": "c9",
+            "title": "Cách đối phó với sự thay đổi khẩu vị",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Việc thay đổi khẩu vị, đặc biệt là cảm giác chán ăn, trong một hoặc hai tuần đầu sau khi ngừng sử dụng cần sa là rất phổ biến. Điều này xảy ra vì hệ thống endocannabinoid, mà cần sa tương tác rất mạnh, đóng vai trò quan trọng trong việc điều chỉnh cảm giác đói và sự thích thú khi ăn. Không có sự kích thích nhân tạo của THC, tín hiệu đói tự nhiên của bạn có thể bị giảm đi hoặc thậm chí gây khó chịu. Để khắc phục điều này, đừng cố gắng ép mình ăn những bữa ăn lớn nếu bạn không đói. Thay vào đó, hãy tập trung vào những bữa ăn nhẹ nhỏ, giàu chất dinh dưỡng trong suốt cả ngày. Sinh tố, đồ uống protein và súp thường dễ tiêu hóa hơn khi bạn ít cảm thấy đói. Hãy uống đủ nước và trà thảo dược để giữ cho cơ thể luôn đủ nước, vì mất nước có thể làm trầm trọng thêm cảm giác mệt mỏi và cáu kỉnh. Bạn cũng có thể thấy rằng thức ăn cay hoặc có hương vị đậm đà có thể giúp &quot;kích thích&quot; lại sự hứng thú ăn uống của bạn. Điều quan trọng cần nhớ là đây chỉ là giai đoạn tạm thời; cảm giác thèm ăn tự nhiên của bạn sẽ trở lại khi các hệ thống trong cơ thể lấy lại được sự cân bằng. Thực tế, nhiều người nhận thấy rằng sau giai đoạn ban đầu, họ phát triển được mối quan hệ ổn định và lành mạnh hơn với thức ăn, không còn cảm giác thèm ăn vặt và tình trạng suy giảm năng lượng sau đó. Bạn đang cho phép cơ thể tìm lại nhịp điệu tự nhiên của nó và thu được năng lượng thực sự từ chế độ dinh dưỡng cân bằng và lành mạnh.</p>"
+          },
+          {
+            "id": "c10",
+            "title": "Chương trình thiết lập lại 30 ngày",
+            "time": "8 min",
+            "type": "Hoạt động",
+            "content": "<p>Chương trình &quot;30 Ngày Khôi Phục&quot; là một cam kết mạnh mẽ đối với sức khỏe nhận thức và trạng thái tinh thần của bạn. Phải mất khoảng 30 ngày để phần lớn THC tích trữ trong các tế bào mỡ của cơ thể được đào thải và các thụ thể trong não trở lại trạng thái nhạy cảm tự nhiên hơn. Khoảng thời gian 30 ngày này là giai đoạn chữa lành và khám phá lại quan trọng. Trong hai tuần đầu tiên, trọng tâm của bạn có thể là quản lý các triệu chứng cai nghiện và đối phó với các yếu tố kích thích. Trong hai tuần tiếp theo, sự khó chịu về thể chất thường giảm dần, và bạn bắt đầu trải nghiệm những lợi ích của sự minh mẫn, trí nhớ được cải thiện và tâm trạng ổn định hơn. Đây là thời gian để quan sát cuộc sống của bạn thay đổi như thế nào khi bạn không còn bị ảnh hưởng bởi cần sa. Bạn có thể nhận thấy mình có nhiều năng lượng hơn cho sở thích, kiên nhẫn hơn trong các mối quan hệ và cảm giác hiện diện mạnh mẽ hơn trong cuộc sống hàng ngày. Hãy sử dụng thời gian này để suy ngẫm về vai trò mà bạn muốn cần sa đóng trong tương lai của mình. Bạn có muốn quay lại sử dụng một cách có ý thức, thỉnh thoảng hơn, hay sự minh mẫn của chương trình &quot;Khởi Phục&quot; đã cho bạn thấy rằng bạn thích một cuộc sống tỉnh táo hơn? Không có câu trả lời đúng hay sai, chỉ có điều gì phù hợp với bạn. Chương trình &quot;30 Ngày Tái Thiết&quot; cung cấp cho bạn cái nhìn sáng suốt cần thiết để đưa ra quyết định đó từ vị thế mạnh mẽ và hiểu rõ bản thân.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Các thói quen lành mạnh hơn",
+        "articles": [
+          {
+            "id": "c11",
+            "title": "Giảm liều lượng mà không cần bỏ hẳn",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Đối với một số người, mục tiêu không phải là kiêng hoàn toàn mà là một mối quan hệ có ý thức và kiểm soát hơn với cần sa. Điều này thường được gọi là &quot;giảm thiểu tác hại&quot; hoặc &quot;sử dụng có trách nhiệm&quot;. Nếu bạn đã quyết định sử dụng ít hơn, điều quan trọng là phải có một kế hoạch rõ ràng và các quy tắc cụ thể cho bản thân. Điều này có thể có nghĩa là chỉ sử dụng vào những ngày nhất định trong tuần, không bao giờ sử dụng trước một thời điểm nhất định, hoặc đặt ra giới hạn nghiêm ngặt về lượng bạn mua. Nó cũng có thể bao gồm việc chuyển sang các sản phẩm có hàm lượng THC thấp hơn hoặc các sản phẩm có tỷ lệ CBD/THC cao hơn, điều này có thể giảm nguy cơ lo lắng và phụ thuộc. Hãy chú ý kỹ đến các yếu tố kích thích và lý do tại sao bạn sử dụng; bạn đang tìm kiếm sự thích thú thực sự, hay bạn đang cố gắng trốn tránh một cảm xúc khó chịu hoặc một tình huống nhàm chán? Sử dụng có ý thức có nghĩa là hoàn toàn hiện diện trong trải nghiệm và nhận thức được nó ảnh hưởng đến bạn như thế nào vào ngày hôm sau. Nó cũng đòi hỏi sức mạnh để tuân thủ các quy tắc của chính bạn, ngay cả khi bạn bị cám dỗ phá vỡ chúng. Nếu bạn thấy rằng bạn liên tục không thể duy trì giới hạn thấp hơn mới của mình, đó có thể là dấu hiệu cho thấy cần một thời gian kiêng hoàn toàn để thiết lập lại thói quen của bạn. Sử dụng ít hơn là một hoạt động chủ động, liên tục nhằm tự điều chỉnh bản thân và cam kết giữ cần sa như một phần nhỏ trong một cuộc sống trọn vẹn và cân bằng.</p>"
+          },
+          {
+            "id": "c12",
+            "title": "Cần sa và chứng lo âu — Nghịch lý",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Một trong những khía cạnh phức tạp nhất của việc sử dụng cần sa là mối liên hệ của nó với chứng lo âu. Nhiều người sử dụng cần sa vì cảm thấy nó như một &quot;van xả áp&quot; cho một tâm trí hoạt động quá mức. Tuy nhiên, đối với nhiều người, loại thuốc này thực sự góp phần vào một vòng luẩn quẩn làm tăng lo âu. Đây chính là &quot;nghịch lý cần sa&quot;. Trong ngắn hạn, THC thực sự có thể làm dịu hệ thần kinh, nhưng khi tác dụng giảm dần, nó có thể dẫn đến hiệu ứng &quot;phản hồi ngược&quot; khiến lo âu quay trở lại với cường độ mạnh hơn. Hơn nữa, việc sử dụng quá nhiều có thể cản trở khả năng tự nhiên của não bộ trong việc điều chỉnh nỗi sợ hãi và căng thẳng, khiến bạn dễ bị các cơn hoảng loạn và lo âu xã hội hơn về lâu dài. Nếu bạn thấy mình &quot;cần&quot; cần sa để đối mặt với một tình huống xã hội hoặc để thư giãn vào cuối ngày, bạn có thể đang che giấu một chứng lo âu tiềm ẩn cần được giải quyết bằng các phương pháp khác bền vững hơn. Học cách quản lý lo âu mà không cần cần sa bao gồm việc phát triển một &quot;bộ công cụ&quot; gồm các chiến lược khác - hít thở sâu, tập thể dục, trị liệu và sự hiện diện tỉnh thức. Khi bạn giảm dần lượng sử dụng, bạn có thể thấy mức độ lo lắng cơ bản của mình thực sự giảm xuống, bởi vì bạn không còn trải qua &quot;vòng xoáy hóa học&quot; của việc sử dụng và cai nghiện nữa. Bạn đang xây dựng một phiên bản của chính mình bình tĩnh hơn một cách tự nhiên và có khả năng đối phó tốt hơn với những thách thức của cuộc sống từ nền tảng của sự bình an nội tâm thực sự.</p>"
+          },
+          {
+            "id": "c13",
+            "title": "Áp lực xã hội và cần sa",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Khi cần sa ngày càng được xã hội chấp nhận và hợp pháp hóa ở nhiều nơi, áp lực sử dụng có thể trở nên rất lớn. Cho dù đó là ở một bữa tiệc, với bạn bè, hay thậm chí ở nhà, bạn có thể thấy mình trong những tình huống mà việc &quot;chuyền điếu cần sa&quot; trở thành chuyện bình thường. Vượt qua áp lực xã hội này là một phần quan trọng để duy trì những thói quen lành mạnh của bạn. Điều đó bắt đầu bằng việc cảm thấy thoải mái với quyết định của chính mình và có một cách đơn giản, trực tiếp để nói không. Bạn không cần phải giải thích dài dòng; một câu &quot;Không, cảm ơn, tôi ổn&quot; hoặc &quot;Tôi đang nghỉ ngơi một chút&quot; thường là quá đủ. Nếu bạn ở cùng những người thực sự trân trọng tình bạn của bạn, họ sẽ tôn trọng lựa chọn của bạn mà không cần thắc mắc. Ngoài ra, việc có đồ uống hoặc đồ ăn nhẹ không phải cần sa để giữ cho tay và miệng bạn bận rộn cũng rất hữu ích. Trong giai đoạn phục hồi ban đầu hoặc trong thời gian tạm ngừng sử dụng, bạn có thể chọn tránh một số nhóm bạn bè hoặc sự kiện nhất định nơi việc sử dụng cần sa quá mức là điều chắc chắn. Điều này không phải là &quot;không vui&quot;; mà là để bảo vệ sự tiến bộ của chính bạn. Cuối cùng, bạn sẽ nhận ra rằng bạn có thể có một cuộc sống xã hội phong phú và có những kết nối chân thành với người khác mà không cần sa là trọng tâm. Bạn đang xây dựng một lối sống dựa trên sự hiện diện chân thực và những giá trị riêng của mình, và đó là điều đáng để bảo vệ.</p>"
+          },
+          {
+            "id": "c14",
+            "title": "Khi nào cần tìm kiếm sự hỗ trợ",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Nhận ra khi nào bạn cần giúp đỡ là một dấu hiệu quan trọng của sự tự nhận thức và sức mạnh, chứ không phải là dấu hiệu của sự thất bại. Nếu bạn đã nhiều lần cố gắng giảm hoặc ngừng sử dụng cần sa nhưng vẫn không thể làm được, thì việc tìm kiếm sự hỗ trợ chuyên nghiệp là điều đáng làm. Các dấu hiệu khác bao gồm việc sử dụng ảnh hưởng đến công việc, học tập hoặc các mối quan hệ của bạn, hoặc nếu bạn cảm thấy sức khỏe tinh thần của mình đang bị ảnh hưởng nghiêm trọng. Nghiện ngập có thể là một gánh nặng lớn khi phải tự mình gánh chịu, và có rất nhiều người và chương trình dành riêng để giúp bạn tìm lại sự cân bằng. Điều này có thể bao gồm một chuyên viên tư vấn cai nghiện chuyên nghiệp, người có thể giúp bạn phát triển các chiến lược đối phó mới, hoặc một nhóm hỗ trợ nơi bạn có thể chia sẻ kinh nghiệm của mình với những người khác hiểu được hoàn cảnh của bạn. Trong một số trường hợp, các chương trình chuyên sâu hơn có thể phù hợp để tạo ra một môi trường tỉnh táo cho giai đoạn thiết lập lại ban đầu. Tìm kiếm sự hỗ trợ sẽ cung cấp cho bạn mức độ hướng dẫn chuyên nghiệp, trách nhiệm giải trình và kết nối cảm xúc mà khó có thể tìm thấy ở nơi khác. Bạn đang thừa nhận rằng sức khỏe và tương lai của bạn quá quan trọng để mạo hiểm. Luôn có sự trợ giúp, và bước đầu tiên tìm đến bác sĩ, chuyên viên tư vấn hoặc tham gia buổi gặp gỡ hỗ trợ là một trong những lựa chọn chủ động và mạnh mẽ nhất bạn có thể làm cho tương lai của mình.</p>"
+          },
+          {
+            "id": "c15",
+            "title": "Cuộc sống ở mức cơ sở thấp hơn",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Khi bạn giảm hoặc ngừng sử dụng cần sa, cuối cùng bạn sẽ đạt đến &quot;mức cơ bản thấp hơn&quot; của hoạt động hóa học thần kinh. Điều này không có nghĩa là bạn sẽ cảm thấy chán nản; mà có nghĩa là não bộ của bạn không còn bị kích thích nhân tạo bởi liều lượng THC cao nữa mà đang trở lại trạng thái tự nhiên. Mức cơ bản này được đặc trưng bởi tâm trạng ổn định hơn, đầu óc minh mẫn hơn và mức năng lượng ổn định hơn. Ban đầu, điều này có thể cảm thấy nhàm chán hoặc thậm chí hơi tẻ nhạt, vì hệ thống khen thưởng của não bộ đã quen với cảm giác hưng phấn tột độ do cần sa mang lại. Tuy nhiên, đây là trạng thái mà hạnh phúc thực sự, lâu dài được xây dựng. Ở mức cơ bản thấp hơn này, bạn có thể tìm thấy nhiều ý nghĩa và niềm vui hơn trong những trải nghiệm nhỏ nhặt hàng ngày - hương vị của món ăn ngon, vẻ đẹp của hoàng hôn, một cuộc trò chuyện ý nghĩa hoặc sự hài lòng khi hoàn thành tốt công việc. Bạn không còn theo đuổi cảm giác hưng phấn nhất thời nữa; bạn đang xây dựng một nền tảng vững chắc của sự bình an nội tâm và khả năng phục hồi. Đây là nơi mà từ đó bạn có thể thực sự hòa nhập với thế giới và xây dựng cuộc sống mà bạn mong muốn. Cuộc sống ở mức cơ bản thấp hơn không phải là kém sôi động hơn; mà là chân thực hơn. Bạn đang sống trọn vẹn từng khoảnh khắc của cuộc đời mình, với tất cả những thử thách và vẻ đẹp của nó, và bạn có sự sáng suốt và sức mạnh để vượt qua tất cả một cách vững vàng.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

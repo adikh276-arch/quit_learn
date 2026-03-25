@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Opioids Learn Module</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #1A7F5A;
+            --text-dark: #1A1A1A;
+            --text-meta: #717171;
+            --border: #EEEEEE;
+            --bg: #FFFFFF;
+        }
+
+        html, body {
+            overflow: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-dark);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        #app {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .view {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #list-view {
+            z-index: 10;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #reader-view {
+            z-index: 20;
+            transform: translateX(100%);
+            padding-top: 20px;
+        }
+
+        #reader-view.active {
+            transform: translateX(0);
+        }
+
+        #list-view.inactive {
+            transform: translateX(-20%);
+        }
+
+        .top-module {
+            padding: 24px 0 16px;
+            flex-shrink: 0;
+        }
+
+        .substance-pill {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: #F0F0F0;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .section-header {
+            margin: 32px 0 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-num {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--text-dark);
+        }
+
+        .article-row {
+            display: flex;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: background 0.2s;
+            min-height: 48px;
+        }
+
+        .article-row:hover {
+            opacity: 0.8;
+            background: #FAFAFA;
+        }
+
+        .doc-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            color: #999;
+            flex-shrink: 0;
+        }
+
+        .article-info {
+            flex: 1;
+        }
+
+        .article-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+            display: block;
+        }
+
+        .article-meta {
+            font-size: 11px;
+            color: var(--text-meta);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .type-badge {
+            background: #F0F0F0;
+            padding: 1px 6px;
+            border-radius: 3px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        .chevron {
+            color: #CCC;
+            font-size: 18px;
+            margin-left: 8px;
+            font-weight: 300;
+        }
+
+        .reader-nav {
+            margin-bottom: 8px;
+            flex-shrink: 0;
+        }
+
+        .back-arrow {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            margin-left: -14px;
+        }
+
+        .reader-header {
+            margin-bottom: 24px;
+            flex-shrink: 0;
+        }
+
+        .reader-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        .reader-content {
+            flex: 1;
+            overflow-y: auto;
+            height: calc(100vh - 120px);
+            padding-bottom: 80px;
+            scrollbar-width: none;
+        }
+
+        .reader-content p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #2D2D2D;
+            margin-bottom: 20px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+    
+        .lang-wrapper {
+            position: absolute;
+            top: 24px;
+            right: 0px;
+            z-index: 100;
+        }
+        .lang-picker {
+            appearance: none;
+            background: #F0F0F0;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #666;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .lang-picker:hover { background: #E5E5E5; }
+    
+    </style>
+    <script src="/i18n/loader.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="list-view" class="view">
+            <div class="top-module">
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-picker">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                    <option value="de">DE</option>
+                    <option value="hi">HI</option>
+                    <option value="ja">JA</option>
+                    <option value="zh-CN">ZH</option>
+                    <option value="ko">KO</option>
+                    <option value="ru">RU</option>
+                    <option value="it">IT</option>
+                    <option value="pt">PT</option>
+                    <option value="ar">AR</option>
+                    <option value="tr">TR</option>
+                    <option value="nl">NL</option>
+                    <option value="pl">PL</option>
+                    <option value="vi">VI</option>
+                    <option value="th">TH</option>
+                    <option value="id">ID</option>
+                    <option value="sv">SV</option>
+                    <option value="cs">CS</option>
+                </select>
+            </div>
+                <div class="substance-pill" data-i18n="substance_name">Opioids</div>
+                <div class="progress-container">
+                    <div id="main-progress" class="progress-bar"></div>
+                </div>
+            </div>
+            <div id="content-list"></div>
+        </div>
+
+        <div id="reader-view" class="view">
+            <div class="reader-nav">
+                <div class="back-arrow" onclick="closeReader()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </div>
+            </div>
+            <div class="reader-header">
+                <h1 class="reader-title" id="rt-title"></h1>
+                <div class="article-meta">
+                    <span id="rt-time"></span>
+                    <span class="type-badge" id="rt-type"></span>
+                </div>
+            </div>
+            <div class="reader-content" id="rt-content"></div>
+        </div>
+    </div>
+
+    <script>
+        let DATA = {
+            sections: [
+                {
+                    num: '01',
+                    title: 'Understanding Opioid Use',
+                    articles: [
+                        { id: 'o1', title: 'How Opioids Work in the Brain', time: '5 min', type: 'Article', content: '<p>Opioids are a class of drugs that interact with opioid receptors on nerve cells in the brain and nervous system. When these drugs, which include prescription pain relievers and illegal substances like heroin, attach to these receptors, they release a massive surge of dopamine. This not only dulls the sensation of pain but also creates a temporary, intense sense of euphoria and calm. This powerful reward response is what makes opioids so addictive. Your brain quickly begins to associate the drug with this extreme pleasure, creating a strong motivation to use it again. However, with repeated use, your brain\'s natural production of endorphins—the \'internal\' version of opioids—is suppressed. This means that over time, you need the drug not just to feel high, but to feel normal and avoid the crushing physical and emotional pain of withdrawal. The drug essentially rewires your brain\'s circuitry, prioritizing the substance above all other needs. Understanding this biological reality is a crucial first step in recovery. It shifts the perspective from one of moral failure to one of a serious medical condition that requires a comprehensive, science-based approach to healing. As you begin the recovery process, your brain will start the long journey of restoring its natural balance, allowing you to eventually find comfort and peace without the need for external chemicals.</p>' },
+                        { id: 'o2', title: 'How Prescription Use Becomes Dependency', time: '6 min', type: 'Article', content: '<p>For many people, the journey into opioid dependency begins in a doctor\'s office with a legitimate prescription for pain management. Opioids are highly effective at treating acute pain, but they also carry a significant risk of addiction, even when taken as directed. Dependency can develop rapidly, often within a few weeks of regular use. It starts with tolerance—the need for higher doses to achieve the same level of pain relief or euphoria. As tolerance grows, your body becomes physiologically dependent on the drug to function. If you stop taking it, you experience withdrawal symptoms. This transition from \'using for pain\' to \'using to avoid withdrawal\' is a critical turning point. Many people find themselves trapped in a cycle where they are no longer managing their original injury, but are instead managing the dependency the medication created. It\'s important to recognize that this is a common, though devastating, side effect of these powerful medications. If you notice that you are taking more than prescribed, visiting multiple doctors, or feeling anxious about when your next refill is due, these are signals that a dependency has formed. Acknowledging this reality is the first step toward getting the help you need to safely transition away from these substances and find healthier ways to manage your pain and your life.</p>' },
+                        { id: 'o3', title: 'What Is Fentanyl and Why Is It Dangerous', time: '5 min', type: 'Article', content: '<p>Fentanyl is a synthetic opioid that is 50 to 100 times more potent than morphine. While it is used medically for severe pain, its illicit version has become a major driver of the overdose crisis. The extreme potency of fentanyl means that an amount as small as a few grains of salt can be lethal. One of the greatest dangers is that fentanyl is often mixed into other illegal substances—including heroin, cocaine, and counterfeit prescription pills—without the user\'s knowledge. This unknown presence dramatically increases the risk of an accidental overdose. Fentanyl acts very quickly on the brain\'s respiratory center, causing breathing to slow or stop entirely. This can happen in minutes, leaving very little time for intervention. Because it is so powerful, multiple doses of the overdose-reversal drug naloxone may be required to save a life. Understanding the prevalence and risk of fentanyl is essential for anyone who uses illegal substances or unprescribed pills. It\'s a reminder of the extreme volatility and danger of the current drug market. Staying informed, carrying naloxone, and never using alone are vital harm-reduction strategies while you work toward the goal of recovery. Your life is valuable, and recognizing the reality of fentanyl is a critical part of protecting it.</p>' },
+                        { id: 'o4', title: 'Recognising the Signs of Opioid Use Disorder', time: '7 min', type: 'Assessment', content: '<p>Recognizing the signs of Opioid Use Disorder (OUD) in yourself or a loved one is a painful but necessary step toward recovery. OUD is characterized by a problematic pattern of opioid use that leads to significant impairment or distress. One of the most common signs is a loss of control over use—taking more of the substance or using it for a longer period than intended. You might spend a significant amount of time obtaining opioids, using them, or recovering from their effects. A persistent desire or unsuccessful efforts to cut down or control use is another hallmark of the condition. You may find that your opioid use is interfering with your responsibilities at work, school, or home, and that you are withdrawing from activities and relationships that were once important to you. Physically, you might notice pinpoint pupils, extreme sleepiness (known as \'the nod\'), and a lack of coordination. Withdrawal symptoms like nausea, muscle aches, and intense anxiety when not using are also clear indicators of physical dependency. If you continue to use opioids despite knowing they are causing or worsening your physical or psychological problems, it is a sign that the substance has taken hold. Early recognition and a non-judgmental approach to seeking help are the most effective ways to begin the journey toward health and stability.</p>' },
+                        { id: 'o5', title: 'Pain and Opioids — Breaking the Cycle', time: '7 min', type: 'Activity', content: '<p>The relationship between chronic pain and opioid use is complex and often circular. While opioids are intended to relieve pain, long-term use can actually make you more sensitive to it—a condition known as opioid-induced hyperalgesia. This means that the very medication you are taking for relief may be making your pain worse over time, leading to a cycle of increasing doses and worsening symptoms. Breaking this cycle requires a move toward a more holistic approach to pain management. This includes physical therapy, exercise, mindfulness, and non-opioid medications that target pain through different pathways. It also involves addressing the psychological and emotional aspects of chronic pain, which can be just as significant as the physical sensations. Moving away from opioids can be a frightening prospect when you are living with pain, but many people find that their pain levels actually improve and become more manageable once they are off the medications. It\'s important to work closely with a healthcare professional who understands chronic pain and addiction to develop a safe tapering plan and a comprehensive strategy for long-term management. You aren\'t just giving up a medication; you are reclaiming your body\'s natural ability to manage pain and building a life that isn\'t defined by a prescription bottle.</p>' }
+                    ]
+                },
+                {
+                    num: '02',
+                    title: 'Withdrawal and Detox',
+                    articles: [
+                        { id: 'o6', title: 'What Opioid Withdrawal Feels Like', time: '8 min', type: 'Article', content: '<p>Opioid withdrawal is often described as a severe, \'bone-deep\' flu that involves both physical and psychological agony. While it is rarely life-threatening for those in good health, it is incredibly distressing and is a major barrier to quitting. Symptoms typically begin within hours of the last dose and can last for several days to weeks. Physically, you might experience intense muscle and bone aches, abdominal cramping, nausea, vomiting, and diarrhea. You may have cold flashes with goosebumps (the origin of the term \'cold turkey\') and uncontrollable leg movements (\'kicking the habit\'). Your heart rate and blood pressure often increase, and you may experience excessive sweating and teary eyes. Psychologically, the withdrawal is marked by extreme anxiety, irritability, and an overwhelming craving for the drug. Sleep is almost impossible, leading to a state of profound exhaustion. It\'s important to understand that these symptoms are your body\'s intense reaction to the absence of a substance it has become entirely dependent upon. The severity of withdrawal is a reflection of the drug\'s power over your nervous system, not a reflection of your character. Knowing what to expect and having a medical and emotional support plan in place can help you navigate this difficult but temporary bridge to recovery and a healthier future.</p>' },
+                        { id: 'o7', title: 'Managing Withdrawal Symptoms', time: '7 min', type: 'Activity', content: '<p>Managing opioid withdrawal requires a combination of medical support, practical preparation, and emotional resilience. Because the symptoms can be so severe, seeking professional medical assistance is highly recommended. Doctors can provide medications that specifically target withdrawal symptoms—clonidine for blood pressure and anxiety, loperamide for gastrointestinal issues, and non-opioid pain relievers for aches. More importantly, they can offer medication-assisted treatments like buprenorphine or methadone, which can dramatically reduce the intensity of withdrawal and cravings, making the process much safer and more manageable. Practically, ensure you are in a safe, comfortable environment where you can rest. Stay hydrated with water and electrolyte drinks, as vomiting and diarrhea can lead to dehydration. Stock up on easy-to-digest foods and comfortable clothing. Emotionally, it\'s vital to have a support network—friends, family, or a counselor—who can provide encouragement and accountability. Remind yourself constantly that the pain is temporary and that your body is in the process of healing. Every hour you endure is a step away from dependency and a step toward reclaiming your life. You don\'t have to do this alone; professional help is available and can make a massive difference in your comfort and your success.</p>' },
+                        { id: 'o8', title: 'Medication-Assisted Treatment Explained', time: '7 min', type: 'Article', content: '<p>Medication-Assisted Treatment (MAT) is the use of FDA-approved medications, in combination with counseling and behavioral therapies, to provide a \'whole-patient\' approach to the treatment of Opioid Use Disorder. MAT is considered the gold standard of care because it significantly reduces the risk of overdose and increases the rates of long-term recovery. The medications used, such as buprenorphine, methadone, and naltrexone, work by interacting with the same opioid receptors in the brain as the substances they are replacing. Buprenorphine and methadone are \'agonists\' that satisfy the brain\'s craving and prevent withdrawal without producing the same \'high\' or respiratory depression of other opioids. This allows individuals to stabilize their lives, return to work, and engage in therapy. Naltrexone is an \'antagonist\' that blocks the effects of opioids entirely, providing a shield against relapse for those who have already detoxed. It\'s important to understand that MAT is not \'replacing one addiction with another.\' It is a medical intervention that manages a chronic disease, much like insulin for diabetes. MAT allows the brain to heal from the damage caused by opioid use and provides the stability needed for long-term health and wellness. Working with a specialized provider to find the right medication and dosage is a vital part of a comprehensive recovery plan.</p>' },
+                        { id: 'o9', title: 'What Is Naloxone and How to Use It', time: '6 min', type: 'Activity', content: '<p>Naloxone, often known by the brand name Narcan, is a life-saving medication that can literally reverse an opioid overdose as it is happening. It works by rapidly attaching to opioid receptors and displacing any opioids that are present, temporarily restoring normal breathing. Naloxone is easy to use and is available in a simple nasal spray that requires no medical training. If you suspect someone is overdosing—they are unconscious, have pinpoint pupils, and are breathing very slowly or not at all—your first step is to call emergency services. Then, administer the naloxone by inserting the tip of the nozzle into a nostril and pressing the plunger. The effects typically last for 30 to 90 minutes, so it is crucial that medical help arrives, as the person may fall back into an overdose as the naloxone wears off. Naloxone has no effect on someone who hasn\'t taken opioids, so there is no harm in using it if you are unsure. Carrying naloxone and knowing how to use it is a critical skill for anyone in the recovery community and their loved ones. It is a vital tool for keeping people alive so they have the chance to find recovery. You can obtain naloxone from many pharmacies without a prescription, often for free or at a low cost through community health programs.</p>' },
+                        { id: 'o10', title: 'The Role of Medical Supervision', time: '7 min', type: 'Article', content: '<p>Attempting to quit opioids alone can be an overwhelming and often unsuccessful journey. The role of medical supervision in recovery is to provide a safe, structured, and clinically supported environment for both the initial detox and the long-term management of Opioid Use Disorder. Medical professionals can assess your overall health, manage the physical risks of withdrawal, and provide the medications that make the process bearable. This supervision is particularly important for those with co-occurring health conditions or a long history of heavy use. In an inpatient or intensive outpatient setting, you have access to 24/7 care, which can be the difference between a successful quit and a relapse driven by unbearable symptoms. Beyond the physical, medical supervision involves regular counseling and psychiatric support to address the underlying reasons for use and to develop new, healthy coping strategies. It provides a level of accountability and professional guidance that is difficult to replicate on your own. Seeking medical supervision is not a sign of weakness; it\'s a strategic decision to use the most effective tools available to ensure your safety and success. You are giving yourself the best possible chance to move beyond opioids and build a life of health, stability, and genuine peace.</p>' }
+                    ]
+                },
+                {
+                    num: '03',
+                    title: 'Recovery and Rebuilding',
+                    articles: [
+                        { id: 'o11', title: 'Life After Opioids', time: '7 min', type: 'Article', content: '<p>Moving into life after opioids is a journey of rediscovering who you are when you\'re not defined by a substance. It is a period of significant change, as your brain and body continue to heal and your daily life begins to reorganize around health and meaning rather than the next dose. You might find that your emotions feel more vibrant, your physical energy gradually returns, and your relationships begin to deepen as you become more present. This phase is also about rediscovering your values and interests. Many people find new passions—whether in work, hobbies, or community service—that provide a natural source of fulfillment and reward. However, life after opioids also requires a commitment to ongoing maintenance. It means being honest with yourself about your triggers, maintaining your support networks, and continuing any necessary medical or psychological treatment. It\'s a time of building what clinicians call \'recovery capital\'—the resources and relationships that support your sobriety. You are not just \'avoiding a drug\'; you are actively building a life that you value and want to protect. This journey is not always easy, but it is profoundly rewarding. With every day that passes, you are proving your resilience and creating a future that is bright, stable, and entirely your own.</p>' },
+                        { id: 'o12', title: 'Rebuilding Trust With Yourself', time: '8 min', type: 'Activity', content: '<p>One of the most profound impacts of opioid use is the erosion of self-trust. Over time, you may have made countless promises to yourself to stop, only to find yourself using again. This cycle of intention and failure can lead to deep feelings of shame and a sense that you are inherently unreliable. Rebuilding trust with yourself is a slow but essential part of the recovery process. It starts with making small, manageable commitments and keeping them. This might be as simple as drinking enough water, making your bed, or attending a scheduled therapy session. Each time you do what you said you would do, you are making a \'deposit\' back into your account of self-trust. It\'s also about practicing radical honesty with yourself. This means acknowledging your feelings, recognizing your triggers, and being honest about the challenges you\'re facing. Self-trust doesn\'t mean being perfect; it means being consistent and being willing to get back on track when you stumble. As your period of sobriety grows, so too will your confidence in your own agency and your ability to make healthy decisions. You are proving to yourself, day by day, that you are someone whose word matters and who has the strength to build a better future. This internal trust is the foundation upon which the rest of your new life is built.</p>' },
+                        { id: 'o13', title: 'Dealing with Chronic Pain Without Opioids', time: '8 min', type: 'Article', content: '<p>Managing chronic pain without the use of opioids is a significant challenge, but for many, it is a necessary and ultimately rewarding path. The focus shifts from \'eliminating\' pain to \'managing\' it through a multi-modal approach. This involves a variety of strategies that work together to reduce pain signals and improve your ability to function. Physical therapy and regular, gentle movement like swimming or walking are foundational; they help strengthen your body and improve mobility, which can reduce pain over the long term. Mind-body techniques like mindfulness-based stress reduction (MBSR) and cognitive-behavioral therapy (CBT) for pain are also highly effective. These practices teach you to change your relationship with pain, reducing the emotional distress and anxiety that often make physical sensations feel worse. Non-opioid medications, such as anti-inflammatories or medications that target nerve pain, can also provide significant relief with much lower risk. It\'s a process of trial and error to find the combination that works best for your specific body and condition. Working with a pain management specialist who is supportive of a non-opioid approach is vital. You are learning a new set of skills to manage your body\'s signals, and while it takes time, it offers a path to a life where pain is a manageable part of your experience, not the center of it.</p>' },
+                        { id: 'o14', title: 'Support Networks and What They Actually Do', time: '7 min', type: 'Article', content: '<p>A support network is often cited as the single most important factor in long-term recovery from opioid use. But what does a support network actually do? At its core, it provides three essential things: connection, accountability, and the shared wisdom of experience. Addiction thrives in isolation; connection is the antidote. Having a group of people—whether it\'s a formal meeting like Narcotics Anonymous (NA) or SMART Recovery, or an informal group of friends and family—provides a sense of belonging and reminds you that you are not alone in your struggle. Accountability means having people who know your goals and can gently but firmly check in on your progress. They can help you recognize when you\'re drifting and offer support before a slip becomes a relapse. The shared wisdom of a support network is also invaluable. People further along in their journey can offer practical advice on managing triggers, navigating healthcare systems, and rebuilding a life. They provide a living example that recovery is possible. Your support network is your \'safety net,\' there to catch you when things get difficult and to celebrate your wins alongside you. Building and maintaining these connections is an active, ongoing process that is fundamental to your long-term health and stability. You are stronger when you are part of a community that cares.</p>' },
+                        { id: 'o15', title: 'Preventing Relapse', time: '7 min', type: 'Article', content: '<p>Relapse prevention is an active, daily practice that involves recognizing your risks and having a clear plan to manage them. It\'s helpful to move away from thinking of relapse as a single event and instead view it as a process that often starts long before a substance is actually used. This process generally involves three stages: emotional, mental, and physical relapse. Emotional relapse starts with poor self-care—isolating, not sleeping well, and neglecting your emotions. Mental relapse is the internal tug-of-war where you start to romanticize past use or think about using as a way to cope with current stress. Physical relapse is the actual act of using. Preventing relapse means intervening as early as possible. This involves maintaining your daily routines, staying connected to your support network, and being honest about your feelings and triggers. It also means having a \'relapse prevention plan\' that includes a list of people to call, places to go, and healthy activities to do when things get hard. If a slip does occur, it\'s vital to respond with honesty rather than shame. A single slip doesn\'t ruin your recovery; it\'s a signal to adjust your plan and recommit to your goals. You are building a set of skills and a life that is increasingly resilient. Stay vigilant, stay connected, and keep moving forward.</p>' }
+                    ]
+                }
+            ]
+        };
+
+        let readArticles = new Set(JSON.parse(localStorage.getItem('read_opioids') || '[]'));
+
+        function init() {
+            renderList();
+            updateProgress();
+        }
+
+        function renderList() {
+            const listEl = document.getElementById('content-list');
+            let html = '';
+
+            DATA.sections.forEach(sec => {
+                html += `
+                    <div class="section-header">
+                        <span class="section-num">${sec.num}.</span>
+                        <span class="section-title">${sec.title}</span>
+                    </div>
+                `;
+                sec.articles.forEach(art => {
+                    const isRead = readArticles.has(art.id);
+                    html += `
+                        <div class="article-row" onclick="openReader('${art.id}')">
+                            <div class="doc-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </div>
+                            <div class="article-info">
+                                <span class="article-title">${art.title}</span>
+                                <div class="article-meta">
+                                    <span>${art.time}</span>
+                                    <span class="type-badge">${art.type}</span>
+                                </div>
+                            </div>
+                            <div class="chevron">›</div>
+                        </div>
+                    `;
+                });
+            });
+            listEl.innerHTML = html;
+        }
+
+        function openReader(id) {
+            let article;
+            DATA.sections.forEach(s => {
+                const found = s.articles.find(a => a.id === id);
+                if (found) article = found;
+            });
+
+            if (!article) return;
+
+            document.getElementById('rt-title').textContent = article.title;
+            document.getElementById('rt-time').textContent = article.time;
+            document.getElementById('rt-type').textContent = article.type;
+            document.getElementById('rt-content').innerHTML = article.content;
+
+            readArticles.add(id);
+            localStorage.setItem('read_opioids', JSON.stringify([...readArticles]));
+            updateProgress();
+
+            document.getElementById('reader-view').classList.add('active');
+            document.getElementById('list-view').classList.add('inactive');
+            document.getElementById('rt-content').scrollTop = 0;
+        }
+
+        function closeReader() {
+            document.getElementById('reader-view').classList.remove('active');
+            document.getElementById('list-view').classList.remove('inactive');
+        }
+
+        function updateProgress() {
+            const total = DATA.sections.reduce((acc, s) => acc + s.articles.length, 0);
+            const pct = (readArticles.size / total) * 100;
+            document.getElementById('main-progress').style.width = pct + '%';
+        }
+
+        
+        window.initModule = (t) => {
+            if (t.DATA) DATA = t.DATA;
+            if (t.substance_name) document.querySelector('.substance-pill').textContent = t.substance_name;
+            renderList();
+            updateProgress();
+        };
+
+        const currentLang = localStorage.getItem('language') || 'en';
+        if (currentLang === 'en') {
+           init();
+        }
+        
+    </script>
+</body>
+</html>

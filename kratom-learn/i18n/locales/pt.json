@@ -1,0 +1,137 @@
+{
+  "app_title": "Módulo de Aprendizagem",
+  "progress_label": "Progresso",
+  "back_label": "Voltar",
+  "minutes_label": "min",
+  "type_article": "Artigo",
+  "type_assessment": "Avaliação",
+  "type_activity": "Atividade",
+  "substance_name": "Kratom",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Conscientização e Preparação",
+        "articles": [
+          {
+            "id": "k1",
+            "title": "O que é o Kratom e como ele afeta o seu cérebro.",
+            "time": "5 min",
+            "type": "Artigo",
+            "content": "<p>O kratom é uma árvore tropical nativa do Sudeste Asiático, onde suas folhas são utilizadas há séculos por seus efeitos estimulantes e semelhantes aos opioides. Os compostos ativos do kratom, mitraginina e 7-hidroximitraginina, interagem com os receptores opioides do cérebro. Em doses baixas, o kratom age como um estimulante, aumentando a energia, o estado de alerta e a sociabilidade. Em doses mais altas, produz efeitos sedativos e analgésicos semelhantes aos opioides tradicionais. Embora muitas pessoas usem o kratom para controlar dores crônicas, ansiedade ou para ajudar a abandonar outras substâncias, ele apresenta um risco significativo de dependência. O uso regular pode levar o cérebro a reduzir a atividade de seus próprios sistemas naturais de recompensa e regulação da dor, o que significa que você precisa de mais kratom para se sentir &quot;normal&quot;. Esse ciclo de uso e abstinência é o que cria o vício físico e psicológico. Compreender que o kratom é uma substância psicoativa potente com impactos biológicos reais é um primeiro passo crucial na avaliação do seu uso. Ao reconhecer como a substância interage com seu cérebro, você pode tomar decisões mais informadas sobre sua relação com ela e iniciar a jornada para recuperar sua clareza cognitiva e estabilidade emocional natural.</p>"
+          },
+          {
+            "id": "k2",
+            "title": "Quão viciado eu sou? — Uma autoavaliação",
+            "time": "5 min",
+            "type": "Avaliação",
+            "content": "<p>Avaliar sua relação com o kratom exige um nível de honestidade radical que pode ser desconfortável, mas é necessário para o crescimento. É útil abandonar a ideia de &quot;vício&quot; como um estado binário e, em vez disso, analisar seu uso em um espectro de dependência. Pergunte-se: você tem dificuldade para começar o dia ou realizar tarefas básicas sem kratom? Você percebeu um aumento na sua tolerância, que exige que você compre quantidades maiores ou use doses mais frequentes para obter o mesmo efeito? Um indicador importante é se você apresenta sintomas de abstinência, como irritabilidade, ansiedade ou dores musculares, quando tenta reduzir o consumo. Você passa uma parte significativa do seu tempo pensando em kratom, obtendo-o ou se recuperando dos seus efeitos? Se o seu uso de kratom está tornando seu mundo menor, prejudicando seus relacionamentos ou interferindo em seus objetivos profissionais, esses são sinais claros de que uma dependência se formou. Esta autoavaliação não é para julgamento; é uma ferramenta para obter informações. Uma vez que você saiba qual é a sua situação, poderá começar a tomar decisões informadas sobre o caminho a seguir que melhor apoia o seu bem-estar e o seu futuro.</p>"
+          },
+          {
+            "id": "k3",
+            "title": "Os sinais de um problema com kratom",
+            "time": "6 min",
+            "type": "Artigo",
+            "content": "<p>Os sinais de um relacionamento problemático com o kratom costumam ser sutis antes de se tornarem inegáveis. Você pode perceber que começou a esconder a extensão do seu uso de amigos e familiares, talvez usando em particular ou dando desculpas para o seu comportamento. Essa camuflagem social é um mecanismo de defesa comum quando você está subconscientemente ciente de que seu uso ultrapassou os limites saudáveis. Fisicamente, você pode sentir fadiga incomum, problemas digestivos ou uma sensação de irritabilidade que só diminui após uma dose. Seu interesse por hobbies que antes lhe davam prazer pode estar diminuindo, substituído por uma preferência por atividades que envolvem o uso de kratom. Outro sinal significativo é o &quot;efeito rebote&quot;, em que os mesmos sintomas que você usava o kratom para controlar — como dor ou ansiedade — retornam com mais intensidade quando o efeito da substância passa. Você também pode se sentir cada vez mais na defensiva quando pessoas próximas expressam preocupação com o seu uso. Se você está mais preocupado com o seu direito de usar kratom do que com a sua própria saúde e paz de espírito, é um sinal claro de que a substância ganhou uma presença significativa na sua vida. Reconhecer esses sinais é o primeiro passo para recuperar o controle da sua vida.</p>"
+          },
+          {
+            "id": "k4",
+            "title": "Como mapear seus gatilhos do kratom",
+            "time": "5 min",
+            "type": "Atividade",
+            "content": "<p>Os gatilhos são os sinais internos ou externos específicos que despertam um desejo quase automático de usar kratom. Para gerenciar seu uso com sucesso, você precisa se tornar um observador dos seus próprios padrões. Procure pelos &quot;Quatro Ps&quot;: Pessoas, Lugares, Momentos no Tempo e Estados Físicos. Talvez haja um certo fator estressante no trabalho que sempre te faz recorrer ao seu estoque, ou um horário específico do dia — como a moleza do meio da tarde — em que você sente que precisa de um estímulo. Estados físicos como fome, raiva, solidão ou cansaço (o acrônimo HALT) são gatilhos notoriamente poderosos. As emoções, tanto positivas quanto negativas, também são significativas; você pode usar kratom para comemorar uma vitória ou para aliviar a dor de um dia difícil. Mantendo um registro simples por alguns dias, anotando cada vez que sentir vontade de usar, você começará a perceber padrões. Você pode perceber que seus desejos estão ligados a eventos específicos e previsíveis, em vez de serem aleatórios. Uma vez que você tenha esse mapa, poderá começar a planejar respostas alternativas. Mapear seus gatilhos transforma uma luta vaga e avassaladora em uma série gerenciável de decisões estratégicas, permitindo que você responda com intenção em vez de reagir automaticamente.</p>"
+          },
+          {
+            "id": "k5",
+            "title": "As mentiras que contamos para continuar usando kratom",
+            "time": "6 min",
+            "type": "Artigo",
+            "content": "<p>O cérebro é notavelmente hábil em proteger seus hábitos e, quando se trata de kratom, frequentemente gera justificativas muito convincentes para o uso contínuo. Essas mentiras táticas são usadas pela mente para evitar o desconforto da mudança. Você pode dizer a si mesmo: &quot;Eu só uso para minha dor nas costas&quot;, o que coloca a responsabilidade em uma condição física e sugere que você não tem outra escolha. Ou você pode dizer: &quot;É só uma planta, então deve ser seguro&quot;, minimizando a realidade de suas poderosas propriedades psicoativas e o potencial de dependência. Outra mentira comum é: &quot;Sou mais produtivo quando uso&quot;, usando seus objetivos profissionais para proteger o hábito de uma análise minuciosa. Há também a mentira de que você pode parar quando quiser, uma promessa feita pela manhã que muitas vezes não resiste à realidade da tarde. Reconhecer esses &quot;sussurros do vício&quot; é uma habilidade crucial. Quando você ouvir aquela voz dizendo &quot;você merece isso&quot; depois de um dia estressante, reconheça-a pelo que ela é: um antigo caminho neural tentando se manter ativo. Ao denunciar essas mentiras assim que acontecem, você lhes tira o poder e se lembra da verdade: você está melhor sem elas.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Desintoxicação e Cura Inicial",
+        "articles": [
+          {
+            "id": "k6",
+            "title": "Como estimular o desejo por kratom durante o surfe",
+            "time": "6 min",
+            "type": "Atividade",
+            "content": "<p>Quando a vontade de consumir kratom surge, pode parecer uma ordem sólida e inabalável que só desaparece se você ceder. A técnica de &quot;surfar na onda&quot; ensina você a encarar essa vontade como uma onda. Assim como uma onda no oceano, a vontade começa pequena, aumenta de intensidade, atinge o pico e, inevitavelmente, quebra e se dissipa. Ela não dura para sempre. Para surfar na onda, o primeiro passo é observá-la sem julgamento. Diga para si mesmo: &quot;Percebo que estou com vontade de consumir kratom agora&quot;. Esse simples ato de nomeá-la cria uma distância entre você e o impulso. Em seguida, concentre-se no seu corpo. Onde você sente a vontade? Foque nessa sensação física e respire fundo. Não tente afastar a vontade, pois isso geralmente a intensifica. Em vez disso, imagine-se surfando sobre a sensação, mantendo-se presente e equilibrado até que ela comece a diminuir. A maioria das vontades atinge o pico e começa a diminuir em 15 a 30 minutos. Cada vez que você consegue superar um impulso, fortalece a parte do cérebro responsável pela autorregulação, tornando a próxima onda ainda mais fácil de surfar e comprovando sua própria resiliência.</p>"
+          },
+          {
+            "id": "k7",
+            "title": "Como dissipar pensamentos negativos sobre o kratom",
+            "time": "6 min",
+            "type": "Atividade",
+            "content": "<p>A defusão cognitiva é a prática de se distanciar dos seus pensamentos e vê-los apenas como palavras ou imagens, em vez de verdades absolutas ou ordens. Quando você está tentando reduzir ou parar o uso de kratom, sua mente produzirá pensamentos como &quot;Preciso de uma dose&quot; ou &quot;Não conseguirei terminar esta tarefa sem ele&quot;. Se você levar esses pensamentos ao pé da letra, eles podem parecer avassaladores. A defusão permite que você crie distância. Uma maneira simples de fazer isso é adicionar um prefixo: em vez de &quot;Preciso de uma dose&quot;, diga &quot;Estou tendo o pensamento de que preciso de uma dose&quot;. Essa mudança sutil lembra você de que o pensamento é um evento em sua mente, não uma exigência para a ação. Você também pode tentar &quot;agradecer&quot; à sua mente pelo pensamento: &quot;Obrigado, mente, por essa sugestão sobre o kratom, mas hoje estou indo em uma direção diferente&quot;. Isso elimina o conflito do diálogo interno. Você não precisa provar que o pensamento está errado; você só precisa reconhecê-lo como um produto da antiga programação do seu cérebro. Você é quem escolhe quais pensamentos seguir e quais deixar passar. Praticar a defusão ajuda você a deixar de ser escravo de cada impulso.</p>"
+          },
+          {
+            "id": "k8",
+            "title": "Controlando suas emoções na recuperação",
+            "time": "6 min",
+            "type": "Artigo",
+            "content": "<p>O kratom é frequentemente usado como uma forma de controlar quimicamente as emoções, desde o tédio de uma tarde tranquila até a ansiedade em uma situação social. Ao interromper o uso, você muitas vezes se depara com uma versão &quot;crua&quot; dos seus sentimentos, que pode parecer intensa e incontrolável. Controlar essas emoções começa com a compreensão de que elas são temporárias e não podem lhe fazer mal. Sentimentos como inquietação ou frustração, comuns no início da recuperação, são apenas sinais de que seu cérebro está buscando sua antiga recompensa. Em vez de recorrer ao kratom para mudar como você se sente, tente simplesmente nomear a emoção: &quot;Estou me sentindo ansioso agora&quot;. Nomear uma emoção demonstrou reduzir sua intensidade física no cérebro. Em seguida, encontre uma maneira saudável de processá-la, como respirar fundo, escrever em um diário ou dar uma caminhada. Você não está tentando fazer a emoção desaparecer instantaneamente; você está fortalecendo seu &quot;músculo emocional&quot; aprendendo a conviver com o desconforto. Com o tempo, seu cérebro reaprenderá a regular seu próprio humor naturalmente. Você descobrirá que é muito mais resiliente do que imaginava e capaz de lidar com os altos e baixos da vida sem recorrer a soluções químicas.</p>"
+          },
+          {
+            "id": "k9",
+            "title": "Como são os sintomas da abstinência de kratom",
+            "time": "8 min",
+            "type": "Artigo",
+            "content": "<p>A abstinência de kratom é o processo pelo qual seu corpo e cérebro se reequilibram após a presença constante da substância. Os sintomas geralmente começam poucas horas após a última dose e podem variar de leves a graves, dependendo do seu nível de uso. Fisicamente, você pode sentir dores musculares, coriza e problemas digestivos. Um sintoma comum e particularmente incômodo é a &quot;síndrome das pernas inquietas&quot;, que pode dificultar o sono. Você também pode sentir calafrios ou suar excessivamente. Psicologicamente, a abstinência é marcada por ansiedade elevada, irritabilidade e uma sensação constante de baixo astral ou falta de energia. É importante entender que esses sintomas são a maneira que seu corpo encontra para se curar — ele está tentando se lembrar de como funcionar sem um estimulante psicoativo. Embora desconfortável, a abstinência de kratom geralmente não é perigosa para a maioria das pessoas, mas requer paciência e autocompaixão. Os primeiros dias podem ser exaustivos e emocionalmente desgastantes, mas o desconforto é uma ponte temporária para uma vida de saúde plena. Mantenha-se hidratado, priorize o descanso e lembre-se de que esses sentimentos são um sinal do seu progresso rumo a uma versão mais lúcida e estável de si mesmo. Cada hora que você passa sem usar drogas é um passo em direção à liberdade da dependência.</p>"
+          },
+          {
+            "id": "k10",
+            "title": "Gerenciando o desejo por kratom a longo prazo",
+            "time": "7 min",
+            "type": "Artigo",
+            "content": "<p>Controlar os desejos por kratom a longo prazo exige um compromisso com a autoconsciência contínua e uma abordagem proativa em relação ao seu ambiente. Os desejos nem sempre desaparecem após o fim da abstinência física; eles podem retornar como &quot;ecos&quot; do seu antigo hábito, frequentemente desencadeados por estresse ou nostalgia. Uma estratégia fundamental é manter as rotinas saudáveis que você construiu — sono consistente, exercícios regulares e comunicação honesta. Quando um desejo surgir, use as ferramentas que você praticou: nomeie o pensamento, reconheça a emoção e use o método &quot;Adiar e Distrair&quot;. Lembre-se dos motivos pelos quais você escolheu parar ou reduzir o uso e dos benefícios que experimentou desde então. Também é útil manter-se conectado a uma rede de apoio, sejam amigos, familiares ou uma comunidade de outras pessoas em recuperação. Ter alguém com quem conversar quando você se sente vulnerável proporciona uma sensação imediata de responsabilidade e conexão. O controle a longo prazo consiste em estar vigilante sem ter medo. Você está construindo uma vida tão plena e significativa que o desejo ocasional de usar kratom perde o poder de perturbar sua paz. Você está no controle de suas escolhas e, a cada dia que passa, sua força e clareza aumentam.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Construindo uma vida equilibrada",
+        "articles": [
+          {
+            "id": "k11",
+            "title": "Criando novos hábitos e rotinas",
+            "time": "7 min",
+            "type": "Atividade",
+            "content": "<p>Ao reduzir ou interromper o uso de kratom, você frequentemente se depara com períodos &quot;vazios&quot; no seu dia, que antes eram preenchidos pelo ritual de preparar e consumir a substância. Criar novas rotinas saudáveis significa preencher intencionalmente esse espaço com atividades que contribuam para o seu bem-estar. Comece identificando suas &quot;zonas de perigo&quot; — os horários do dia em que você tinha maior probabilidade de usar a substância — e planeje uma atividade específica, sem kratom, para esses períodos. Pode ser uma sessão de exercícios pela manhã, uma caminhada no meio do dia ou um novo ritual noturno, como ler com um chá especial. A rotina proporciona uma sensação de segurança e previsibilidade que é incrivelmente útil para manter o equilíbrio. Ela ajuda você a navegar pelo dia sem ter que tomar uma série constante de decisões exaustivas. Seus novos hábitos podem incluir um horário regular de sono, alimentação consciente e reflexão diária. Com o tempo, esses novos comportamentos se tornarão tão automáticos quanto os antigos. Você não está apenas &quot;parando de usar kratom&quot;; você está construindo ativamente uma vida estruturada de forma a tornar a saúde e a estabilidade a escolha natural e mais fácil. Você está criando um futuro repleto de atividades interessantes e gratificantes que apoiam a melhor versão de si mesmo.</p>"
+          },
+          {
+            "id": "k12",
+            "title": "Como lidar com situações sociais sem kratom",
+            "time": "8 min",
+            "type": "Artigo",
+            "content": "<p>Viver em um mundo onde o kratom é frequentemente comercializado como um suplemento inofensivo significa que você provavelmente enfrentará situações sociais onde seu uso é normalizado. Aprender a lidar com esses momentos com confiança é uma habilidade vital para a recuperação a longo prazo. Antes de entrar em um ambiente social, defina sua posição e tenha uma resposta simples e direta pronta. Um firme &quot;Não, obrigado, estou bem&quot; ou &quot;Decidi parar de usar por um tempo&quot; geralmente é suficiente. Você não deve explicações detalhadas sobre sua jornada a ninguém. Se as pessoas insistirem, lembre-se de que essa insistência muitas vezes reflete mais a relação delas com a substância do que a sua. Nos estágios iniciais, é perfeitamente aceitável evitar eventos de alto risco. Sua paz de espírito e seu progresso são a prioridade. Encontrar um &quot;parceiro de sobriedade&quot; ou alguém em seu círculo social que apoie sua escolha pode fazer uma grande diferença, proporcionando uma sensação imediata de conexão e responsabilidade. Eventualmente, você descobrirá que pode levar uma vida social rica e se divertir de verdade sem que o kratom seja o centro da interação. Você está construindo um estilo de vida baseado em uma presença autêntica e em seus próprios valores, algo de que você pode se orgulhar muito.</p>"
+          },
+          {
+            "id": "k13",
+            "title": "Reconstruindo a confiança e os relacionamentos",
+            "time": "8 min",
+            "type": "Artigo",
+            "content": "<p>O uso de kratom pode impactar relacionamentos de maneiras sutis, porém significativas, frequentemente levando ao distanciamento emocional ou à perda de consistência. Com o tempo, seu foco pode ter se voltado para a substância, deixando as pessoas queridas se sentindo negligenciadas ou confusas. Reparar essas conexões é um processo que exige paciência, honestidade e ações consistentes. Um pedido de desculpas é um bom começo, mas o verdadeiro trabalho acontece por meio de suas escolhas diárias. Ao cumprir seus compromissos, estar emocionalmente presente e manter seus novos hábitos, você está reconstruindo lentamente a base da confiança. É útil ter conversas honestas sobre o impacto do seu uso, dando espaço para que os outros expressem seus sentimentos sem se colocarem na defensiva. Isso pode ser difícil, mas é necessário para uma cura genuína. Alguns relacionamentos podem ter se centrado no uso e podem não se encaixar mais em sua nova vida, e essa é uma constatação dolorosa, mas saudável. Para aqueles que você escolher manter, esteja preparado para que a reparação seja uma maratona, não uma corrida de curta distância. As pessoas precisam de tempo para perceber que sua mudança é real e duradoura. À medida que você se cura, suas conexões se tornarão mais profundas e autênticas, porque serão baseadas em quem você realmente é.</p>"
+          },
+          {
+            "id": "k14",
+            "title": "Estratégias de prevenção de recaídas",
+            "time": "7 min",
+            "type": "Artigo",
+            "content": "<p>A prevenção de recaídas é uma prática ativa e diária que envolve reconhecer seus riscos e ter um plano para gerenciá-los. É útil encarar a recaída não como um fracasso isolado, mas como um processo que geralmente começa com uma mudança em seus hábitos e mentalidade. Os primeiros sinais de alerta incluem negligenciar o autocuidado físico, isolar-se de pessoas que te apoiam e começar a &quot;romantizar&quot; o uso passado de kratom. Prevenir uma recaída significa intervir assim que você perceber esses sinais. Mantenha-se conectado à sua rede de apoio e seja honesto sobre os desafios que você está enfrentando. Tenha um &quot;plano de prevenção de recaídas&quot; que inclua uma lista de pessoas para ligar e atividades saudáveis para fazer quando sentir vontade de voltar ao seu antigo hábito. Se uma recaída ocorrer, reaja com honestidade em vez de vergonha. Uma única recaída não arruína tudo pelo que você trabalhou; é um sinal para ajustar seu plano e se comprometer novamente com seus objetivos. Você está construindo um conjunto de habilidades e uma vida cada vez mais resiliente. Mantenha-se vigilante, mantenha suas rotinas e continue avançando. Você tem as ferramentas e a força para proteger seu progresso e continuar construindo um futuro de saúde e bem-estar genuíno.</p>"
+          },
+          {
+            "id": "k15",
+            "title": "Uma mentalidade para o bem-estar a longo prazo",
+            "time": "7 min",
+            "type": "Artigo",
+            "content": "<p>O bem-estar a longo prazo após o uso de kratom envolve uma mudança fundamental na forma como você se vê e no seu lugar no mundo. Significa passar de uma mentalidade de &quot;restrição&quot; — a sensação de estar perdendo um benefício — para uma mentalidade de &quot;abundância&quot;, onde você percebe que a sobriedade lhe devolve a clareza, a autonomia e a saúde. A longo prazo, você supera a luta para evitar uma dose e entra no campo do crescimento pessoal e da realização. Essa mentalidade envolve um compromisso com a autoconsciência contínua e a disposição de se sentir confortável sendo &quot;diferente&quot; em um mundo que muitas vezes prioriza soluções rápidas. Você continua monitorando seu estresse, cuidando da sua saúde emocional e mantendo as conexões que lhe dão suporte. Você começa a encontrar alegria profunda em pequenas experiências cotidianas — a beleza da natureza, uma conversa significativa ou a satisfação do seu próprio trabalho árduo. O objetivo não é chegar a um destino final chamado &quot;recuperado&quot;, mas sim abraçar uma jornada para a vida toda em busca da melhor versão de si mesmo. Você está construindo uma vida tão genuinamente envolvente e significativa que não sente mais necessidade de escapar dela. Esse é o maior presente de uma vida equilibrada e livre de kratom.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

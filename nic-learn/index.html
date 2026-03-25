@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Nicotine Learn Module</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #9B3FD4;
+            --text-dark: #1A1A1A;
+            --text-meta: #717171;
+            --border: #EEEEEE;
+            --bg: #FFFFFF;
+        }
+
+        html, body {
+            overflow: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-dark);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        #app {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .view {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #list-view {
+            z-index: 10;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #reader-view {
+            z-index: 20;
+            transform: translateX(100%);
+            padding-top: 20px;
+        }
+
+        #reader-view.active {
+            transform: translateX(0);
+        }
+
+        #list-view.inactive {
+            transform: translateX(-20%);
+        }
+
+        .top-module {
+            padding: 24px 0 16px;
+            flex-shrink: 0;
+        }
+
+        .substance-pill {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: #F0F0F0;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .section-header {
+            margin: 32px 0 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-num {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--text-dark);
+        }
+
+        .article-row {
+            display: flex;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: background 0.2s;
+            min-height: 48px;
+        }
+
+        .article-row:hover {
+            opacity: 0.8;
+            background: #FAFAFA;
+        }
+
+        .doc-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            color: #999;
+            flex-shrink: 0;
+        }
+
+        .article-info {
+            flex: 1;
+        }
+
+        .article-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+            display: block;
+        }
+
+        .article-meta {
+            font-size: 11px;
+            color: var(--text-meta);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .type-badge {
+            background: #F0F0F0;
+            padding: 1px 6px;
+            border-radius: 3px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        .chevron {
+            color: #CCC;
+            font-size: 18px;
+            margin-left: 8px;
+            font-weight: 300;
+        }
+
+        .reader-nav {
+            margin-bottom: 8px;
+            flex-shrink: 0;
+        }
+
+        .back-arrow {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            margin-left: -14px;
+        }
+
+        .reader-header {
+            margin-bottom: 24px;
+            flex-shrink: 0;
+        }
+
+        .reader-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        .reader-content {
+            flex: 1;
+            overflow-y: auto;
+            height: calc(100vh - 120px);
+            padding-bottom: 80px;
+            scrollbar-width: none;
+        }
+
+        .reader-content p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #2D2D2D;
+            margin-bottom: 20px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+    
+        .lang-wrapper {
+            position: absolute;
+            top: 24px;
+            right: 0px;
+            z-index: 100;
+        }
+        .lang-picker {
+            appearance: none;
+            background: #F0F0F0;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #666;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .lang-picker:hover { background: #E5E5E5; }
+    
+    </style>
+    <script src="/i18n/loader.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="list-view" class="view">
+            <div class="top-module">
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-picker">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                    <option value="de">DE</option>
+                    <option value="hi">HI</option>
+                    <option value="ja">JA</option>
+                    <option value="zh-CN">ZH</option>
+                    <option value="ko">KO</option>
+                    <option value="ru">RU</option>
+                    <option value="it">IT</option>
+                    <option value="pt">PT</option>
+                    <option value="ar">AR</option>
+                    <option value="tr">TR</option>
+                    <option value="nl">NL</option>
+                    <option value="pl">PL</option>
+                    <option value="vi">VI</option>
+                    <option value="th">TH</option>
+                    <option value="id">ID</option>
+                    <option value="sv">SV</option>
+                    <option value="cs">CS</option>
+                </select>
+            </div>
+                <div class="substance-pill" data-i18n="substance_name">Nicotine</div>
+                <div class="progress-container">
+                    <div id="main-progress" class="progress-bar"></div>
+                </div>
+            </div>
+            <div id="content-list"></div>
+        </div>
+
+        <div id="reader-view" class="view">
+            <div class="reader-nav">
+                <div class="back-arrow" onclick="closeReader()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </div>
+            </div>
+            <div class="reader-header">
+                <h1 class="reader-title" id="rt-title"></h1>
+                <div class="article-meta">
+                    <span id="rt-time"></span>
+                    <span class="type-badge" id="rt-type"></span>
+                </div>
+            </div>
+            <div class="reader-content" id="rt-content"></div>
+        </div>
+    </div>
+
+    <script>
+        let DATA = {
+            sections: [
+                {
+                    num: '01',
+                    title: 'Understanding Your Habit',
+                    articles: [
+                        { id: 'n1', title: 'What Nicotine Does to Your Brain', time: '5 min', type: 'Article', content: '<p>Nicotine is one of the most addictive substances known, primarily because of how rapidly it interacts with your brain\'s reward system. When you inhale nicotine, it reaches your brain in seconds, triggering a release of dopamine—the \'feel-good\' neurotransmitter. This creates a temporary sense of pleasure and relaxation, but it comes at a cost. Your brain quickly adapts to this artificial stimulation by reducing its own natural dopamine production. This means that over time, you need nicotine just to feel \'normal\' rather than to feel extra pleasure. This cycle of use and withdrawal is what creates the powerful physical dependency of smoking. Beyond dopamine, nicotine also affects chemicals related to attention and memory, which is why smokers often feel it helps them concentrate. However, this is a short-term effect that masks the long-term damage nicotine does to your brain\'s natural chemistry. Understanding this biological hijacking is a key step in quitting. It allows you to see that your cravings aren\'t a lack of willpower, but a physiological response to a brain that has been recalibrated by a chemical. As you quit, your brain will begin the slow but certain process of returning to its natural state, restoring your ability to feel pleasure and focus without the need for a cigarette.</p>' },
+                        { id: 'n2', title: 'Your Smoking Triggers', time: '6 min', type: 'Activity', content: '<p>For many smokers, the habit is deeply woven into the fabric of daily life, tied to specific activities, emotions, and locations. These are your triggers. Common triggers include the first cup of coffee in the morning, driving, finishing a meal, or having a drink at the end of the day. Emotions are also powerful drivers; you might reach for a cigarette when you\'re feeling stressed, bored, lonely, or even particularly happy. Social situations, like being around other smokers, create a powerful urge to join in. To successfully quit, you must identify these cues so you can prepare for them. Start by keeping a \'trigger log\' for a few days, noting every time you light up or feel a strong urge to do so. What were you doing? How were you feeling? Who were you with? Once you have this map, you can begin to develop alternative responses. If you always smoke with coffee, try switching to tea or changing where you sit. If stress is a trigger, find a five-minute breathing exercise you can do instead. You aren\'t just removing a cigarette; you are re-learning how to navigate your day without it. By anticipating your triggers, you take the \'automatic\' out of the habit and give yourself the space to make a conscious, smoke-free choice.</p>' },
+                        { id: 'n3', title: 'The Fagerström Test Explained', time: '5 min', type: 'Assessment', content: '<p>The Fagerström Test for Nicotine Dependence is a standard clinical tool used to measure the intensity of your physical addiction to nicotine. It asks a series of specific questions, such as how soon after waking you have your first cigarette, whether you find it difficult to refrain from smoking in places where it is forbidden, and how many cigarettes you smoke per day. The most telling indicator of high dependence is often the \'first cigarette of the day\'—if you need to smoke within five or thirty minutes of waking, your brain is signaling a significant physical need for nicotine to function. Understanding your Fagerström score is not about labeling yourself, but about tailoring your quitting strategy. Those with high scores may find that Nicotine Replacement Therapy (NRT) or prescription medications are particularly helpful in managing the intense physical withdrawal symptoms. If your score is lower, your challenges may be more related to the social and behavioral aspects of the habit. Regardless of your score, knowing your level of dependence allows you to go into the quitting process with realistic expectations. It helps you understand why the first few days might feel particularly difficult and why certain tools might be necessary to help you bridge the gap to a smoke-free life.</p>' },
+                        { id: 'n4', title: 'Why Quitting Feels So Hard', time: '7 min', type: 'Article', content: '<p>Quitting nicotine is notoriously difficult because it involves a \'triple threat\' of addiction: physical, behavioral, and psychological. The physical part is the withdrawal syndrome, which can include irritability, anxiety, difficulty concentrating, and intense cravings as your body clears the nicotine. The behavioral part is the loss of the many rituals associated with smoking—the hand-to-mouth motion, the \'break\' from work, the social connection with other smokers. These rituals have been repeated thousands of times, creating deep neural pathways that don\'t disappear overnight. The psychological part is perhaps the most complex; for many, the cigarette has become a \'friend\' or a reliable coping mechanism for managing life\'s ups and downs. When you quit, you might feel a sense of grief or loss, as if you\'re giving up a part of your identity. It\'s important to recognize that this difficulty is not a sign of weakness; it\'s a testament to the power of the substance. Many people require multiple attempts before they successfully quit for good. Each attempt is not a failure but a learning experience that brings you closer to your goal. By understanding why it feels so hard, you can be more compassionate with yourself during the process and stay committed to the long-term benefits of a healthy, smoke-free life.</p>' },
+                        { id: 'n5', title: 'Smoking and Mental Health', time: '7 min', type: 'Article', content: '<p>There is a persistent myth that smoking helps manage stress and anxiety, but the reality is quite the opposite. While the act of smoking might provide a temporary reprieve, it actually increases your long-term levels of stress. This happens because the \'relaxation\' you feel is actually just the relief of withdrawal symptoms that the previous cigarette created. Between cigarettes, your body is in a state of low-level stress as nicotine levels drop; smoking simply returns you to a baseline that a non-smoker enjoys all the time. Furthermore, smoking has been linked to higher rates of depression and anxiety disorders. The constant chemical fluctuation in the brain can interfere with emotional regulation and make it harder to manage mental health challenges. When you quit, you might experience a temporary spike in anxiety or low mood as your brain recalibrates, but over time, most people find their mental health significantly improves. They report feeling more stable, less anxious, and more in control of their emotions. Quitting smoking is one of the most effective things you can do to support your long-term mental well-being. You are moving from a state of chemical dependency to a state of natural resilience, where you can handle life\'s challenges with a clear and steady mind.</p>' }
+                    ]
+                },
+                {
+                    num: '02',
+                    title: 'Quitting Tools',
+                    articles: [
+                        { id: 'n6', title: 'Nicotine Replacement Options', time: '6 min', type: 'Article', content: '<p>Nicotine Replacement Therapy (NRT) is a highly effective tool for managing the physical withdrawal symptoms that make quitting so difficult. NRT provides your body with a controlled dose of nicotine without the thousands of harmful chemicals found in tobacco smoke. This helps to take the \'edge\' off cravings, allowing you to focus on the behavioral and psychological aspects of quitting. NRT comes in various forms, including long-acting patches that provide a steady stream of nicotine throughout the day, and short-acting options like gum, lozenges, inhalators, and nasal sprays that can be used to combat sudden urges. Research shows that using NRT can double your chances of quitting successfully compared to going \'cold turkey.\' Many people find that a combination approach—using a patch for a baseline and gum for breakthrough cravings—works best. It\'s important to use NRT correctly and for the full recommended duration, usually about 8 to 12 weeks, to give your brain enough time to adjust. While some people worry about becoming \'addicted\' to NRT, the risk is much lower than with cigarettes, and the health benefits of stopping smoking are immediate and vast. Speak with your pharmacist or doctor to find the NRT plan that is right for you and your level of dependence.</p>' },
+                        { id: 'n7', title: 'The Delay and Distract Method', time: '6 min', type: 'Activity', content: '<p>The \'Delay and Distract\' method is a simple but powerful behavioral tool for managing cravings in the moment. When a strong urge to smoke hits, your first step is to delay. Tell yourself, \'I\'m not going to smoke right now; I\'ll wait ten minutes.\' Most cravings, no matter how intense, reach their peak and then begin to subside within five to ten minutes. By delaying, you are allowing the wave of the urge to pass without acting on it. During those ten minutes, your second step is to distract yourself. Do something that requires your full attention or changes your physical environment. This could be drinking a large glass of water, going for a brisk walk, calling a friend, or doing a crossword puzzle. The goal is to move your focus away from the cigarette and onto something else. Often, by the time the ten minutes are up, the intensity of the craving has diminished significantly, and the immediate danger of reaching for a cigarette has passed. Every time you successfully use this method, you are weakening the neural signals that link a trigger to a cigarette and strengthening your ability to manage discomfort. It\'s a practical, actionable way to prove to yourself that you are in control of your actions, regardless of how a craving feels.</p>' },
+                        { id: 'n8', title: 'Handling Your First Week', time: '7 min', type: 'Article', content: '<p>The first week of quitting smoking is often the most physically and emotionally challenging. Your body is clearing the last traces of nicotine, and your brain is beginning the work of recalibrating its reward system. You might experience a range of withdrawal symptoms, including irritability, restlessness, headaches, and a persistent \'brain fog.\' It\'s important to go into this week with a clear plan and a lot of self-compassion. Keep your schedule as light as possible and avoid high-stress situations or social events where smoking is common. Stock up on healthy distractions like sugar-free gum, carrot sticks, or herbal tea. Stay hydrated and try to get as much rest as possible, as fatigue can lower your defenses against cravings. Remember that the intense feelings you are experiencing are a sign that your body is healing—every minute of discomfort is a minute closer to being smoke-free. Many people find it helpful to tell a few supportive friends or family members that they are quitting and might be a bit grumpy for a few days. Celebrate every small win: the first morning without a cigarette, the first successful commute, the first day completed. By the end of the first week, the physical withdrawal symptoms will begin to peak and then subside, and you will have built a solid foundation for your new, healthy life.</p>' },
+                        { id: 'n9', title: 'What the Cravings Timeline Looks Like', time: '7 min', type: 'Article', content: '<p>Understanding the timeline of cravings can help you navigate the quitting process with more confidence. In the first 24 to 72 hours, cravings are typically at their most frequent and intense as the nicotine completely leaves your system. This is often the most difficult period, where it can feel like you\'re in a constant battle with your urges. After the first three days, the frequency and intensity of physical cravings usually begin to drop. However, you will still face psychological triggers—the \'smoking memories\' that occur in certain situations or emotional states. By the end of the second week, many people report that the \'constant\' urge to smoke has been replaced by occasional, manageable waves. By the end of the first month, the physical dependence is largely broken, and your focus shifts to maintaining your new habits and navigating social situations. It\'s important to remember that a craving is not a command; it\'s just a temporary sensation that will pass. Even months or years later, you might experience a random, fleeting urge to smoke, perhaps triggered by a specific smell or a particularly stressful event. These are normal and don\'t mean you\'re failing; they are just fading echoes of an old habit. By knowing the timeline, you can stay patient and committed, knowing that every day you stay smoke-free makes the next day easier.</p>' },
+                        { id: 'n10', title: 'Vaping — Is It Actually Safer', time: '8 min', type: 'Article', content: '<p>Vaping, or the use of electronic cigarettes, is often marketed as a safer alternative to traditional smoking, but it\'s important to understand the full picture. While vaping does not involve the combustion of tobacco, which produces most of the cancer-causing tars and gases in cigarettes, it is not without risk. Most vapes still deliver nicotine, meaning the underlying addiction remains. Furthermore, the aerosol produced by vaping contains a variety of chemicals, flavorings, and heavy metals whose long-term health effects are still being studied. For some adult smokers, switching completely to vaping can be a step toward quitting tobacco, but it should be seen as a transitional tool rather than a final destination. Dual use—both smoking and vaping—is particularly harmful. For young people and non-smokers, vaping is a significant health risk that can lead to nicotine addiction and damage to developing lungs and brains. The ultimate goal for your health is to be free from all inhaled substances. If you are using vaping as a way to quit smoking, work toward a plan to eventually taper off both. You deserve to breathe clean air and to have a body that is free from the influence of any chemical dependency. Focus on the long-term goal of total freedom from nicotine in all its forms.</p>' }
+                    ]
+                },
+                {
+                    num: '03',
+                    title: 'Staying Smoke-Free',
+                    articles: [
+                        { id: 'n11', title: 'Building Your Smoke-Free Identity', time: '7 min', type: 'Activity', content: '<p>A central part of successful, long-term quitting is shifting how you see yourself. Instead of being a \'smoker who is trying to quit,\' aim to become a \'non-smoker.\' This is the process of building a smoke-free identity. Your identity is shaped by your actions and the stories you tell yourself about who you are. Every time you choose not to smoke in a situation where you normally would, you are casting a vote for your new identity. Start to focus on the benefits you are experiencing: the better smell of your clothes, the improved taste of your food, the extra money in your pocket, and the sense of pride in your accomplishment. When someone offers you a cigarette, practice saying \'I don\'t smoke\' rather than \'I\'m quitting.\' This shift in language reinforces your new reality. Think about the values that are important to you—health, freedom, self-respect—and how staying smoke-free aligns with them. You are no longer someone whose day is dictated by the need for a pack of cigarettes. You are someone who values their health and is in control of their choices. This new identity becomes a powerful shield against relapse, as smoking would no longer \'fit\' with who you have become. You are building a life that is defined by what you value, not by a habit you\'ve outgrown.</p>' },
+                        { id: 'n12', title: 'Managing Stress Without Cigarettes', time: '8 min', type: 'Article', content: '<p>One of the biggest fears people have when quitting is how they will handle stress without their \'coping tool.\' It\'s important to realize that cigarettes never actually solved your problems; they just provided a brief distraction while your body was in nicotine withdrawal. Learning new ways to manage stress is essential for staying smoke-free. The first step is to recognize the physical signs of stress—tension in your shoulders, a racing heart, shallow breathing—and respond to them immediately. Deep, diaphragmatic breathing is one of the most effective ways to signal to your nervous system that it\'s safe to relax. Take a few minutes every day to practice slow, deep breaths. Physical activity is another powerful stress reliever; even a ten-minute walk can significantly lower your cortisol levels. Find other healthy ways to unwind, such as listening to music, talking to a friend, or practicing a hobby. It\'s also helpful to look at the sources of stress in your life and see if any can be reduced or eliminated. You are building a version of yourself that is more resilient and better equipped to handle life\'s challenges. You don\'t need a chemical to stay calm; you have the inner strength and the practical tools to navigate even the most stressful days with clarity and grace.</p>' },
+                        { id: 'n13', title: 'What to Do When You Slip', time: '7 min', type: 'Article', content: '<p>If you have a cigarette after you\'ve decided to quit, it\'s called a \'slip.\' It\'s an uncomfortable moment, but it doesn\'t have to mean the end of your quitting journey. Many people who successfully quit for good had one or more slips along the way. The key is how you respond. Avoid the trap of all-or-nothing thinking—the idea that because you\'ve had one puff, you\'ve \'failed\' and might as well finish the pack. This line of thinking is what turns a minor slip into a full-scale relapse. Instead, treat the slip as a learning experience. What happened? What were you feeling? Who were you with? Was there a trigger you didn\'t anticipate? Be honest with yourself without being abusive. Use the information to strengthen your plan. Maybe you need to avoid a certain social situation for a while longer, or carry NRT gum with you more consistently. Get back on your smoke-free path immediately. Don\'t wait until tomorrow or next week; the next hour can be smoke-free. Remind yourself of your reasons for quitting and all the progress you\'ve already made. A slip is a small bump in the road, not a reason to turn around. You are still a non-smoker who had a temporary lapse, and you have the power to continue moving toward your goals.</p>' },
+                        { id: 'n14', title: 'The Long-term Health Recovery Timeline', time: '8 min', type: 'Article', content: '<p>One of the most motivating parts of quitting smoking is how quickly your body begins to repair itself. Within just 20 minutes of your last cigarette, your heart rate and blood pressure begin to drop. After 12 hours, the carbon monoxide level in your blood returns to normal, allowing more oxygen to reach your organs and tissues. Within two weeks to three months, your lung function begins to improve, and your circulation gets better, making physical activity easier. After one to nine months, the tiny hair-like structures in your lungs, called cilia, start to work properly again, clearing out mucus and reducing your risk of infection. Your smoker\'s cough and shortness of breath will significantly decrease. One year after quitting, your risk of coronary heart disease is half that of a smoker. Five years in, your risk of cancers of the mouth, throat, and esophagus is halved, and your stroke risk starts to fall toward that of a non-smoker. After ten years, your risk of dying from lung cancer is about half that of someone who still smokes. By fifteen years, your risk of coronary heart disease is the same as someone who never smoked. This journey of healing is a powerful testament to your body\'s resilience. Every day you stay smoke-free is an investment in your future health and longevity.</p>' },
+                        { id: 'n15', title: 'Talking to People Who Still Smoke', time: '8 min', type: 'Article', content: '<p>When you quit, your relationships with people who still smoke can become complicated. You might feel a sense of distance or even worry that your choice makes them uncomfortable. It\'s helpful to have a plan for how to navigate these interactions without being judgmental or putting your own sobriety at risk. Be clear and honest about your decision: \'I\'ve decided to quit smoking for my health, so I\'m trying to avoid being around it for a while.\' True friends will respect your choice and support you, even if they aren\'t ready to quit themselves. In the early stages, it might be best to avoid \'smoke breaks\' or social events where smoking is central. If you do find yourself with smokers, you can stay part of the group but step away if someone lights up, or suggest activities where smoking isn\'t allowed, like going to the cinema or a restaurant. Avoid the temptation to lecture others about their smoking; focus on your own journey. You might find that your success eventually inspires them to think about quitting too, but that is their path to walk. Your priority is to protect your own smoke-free life and to build connections that are based on shared values and genuine interaction, rather than a shared habit. You are moving forward, and that\'s something to be proud of.</p>' }
+                    ]
+                }
+            ]
+        };
+
+        let readArticles = new Set(JSON.parse(localStorage.getItem('read_nicotine') || '[]'));
+
+        function init() {
+            renderList();
+            updateProgress();
+        }
+
+        function renderList() {
+            const listEl = document.getElementById('content-list');
+            let html = '';
+
+            DATA.sections.forEach(sec => {
+                html += `
+                    <div class="section-header">
+                        <span class="section-num">${sec.num}.</span>
+                        <span class="section-title">${sec.title}</span>
+                    </div>
+                `;
+                sec.articles.forEach(art => {
+                    const isRead = readArticles.has(art.id);
+                    html += `
+                        <div class="article-row" onclick="openReader('${art.id}')">
+                            <div class="doc-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </div>
+                            <div class="article-info">
+                                <span class="article-title">${art.title}</span>
+                                <div class="article-meta">
+                                    <span>${art.time}</span>
+                                    <span class="type-badge">${art.type}</span>
+                                </div>
+                            </div>
+                            <div class="chevron">›</div>
+                        </div>
+                    `;
+                });
+            });
+            listEl.innerHTML = html;
+        }
+
+        function openReader(id) {
+            let article;
+            DATA.sections.forEach(s => {
+                const found = s.articles.find(a => a.id === id);
+                if (found) article = found;
+            });
+
+            if (!article) return;
+
+            document.getElementById('rt-title').textContent = article.title;
+            document.getElementById('rt-time').textContent = article.time;
+            document.getElementById('rt-type').textContent = article.type;
+            document.getElementById('rt-content').innerHTML = article.content;
+
+            readArticles.add(id);
+            localStorage.setItem('read_nicotine', JSON.stringify([...readArticles]));
+            updateProgress();
+
+            document.getElementById('reader-view').classList.add('active');
+            document.getElementById('list-view').classList.add('inactive');
+            document.getElementById('rt-content').scrollTop = 0;
+        }
+
+        function closeReader() {
+            document.getElementById('reader-view').classList.remove('active');
+            document.getElementById('list-view').classList.remove('inactive');
+        }
+
+        function updateProgress() {
+            const total = DATA.sections.reduce((acc, s) => acc + s.articles.length, 0);
+            const pct = (readArticles.size / total) * 100;
+            document.getElementById('main-progress').style.width = pct + '%';
+        }
+
+        
+        window.initModule = (t) => {
+            if (t.DATA) DATA = t.DATA;
+            if (t.substance_name) document.querySelector('.substance-pill').textContent = t.substance_name;
+            renderList();
+            updateProgress();
+        };
+
+        const currentLang = localStorage.getItem('language') || 'en';
+        if (currentLang === 'en') {
+           init();
+        }
+        
+    </script>
+</body>
+</html>

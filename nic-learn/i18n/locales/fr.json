@@ -1,0 +1,137 @@
+{
+  "app_title": "Module d&#39;apprentissage",
+  "progress_label": "Progrès",
+  "back_label": "Dos",
+  "minutes_label": "min",
+  "type_article": "Article",
+  "type_assessment": "Évaluation",
+  "type_activity": "Activité",
+  "substance_name": "Nicotine",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Comprendre votre habitude",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Les effets de la nicotine sur votre cerveau",
+            "time": "5 min",
+            "type": "Article",
+            "content": "<p>La nicotine est l&#39;une des substances les plus addictives connues, principalement en raison de sa rapidité d&#39;action sur le système de récompense du cerveau. Inhalée, elle atteint le cerveau en quelques secondes, déclenchant la libération de dopamine, le neurotransmetteur du bien-être. Il en résulte une sensation temporaire de plaisir et de détente, mais à un prix. Le cerveau s&#39;adapte rapidement à cette stimulation artificielle en réduisant sa propre production naturelle de dopamine. Ainsi, avec le temps, la nicotine devient nécessaire pour se sentir « normal », et non plus pour éprouver un plaisir supplémentaire. Ce cycle de consommation et de sevrage est à l&#39;origine de la forte dépendance physique au tabac. Outre la dopamine, la nicotine affecte également les substances chimiques liées à l&#39;attention et à la mémoire, ce qui explique pourquoi les fumeurs ont souvent l&#39;impression qu&#39;elle les aide à se concentrer. Cependant, cet effet est de courte durée et masque les dommages à long terme que la nicotine cause à la chimie naturelle du cerveau. Comprendre ce détournement biologique est une étape essentielle pour arrêter de fumer. Cela permet de réaliser que les envies de fumer ne sont pas dues à un manque de volonté, mais à une réponse physiologique à un cerveau dont le fonctionnement a été modifié par une substance chimique. En arrêtant de fumer, votre cerveau entamera le processus lent mais certain de retour à son état naturel, restaurant ainsi votre capacité à ressentir du plaisir et à vous concentrer sans avoir besoin d&#39;une cigarette.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "Vos déclencheurs de tabagisme",
+            "time": "6 min",
+            "type": "Activité",
+            "content": "<p>Pour de nombreux fumeurs, cette habitude est profondément ancrée dans leur quotidien, liée à des activités, des émotions et des lieux précis. Ce sont vos déclencheurs. Parmi les déclencheurs courants, on peut citer la première tasse de café du matin, la conduite, la fin d&#39;un repas ou un verre en fin de journée. Les émotions sont également de puissants déclencheurs ; vous pourriez être tenté de fumer lorsque vous vous sentez stressé, ennuyé, seul ou même particulièrement heureux. Les situations sociales, comme la présence d&#39;autres fumeurs, créent une forte envie de fumer. Pour réussir à arrêter, vous devez identifier ces signaux afin de vous y préparer. Commencez par tenir un « journal des déclencheurs » pendant quelques jours, en notant chaque fois que vous allumez une cigarette ou que vous ressentez une forte envie de le faire. Que faisiez-vous ? Comment vous sentiez-vous ? Avec qui étiez-vous ? Une fois ce schéma établi, vous pouvez commencer à développer des alternatives. Si vous fumez toujours avec votre café, essayez de passer au thé ou de changer d&#39;endroit où vous vous asseyez. Si le stress est un déclencheur, trouvez un exercice de respiration de cinq minutes à pratiquer. Il ne s&#39;agit pas simplement d&#39;enlever une cigarette ; Vous réapprenez à gérer votre journée sans cigarette. En anticipant les situations qui vous déclenchent, vous désautomatisez cette habitude et vous vous donnez la possibilité de faire un choix conscient et sans tabac.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Explication du test de Fagerström",
+            "time": "5 min",
+            "type": "Évaluation",
+            "content": "<p>Le test de Fagerström pour la dépendance à la nicotine est un outil clinique standard permettant de mesurer l&#39;intensité de votre dépendance physique à la nicotine. Il comprend une série de questions précises, comme le délai entre votre réveil et votre première cigarette, votre difficulté à vous abstenir de fumer dans les lieux où c&#39;est interdit, et le nombre de cigarettes que vous fumez par jour. L&#39;indicateur le plus révélateur d&#39;une forte dépendance est souvent la « première cigarette de la journée » : si vous ressentez le besoin de fumer dans les cinq ou trente minutes suivant votre réveil, votre cerveau signale un besoin physique important de nicotine pour fonctionner. Comprendre votre score de Fagerström ne consiste pas à vous définir, mais à adapter votre stratégie de sevrage. Les personnes ayant un score élevé peuvent trouver que les substituts nicotiniques ou les médicaments sur ordonnance sont particulièrement utiles pour gérer les symptômes de sevrage physique intenses. Si votre score est plus faible, vos difficultés sont peut-être davantage liées aux aspects sociaux et comportementaux de cette habitude. Quel que soit votre score, connaître votre niveau de dépendance vous permet d&#39;aborder le sevrage avec des attentes réalistes. Cela vous aide à comprendre pourquoi les premiers jours peuvent sembler particulièrement difficiles et pourquoi certains outils peuvent être nécessaires pour vous aider à faire la transition vers une vie sans tabac.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "Pourquoi abandonner est si difficile",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Arrêter de fumer est notoirement difficile car cela implique une triple forme d&#39;addiction : physique, comportementale et psychologique. La composante physique est le syndrome de sevrage, qui peut se manifester par de l&#39;irritabilité, de l&#39;anxiété, des difficultés de concentration et des envies intenses de fumer, le temps que le corps élimine la nicotine. La composante comportementale est la perte des nombreux rituels associés au tabagisme : le geste de porter la cigarette à la bouche, la « pause » au travail, le lien social avec les autres fumeurs. Ces rituels ont été répétés des milliers de fois, créant des connexions neuronales profondes qui ne disparaissent pas du jour au lendemain. La composante psychologique est peut-être la plus complexe ; pour beaucoup, la cigarette est devenue une « amie » ou un mécanisme d&#39;adaptation fiable pour gérer les aléas de la vie. Lorsque vous arrêtez de fumer, vous pouvez ressentir un sentiment de deuil ou de perte, comme si vous abandonniez une partie de votre identité. Il est important de comprendre que cette difficulté n&#39;est pas un signe de faiblesse ; elle témoigne du pouvoir de la substance. De nombreuses personnes ont besoin de plusieurs tentatives avant de réussir à arrêter définitivement. Chaque tentative n&#39;est pas un échec, mais une leçon qui vous rapproche de votre objectif. En comprenant pourquoi cela semble si difficile, vous pouvez être plus indulgent envers vous-même pendant ce processus et rester fidèle aux bienfaits à long terme d&#39;une vie saine et sans tabac.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Tabagisme et santé mentale",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Il existe un mythe tenace selon lequel fumer aide à gérer le stress et l&#39;anxiété, mais la réalité est tout autre. Si fumer peut procurer un soulagement temporaire, cela augmente en réalité votre niveau de stress à long terme. En effet, la « détente » ressentie n&#39;est en fait que le soulagement des symptômes de sevrage provoqués par la cigarette précédente. Entre deux cigarettes, votre corps est dans un état de stress léger, car le taux de nicotine diminue ; fumer vous ramène simplement à un niveau de base dont un non-fumeur bénéficie en permanence. De plus, le tabagisme a été associé à des taux plus élevés de dépression et de troubles anxieux. Les fluctuations chimiques constantes dans le cerveau peuvent perturber la régulation émotionnelle et rendre plus difficile la gestion des problèmes de santé mentale. Lorsque vous arrêtez de fumer, vous pouvez ressentir une augmentation passagère de l&#39;anxiété ou une baisse de moral, le temps que votre cerveau se réadapte, mais avec le temps, la plupart des gens constatent une amélioration significative de leur santé mentale. Ils se disent plus stables, moins anxieux et maîtrisent mieux leurs émotions. Arrêter de fumer est l&#39;une des choses les plus efficaces que vous puissiez faire pour préserver votre bien-être mental à long terme. Vous passez d&#39;un état de dépendance chimique à un état de résilience naturelle, où vous pouvez faire face aux défis de la vie avec un esprit clair et serein.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Outils pour arrêter de travailler",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Options de remplacement de la nicotine",
+            "time": "6 min",
+            "type": "Article",
+            "content": "<p>La thérapie de substitution nicotinique (TSN) est un outil très efficace pour gérer les symptômes physiques du sevrage qui rendent l&#39;arrêt du tabac si difficile. La TSN fournit à votre corps une dose contrôlée de nicotine, sans les milliers de substances chimiques nocives présentes dans la fumée du tabac. Cela contribue à atténuer les envies de fumer, vous permettant ainsi de vous concentrer sur les aspects comportementaux et psychologiques du sevrage. La TSN se présente sous différentes formes, notamment les patchs à action prolongée qui diffusent un flux constant de nicotine tout au long de la journée, et les options à action rapide comme les gommes à mâcher, les pastilles, les inhalateurs et les sprays nasaux, qui peuvent être utilisés pour lutter contre les envies soudaines. Les études montrent que l&#39;utilisation d&#39;une TSN peut doubler vos chances de réussite par rapport à un arrêt brutal. De nombreuses personnes trouvent qu&#39;une approche combinée – l&#39;utilisation d&#39;un patch comme dose de base et de gommes à mâcher pour les envies intenses – est la plus efficace. Il est important d&#39;utiliser la TSN correctement et pendant toute la durée recommandée, généralement de 8 à 12 semaines, afin de laisser à votre cerveau le temps de s&#39;adapter. Bien que certaines personnes craignent de devenir dépendantes aux substituts nicotiniques, ce risque est bien moindre qu&#39;avec les cigarettes, et les bienfaits de l&#39;arrêt du tabac sur la santé sont immédiats et considérables. Consultez votre pharmacien ou votre médecin pour trouver le traitement de substitution nicotinique qui vous convient le mieux, en fonction de votre niveau de dépendance.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "La méthode du retard et de la distraction",
+            "time": "6 min",
+            "type": "Activité",
+            "content": "<p>La méthode « Retarder et Distraire » est un outil comportemental simple mais efficace pour gérer les envies de fumer sur le moment. Lorsqu&#39;une forte envie de fumer se fait sentir, la première étape consiste à retarder l&#39;échéance. Dites-vous : « Je ne vais pas fumer maintenant ; j&#39;attends dix minutes. » La plupart des envies, aussi intenses soient-elles, atteignent leur apogée puis commencent à s&#39;estomper en cinq à dix minutes. En retardant l&#39;échéance, vous laissez passer la vague de l&#39;envie sans y céder. Pendant ces dix minutes, la deuxième étape est de vous distraire. Faites quelque chose qui requiert toute votre attention ou qui change votre environnement. Cela peut être boire un grand verre d&#39;eau, faire une marche rapide, appeler un ami ou faire des mots croisés. L&#39;objectif est de détourner votre attention de la cigarette et de la porter sur autre chose. Souvent, au bout de dix minutes, l&#39;intensité de l&#39;envie a considérablement diminué et le danger immédiat de prendre une cigarette est passé. Chaque fois que vous utilisez cette méthode avec succès, vous affaiblissez les signaux neuronaux qui associent un déclencheur à une cigarette et vous renforcez votre capacité à gérer l&#39;inconfort. C&#39;est une manière pratique et concrète de se prouver qu&#39;on maîtrise ses actions, quelles que soient les sensations ressenties face à une envie.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "Gérer sa première semaine",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>La première semaine d&#39;arrêt du tabac est souvent la plus éprouvante, tant physiquement qu&#39;émotionnellement. Votre corps élimine les dernières traces de nicotine et votre cerveau commence à rééquilibrer son système de récompense. Vous pourriez ressentir divers symptômes de sevrage, comme de l&#39;irritabilité, de l&#39;agitation, des maux de tête et une sensation persistante de brouillard mental. Il est important d&#39;aborder cette semaine avec un plan clair et beaucoup de bienveillance envers vous-même. Allégez votre emploi du temps au maximum et évitez les situations stressantes ou les événements sociaux où il est courant de fumer. Prévoyez des distractions saines comme des chewing-gums sans sucre, des bâtonnets de carotte ou des tisanes. Hydratez-vous bien et essayez de vous reposer autant que possible, car la fatigue peut vous rendre plus vulnérable aux envies de fumer. N&#39;oubliez pas que les sensations intenses que vous éprouvez sont le signe que votre corps guérit : chaque minute d&#39;inconfort vous rapproche un peu plus d&#39;une vie sans tabac. Beaucoup trouvent utile d&#39;annoncer à quelques amis ou membres de leur famille qu&#39;ils arrêtent de fumer et qu&#39;ils seront peut-être un peu grognons pendant quelques jours. Célébrez chaque petite victoire : le premier matin sans cigarette, le premier trajet réussi, la première journée terminée. À la fin de la première semaine, les symptômes physiques du sevrage atteindront leur maximum puis s’atténueront, et vous aurez posé les bases solides de votre nouvelle vie saine.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "À quoi ressemble la chronologie des envies ?",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Comprendre l&#39;évolution des envies de fumer peut vous aider à aborder le sevrage tabagique avec plus de sérénité. Durant les 24 à 72 premières heures, ces envies sont généralement les plus fréquentes et intenses, car la nicotine est complètement éliminée de votre organisme. C&#39;est souvent la période la plus difficile, où vous avez l&#39;impression de lutter constamment contre vos pulsions. Après les trois premiers jours, la fréquence et l&#39;intensité des envies physiques commencent généralement à diminuer. Cependant, vous serez toujours confronté à des déclencheurs psychologiques : les « souvenirs liés au tabagisme » qui ressurgissent dans certaines situations ou états émotionnels. À la fin de la deuxième semaine, de nombreuses personnes constatent que l&#39;envie « constante » de fumer a été remplacée par des envies occasionnelles et gérables. À la fin du premier mois, la dépendance physique est en grande partie vaincue et vous vous concentrez sur le maintien de vos nouvelles habitudes et la gestion des interactions sociales. Il est important de se rappeler qu&#39;une envie n&#39;est pas un ordre ; c&#39;est simplement une sensation passagère qui finira par disparaître. Même des mois ou des années plus tard, vous pourriez ressentir une envie soudaine et passagère de fumer, peut-être déclenchée par une odeur particulière ou un événement particulièrement stressant. Ces moments sont normaux et ne signifient pas que vous échouez ; ce sont simplement les derniers vestiges d&#39;une vieille habitude. En connaissant le calendrier, vous pouvez rester patient et motivé, sachant que chaque jour sans fumer facilite le lendemain.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "Vapoter : est-ce vraiment plus sûr ?",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>Le vapotage, ou utilisation de cigarettes électroniques, est souvent présenté comme une alternative plus sûre au tabagisme traditionnel, mais il est important d&#39;en comprendre tous les aspects. Bien que le vapotage n&#39;implique pas la combustion du tabac, qui produit la majeure partie des goudrons et des gaz cancérigènes présents dans les cigarettes, il n&#39;est pas sans risque. La plupart des cigarettes électroniques délivrent toujours de la nicotine, ce qui signifie que la dépendance sous-jacente persiste. De plus, l&#39;aérosol produit par le vapotage contient divers produits chimiques, arômes et métaux lourds dont les effets à long terme sur la santé sont encore à l&#39;étude. Pour certains fumeurs adultes, passer complètement au vapotage peut constituer une étape vers l&#39;arrêt du tabac, mais il doit être considéré comme une solution transitoire plutôt que comme une solution définitive. La double consommation – fumer et vapoter – est particulièrement nocive. Pour les jeunes et les non-fumeurs, le vapotage représente un risque important pour la santé, pouvant entraîner une dépendance à la nicotine et des dommages aux poumons et au cerveau en développement. L&#39;objectif ultime pour votre santé est de vous libérer de toute substance inhalée. Si vous utilisez le vapotage pour arrêter de fumer, établissez un plan pour réduire progressivement votre consommation des deux. Vous méritez de respirer un air pur et d&#39;avoir un corps libre de toute dépendance chimique. Concentrez-vous sur l&#39;objectif à long terme d&#39;une libération totale de la nicotine sous toutes ses formes.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Rester sans fumer",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Construire son identité sans fumée",
+            "time": "7 min",
+            "type": "Activité",
+            "content": "<p>Un élément essentiel pour réussir à arrêter de fumer durablement est de changer votre perception de vous-même. Au lieu d&#39;être un « fumeur qui essaie d&#39;arrêter », visez à devenir un « non-fumeur ». C&#39;est le processus de construction d&#39;une identité sans tabac. Votre identité se forge à travers vos actions et le récit que vous vous faites de vous-même. Chaque fois que vous choisissez de ne pas fumer dans une situation où vous auriez normalement fumé, vous affirmez votre nouvelle identité. Commencez à vous concentrer sur les bienfaits que vous ressentez : l&#39;odeur plus agréable de vos vêtements, le meilleur goût de vos aliments, les économies réalisées et la fierté du chemin parcouru. Lorsqu&#39;on vous propose une cigarette, entraînez-vous à dire « Je ne fume pas » plutôt que « J&#39;arrête ». Ce changement de vocabulaire renforce votre nouvelle réalité. Réfléchissez aux valeurs qui vous sont chères – la santé, la liberté, le respect de soi – et à la façon dont le fait de rester non-fumeur s&#39;y intègre. Vous n&#39;êtes plus une personne dont la journée est dictée par le besoin d&#39;un paquet de cigarettes. Vous êtes une personne qui accorde une grande importance à sa santé et qui maîtrise ses choix. Cette nouvelle identité constitue un rempart efficace contre la rechute, car fumer ne correspond plus à la personne que vous êtes devenue. Vous construisez une vie définie par vos valeurs, et non par une habitude dont vous vous êtes débarrassée.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Gérer le stress sans cigarettes",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>L&#39;une des plus grandes craintes des personnes qui arrêtent de fumer est de savoir comment gérer le stress sans leur « outil d&#39;apaisement ». Il est important de comprendre que les cigarettes n&#39;ont jamais vraiment résolu vos problèmes ; elles n&#39;ont fait qu&#39;offrir une brève distraction pendant le sevrage nicotinique. Apprendre de nouvelles façons de gérer le stress est essentiel pour rester non-fumeur. La première étape consiste à reconnaître les signes physiques du stress – tension dans les épaules, palpitations, respiration superficielle – et à y réagir immédiatement. La respiration diaphragmatique profonde est l&#39;un des moyens les plus efficaces de signaler à votre système nerveux qu&#39;il peut se détendre. Prenez quelques minutes chaque jour pour pratiquer des respirations lentes et profondes. L&#39;activité physique est un autre excellent moyen de réduire le stress ; même une marche de dix minutes peut faire baisser significativement votre taux de cortisol. Trouvez d&#39;autres façons saines de vous détendre, comme écouter de la musique, parler à un ami ou pratiquer un loisir. Il est également utile d&#39;identifier les sources de stress dans votre vie et de voir si certaines peuvent être réduites ou éliminées. Vous construisez une version de vous-même plus résiliente et mieux armée pour affronter les défis de la vie. Vous n&#39;avez pas besoin de substances chimiques pour rester calme ; Vous possédez la force intérieure et les outils pratiques nécessaires pour traverser même les journées les plus stressantes avec lucidité et grâce.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Que faire en cas de glissade ?",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Si vous fumez une cigarette après avoir décidé d&#39;arrêter, on appelle ça un « rechute ». C&#39;est un moment désagréable, mais cela ne signifie pas la fin de votre parcours. Beaucoup de personnes qui ont réussi à arrêter définitivement ont connu une ou plusieurs rechutes. L&#39;important, c&#39;est votre réaction. Évitez le piège du raisonnement binaire : l&#39;idée qu&#39;une seule bouffée signifie un « échec » et qu&#39;il vaut mieux finir le paquet. C&#39;est ce genre de raisonnement qui transforme une petite rechute en une véritable crise. Au contraire, considérez cette rechute comme une leçon. Que s&#39;est-il passé ? Qu&#39;avez-vous ressenti ? Avec qui étiez-vous ? Y a-t-il eu un élément déclencheur imprévu ? Soyez honnête avec vous-même, sans être dur. Utilisez ces informations pour consolider votre plan. Vous pourriez avoir besoin d&#39;éviter certaines situations sociales pendant un certain temps, ou d&#39;avoir toujours des gommes à la nicotine sur vous. Reprenez immédiatement le chemin d&#39;une vie sans tabac. N&#39;attendez pas demain ou la semaine prochaine ; la prochaine heure peut être sans tabac. Rappelez-vous les raisons qui vous ont poussé à arrêter et tous les progrès que vous avez déjà accomplis. Un faux pas n&#39;est qu&#39;un petit obstacle, pas une raison de faire demi-tour. Vous êtes toujours non-fumeur, vous avez simplement connu une rechute passagère et vous avez la capacité de continuer à avancer vers vos objectifs.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Calendrier de rétablissement de la santé à long terme",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>L&#39;un des aspects les plus motivants de l&#39;arrêt du tabac est la rapidité avec laquelle le corps se régénère. Vingt minutes seulement après la dernière cigarette, le rythme cardiaque et la tension artérielle commencent à diminuer. Douze heures plus tard, le taux de monoxyde de carbone dans le sang revient à la normale, permettant ainsi à davantage d&#39;oxygène d&#39;atteindre les organes et les tissus. En deux semaines à trois mois, la fonction pulmonaire s&#39;améliore et la circulation sanguine s&#39;améliore également, facilitant l&#39;activité physique. Après un à neuf mois, les cils vibratiles, ces minuscules structures présentes dans les poumons, recommencent à fonctionner correctement, éliminant le mucus et réduisant le risque d&#39;infection. La toux et l&#39;essoufflement caractéristiques du fumeur diminuent considérablement. Un an après avoir arrêté de fumer, le risque de maladie coronarienne est deux fois moins élevé que celui d&#39;un fumeur. Cinq ans plus tard, le risque de cancers de la bouche, de la gorge et de l&#39;œsophage est réduit de moitié, et le risque d&#39;AVC commence à se rapprocher de celui d&#39;un non-fumeur. Après dix ans, le risque de mourir d&#39;un cancer du poumon est environ deux fois moins élevé que celui d&#39;un fumeur. Au bout de quinze ans, votre risque de maladie coronarienne est le même que celui d&#39;une personne n&#39;ayant jamais fumé. Ce processus de guérison témoigne de la force de votre organisme. Chaque jour sans tabac est un investissement pour votre santé et votre longévité futures.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Parler à des fumeurs encore",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>Lorsque vous arrêtez de fumer, vos relations avec les fumeurs peuvent se compliquer. Vous pourriez ressentir une certaine distance, voire craindre que votre choix les mette mal à l&#39;aise. Il est utile d&#39;avoir une stratégie pour gérer ces interactions sans porter de jugement ni compromettre votre propre abstinence. Soyez clair et honnête quant à votre décision : « J&#39;ai décidé d&#39;arrêter de fumer pour ma santé, alors j&#39;essaie d&#39;éviter d&#39;être exposé à la fumée pendant un certain temps. » Vos vrais amis respecteront votre choix et vous soutiendront, même s&#39;ils ne sont pas prêts à arrêter eux-mêmes. Au début, il est préférable d&#39;éviter les pauses cigarettes ou les événements sociaux où fumer est omniprésent. Si vous vous retrouvez avec des fumeurs, vous pouvez rester dans le groupe, mais vous éloigner si quelqu&#39;un allume une cigarette, ou proposer des activités où il est interdit de fumer, comme aller au cinéma ou au restaurant. Évitez de faire la morale aux autres sur leur tabagisme ; concentrez-vous sur votre propre parcours. Votre réussite pourrait les inspirer à terme et les inciter à envisager d&#39;arrêter eux aussi, mais c&#39;est à eux de suivre leur propre chemin. Votre priorité est de préserver votre vie sans tabac et de tisser des liens fondés sur des valeurs partagées et des échanges authentiques, plutôt que sur une habitude commune. Vous progressez, et c&#39;est une chose dont vous pouvez être fier.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

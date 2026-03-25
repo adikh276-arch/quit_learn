@@ -1,0 +1,137 @@
+{
+  "app_title": "Modul Učení",
+  "progress_label": "Pokrok",
+  "back_label": "Zadní",
+  "minutes_label": "min.",
+  "type_article": "Článek",
+  "type_assessment": "Posouzení",
+  "type_activity": "Aktivita",
+  "substance_name": "Opioidy",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Pochopení užívání opioidů",
+        "articles": [
+          {
+            "id": "o1",
+            "title": "Jak opioidy fungují v mozku",
+            "time": "5 min",
+            "type": "Článek",
+            "content": "<p>Opioidy jsou třídou drog, které interagují s opioidními receptory na nervových buňkách v mozku a nervovém systému. Když se tyto drogy, mezi které patří léky proti bolesti na předpis a nelegální látky, jako je heroin, navážou na tyto receptory, uvolní masivní nával dopaminu. To nejen otupuje pocit bolesti, ale také vytváří dočasný, intenzivní pocit euforie a klidu. Právě tato silná odměna dělá opioidy tak návykovými. Váš mozek si drogu rychle začne spojovat s tímto extrémním potěšením, což vytváří silnou motivaci k jejímu opětovnému užití. Při opakovaném užívání je však potlačena přirozená produkce endorfinů v mozku – „vnitřní“ verze opioidů. To znamená, že v průběhu času drogu potřebujete nejen k pocitu euforie, ale i k tomu, abyste se cítili normálně a vyhnuli se drtivé fyzické a emocionální bolesti z odvykání. Droga v podstatě přeprogramuje mozkové obvody a upřednostňuje látku před všemi ostatními potřebami. Pochopení této biologické reality je klíčovým prvním krokem k uzdravení. Posouvá perspektivu z morálního selhání na perspektivu vážného zdravotního stavu, který vyžaduje komplexní, vědecky podložený přístup k léčbě. Jakmile zahájíte proces regenerace, váš mozek se vydá na dlouhou cestu obnovení své přirozené rovnováhy, což vám nakonec umožní najít pohodlí a klid bez nutnosti vnějších chemikálií.</p>"
+          },
+          {
+            "id": "o2",
+            "title": "Jak se užívání léků na předpis stává závislostí",
+            "time": "6 min",
+            "type": "Článek",
+            "content": "<p>Pro mnoho lidí začíná cesta k závislosti na opioidech v ordinaci lékaře s legitimním receptem na léčbu bolesti. Opioidy jsou vysoce účinné při léčbě akutní bolesti, ale také nesou značné riziko závislosti, a to i při užívání podle pokynů. Závislost se může rozvinout rychle, často během několika týdnů pravidelného užívání. Začíná to tolerancí – potřebou vyšších dávek k dosažení stejné úrovně úlevy od bolesti nebo euforie. S rostoucí tolerancí se vaše tělo stává fyziologicky závislým na droze, aby fungovalo. Pokud ji přestanete užívat, pociťujete abstinenční příznaky. Tento přechod z „užívání proti bolesti“ na „užívání k vyhnutí se abstinenčním příznakům“ je kritickým bodem zlomu. Mnoho lidí se ocitne v pasti cyklu, kdy již nezvládají své původní zranění, ale místo toho zvládají závislost, kterou lék vytvořil. Je důležité si uvědomit, že se jedná o častý, i když zničující vedlejší účinek těchto silných léků. Pokud si všimnete, že užíváte více, než je předepsáno, navštěvujete více lékařů nebo máte úzkost z toho, kdy si máte doplnit další dávku, jsou to signály, že se vytvořila závislost. Uznání této reality je prvním krokem k získání pomoci, kterou potřebujete k bezpečnému přechodu od těchto látek a nalezení zdravějších způsobů, jak zvládat bolest a svůj život.</p>"
+          },
+          {
+            "id": "o3",
+            "title": "Co je fentanyl a proč je nebezpečný",
+            "time": "5 min",
+            "type": "Článek",
+            "content": "<p>Fentanyl je syntetický opioid, který je 50 až 100krát účinnější než morfin. Ačkoli se v medicíně používá k léčbě silné bolesti, jeho nelegální verze se stala hlavní příčinou krize předávkování. Extrémní účinnost fentanylu znamená, že i malé množství několika zrnek soli může být smrtelné. Jedním z největších nebezpečí je, že fentanyl je často míchán s jinými nelegálními látkami – včetně heroinu, kokainu a padělaných léků na předpis – bez vědomí uživatele. Tato neznámá přítomnost dramaticky zvyšuje riziko náhodného předávkování. Fentanyl působí velmi rychle na dýchací centrum v mozku a způsobuje zpomalení nebo úplné zastavení dýchání. To se může stát během několika minut, takže zbývá jen velmi málo času na zásah. Vzhledem k jeho silnému účinku může být k záchraně života zapotřebí více dávek naloxonu, léku, který zvrátí předávkování. Pochopení prevalence a rizik fentanylu je nezbytné pro každého, kdo užívá nelegální látky nebo léky bez předpisu. Je to připomínka extrémní volatility a nebezpečí současného trhu s drogami. Zůstat informovaný, nosit s sebou naloxon a nikdy ho neužívat samostatně jsou zásadní strategie pro snižování škod při práci na dosažení cíle uzdravení. Váš život je cenný a uznání reality fentanylu je klíčovou součástí jeho ochrany.</p>"
+          },
+          {
+            "id": "o4",
+            "title": "Rozpoznání příznaků poruchy užívání opioidů",
+            "time": "7 min",
+            "type": "Posouzení",
+            "content": "<p>Rozpoznání příznaků poruchy užívání opioidů (OUD) u sebe nebo u blízké osoby je bolestivý, ale nezbytný krok k uzdravení. OUD se vyznačuje problematickým vzorcem užívání opioidů, který vede k významnému zhoršení nebo úzkosti. Jedním z nejčastějších příznaků je ztráta kontroly nad užíváním – užívání většího množství látky nebo její užívání po delší dobu, než bylo zamýšleno. Můžete strávit značné množství času získáváním opioidů, jejich užíváním nebo zotavováním se z jejich účinků. Dalším charakteristickým znakem tohoto onemocnění je přetrvávající touha nebo neúspěšné snahy o omezení nebo kontrolu užívání. Můžete zjistit, že užívání opioidů narušuje vaše povinnosti v práci, škole nebo doma a že se stahujete z aktivit a vztahů, které pro vás kdysi byly důležité. Fyzicky si můžete všimnout zúžených zornic, extrémní ospalosti (známé jako „kývnutí“) a nedostatečné koordinace. Abstinenční příznaky, jako je nevolnost, bolesti svalů a intenzivní úzkost při neužívání, jsou také jasnými ukazateli fyzické závislosti. Pokud pokračujete v užívání opioidů, i když víte, že způsobují nebo zhoršují vaše fyzické nebo psychické problémy, je to známka toho, že se látka uchytila. Včasné rozpoznání a nekritický přístup k vyhledávání pomoci jsou nejúčinnějšími způsoby, jak zahájit cestu ke zdraví a stabilitě.</p>"
+          },
+          {
+            "id": "o5",
+            "title": "Bolest a opioidy – prolomení cyklu",
+            "time": "7 min",
+            "type": "Aktivita",
+            "content": "<p>Vztah mezi chronickou bolestí a užíváním opioidů je složitý a často kruhový. Zatímco opioidy jsou určeny k úlevě od bolesti, dlouhodobé užívání vás ve skutečnosti může učinit citlivějšími na ni – stav známý jako opioidy indukovaná hyperalgezie. To znamená, že právě léky, které užíváte k úlevě od bolesti, mohou vaši bolest časem zhoršovat, což vede k cyklu zvyšujících se dávek a zhoršujících se příznaků. Prolomení tohoto cyklu vyžaduje přechod k holistickému přístupu k léčbě bolesti. To zahrnuje fyzioterapii, cvičení, všímavost a neopioidní léky, které cílí na bolest různými cestami. Zahrnuje to také řešení psychologických a emocionálních aspektů chronické bolesti, které mohou být stejně významné jako fyzické pocity. Odchod od opioidů může být děsivá vyhlídka, pokud žijete s bolestí, ale mnoho lidí zjistí, že se jejich úroveň bolesti ve skutečnosti zlepšuje a stává se zvládnutelnější, jakmile léky vysadí. Je důležité úzce spolupracovat se zdravotnickým pracovníkem, který rozumí chronické bolesti a závislosti, aby se vytvořil bezpečný plán postupného snižování dávky a komplexní strategie pro dlouhodobou léčbu. Nevzdáváte se jen léků; Znovu získáváte přirozenou schopnost svého těla zvládat bolest a budujete si život, který není definován léky na předpis.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Odvykání a detoxikace",
+        "articles": [
+          {
+            "id": "o6",
+            "title": "Jaké jsou pocity z odvykání opioidů",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Abstinenční příznaky po opioidech jsou často popisovány jako těžká, „hluboká“ chřipka, která zahrnuje fyzické i psychické utrpení. I když je pro osoby v dobrém zdravotním stavu zřídka život ohrožující, je neuvěřitelně stresující a představuje hlavní překážku pro ukončení užívání. Příznaky se obvykle objevují během několika hodin po poslední dávce a mohou trvat několik dní až týdnů. Fyzicky se mohou objevit intenzivní bolesti svalů a kostí, křeče v břiše, nevolnost, zvracení a průjem. Můžete mít návaly chladu s husí kůží (odtud pochází termín „studený krůtí“) a nekontrolovatelné pohyby nohou („zbavení se zlozvyku“). Často se zvyšuje tepová frekvence a krevní tlak a můžete pociťovat nadměrné pocení a slzení očí. Psychologicky se abstinenční příznaky projevují extrémní úzkostí, podrážděností a ohromnou touhou po droze. Spánek je téměř nemožný, což vede k hlubokému vyčerpání. Je důležité si uvědomit, že tyto příznaky jsou intenzivní reakcí vašeho těla na absenci látky, na které se stalo zcela závislým. Závažnost abstinenčních příznaků je odrazem moci drogy nad vaším nervovým systémem, nikoli odrazem vaší povahy. Vědět, co očekávat, a mít připravený plán lékařské a emocionální podpory vám může pomoci překonat tento obtížný, ale dočasný most k uzdravení a zdravější budoucnosti.</p>"
+          },
+          {
+            "id": "o7",
+            "title": "Zvládání abstinenčních příznaků",
+            "time": "7 min",
+            "type": "Aktivita",
+            "content": "<p>Zvládání abstinenčních příznaků po opioidech vyžaduje kombinaci lékařské podpory, praktické přípravy a emoční odolnosti. Vzhledem k tomu, že příznaky mohou být velmi závažné, důrazně se doporučuje vyhledat odbornou lékařskou pomoc. Lékaři mohou poskytnout léky, které se specificky zaměřují na abstinenční příznaky – klonidin na krevní tlak a úzkost, loperamid na gastrointestinální potíže a neopioidní léky proti bolesti. A co je důležitější, mohou nabídnout léčbu s medikamentózní podporou, jako je buprenorfin nebo methadon, které mohou dramaticky snížit intenzitu abstinenčních příznaků a chutí, čímž se proces mnohem bezpečněji a lépe zvládá. V praxi se ujistěte, že se nacházíte v bezpečném a pohodlném prostředí, kde si můžete odpočinout. Pijte vodu a elektrolytické nápoje, protože zvracení a průjem mohou vést k dehydrataci. Zásobte se snadno stravitelnými potravinami a pohodlným oblečením. Z emocionálního hlediska je nezbytné mít podpůrnou síť – přátele, rodinu nebo poradce – kteří vám mohou poskytnout povzbuzení a zodpovědnost. Neustále si připomínejte, že bolest je dočasná a že vaše tělo se uzdravuje. Každá hodina, kterou strávíte, je krokem od závislosti a krokem k opětovnému získání vlastního života. Nemusíte to dělat sami; K dispozici je profesionální pomoc, která může výrazně ovlivnit vaše pohodlí a úspěch.</p>"
+          },
+          {
+            "id": "o8",
+            "title": "Vysvětlení léčby s pomocí léků",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Léčba s pomocí léků (MAT) je užívání léků schválených FDA v kombinaci s poradenstvím a behaviorální terapií, které poskytuje „celkový“ přístup k léčbě poruchy užívání opioidů. MAT je považována za zlatý standard péče, protože významně snižuje riziko předávkování a zvyšuje míru dlouhodobého zotavení. Používané léky, jako je buprenorfin, methadon a naltrexon, fungují interakcí se stejnými opioidními receptory v mozku jako látky, které nahrazují. Buprenorfin a methadon jsou „agonisté“, kteří uspokojují touhu mozku a zabraňují abstinenčním příznakům, aniž by vyvolávali stejný „high“ nebo respirační depresi jako jiné opioidy. To umožňuje jednotlivcům stabilizovat jejich životy, vrátit se do práce a zapojit se do terapie. Naltrexon je „antagonista“, který zcela blokuje účinky opioidů a poskytuje ochranu před relapsem pro ty, kteří již detoxikovali. Je důležité si uvědomit, že MAT není „nahrazení jedné závislosti jinou“. Jedná se o lékařský zákrok, který zvládá chronické onemocnění, podobně jako inzulin u diabetu. MAT umožňuje mozku uzdravit se z poškození způsobeného užíváním opioidů a poskytuje stabilitu potřebnou pro dlouhodobé zdraví a pohodu. Spolupráce se specializovaným poskytovatelem při hledání správného léku a dávkování je klíčovou součástí komplexního plánu zotavení.</p>"
+          },
+          {
+            "id": "o9",
+            "title": "Co je naloxon a jak ho používat",
+            "time": "6 min",
+            "type": "Aktivita",
+            "content": "<p>Naloxon, často známý pod obchodním názvem Narcan, je lék, který zachraňuje životy a dokáže doslova zvrátit předávkování opioidy v okamžiku, kdy k němu dochází. Funguje tak, že se rychle naváže na opioidní receptory a vytlačí všechny přítomné opioidy, čímž dočasně obnoví normální dýchání. Naloxon se snadno používá a je k dispozici v jednoduchém nosním spreji, který nevyžaduje žádné lékařské vzdělání. Pokud máte podezření na předávkování u někoho – je v bezvědomí, má zúžené zornice a dýchá velmi pomalu nebo vůbec nedýchá – prvním krokem je zavolat záchrannou službu. Poté podejte naloxon vložením hrotu trysky do nosní dírky a stisknutím pístu. Účinky obvykle trvají 30 až 90 minut, proto je nezbytné, aby dorazila lékařská pomoc, protože jakmile naloxon odezní, může se osoba znovu předávkovat. Naloxon nemá žádný účinek na někoho, kdo opioidy neužíval, takže jeho použití není na škodu, pokud si nejste jisti. Nošení naloxonu a znalost jeho používání je klíčovou dovedností pro každého v komunitě pro zotavení se z nemoci a jeho blízké. Je to zásadní nástroj pro udržení lidí naživu, aby měli šanci na uzdravení. Naloxon můžete získat v mnoha lékárnách bez lékařského předpisu, často zdarma nebo za nízkou cenu prostřednictvím komunitních zdravotních programů.</p>"
+          },
+          {
+            "id": "o10",
+            "title": "Úloha lékařského dohledu",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Pokus o ukončení užívání opioidů sám o sobě může být náročný a často neúspěšný. Úlohou lékařského dohledu v rekonvalescenci je poskytnout bezpečné, strukturované a klinicky podporované prostředí jak pro počáteční detoxikaci, tak pro dlouhodobou léčbu poruchy užívání opioidů. Zdravotničtí pracovníci mohou posoudit váš celkový zdravotní stav, zvládat fyzická rizika abstinenčních příznaků a poskytnout léky, které celý proces učiní snesitelným. Tento dohled je obzvláště důležitý pro osoby s komorbiditami nebo s dlouhodobou anamnézou těžkého užívání. V lůžkovém nebo intenzivním ambulantním prostředí máte přístup k nepřetržité péči, což může být rozdíl mezi úspěšným ukončením užívání a relapsem způsobeným nesnesitelnými příznaky. Kromě fyzické péče zahrnuje lékařský dohled pravidelné poradenství a psychiatrickou podporu, která se zabývá základními příčinami užívání a rozvíjí nové, zdravé strategie zvládání. Poskytuje úroveň odpovědnosti a profesionálního vedení, kterou je obtížné sami napodobit. Vyhledání lékařského dohledu není známkou slabosti; je to strategické rozhodnutí využít nejúčinnější dostupné nástroje k zajištění vaší bezpečnosti a úspěchu. Dáváte si nejlepší možnou šanci překonat závislost na opioidech a vybudovat si život plný zdraví, stability a skutečného míru.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Obnova a obnova",
+        "articles": [
+          {
+            "id": "o11",
+            "title": "Život po opioidech",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Život po opioidech je cestou znovuobjevení toho, kým jste, když nejste definováni žádnou látkou. Je to období významných změn, kdy se váš mozek a tělo nadále uzdravují a váš každodenní život se začíná reorganizovat kolem zdraví a smyslu života, nikoli kvůli další dávce. Možná zjistíte, že vaše emoce jsou živější, vaše fyzická energie se postupně vrací a vaše vztahy se začínají prohlubovat, jak se stáváte přítomnějšími. Tato fáze je také o znovuobjevení vašich hodnot a zájmů. Mnoho lidí nachází nové vášně – ať už v práci, koníčcích nebo komunitní službě – které jim poskytují přirozený zdroj naplnění a odměny. Život po opioidech však také vyžaduje závazek k neustálé údržbě. Znamená to být k sobě upřímný ohledně svých spouštěčů, udržovat si podpůrné sítě a pokračovat v jakékoli nezbytné lékařské nebo psychologické léčbě. Je to doba budování toho, co lékaři nazývají „rekonvalescenčním kapitálem“ – zdroji a vztahy, které podporují vaši střízlivost. Nejenže se „vyhýbáte droze“; aktivně si budujete život, kterého si ceníte a chcete ho chránit. Tato cesta není vždy snadná, ale je hluboce obohacující. S každým dalším dnem dokazujete svou odolnost a vytváříte si budoucnost, která je zářivá, stabilní a zcela vaše vlastní.</p>"
+          },
+          {
+            "id": "o12",
+            "title": "Obnovení důvěry v sebe sama",
+            "time": "8 min",
+            "type": "Aktivita",
+            "content": "<p>Jedním z nejhlubších dopadů užívání opioidů je narušení sebedůvěry. Postupem času jste si možná dali nespočet slibů, že přestanete, a pak jste se znovu ocitli v situaci, kdy s užíváním začínáte. Tento cyklus záměrů a selhání může vést k hlubokým pocitům studu a pocitu, že jste ze své podstaty nespolehliví. Obnovení důvěry v sebe sama je pomalá, ale nezbytná součást procesu zotavení. Začíná to tím, že si vezmete malé, zvládnutelné závazky a budete je dodržovat. Může to být tak jednoduché, jako vypití dostatečného množství vody, ustlaní postele nebo účast na plánované terapii. Pokaždé, když uděláte to, co jste slíbili, vkládáte zpět na svůj účet sebedůvěry. Jde také o praktikování radikální upřímnosti k sobě samému. To znamená uznat své pocity, rozpoznávat své spouštěče a být upřímný ohledně výzev, kterým čelíte. Sebedůvěra neznamená být dokonalý; znamená být důsledný a být ochotný vrátit se na správnou cestu, když selžete. S tím, jak prohlubuje vaše období střízlivosti, prohlubuje se i vaše sebevědomí ve vlastní sílu a vaše schopnost činit zdravá rozhodnutí. Den za dnem si dokazujete, že jste někdo, na jehož slově záleží a kdo má sílu vybudovat lepší budoucnost. Tato vnitřní důvěra je základem, na kterém je postaven zbytek vašeho nového života.</p>"
+          },
+          {
+            "id": "o13",
+            "title": "Zvládání chronické bolesti bez opioidů",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Zvládání chronické bolesti bez užívání opioidů je značná výzva, ale pro mnohé je to nezbytná a v konečném důsledku obohacující cesta. Důraz se přesouvá z „eliminace“ bolesti na její „zvládání“ prostřednictvím multimodálního přístupu. To zahrnuje řadu strategií, které společně snižují signály bolesti a zlepšují vaši schopnost fungovat. Fyzikální terapie a pravidelný, jemný pohyb, jako je plavání nebo chůze, jsou základem; pomáhají posilovat vaše tělo a zlepšovat mobilitu, což může dlouhodobě zmírnit bolest. Vysoce účinné jsou také techniky zaměřené na mysl a tělo, jako je redukce stresu založená na všímavosti (MBSR) a kognitivně behaviorální terapie (KBT) pro léčbu bolesti. Tyto praktiky vás naučí změnit váš vztah k bolesti a snížit emocionální tíseň a úzkost, které často zhoršují fyzické pocity. Neopioidní léky, jako jsou protizánětlivé léky nebo léky zaměřené na bolest nervů, mohou také poskytnout významnou úlevu s mnohem nižším rizikem. Je to proces pokusů a omylů, abyste našli kombinaci, která nejlépe funguje pro vaše specifické tělo a stav. Spolupráce se specialistou na léčbu bolesti, který podporuje neopioidní přístup, je zásadní. Učíte se nové dovednosti pro zvládání signálů svého těla a i když to zabere čas, nabízí to cestu k životu, kde je bolest zvládnutelnou součástí vaší zkušenosti, nikoli jejím středem.</p>"
+          },
+          {
+            "id": "o14",
+            "title": "Podpůrné sítě a co vlastně dělají",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Podpůrná síť je často uváděna jako nejdůležitější faktor v dlouhodobém zotavení se z užívání opioidů. Co ale podpůrná síť ve skutečnosti dělá? Ve své podstatě poskytuje tři základní věci: propojení, zodpovědnost a sdílenou moudrost zkušeností. Závislost vzkvétá v izolaci; propojení je protilátkou. Mít skupinu lidí – ať už jde o formální setkání jako Anonymní narkomani (NA) nebo SMART Recovery, nebo neformální skupinu přátel a rodiny – poskytuje pocit sounáležitosti a připomíná vám, že ve svém boji nejste sami. Zodpovědnost znamená mít lidi, kteří znají vaše cíle a dokáží jemně, ale pevně kontrolovat váš pokrok. Mohou vám pomoci rozpoznat, kdy se vzdalujete, a nabídnout podporu dříve, než se z přešlapu stane relaps. Sdílená moudrost podpůrné sítě je také neocenitelná. Lidé, kteří jsou dále na své cestě, mohou nabídnout praktické rady, jak zvládat spouštěče, orientovat se v systémech zdravotní péče a znovu vybudovat život. Poskytují živoucí příklad toho, že zotavení je možné. Vaše podpůrná síť je vaší „záchrannou sítí“, která vás chytí, když se věci zkomplikují, a oslaví vaše vítězství po vašem boku. Budování a udržování těchto vazeb je aktivní, nepřetržitý proces, který je zásadní pro vaše dlouhodobé zdraví a stabilitu. Jste silnější, když jste součástí komunity, které na vás záleží.</p>"
+          },
+          {
+            "id": "o15",
+            "title": "Prevence relapsu",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Prevence relapsu je aktivní každodenní praxe, která zahrnuje rozpoznání rizik a jasný plán, jak je zvládat. Je užitečné přestat vnímat relaps jako jednorázovou událost a místo toho jej vnímat jako proces, který často začíná dlouho předtím, než je látka skutečně užívána. Tento proces obvykle zahrnuje tři fáze: emocionální, psychickou a fyzickou recidivu. Emoční relaps začíná špatnou péčí o sebe – izolací, špatným spánkem a zanedbáváním emocí. Psychická relaps je vnitřní přetahovaná, kdy začnete romantizovat minulé užívání nebo přemýšlet o užívání jako o způsobu, jak se vyrovnat se současným stresem. Fyzická relaps je samotný akt užívání. Prevence relapsu znamená zasáhnout co nejdříve. To zahrnuje dodržování denních rutin, udržování kontaktu s vaší podpůrnou sítí a upřímnost ohledně vašich pocitů a spouštěčů. Znamená to také mít „plán prevence relapsu“, který zahrnuje seznam lidí, kterým můžete zavolat, míst, kam jít, a zdravých aktivit, které můžete dělat, když se situace zkomplikuje. Pokud k přešlapu dojde, je důležité reagovat upřímně, nikoli studem. Jediný přešlap vám nezničí zotavení; Je to signál k úpravě plánu a opětovnému zavázání se k dosažení cílů. Budujete si sadu dovedností a život, který je stále odolnější. Buďte ostražití, zůstaňte ve spojení a jděte dál.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

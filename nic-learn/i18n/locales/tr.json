@@ -1,0 +1,137 @@
+{
+  "app_title": "Öğrenme Modülü",
+  "progress_label": "İlerlemek",
+  "back_label": "Geri",
+  "minutes_label": "dakika",
+  "type_article": "Madde",
+  "type_assessment": "Değerlendirme",
+  "type_activity": "Aktivite",
+  "substance_name": "Nikotin",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Alışkanlığınızı Anlamak",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Nikotin Beyninize Ne Yapar?",
+            "time": "5 min",
+            "type": "Madde",
+            "content": "<p>Nikotin, özellikle beyninizin ödül sistemiyle ne kadar hızlı etkileşime girdiği nedeniyle, bilinen en bağımlılık yapıcı maddelerden biridir. Nikotini soluduğunuzda, saniyeler içinde beyninize ulaşır ve &quot;iyi hissetme&quot; nörotransmitteri olan dopaminin salınımını tetikler. Bu, geçici bir zevk ve rahatlama hissi yaratır, ancak bunun bir bedeli vardır. Beyniniz, kendi doğal dopamin üretimini azaltarak bu yapay uyarana hızla adapte olur. Bu, zamanla, ekstra zevk almak yerine sadece &quot;normal&quot; hissetmek için nikotine ihtiyaç duyduğunuz anlamına gelir. Bu kullanım ve yoksunluk döngüsü, sigara içmenin güçlü fiziksel bağımlılığını yaratır. Dopaminin ötesinde, nikotin dikkat ve hafızayla ilgili kimyasalları da etkiler; bu nedenle sigara içenler genellikle konsantre olmalarına yardımcı olduğunu hissederler. Ancak bu, nikotinin beyninizin doğal kimyasına verdiği uzun vadeli zararı maskeleyen kısa vadeli bir etkidir. Bu biyolojik manipülasyonu anlamak, sigarayı bırakmanın önemli bir adımıdır. Bu, sigara içme isteğinizin irade eksikliğinden değil, kimyasal bir madde tarafından yeniden kalibre edilmiş bir beynin fizyolojik tepkisinden kaynaklandığını görmenizi sağlar. Sigarayı bıraktığınızda, beyniniz yavaş ama kesin bir şekilde doğal haline dönmeye başlayacak ve sigaraya ihtiyaç duymadan zevk alma ve odaklanma yeteneğinizi geri kazanacaktır.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "Sigara İçmenizi Tetikleyen Faktörler",
+            "time": "6 min",
+            "type": "Aktivite",
+            "content": "<p>Birçok sigara içen için bu alışkanlık, belirli aktiviteler, duygular ve mekanlarla bağlantılı olarak günlük yaşamın dokusuna derinlemesine işlemiştir. Bunlar sizin tetikleyicilerinizdir. Yaygın tetikleyiciler arasında sabah ilk kahve, araba kullanmak, yemekten sonra içmek veya günün sonunda bir içki içmek yer alır. Duygular da güçlü etkenlerdir; stresli, sıkılmış, yalnız veya hatta özellikle mutlu hissettiğinizde sigaraya uzanabilirsiniz. Diğer sigara içenlerin yanında olmak gibi sosyal durumlar, onlara katılma konusunda güçlü bir dürtü yaratır. Başarılı bir şekilde bırakmak için, bunlara hazırlanabilmeniz için bu ipuçlarını belirlemelisiniz. Birkaç gün boyunca bir &#39;tetikleyici günlüğü&#39; tutarak başlayın, her sigara yaktığınızda veya güçlü bir sigara içme dürtüsü hissettiğinizde not edin. Ne yapıyordunuz? Nasıl hissediyordunuz? Kiminleydiniz? Bu haritaya sahip olduktan sonra, alternatif yanıtlar geliştirmeye başlayabilirsiniz. Her zaman kahveyle sigara içiyorsanız, çaya geçmeyi veya oturduğunuz yeri değiştirmeyi deneyin. Stres bir tetikleyiciyse, bunun yerine yapabileceğiniz beş dakikalık bir nefes egzersizi bulun. Sadece bir sigarayı bırakmıyorsunuz; Sigarasız bir günü nasıl geçireceğinizi yeniden öğreniyorsunuz. Tetikleyicilerinizi önceden tahmin ederek, alışkanlığın &#39;otomatik&#39; yönünü ortadan kaldırıyor ve kendinize bilinçli, sigarasız bir seçim yapma alanı tanıyorsunuz.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Fagerström Testinin Açıklaması",
+            "time": "5 min",
+            "type": "Değerlendirme",
+            "content": "<p>Fagerström Nikotin Bağımlılığı Testi, nikotine olan fiziksel bağımlılığınızın yoğunluğunu ölçmek için kullanılan standart bir klinik araçtır. Uyandıktan ne kadar süre sonra ilk sigaranızı içtiğiniz, yasak olduğu yerlerde sigara içmekten kaçınmakta zorlanıp zorlanmadığınız ve günde kaç sigara içtiğiniz gibi bir dizi özel soru sorar. Yüksek bağımlılığın en belirleyici göstergesi genellikle &#39;günün ilk sigarası&#39;dır; uyandıktan beş veya otuz dakika içinde sigara içmeniz gerekiyorsa, beyniniz işlev görmek için önemli bir fiziksel nikotine ihtiyaç duyduğunuzu işaret eder. Fagerström puanınızı anlamak, kendinizi etiketlemekle ilgili değil, bırakma stratejinizi uyarlamakla ilgilidir. Yüksek puan alanlar, yoğun fiziksel yoksunluk semptomlarını yönetmede Nikotin Yerine Koyma Tedavisi (NRT) veya reçeteli ilaçların özellikle yardımcı olduğunu görebilirler. Puanınız daha düşükse, zorluklarınız alışkanlığın sosyal ve davranışsal yönleriyle daha ilgili olabilir. Puanınız ne olursa olsun, bağımlılık seviyenizi bilmek, bırakma sürecine gerçekçi beklentilerle girmenizi sağlar. Bu, ilk birkaç günün neden özellikle zor geçebileceğini ve sigarasız bir hayata geçişte size yardımcı olacak belirli araçların neden gerekli olabileceğini anlamanıza yardımcı olur.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "İşten ayrılmak neden bu kadar zor geliyor?",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Nikotini bırakmak, bağımlılığın &quot;üçlü tehdidi&quot;ni (fiziksel, davranışsal ve psikolojik) içerdiği için oldukça zordur. Fiziksel kısım, vücudunuz nikotini temizlerken ortaya çıkan sinirlilik, kaygı, konsantrasyon güçlüğü ve yoğun istek gibi belirtileri içeren yoksunluk sendromudur. Davranışsal kısım ise sigara içmeyle ilişkili birçok ritüelin kaybıdır: elin ağıza götürülmesi, işten &quot;mola&quot; verme, diğer sigara içenlerle sosyal bağlantı. Bu ritüeller binlerce kez tekrarlanmış ve bir gecede kaybolmayan derin sinir yolları oluşturmuştur. Psikolojik kısım belki de en karmaşık olanıdır; birçok kişi için sigara bir &quot;arkadaş&quot; veya hayatın iniş çıkışlarıyla başa çıkmak için güvenilir bir mekanizma haline gelmiştir. Bıraktığınızda, kimliğinizin bir parçasından vazgeçiyormuş gibi bir keder veya kayıp duygusu hissedebilirsiniz. Bu zorluğun bir zayıflık belirtisi olmadığını, maddenin gücünün bir kanıtı olduğunu anlamak önemlidir. Birçok insan, kalıcı olarak bırakmadan önce birden fazla denemeye ihtiyaç duyar. Her deneme bir başarısızlık değil, sizi hedefinize yaklaştıran bir öğrenme deneyimidir. Neden bu kadar zor geldiğini anlayarak, süreç boyunca kendinize karşı daha şefkatli olabilir ve sağlıklı, dumansız bir yaşamın uzun vadeli faydalarına bağlı kalabilirsiniz.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Sigara ve Ruh Sağlığı",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Sigara içmenin stresi ve kaygıyı yönetmeye yardımcı olduğuna dair yaygın bir efsane var, ancak gerçek tam tersi. Sigara içme eylemi geçici bir rahatlama sağlasa da, aslında uzun vadeli stres seviyenizi artırır. Bunun nedeni, hissettiğiniz &#39;rahatlama&#39;nın aslında önceki sigaranın yarattığı yoksunluk belirtilerinin giderilmesinden ibaret olmasıdır. Sigaralar arasında, nikotin seviyeleri düştüğü için vücudunuz düşük seviyede bir stres durumundadır; sigara içmek sizi sigara içmeyen birinin her zaman keyif aldığı bir temel seviyeye geri döndürür. Dahası, sigara içmenin depresyon ve kaygı bozukluklarının daha yüksek oranlarıyla bağlantılı olduğu bulunmuştur. Beyindeki sürekli kimyasal dalgalanma, duygusal düzenlemeyi engelleyebilir ve zihinsel sağlık sorunlarını yönetmeyi zorlaştırabilir. Bıraktığınızda, beyniniz yeniden kalibre olurken geçici bir kaygı artışı veya düşük ruh hali yaşayabilirsiniz, ancak zamanla çoğu insan zihinsel sağlığının önemli ölçüde iyileştiğini fark eder. Daha istikrarlı, daha az kaygılı ve duygularını daha iyi kontrol edebildiklerini bildirirler. Sigarayı bırakmak, uzun vadeli zihinsel sağlığınızı desteklemek için yapabileceğiniz en etkili şeylerden biridir. Kimyasal bağımlılık durumundan, hayatın zorluklarıyla berrak ve sakin bir zihinle başa çıkabileceğiniz doğal bir direnç durumuna geçiyorsunuz.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Araçları Bırakmak",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Nikotin Yerine Koyma Seçenekleri",
+            "time": "6 min",
+            "type": "Madde",
+            "content": "<p>Nikotin Yerine Koyma Tedavisi (NRT), sigarayı bırakmayı çok zorlaştıran fiziksel yoksunluk belirtilerini yönetmek için oldukça etkili bir araçtır. NRT, vücudunuza tütün dumanında bulunan binlerce zararlı kimyasal madde olmadan kontrollü bir doz nikotin sağlar. Bu, sigara içme isteğinin şiddetini azaltmaya yardımcı olur ve sigarayı bırakmanın davranışsal ve psikolojik yönlerine odaklanmanızı sağlar. NRT, gün boyunca sürekli bir nikotin akışı sağlayan uzun etkili bantlar ve ani isteklerle mücadele etmek için kullanılabilen sakız, pastil, inhalatör ve burun spreyleri gibi kısa etkili seçenekler de dahil olmak üzere çeşitli formlarda mevcuttur. Araştırmalar, NRT kullanmanın, sigarayı aniden bırakmaya kıyasla başarılı bir şekilde bırakma şansınızı iki katına çıkarabileceğini göstermektedir. Birçok kişi, temel seviye için bant ve ani istekler için sakız kullanmanın en iyi sonucu verdiğini düşünmektedir. Beyninizin uyum sağlaması için yeterli zaman tanımak amacıyla NRT&#39;yi doğru şekilde ve genellikle 8 ila 12 hafta olan önerilen süre boyunca kullanmak önemlidir. Bazı kişiler nikotin replasman tedavisine (NRT) &#39;bağımlı&#39; olmaktan endişe etse de, risk sigaraya göre çok daha düşüktür ve sigarayı bırakmanın sağlık yararları anında ve çok büyüktür. Size ve bağımlılık seviyenize uygun NRT planını bulmak için eczacınız veya doktorunuzla görüşün.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "Geciktirme ve Dikkat Dağıtma Yöntemi",
+            "time": "6 min",
+            "type": "Aktivite",
+            "content": "<p>&#39;Geciktir ve Dikkat Dağıt&#39; yöntemi, anlık sigara içme isteğini yönetmek için basit ama güçlü bir davranışsal araçtır. Güçlü bir sigara içme isteği geldiğinde, ilk adımınız geciktirmektir. Kendinize, &#39;Şu anda sigara içmeyeceğim; on dakika bekleyeceğim&#39; deyin. Çoğu istek, ne kadar yoğun olursa olsun, zirveye ulaşır ve ardından beş ila on dakika içinde azalmaya başlar. Geciktirerek, isteğin dalgasının harekete geçmeden geçmesine izin veriyorsunuz. Bu on dakika boyunca, ikinci adımınız kendinizi oyalayın. Tam dikkatinizi gerektiren veya fiziksel çevrenizi değiştiren bir şey yapın. Bu, büyük bir bardak su içmek, hızlı bir yürüyüşe çıkmak, bir arkadaşınızı aramak veya bir bulmaca çözmek olabilir. Amaç, odağınızı sigaradan uzaklaştırıp başka bir şeye yönlendirmektir. Genellikle, on dakika dolduğunda, isteğin yoğunluğu önemli ölçüde azalmış ve sigaraya uzanma tehlikesi ortadan kalkmıştır. Bu yöntemi her başarılı şekilde kullandığınızda, tetikleyiciyi sigaraya bağlayan sinir sinyallerini zayıflatıyor ve rahatsızlığı yönetme yeteneğinizi güçlendiriyorsunuz. Bu, bir sigara içme isteğinin nasıl hissettirdiğine bakılmaksızın, eylemlerinizin kontrolünün sizde olduğunu kendinize kanıtlamanın pratik ve uygulanabilir bir yoludur.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "İlk Haftanızla Başa Çıkmak",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Sigarayı bırakmanın ilk haftası genellikle fiziksel ve duygusal olarak en zorlu haftadır. Vücudunuz son nikotin kalıntılarını temizlerken, beyniniz de ödül sistemini yeniden ayarlamaya başlar. Sinirlilik, huzursuzluk, baş ağrısı ve sürekli bir &quot;beyin sisi&quot; gibi çeşitli yoksunluk belirtileri yaşayabilirsiniz. Bu haftaya net bir plan ve bolca öz şefkatle başlamak önemlidir. Programınızı olabildiğince hafif tutun ve sigara içmenin yaygın olduğu yüksek stresli durumlardan veya sosyal etkinliklerden kaçının. Şekersiz sakız, havuç çubukları veya bitki çayı gibi sağlıklı dikkat dağıtıcı şeyler edinin. Bol su için ve mümkün olduğunca dinlenmeye çalışın, çünkü yorgunluk sigara içme isteğine karşı savunmanızı düşürebilir. Yaşadığınız yoğun hislerin vücudunuzun iyileştiğinin bir işareti olduğunu unutmayın; her bir rahatsızlık dakikası, sigarasız olmaya bir dakika daha yaklaştığınız anlamına gelir. Birçok insan, sigarayı bıraktıklarını ve birkaç gün biraz huysuz olabileceklerini birkaç destekleyici arkadaşına veya aile üyesine söylemenin faydalı olduğunu düşünüyor. Her küçük zaferi kutlayın: sigarasız geçen ilk sabah, başarılı bir şekilde işe gidip gelme, tamamlanan ilk gün. İlk haftanın sonunda, fiziksel yoksunluk belirtileri zirveye ulaşacak ve ardından azalacak; böylece yeni, sağlıklı yaşamınız için sağlam bir temel oluşturmuş olacaksınız.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "Yeme İsteği Zaman Çizelgesi Nasıl Görünüyor?",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Sigara içme isteğinin zaman çizelgesini anlamak, bırakma sürecini daha güvenli bir şekilde yönetmenize yardımcı olabilir. İlk 24 ila 72 saat içinde, nikotin vücudunuzdan tamamen atıldığı için istekler genellikle en sık ve yoğun seviyededir. Bu genellikle en zor dönemdir ve sürekli olarak isteklerinizle savaş halindeymiş gibi hissedebilirsiniz. İlk üç günden sonra, fiziksel isteklerin sıklığı ve yoğunluğu genellikle azalmaya başlar. Ancak, belirli durumlarda veya duygusal hallerde ortaya çıkan &#39;sigara içme anıları&#39; gibi psikolojik tetikleyicilerle karşılaşmaya devam edeceksiniz. İkinci haftanın sonunda, birçok kişi &#39;sürekli&#39; sigara içme isteğinin yerini ara sıra gelen, yönetilebilir dalgaların aldığını bildirmektedir. İlk ayın sonunda, fiziksel bağımlılık büyük ölçüde kırılır ve odak noktanız yeni alışkanlıklarınızı sürdürmeye ve sosyal durumlarda yol almaya kayar. Bir isteğin bir emir olmadığını, sadece geçici bir his olduğunu ve geçip gideceğini hatırlamak önemlidir. Aylar veya yıllar sonra bile, belirli bir koku veya özellikle stresli bir olay tarafından tetiklenen, rastgele ve geçici bir sigara içme isteği duyabilirsiniz. Bunlar normaldir ve başarısız olduğunuz anlamına gelmez; sadece eski bir alışkanlığın soluk yankılarıdır. Zaman çizelgesini bilerek, sabırlı ve kararlı kalabilirsiniz; sigarasız geçirdiğiniz her günün bir sonraki günü kolaylaştırdığını bilirsiniz.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "Elektronik Sigara Kullanımı — Gerçekten Daha Güvenli mi?",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Elektronik sigara kullanımı (vaping), genellikle geleneksel sigaraya daha güvenli bir alternatif olarak pazarlanmaktadır, ancak resmin tamamını anlamak önemlidir. Elektronik sigara kullanımı, sigaralarda kanserojen katran ve gazların çoğunu üreten tütünün yanmasını içermese de, risksiz değildir. Çoğu elektronik sigara hala nikotin içerir, yani altta yatan bağımlılık devam eder. Dahası, elektronik sigara ile üretilen aerosol, uzun vadeli sağlık etkileri hala araştırılmakta olan çeşitli kimyasallar, aroma vericiler ve ağır metaller içerir. Bazı yetişkin sigara içenler için, tamamen elektronik sigaraya geçmek tütünü bırakmaya doğru bir adım olabilir, ancak bu, nihai bir hedef yerine geçiş aracı olarak görülmelidir. Hem sigara içmek hem de elektronik sigara kullanmak özellikle zararlıdır. Gençler ve sigara içmeyenler için elektronik sigara kullanımı, nikotin bağımlılığına ve gelişmekte olan akciğer ve beyinlere zarar verebilecek önemli bir sağlık riskidir. Sağlığınız için nihai hedef, solunan tüm maddelerden arınmış olmaktır. Sigarayı bırakmanın bir yolu olarak elektronik sigara kullanıyorsanız, sonunda her ikisini de kademeli olarak bırakmak için bir plan üzerinde çalışın. Temiz hava solumayı ve her türlü kimyasal bağımlılığın etkisinden arınmış bir bedene sahip olmayı hak ediyorsunuz. Her türlü nikotinden tamamen kurtulma uzun vadeli hedefine odaklanın.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Sigara İçilmeden Kalmak",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Sigarasız Bir Kimlik Oluşturmak",
+            "time": "7 min",
+            "type": "Aktivite",
+            "content": "<p>Başarılı ve uzun vadeli sigarayı bırakmanın en önemli unsurlarından biri, kendinizi nasıl gördüğünüzü değiştirmektir. &#39;Sigarayı bırakmaya çalışan bir sigara içici&#39; olmak yerine, &#39;sigara içmeyen&#39; biri olmayı hedefleyin. Bu, sigarasız bir kimlik oluşturma sürecidir. Kimliğiniz, eylemleriniz ve kendinize anlattığınız hikayelerle şekillenir. Normalde sigara içeceğiniz bir durumda sigara içmemeyi seçtiğiniz her an, yeni kimliğiniz için oy kullanıyorsunuz demektir. Yaşadığınız faydalara odaklanmaya başlayın: kıyafetlerinizin daha güzel kokması, yemeğinizin daha lezzetli olması, cebinizdeki fazladan para ve başarınızdan duyduğunuz gurur. Biri size sigara teklif ettiğinde, &#39;Bırakıyorum&#39; demek yerine &#39;Sigara içmiyorum&#39; demeyi deneyin. Bu dil değişikliği, yeni gerçekliğinizi pekiştirir. Sizin için önemli olan değerleri (sağlık, özgürlük, öz saygı) ve sigarasız kalmanın bunlarla nasıl uyumlu olduğunu düşünün. Artık gününüz bir paket sigara ihtiyacıyla belirlenen biri değilsiniz. Sağlığına değer veren ve seçimlerinin kontrolünü elinde tutan birisiniz. Bu yeni kimlik, nüksetmeye karşı güçlü bir kalkan haline geliyor, çünkü sigara içmek artık olduğunuz kişiyle &#39;uyumlu&#39; olmayacak. Değer verdiğiniz şeylerle tanımlanan bir hayat kuruyorsunuz, geride bıraktığınız bir alışkanlıkla değil.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Sigarasız Stres Yönetimi",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Sigarayı bırakmaya çalışan insanların en büyük korkularından biri, &quot;başa çıkma araçları&quot; olmadan stresi nasıl yönetecekleridir. Sigaraların aslında sorunlarınızı asla çözmediğini, sadece vücudunuz nikotin yoksunluğu çekerken kısa süreli bir dikkat dağıtıcı görevi gördüğünü anlamak önemlidir. Stresi yönetmenin yeni yollarını öğrenmek, sigarasız kalmak için çok önemlidir. İlk adım, stresin fiziksel belirtilerini (omuzlarınızda gerginlik, hızlı kalp atışı, sığ nefes alma) tanımak ve bunlara hemen yanıt vermektir. Derin, diyafram nefesi, sinir sisteminize rahatlamanın güvenli olduğunu işaret etmenin en etkili yollarından biridir. Her gün birkaç dakika ayırarak yavaş ve derin nefesler alın. Fiziksel aktivite de güçlü bir stres gidericidir; on dakikalık bir yürüyüş bile kortizol seviyenizi önemli ölçüde düşürebilir. Müzik dinlemek, bir arkadaşınızla konuşmak veya bir hobiyle uğraşmak gibi rahatlamanın diğer sağlıklı yollarını bulun. Hayatınızdaki stres kaynaklarına bakmak ve bunlardan herhangi birinin azaltılıp azaltılamayacağını veya ortadan kaldırılıp kaldırılamayacağını görmek de faydalıdır. Kendinizin daha dirençli ve hayatın zorluklarıyla başa çıkmaya daha iyi donanımlı bir versiyonunu oluşturuyorsunuz. Sakin kalmak için kimyasal bir maddeye ihtiyacınız yok; en stresli günleri bile netlik ve zarafetle atlatmak için içsel güce ve pratik araçlara sahipsiniz.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Kayma durumunda ne yapmalı?",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Sigarayı bırakmaya karar verdikten sonra bir sigara içerseniz, buna &#39;kayma&#39; denir. Rahatsız edici bir an olsa da, sigarayı bırakma yolculuğunuzun sonu anlamına gelmek zorunda değil. Sigarayı tamamen bırakmayı başaran birçok kişi, yol boyunca bir veya daha fazla kayma yaşamıştır. Önemli olan nasıl tepki verdiğinizdir. Her şey ya da hiçbir şey düşüncesinden kaçının; bir nefes çektiğiniz için &#39;başarısız&#39; olduğunuzu ve paketi bitirmeniz gerektiğini düşünmeyin. Bu düşünce tarzı, küçük bir kaymayı tam ölçekli bir nüksetmeye dönüştürür. Bunun yerine, kaymayı bir öğrenme deneyimi olarak ele alın. Ne oldu? Ne hissediyordunuz? Kiminleydiniz? Beklemediğiniz bir tetikleyici oldu mu? Kendinize karşı dürüst olun, ancak kendinizi kötülemeyin. Bilgileri planınızı güçlendirmek için kullanın. Belki de bir süre daha belirli bir sosyal durumdan kaçınmanız veya daha düzenli olarak yanınızda nikotin replasman tedavisi (NRT) sakızı taşımanız gerekiyor. Hemen sigarasız yolunuza geri dönün. Yarını veya gelecek haftayı beklemeyin; sonraki saat sigarasız olabilir. Sigarayı bırakma nedenlerinizi ve bugüne kadar kaydettiğiniz tüm ilerlemeyi kendinize hatırlatın. Bir aksaklık, yolda küçük bir engeldir, geri dönmek için bir neden değildir. Hala geçici bir hata yapmış sigara içmeyen birisiniz ve hedeflerinize doğru ilerlemeye devam etme gücüne sahipsiniz.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Uzun Vadeli Sağlık İyileşme Süreci",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Sigarayı bırakmanın en motive edici yanlarından biri, vücudunuzun kendini ne kadar hızlı onarmaya başladığıdır. Son sigaranızdan sadece 20 dakika sonra kalp atış hızınız ve kan basıncınız düşmeye başlar. 12 saat sonra, kanınızdaki karbonmonoksit seviyesi normale döner ve organlarınıza ve dokularınıza daha fazla oksijen ulaşmasını sağlar. İki hafta ila üç ay içinde, akciğer fonksiyonunuz iyileşmeye başlar ve dolaşımınız düzelir, bu da fiziksel aktiviteyi kolaylaştırır. Bir ila dokuz ay sonra, akciğerlerinizdeki sili adı verilen küçük kıl benzeri yapılar tekrar düzgün çalışmaya başlar, mukusu temizler ve enfeksiyon riskinizi azaltır. Sigara içenlerin öksürüğü ve nefes darlığı önemli ölçüde azalacaktır. Bıraktıktan bir yıl sonra, koroner kalp hastalığı riskiniz sigara içen birinin riskinin yarısına iner. Beş yıl sonra, ağız, boğaz ve yemek borusu kanseri riskiniz yarıya iner ve felç riskiniz sigara içmeyen birinin riskine doğru düşmeye başlar. On yıl sonra, akciğer kanserinden ölme riskiniz, hala sigara içen birinin riskinin yaklaşık yarısına iner. On beş yıl içinde, koroner kalp hastalığı riskiniz hiç sigara içmemiş biriyle aynı seviyeye gelir. Bu iyileşme yolculuğu, vücudunuzun dayanıklılığının güçlü bir kanıtıdır. Sigarasız geçirdiğiniz her gün, gelecekteki sağlığınız ve uzun ömrünüz için bir yatırımdır.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Hâlâ Sigara İçen İnsanlarla Konuşmak",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Sigarayı bıraktığınızda, hâlâ sigara içen insanlarla ilişkileriniz karmaşıklaşabilir. Bir mesafe hissi duyabilir veya seçiminizin onları rahatsız ettiğinden endişe edebilirsiniz. Yargılayıcı olmadan veya kendi ayıklığınızı riske atmadan bu etkileşimleri nasıl yöneteceğinize dair bir planınız olması faydalıdır. Kararınız konusunda açık ve dürüst olun: &#39;Sağlığım için sigarayı bırakmaya karar verdim, bu yüzden bir süre sigara içenlerin olduğu ortamlardan uzak durmaya çalışıyorum.&#39; Gerçek arkadaşlar, kendileri bırakmaya hazır olmasalar bile, seçiminize saygı duyacak ve sizi destekleyecektir. İlk aşamalarda, sigara molalarından veya sigara içmenin merkezde olduğu sosyal etkinliklerden kaçınmak en iyisi olabilir. Kendinizi sigara içenlerle birlikte bulursanız, grubun bir parçası olarak kalabilir ancak biri sigara yakarsa uzaklaşabilir veya sinemaya veya restorana gitmek gibi sigara içmenin yasak olduğu aktiviteler önerebilirsiniz. Başkalarına sigara içmeleri konusunda ders verme cazibesinden kaçının; kendi yolculuğunuza odaklanın. Başarınızın sonunda onları da bırakmayı düşünmeye teşvik ettiğini görebilirsiniz, ancak bu onların yürüyeceği yoldur. Önceliğiniz, sigarasız yaşamınızı korumak ve ortak bir alışkanlığa değil, paylaşılan değerlere ve gerçek etkileşime dayalı bağlantılar kurmaktır. İlerliyorsunuz ve bu gurur duyulacak bir şey.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

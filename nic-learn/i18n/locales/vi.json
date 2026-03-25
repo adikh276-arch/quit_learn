@@ -1,0 +1,137 @@
+{
+  "app_title": "Mô-đun học tập",
+  "progress_label": "Tiến triển",
+  "back_label": "Mặt sau",
+  "minutes_label": "phút",
+  "type_article": "Bài báo",
+  "type_assessment": "Đánh giá",
+  "type_activity": "Hoạt động",
+  "substance_name": "Nicotine",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Hiểu về thói quen của bạn",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Nicotine ảnh hưởng đến não bộ của bạn như thế nào?",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>Nicotine là một trong những chất gây nghiện mạnh nhất, chủ yếu là do tốc độ tác động nhanh chóng của nó đến hệ thống khen thưởng của não bộ. Khi hít nicotine, nó sẽ đến não chỉ trong vài giây, kích hoạt sự giải phóng dopamine – chất dẫn truyền thần kinh tạo cảm giác “dễ chịu”. Điều này tạo ra cảm giác dễ chịu và thư giãn tạm thời, nhưng cái giá phải trả là não bộ nhanh chóng thích nghi với sự kích thích nhân tạo này bằng cách giảm sản xuất dopamine tự nhiên. Điều này có nghĩa là theo thời gian, bạn cần nicotine chỉ để cảm thấy “bình thường” chứ không phải để cảm thấy dễ chịu hơn. Chu kỳ sử dụng và cai nghiện này chính là nguyên nhân tạo ra sự phụ thuộc thể chất mạnh mẽ vào thuốc lá. Ngoài dopamine, nicotine cũng ảnh hưởng đến các chất hóa học liên quan đến sự chú ý và trí nhớ, đó là lý do tại sao người hút thuốc thường cảm thấy nó giúp họ tập trung. Tuy nhiên, đây chỉ là tác dụng ngắn hạn che giấu những tổn thương lâu dài mà nicotine gây ra cho hóa học tự nhiên của não bộ. Hiểu được sự “thao túng sinh học” này là một bước quan trọng trong việc cai thuốc. Nó cho phép bạn nhận ra rằng cơn thèm thuốc không phải do thiếu ý chí, mà là phản ứng sinh lý của não bộ đã bị điều chỉnh lại bởi một chất hóa học. Khi bạn bỏ thuốc, não bộ sẽ bắt đầu quá trình chậm nhưng chắc chắn trở lại trạng thái tự nhiên, khôi phục khả năng cảm nhận niềm vui và sự tập trung mà không cần đến thuốc lá.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "Các yếu tố kích thích hút thuốc của bạn",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Đối với nhiều người hút thuốc, thói quen này đã ăn sâu vào cuộc sống hàng ngày, gắn liền với những hoạt động, cảm xúc và địa điểm cụ thể. Đó chính là những tác nhân kích thích. Những tác nhân phổ biến bao gồm tách cà phê đầu tiên vào buổi sáng, lái xe, ăn xong bữa hoặc uống một ly vào cuối ngày. Cảm xúc cũng là những động lực mạnh mẽ; bạn có thể tìm đến điếu thuốc khi cảm thấy căng thẳng, buồn chán, cô đơn, hoặc thậm chí là đặc biệt vui vẻ. Các tình huống xã hội, như ở gần những người hút thuốc khác, tạo ra một thôi thúc mạnh mẽ muốn tham gia. Để bỏ thuốc thành công, bạn phải xác định những dấu hiệu này để có thể chuẩn bị cho chúng. Hãy bắt đầu bằng cách ghi nhật ký &quot;tác nhân kích thích&quot; trong vài ngày, ghi lại mỗi khi bạn châm thuốc hoặc cảm thấy thôi thúc mạnh mẽ muốn hút thuốc. Bạn đang làm gì? Bạn cảm thấy thế nào? Bạn đang ở cùng ai? Khi đã có được bản đồ này, bạn có thể bắt đầu phát triển các phản ứng thay thế. Nếu bạn luôn hút thuốc khi uống cà phê, hãy thử chuyển sang uống trà hoặc thay đổi vị trí ngồi. Nếu căng thẳng là tác nhân kích thích, hãy tìm một bài tập thở năm phút mà bạn có thể thực hiện thay thế. Bạn không chỉ loại bỏ một điếu thuốc; bạn đang học lại cách điều hướng một ngày của mình mà không cần nó. Bằng cách dự đoán các yếu tố kích thích, bạn sẽ loại bỏ thói quen &quot;tự động&quot; và tạo cho mình không gian để đưa ra lựa chọn có ý thức, không hút thuốc.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Giải thích về bài kiểm tra Fagerström",
+            "time": "5 min",
+            "type": "Đánh giá",
+            "content": "<p>Bài kiểm tra Fagerström về sự phụ thuộc nicotine là một công cụ lâm sàng tiêu chuẩn được sử dụng để đo lường mức độ nghiện nicotine về mặt thể chất. Nó đặt ra một loạt các câu hỏi cụ thể, chẳng hạn như bạn hút điếu thuốc đầu tiên bao lâu sau khi thức dậy, bạn có khó khăn trong việc kiềm chế không hút thuốc ở những nơi bị cấm hay không, và bạn hút bao nhiêu điếu thuốc mỗi ngày. Dấu hiệu rõ ràng nhất của sự phụ thuộc cao thường là &quot;điếu thuốc đầu tiên trong ngày&quot; - nếu bạn cần hút thuốc trong vòng năm hoặc ba mươi phút sau khi thức dậy, não bộ của bạn đang phát tín hiệu về nhu cầu thể chất đáng kể đối với nicotine để hoạt động. Hiểu được điểm số Fagerström của bạn không phải là để tự dán nhãn cho bản thân, mà là để điều chỉnh chiến lược cai thuốc của bạn. Những người có điểm số cao có thể thấy rằng liệu pháp thay thế nicotine (NRT) hoặc thuốc theo toa đặc biệt hữu ích trong việc kiểm soát các triệu chứng cai thuốc về thể chất dữ dội. Nếu điểm số của bạn thấp hơn, những thách thức của bạn có thể liên quan nhiều hơn đến các khía cạnh xã hội và hành vi của thói quen. Bất kể điểm số của bạn là bao nhiêu, việc biết mức độ phụ thuộc của mình cho phép bạn bước vào quá trình cai thuốc với những kỳ vọng thực tế. Nó giúp bạn hiểu tại sao những ngày đầu tiên có thể cảm thấy đặc biệt khó khăn và tại sao một số công cụ nhất định có thể cần thiết để giúp bạn vượt qua giai đoạn chuyển tiếp đến cuộc sống không khói thuốc.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "Vì sao việc bỏ cuộc lại khó khăn đến vậy?",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Việc bỏ thuốc lá nổi tiếng là khó khăn vì nó liên quan đến &quot;ba mối đe dọa&quot; của chứng nghiện: thể chất, hành vi và tâm lý. Về thể chất là hội chứng cai nghiện, có thể bao gồm cáu gắt, lo lắng, khó tập trung và thèm thuốc dữ dội khi cơ thể đào thải nicotine. Về hành vi là sự mất mát của nhiều thói quen gắn liền với việc hút thuốc – động tác đưa tay lên miệng, &quot;nghỉ giải lao&quot; khỏi công việc, kết nối xã hội với những người hút thuốc khác. Những thói quen này đã được lặp đi lặp lại hàng nghìn lần, tạo ra những đường dẫn thần kinh sâu sắc không biến mất chỉ sau một đêm. Về tâm lý có lẽ là phức tạp nhất; đối với nhiều người, thuốc lá đã trở thành một &quot;người bạn&quot; hoặc một cơ chế đối phó đáng tin cậy để quản lý những thăng trầm của cuộc sống. Khi bạn bỏ thuốc, bạn có thể cảm thấy đau buồn hoặc mất mát, như thể bạn đang từ bỏ một phần bản sắc của mình. Điều quan trọng là phải nhận ra rằng khó khăn này không phải là dấu hiệu của sự yếu đuối; đó là minh chứng cho sức mạnh của chất gây nghiện. Nhiều người cần nhiều lần thử trước khi họ bỏ thuốc thành công vĩnh viễn. Mỗi lần thử không phải là một thất bại mà là một kinh nghiệm học hỏi đưa bạn đến gần hơn với mục tiêu của mình. Khi hiểu được lý do tại sao việc này lại khó khăn đến vậy, bạn có thể đối xử tử tế hơn với bản thân trong suốt quá trình và duy trì cam kết hướng đến những lợi ích lâu dài của một cuộc sống lành mạnh, không khói thuốc.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Hút thuốc và sức khỏe tâm thần",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Có một quan niệm sai lầm dai dẳng rằng hút thuốc giúp kiểm soát căng thẳng và lo âu, nhưng thực tế lại hoàn toàn ngược lại. Mặc dù hành động hút thuốc có thể mang lại sự thư giãn tạm thời, nhưng thực tế nó lại làm tăng mức độ căng thẳng lâu dài của bạn. Điều này xảy ra bởi vì cảm giác &quot;thư giãn&quot; mà bạn cảm nhận được thực chất chỉ là sự giảm bớt các triệu chứng cai nghiện do điếu thuốc trước đó gây ra. Giữa các lần hút thuốc, cơ thể bạn ở trong trạng thái căng thẳng thấp do nồng độ nicotine giảm; hút thuốc chỉ đơn giản là đưa bạn trở lại trạng thái cân bằng mà người không hút thuốc luôn được hưởng. Hơn nữa, hút thuốc có liên quan đến tỷ lệ trầm cảm và rối loạn lo âu cao hơn. Sự biến động hóa học liên tục trong não có thể cản trở việc điều chỉnh cảm xúc và khiến việc quản lý các vấn đề sức khỏe tâm thần trở nên khó khăn hơn. Khi bạn bỏ thuốc, bạn có thể trải qua sự gia tăng tạm thời về lo lắng hoặc tâm trạng tồi tệ khi não bộ điều chỉnh lại, nhưng theo thời gian, hầu hết mọi người đều thấy sức khỏe tinh thần của họ được cải thiện đáng kể. Họ cho biết cảm thấy ổn định hơn, ít lo lắng hơn và kiểm soát cảm xúc tốt hơn. Bỏ thuốc lá là một trong những điều hiệu quả nhất bạn có thể làm để hỗ trợ sức khỏe tinh thần lâu dài của mình. Bạn đang chuyển từ trạng thái phụ thuộc vào hóa chất sang trạng thái khả năng phục hồi tự nhiên, nơi bạn có thể đối phó với những thách thức của cuộc sống với một tâm trí minh mẫn và vững vàng.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Công cụ bỏ thuốc",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Các lựa chọn thay thế nicotine",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Liệu pháp thay thế nicotine (NRT) là một công cụ rất hiệu quả để kiểm soát các triệu chứng cai thuốc về thể chất, vốn khiến việc bỏ thuốc trở nên khó khăn. NRT cung cấp cho cơ thể bạn một liều lượng nicotine được kiểm soát mà không có hàng ngàn hóa chất độc hại có trong khói thuốc lá. Điều này giúp làm giảm cảm giác thèm thuốc, cho phép bạn tập trung vào các khía cạnh hành vi và tâm lý của việc bỏ thuốc. NRT có nhiều dạng khác nhau, bao gồm miếng dán tác dụng lâu dài cung cấp nicotine ổn định suốt cả ngày, và các lựa chọn tác dụng ngắn hạn như kẹo cao su, viên ngậm, ống hít và thuốc xịt mũi có thể được sử dụng để chống lại cơn thèm thuốc đột ngột. Nghiên cứu cho thấy rằng việc sử dụng NRT có thể tăng gấp đôi cơ hội bỏ thuốc thành công so với việc bỏ thuốc đột ngột. Nhiều người thấy rằng phương pháp kết hợp - sử dụng miếng dán để duy trì liều lượng ổn định và kẹo cao su để giảm cơn thèm thuốc - mang lại hiệu quả tốt nhất. Điều quan trọng là phải sử dụng NRT đúng cách và trong toàn bộ thời gian khuyến nghị, thường khoảng 8 đến 12 tuần, để não bộ có đủ thời gian thích nghi. Mặc dù một số người lo lắng về việc bị &quot;nghiện&quot; NRT, nhưng nguy cơ này thấp hơn nhiều so với thuốc lá, và lợi ích sức khỏe của việc bỏ thuốc lá là ngay lập tức và rất lớn. Hãy trao đổi với dược sĩ hoặc bác sĩ để tìm ra phác đồ điều trị thay thế nicotine (NRT) phù hợp với bạn và mức độ phụ thuộc của bạn.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "Phương pháp trì hoãn và đánh lạc hướng",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Phương pháp &quot;Trì hoãn và Phân tâm&quot; là một công cụ hành vi đơn giản nhưng mạnh mẽ để kiểm soát cơn thèm thuốc ngay lập tức. Khi cơn thèm thuốc mạnh ập đến, bước đầu tiên là bạn cần trì hoãn. Hãy tự nhủ: &quot;Mình sẽ không hút thuốc ngay bây giờ; mình sẽ đợi mười phút.&quot; Hầu hết các cơn thèm thuốc, dù dữ dội đến đâu, đều đạt đỉnh điểm và sau đó bắt đầu giảm dần trong vòng năm đến mười phút. Bằng cách trì hoãn, bạn cho phép cơn thèm thuốc qua đi mà không hành động theo nó. Trong mười phút đó, bước thứ hai là bạn cần phân tâm. Hãy làm điều gì đó đòi hỏi sự tập trung hoàn toàn hoặc thay đổi môi trường xung quanh. Đó có thể là uống một cốc nước lớn, đi bộ nhanh, gọi điện cho bạn bè hoặc giải ô chữ. Mục tiêu là chuyển sự tập trung của bạn khỏi điếu thuốc và hướng vào thứ khác. Thông thường, khi mười phút trôi qua, cường độ của cơn thèm thuốc đã giảm đáng kể và nguy cơ hút thuốc ngay lập tức đã qua đi. Mỗi lần bạn sử dụng thành công phương pháp này, bạn đang làm suy yếu các tín hiệu thần kinh liên kết tác nhân gây thèm thuốc với điếu thuốc và tăng cường khả năng kiểm soát sự khó chịu của mình. Đây là một cách thiết thực, dễ thực hiện để chứng minh với chính bản thân rằng bạn đang kiểm soát được hành động của mình, bất kể cảm giác thèm muốn như thế nào.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "Xử lý tuần đầu tiên của bạn",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Tuần đầu tiên cai thuốc lá thường là tuần khó khăn nhất về thể chất và tinh thần. Cơ thể bạn đang loại bỏ những dấu vết cuối cùng của nicotine, và não bộ bắt đầu quá trình điều chỉnh lại hệ thống phần thưởng của nó. Bạn có thể trải qua một loạt các triệu chứng cai nghiện, bao gồm cáu kỉnh, bồn chồn, đau đầu và tình trạng “mờ não” kéo dài. Điều quan trọng là phải bước vào tuần này với một kế hoạch rõ ràng và thật nhiều lòng trắc ẩn với bản thân. Giữ lịch trình của bạn càng nhẹ nhàng càng tốt và tránh những tình huống căng thẳng hoặc các sự kiện xã hội nơi hút thuốc phổ biến. Chuẩn bị sẵn những thứ giúp bạn phân tâm lành mạnh như kẹo cao su không đường, cà rốt hoặc trà thảo dược. Uống đủ nước và cố gắng nghỉ ngơi nhiều nhất có thể, vì mệt mỏi có thể làm giảm khả năng chống lại cơn thèm thuốc. Hãy nhớ rằng những cảm xúc mãnh liệt mà bạn đang trải qua là dấu hiệu cho thấy cơ thể bạn đang hồi phục – mỗi phút khó chịu là một phút tiến gần hơn đến việc không còn thuốc lá. Nhiều người thấy hữu ích khi nói với một vài người bạn hoặc thành viên gia đình ủng hộ rằng họ đang cai thuốc và có thể hơi cáu kỉnh trong vài ngày. Hãy ăn mừng mọi chiến thắng nhỏ: buổi sáng đầu tiên không có thuốc lá, chuyến đi làm thành công đầu tiên, ngày đầu tiên hoàn thành. Đến cuối tuần đầu tiên, các triệu chứng cai nghiện về thể chất sẽ bắt đầu đạt đỉnh điểm rồi giảm dần, và bạn sẽ xây dựng được nền tảng vững chắc cho cuộc sống mới lành mạnh của mình.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "Diễn biến cơn thèm ăn trông như thế nào?",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Hiểu được diễn biến của cơn thèm thuốc có thể giúp bạn tự tin hơn trong quá trình cai thuốc. Trong 24 đến 72 giờ đầu tiên, cơn thèm thuốc thường xuất hiện thường xuyên và dữ dội nhất khi nicotine hoàn toàn biến mất khỏi cơ thể. Đây thường là giai đoạn khó khăn nhất, khi bạn cảm thấy như mình đang liên tục phải chiến đấu với cơn thèm thuốc. Sau ba ngày đầu tiên, tần suất và cường độ của cơn thèm thuốc về mặt thể chất thường bắt đầu giảm. Tuy nhiên, bạn vẫn sẽ phải đối mặt với những tác nhân tâm lý – những “ký ức về việc hút thuốc” xuất hiện trong những tình huống hoặc trạng thái cảm xúc nhất định. Đến cuối tuần thứ hai, nhiều người cho biết cơn thèm thuốc “liên tục” đã được thay thế bằng những cơn thèm thuốc thỉnh thoảng, dễ kiểm soát hơn. Đến cuối tháng đầu tiên, sự phụ thuộc về thể chất phần lớn đã bị phá vỡ, và bạn sẽ tập trung vào việc duy trì những thói quen mới và ứng xử trong các tình huống xã hội. Điều quan trọng cần nhớ là cơn thèm thuốc không phải là một mệnh lệnh; nó chỉ là một cảm giác tạm thời sẽ qua đi. Ngay cả nhiều tháng hoặc nhiều năm sau đó, bạn vẫn có thể trải nghiệm một cơn thèm thuốc bất chợt, thoáng qua, có thể do một mùi cụ thể hoặc một sự kiện đặc biệt căng thẳng gây ra. Đây là điều bình thường và không có nghĩa là bạn đang thất bại; chúng chỉ là những dư âm mờ nhạt của một thói quen cũ. Bằng cách biết được thời gian cần thiết, bạn có thể kiên nhẫn và giữ vững quyết tâm, biết rằng mỗi ngày bạn không hút thuốc sẽ làm cho ngày hôm sau dễ dàng hơn.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "Hút thuốc lá điện tử - Liệu nó có thực sự an toàn hơn?",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Hút thuốc lá điện tử thường được quảng cáo là một lựa chọn an toàn hơn so với hút thuốc lá truyền thống, nhưng điều quan trọng là phải hiểu rõ toàn bộ vấn đề. Mặc dù hút thuốc lá điện tử không liên quan đến quá trình đốt cháy thuốc lá, vốn tạo ra hầu hết các chất gây ung thư như hắc ín và khí trong thuốc lá, nhưng nó cũng không phải là không có rủi ro. Hầu hết các loại thuốc lá điện tử vẫn cung cấp nicotine, có nghĩa là nguy cơ nghiện vẫn còn. Hơn nữa, khí dung do thuốc lá điện tử tạo ra chứa nhiều hóa chất, hương liệu và kim loại nặng mà tác động lâu dài đến sức khỏe vẫn đang được nghiên cứu. Đối với một số người hút thuốc trưởng thành, chuyển hoàn toàn sang hút thuốc lá điện tử có thể là một bước tiến tới việc bỏ thuốc lá, nhưng nó nên được coi là một công cụ chuyển tiếp chứ không phải là điểm đến cuối cùng. Sử dụng đồng thời cả thuốc lá truyền thống và thuốc lá điện tử đặc biệt có hại. Đối với người trẻ tuổi và người không hút thuốc, hút thuốc lá điện tử là một nguy cơ sức khỏe đáng kể có thể dẫn đến nghiện nicotine và gây tổn thương cho phổi và não đang phát triển. Mục tiêu cuối cùng cho sức khỏe của bạn là thoát khỏi tất cả các chất hít vào. Nếu bạn đang sử dụng thuốc lá điện tử như một cách để bỏ thuốc lá, hãy lên kế hoạch để cuối cùng giảm dần cả hai. Bạn xứng đáng được hít thở không khí trong lành và có một cơ thể không bị ảnh hưởng bởi bất kỳ chất gây nghiện nào. Hãy tập trung vào mục tiêu dài hạn là hoàn toàn thoát khỏi nicotine dưới mọi hình thức.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Giữ lối sống không khói thuốc",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Xây dựng bản sắc không khói thuốc của bạn",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Một phần quan trọng của việc bỏ thuốc lá thành công lâu dài là thay đổi cách bạn nhìn nhận bản thân. Thay vì là một &quot;người hút thuốc đang cố gắng bỏ thuốc&quot;, hãy hướng đến mục tiêu trở thành một &quot;người không hút thuốc&quot;. Đây là quá trình xây dựng một bản sắc không khói thuốc. Bản sắc của bạn được hình thành bởi hành động và những câu chuyện bạn tự kể về bản thân. Mỗi lần bạn chọn không hút thuốc trong một tình huống mà bình thường bạn sẽ hút, bạn đang bỏ phiếu cho bản sắc mới của mình. Hãy bắt đầu tập trung vào những lợi ích bạn đang trải nghiệm: quần áo thơm tho hơn, thức ăn ngon hơn, tiền tiết kiệm được và cảm giác tự hào về thành quả đạt được. Khi ai đó mời bạn một điếu thuốc, hãy tập nói &quot;Tôi không hút thuốc&quot; thay vì &quot;Tôi đang bỏ thuốc&quot;. Sự thay đổi ngôn ngữ này củng cố thực tế mới của bạn. Hãy nghĩ về những giá trị quan trọng đối với bạn—sức khỏe, tự do, lòng tự trọng—và việc không hút thuốc phù hợp với những giá trị đó như thế nào. Bạn không còn là người mà cả ngày bị chi phối bởi nhu cầu về một gói thuốc lá. Bạn là người coi trọng sức khỏe của mình và kiểm soát được các lựa chọn của bản thân. Bản sắc mới này trở thành một lá chắn mạnh mẽ chống lại sự tái nghiện, bởi vì hút thuốc sẽ không còn &quot;phù hợp&quot; với con người bạn hiện tại. Bạn đang xây dựng một cuộc sống được định hình bởi những giá trị mà bạn trân trọng, chứ không phải bởi một thói quen mà bạn đã từ bỏ.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Quản lý căng thẳng mà không cần thuốc lá",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Một trong những nỗi sợ lớn nhất của mọi người khi bỏ thuốc lá là làm thế nào họ sẽ đối phó với căng thẳng mà không có &quot;công cụ đối phó&quot; của mình. Điều quan trọng là phải nhận ra rằng thuốc lá thực sự không bao giờ giải quyết được vấn đề của bạn; chúng chỉ mang lại sự phân tâm ngắn hạn trong khi cơ thể bạn đang trong giai đoạn cai nicotine. Học những cách mới để quản lý căng thẳng là điều cần thiết để duy trì việc không hút thuốc. Bước đầu tiên là nhận biết các dấu hiệu thể chất của căng thẳng—căng thẳng ở vai, tim đập nhanh, thở nông—và phản ứng ngay lập tức. Hít thở sâu bằng cơ hoành là một trong những cách hiệu quả nhất để báo hiệu cho hệ thần kinh của bạn rằng bạn có thể thư giãn. Dành vài phút mỗi ngày để thực hành hít thở chậm và sâu. Hoạt động thể chất cũng là một cách giảm căng thẳng hiệu quả; thậm chí chỉ cần đi bộ mười phút cũng có thể làm giảm đáng kể mức cortisol của bạn. Tìm những cách lành mạnh khác để thư giãn, chẳng hạn như nghe nhạc, nói chuyện với bạn bè hoặc thực hành một sở thích. Cũng hữu ích khi xem xét các nguồn gây căng thẳng trong cuộc sống của bạn và xem liệu có thể giảm bớt hoặc loại bỏ bất kỳ nguồn nào hay không. Bạn đang xây dựng một phiên bản của chính mình kiên cường hơn và được trang bị tốt hơn để đối phó với những thách thức của cuộc sống. Bạn không cần một chất hóa học nào để giữ bình tĩnh; Bạn sở hữu sức mạnh nội tâm và những công cụ thiết thực để vượt qua ngay cả những ngày căng thẳng nhất với sự sáng suốt và duyên dáng.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Phải làm gì khi bị trượt chân",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Nếu bạn hút một điếu thuốc sau khi đã quyết định bỏ thuốc, đó gọi là &quot;lỡ hút&quot;. Đó là một khoảnh khắc khó chịu, nhưng nó không nhất thiết phải là dấu chấm hết cho hành trình bỏ thuốc của bạn. Nhiều người đã bỏ thuốc thành công cũng từng có một hoặc nhiều lần &quot;lỡ hút&quot; trên đường đi. Điều quan trọng là cách bạn phản ứng. Tránh bẫy suy nghĩ &quot;tất cả hoặc không có gì&quot; - ý nghĩ rằng chỉ cần hút một hơi, bạn đã &quot;thất bại&quot; và nên hút hết cả gói. Lối suy nghĩ này biến một lần &quot;lỡ hút&quot; nhỏ thành một lần tái nghiện hoàn toàn. Thay vào đó, hãy coi lần &quot;lỡ hút&quot; đó như một bài học kinh nghiệm. Chuyện gì đã xảy ra? Bạn cảm thấy thế nào? Bạn ở cùng ai? Có tác nhân nào bạn không lường trước được không? Hãy thành thật với bản thân mà không tự trách móc. Sử dụng thông tin đó để củng cố kế hoạch của bạn. Có thể bạn cần tránh một số tình huống xã hội nhất định trong một thời gian dài hơn, hoặc mang theo kẹo cao su NRT thường xuyên hơn. Hãy quay lại con đường không khói thuốc ngay lập tức. Đừng đợi đến ngày mai hoặc tuần sau; chỉ cần một giờ không khói thuốc cũng có thể giúp bạn. Hãy nhắc nhở bản thân về lý do bạn bỏ thuốc và tất cả những tiến bộ bạn đã đạt được. Một lần lỡ phạm chỉ là một trở ngại nhỏ trên con đường, không phải là lý do để quay đầu lại. Bạn vẫn là một người không hút thuốc, chỉ là có một lần tái nghiện tạm thời, và bạn hoàn toàn có khả năng tiếp tục tiến về phía mục tiêu của mình.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Lộ trình phục hồi sức khỏe dài hạn",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Một trong những yếu tố tạo động lực nhất khi bỏ thuốc lá là tốc độ phục hồi nhanh chóng của cơ thể. Chỉ trong vòng 20 phút sau điếu thuốc cuối cùng, nhịp tim và huyết áp của bạn bắt đầu giảm. Sau 12 giờ, nồng độ carbon monoxide trong máu trở lại bình thường, cho phép nhiều oxy hơn đến các cơ quan và mô. Trong vòng hai tuần đến ba tháng, chức năng phổi bắt đầu được cải thiện và tuần hoàn máu tốt hơn, giúp bạn dễ dàng vận động hơn. Sau một đến chín tháng, các cấu trúc nhỏ giống như sợi tóc trong phổi, được gọi là lông mao, bắt đầu hoạt động bình thường trở lại, làm sạch chất nhầy và giảm nguy cơ nhiễm trùng. Ho và khó thở của người hút thuốc sẽ giảm đáng kể. Một năm sau khi bỏ thuốc, nguy cơ mắc bệnh tim mạch vành của bạn chỉ bằng một nửa so với người hút thuốc. Sau năm năm, nguy cơ mắc ung thư miệng, họng và thực quản giảm một nửa, và nguy cơ đột quỵ bắt đầu giảm xuống gần bằng người không hút thuốc. Sau mười năm, nguy cơ tử vong do ung thư phổi của bạn chỉ bằng khoảng một nửa so với người vẫn hút thuốc. Sau mười lăm năm, nguy cơ mắc bệnh tim mạch vành của bạn tương đương với người chưa từng hút thuốc. Hành trình chữa lành này là minh chứng mạnh mẽ cho khả năng phục hồi của cơ thể bạn. Mỗi ngày bạn không hút thuốc là một sự đầu tư cho sức khỏe và tuổi thọ tương lai của bạn.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Trò chuyện với những người vẫn còn hút thuốc",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Khi bạn bỏ thuốc lá, mối quan hệ của bạn với những người vẫn hút thuốc có thể trở nên phức tạp. Bạn có thể cảm thấy xa cách hoặc thậm chí lo lắng rằng lựa chọn của bạn khiến họ khó chịu. Sẽ rất hữu ích nếu bạn có kế hoạch để xử lý những tương tác này mà không phán xét hoặc gây nguy hiểm cho việc cai thuốc của chính mình. Hãy rõ ràng và trung thực về quyết định của bạn: &quot;Tôi đã quyết định bỏ thuốc lá vì sức khỏe của mình, vì vậy tôi đang cố gắng tránh tiếp xúc với người hút thuốc trong một thời gian.&quot; Những người bạn thực sự sẽ tôn trọng lựa chọn của bạn và ủng hộ bạn, ngay cả khi họ chưa sẵn sàng bỏ thuốc. Trong giai đoạn đầu, tốt nhất là nên tránh những &quot;giờ nghỉ hút thuốc&quot; hoặc các sự kiện xã hội mà việc hút thuốc là trọng tâm. Nếu bạn thấy mình ở cùng với người hút thuốc, bạn có thể ở lại trong nhóm nhưng hãy rời đi nếu ai đó châm thuốc, hoặc đề xuất các hoạt động không được phép hút thuốc, chẳng hạn như đi xem phim hoặc đi nhà hàng. Tránh cám dỗ thuyết giảng người khác về việc hút thuốc của họ; hãy tập trung vào hành trình của riêng bạn. Bạn có thể thấy rằng thành công của bạn cuối cùng sẽ truyền cảm hứng cho họ nghĩ đến việc bỏ thuốc, nhưng đó là con đường của riêng họ. Ưu tiên của bạn là bảo vệ cuộc sống không khói thuốc của chính mình và xây dựng những mối quan hệ dựa trên các giá trị chung và sự tương tác chân thành, chứ không phải dựa trên thói quen chung. Bạn đang tiến bộ, và đó là điều đáng tự hào.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "app_title": "Módulo de aprendizaje",
+  "progress_label": "Progreso",
+  "back_label": "Atrás",
+  "minutes_label": "min",
+  "type_article": "Artículo",
+  "type_assessment": "Evaluación",
+  "type_activity": "Actividad",
+  "substance_name": "Nicotina",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Comprender tu hábito",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Qué le hace la nicotina a tu cerebro",
+            "time": "5 min",
+            "type": "Artículo",
+            "content": "<p>La nicotina es una de las sustancias más adictivas que se conocen, principalmente por la rapidez con la que interactúa con el sistema de recompensa del cerebro. Al inhalarla, llega al cerebro en segundos, desencadenando la liberación de dopamina, el neurotransmisor del bienestar. Esto crea una sensación temporal de placer y relajación, pero tiene un precio. El cerebro se adapta rápidamente a esta estimulación artificial reduciendo su propia producción natural de dopamina. Esto significa que, con el tiempo, se necesita nicotina simplemente para sentirse &quot;normal&quot; en lugar de para experimentar placer adicional. Este ciclo de consumo y abstinencia es lo que crea la poderosa dependencia física del tabaco. Además de la dopamina, la nicotina también afecta a las sustancias químicas relacionadas con la atención y la memoria, razón por la cual los fumadores a menudo creen que les ayuda a concentrarse. Sin embargo, este es un efecto a corto plazo que enmascara el daño a largo plazo que la nicotina causa a la química natural del cerebro. Comprender este secuestro biológico es un paso clave para dejar de fumar. Te permite ver que tus antojos no se deben a falta de fuerza de voluntad, sino a una respuesta fisiológica de un cerebro que ha sido recalibrado químicamente. Al dejar de fumar, tu cerebro comenzará el proceso lento pero seguro de volver a su estado natural, recuperando tu capacidad de sentir placer y concentrarte sin necesidad de un cigarrillo.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "Sus factores desencadenantes del tabaquismo",
+            "time": "6 min",
+            "type": "Actividad",
+            "content": "<p>Para muchos fumadores, el hábito está profundamente arraigado en la vida diaria, ligado a actividades, emociones y lugares específicos. Estos son sus desencadenantes. Los desencadenantes comunes incluyen la primera taza de café por la mañana, conducir, terminar una comida o tomar una copa al final del día. Las emociones también son impulsores poderosos; puede que sienta la necesidad de encender un cigarrillo cuando se siente estresado, aburrido, solo o incluso particularmente feliz. Las situaciones sociales, como estar cerca de otros fumadores, crean un fuerte impulso de unirse. Para dejar de fumar con éxito, debe identificar estas señales para poder prepararse para ellas. Comience por llevar un &quot;registro de desencadenantes&quot; durante unos días, anotando cada vez que encienda un cigarrillo o sienta un fuerte impulso de hacerlo. ¿Qué estaba haciendo? ¿Cómo se sentía? ¿Con quién estaba? Una vez que tenga este mapa, puede comenzar a desarrollar respuestas alternativas. Si siempre fuma con café, intente cambiar a té o cambiar de lugar donde se sienta. Si el estrés es un desencadenante, busque un ejercicio de respiración de cinco minutos que pueda hacer en su lugar. No se trata solo de quitar un cigarrillo; Estás reaprendiendo a desenvolverte en tu día a día sin fumar. Al anticipar tus desencadenantes, eliminas el mero acto automático del hábito y te das el espacio necesario para tomar una decisión consciente y libre de humo.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Explicación del test de Fagerström",
+            "time": "5 min",
+            "type": "Evaluación",
+            "content": "<p>El Test de Fagerström para la Dependencia de la Nicotina es una herramienta clínica estándar que se utiliza para medir la intensidad de la adicción física a la nicotina. Incluye una serie de preguntas específicas, como cuánto tiempo después de despertarse fuma su primer cigarrillo, si le resulta difícil abstenerse de fumar en lugares donde está prohibido y cuántos cigarrillos fuma al día. El indicador más revelador de una alta dependencia suele ser el &quot;primer cigarrillo del día&quot;: si necesita fumar entre cinco y treinta minutos después de despertarse, su cerebro está señalando una necesidad física significativa de nicotina para funcionar. Comprender su puntuación en el Test de Fagerström no se trata de etiquetarse, sino de adaptar su estrategia para dejar de fumar. Quienes obtienen puntuaciones altas pueden encontrar que la Terapia de Reemplazo de Nicotina (TRN) o los medicamentos recetados son particularmente útiles para controlar los intensos síntomas de abstinencia física. Si su puntuación es más baja, sus dificultades pueden estar más relacionadas con los aspectos sociales y conductuales del hábito. Independientemente de su puntuación, conocer su nivel de dependencia le permite abordar el proceso para dejar de fumar con expectativas realistas. Te ayuda a comprender por qué los primeros días pueden resultar especialmente difíciles y por qué ciertas herramientas pueden ser necesarias para ayudarte a dar el paso hacia una vida libre de humo.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "Por qué dejar de fumar se siente tan difícil",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Dejar la nicotina es notoriamente difícil porque implica una triple amenaza de adicción: física, conductual y psicológica. La parte física es el síndrome de abstinencia, que puede incluir irritabilidad, ansiedad, dificultad para concentrarse y antojos intensos mientras el cuerpo elimina la nicotina. La parte conductual es la pérdida de muchos rituales asociados con fumar: el gesto de llevarse el cigarrillo a la boca, el descanso del trabajo, la conexión social con otros fumadores. Estos rituales se han repetido miles de veces, creando profundas conexiones neuronales que no desaparecen de la noche a la mañana. La parte psicológica es quizás la más compleja; para muchos, el cigarrillo se ha convertido en un &quot;amigo&quot; o un mecanismo de afrontamiento confiable para manejar los altibajos de la vida. Al dejar de fumar, es posible que sientas una sensación de tristeza o pérdida, como si estuvieras renunciando a una parte de tu identidad. Es importante reconocer que esta dificultad no es un signo de debilidad; es una prueba del poder de la sustancia. Muchas personas necesitan varios intentos antes de lograr dejar de fumar definitivamente. Cada intento no es un fracaso, sino una experiencia de aprendizaje que te acerca a tu meta. Al comprender por qué resulta tan difícil, puedes ser más compasivo contigo mismo durante el proceso y mantenerte comprometido con los beneficios a largo plazo de una vida sana y libre de humo.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Tabaquismo y salud mental",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Existe el mito persistente de que fumar ayuda a controlar el estrés y la ansiedad, pero la realidad es todo lo contrario. Si bien fumar puede brindar un alivio temporal, en realidad aumenta los niveles de estrés a largo plazo. Esto sucede porque la &quot;relajación&quot; que se siente es simplemente el alivio de los síntomas de abstinencia que produjo el cigarrillo anterior. Entre cigarrillos, el cuerpo se encuentra en un estado de estrés leve a medida que disminuyen los niveles de nicotina; fumar simplemente nos devuelve a un estado basal que una persona no fumadora disfruta constantemente. Además, fumar se ha relacionado con mayores tasas de depresión y trastornos de ansiedad. La constante fluctuación química en el cerebro puede interferir con la regulación emocional y dificultar el manejo de los problemas de salud mental. Al dejar de fumar, es posible que se experimente un aumento temporal de la ansiedad o un estado de ánimo bajo mientras el cerebro se reajusta, pero con el tiempo, la mayoría de las personas notan una mejora significativa en su salud mental. Reportan sentirse más estables, menos ansiosos y con mayor control de sus emociones. Dejar de fumar es una de las cosas más efectivas que se pueden hacer para apoyar el bienestar mental a largo plazo. Estás pasando de un estado de dependencia química a un estado de resiliencia natural, donde puedes afrontar los desafíos de la vida con una mente clara y serena.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Herramientas para dejar de fumar",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Opciones de reemplazo de nicotina",
+            "time": "6 min",
+            "type": "Artículo",
+            "content": "<p>La terapia de reemplazo de nicotina (TRN) es una herramienta muy eficaz para controlar los síntomas físicos de abstinencia que dificultan tanto dejar de fumar. La TRN proporciona al cuerpo una dosis controlada de nicotina sin los miles de químicos dañinos presentes en el humo del tabaco. Esto ayuda a mitigar los antojos, permitiéndole concentrarse en los aspectos conductuales y psicológicos de dejar de fumar. La TRN se presenta en diversas formas, incluyendo parches de acción prolongada que proporcionan un flujo constante de nicotina durante todo el día, y opciones de acción corta como chicles, pastillas, inhaladores y aerosoles nasales que se pueden usar para combatir los impulsos repentinos. Las investigaciones demuestran que usar TRN puede duplicar las probabilidades de dejar de fumar con éxito en comparación con dejarlo de golpe. Muchas personas encuentran que un enfoque combinado —usar un parche como base y chicles para los antojos intensos— funciona mejor. Es importante usar la TRN correctamente y durante el tiempo recomendado, generalmente de 8 a 12 semanas, para darle al cerebro tiempo suficiente para adaptarse. Si bien algunas personas se preocupan por la posibilidad de volverse adictas a la terapia de reemplazo de nicotina (TRN), el riesgo es mucho menor que con los cigarrillos, y los beneficios para la salud de dejar de fumar son inmediatos y considerables. Consulte con su farmacéutico o médico para encontrar el plan de TRN adecuado para usted y su nivel de dependencia.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "El método de retraso y distracción",
+            "time": "6 min",
+            "type": "Actividad",
+            "content": "<p>El método de &quot;Retrasar y Distraer&quot; es una herramienta conductual sencilla pero eficaz para controlar las ganas de fumar en el momento. Cuando te asalta un fuerte impulso de fumar, el primer paso es retrasarlo. Dite a ti mismo: &quot;No voy a fumar ahora; esperaré diez minutos&quot;. La mayoría de los antojos, por muy intensos que sean, alcanzan su punto máximo y luego empiezan a disminuir en cinco o diez minutos. Al retrasarlo, permites que el impulso pase sin ceder a él. Durante esos diez minutos, el segundo paso es distraerte. Haz algo que requiera toda tu atención o que cambie tu entorno físico. Podría ser beber un vaso grande de agua, dar un paseo a paso ligero, llamar a un amigo o hacer un crucigrama. El objetivo es desviar tu atención del cigarrillo hacia otra cosa. A menudo, cuando pasan los diez minutos, la intensidad del impulso ha disminuido significativamente y el peligro inmediato de fumar ha desaparecido. Cada vez que uses este método con éxito, debilitarás las señales neuronales que vinculan un estímulo con el cigarrillo y fortalecerás tu capacidad para controlar el malestar. Es una forma práctica y efectiva de demostrarte a ti mismo que tienes el control de tus acciones, independientemente de cómo te sientas cuando tengas antojo.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "Cómo afrontar tu primera semana",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>La primera semana después de dejar de fumar suele ser la más difícil, tanto física como emocionalmente. Tu cuerpo está eliminando los últimos restos de nicotina y tu cerebro comienza a reajustar su sistema de recompensa. Es posible que experimentes diversos síntomas de abstinencia, como irritabilidad, inquietud, dolores de cabeza y una persistente sensación de confusión mental. Es importante afrontar esta semana con un plan claro y mucha autocompasión. Mantén tu agenda lo más relajada posible y evita situaciones de mucho estrés o eventos sociales donde se suele fumar. Ten a mano distracciones saludables como chicles sin azúcar, palitos de zanahoria o infusiones. Mantente hidratado y procura descansar lo suficiente, ya que la fatiga puede disminuir tus defensas contra las ganas de fumar. Recuerda que las intensas sensaciones que experimentas son una señal de que tu cuerpo se está recuperando: cada minuto de incomodidad te acerca un poco más a estar libre de humo. A muchas personas les resulta útil contarles a algunos amigos o familiares que están dejando de fumar y que podrían estar un poco irritables durante unos días. Celebra cada pequeño logro: la primera mañana sin fumar, el primer viaje al trabajo sin problemas, el primer día completo. Al final de la primera semana, los síntomas físicos de abstinencia alcanzarán su punto máximo y luego disminuirán, y habrás construido una base sólida para tu nueva vida saludable.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "Cómo se ve la cronología de los antojos",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Comprender la cronología de los antojos puede ayudarte a afrontar el proceso de dejar de fumar con más confianza. En las primeras 24 a 72 horas, los antojos suelen ser más frecuentes e intensos, ya que la nicotina se ha eliminado por completo del organismo. Este suele ser el período más difícil, donde puedes sentir que estás en una lucha constante contra tus impulsos. Después de los primeros tres días, la frecuencia e intensidad de los antojos físicos generalmente comienzan a disminuir. Sin embargo, seguirás enfrentándote a desencadenantes psicológicos: los &quot;recuerdos del tabaquismo&quot; que aparecen en ciertas situaciones o estados emocionales. Al final de la segunda semana, muchas personas informan que el impulso &quot;constante&quot; de fumar ha sido reemplazado por oleadas ocasionales y manejables. Al final del primer mes, la dependencia física se ha superado en gran medida, y tu atención se centra en mantener tus nuevos hábitos y desenvolverte en situaciones sociales. Es importante recordar que un antojo no es una orden; es solo una sensación temporal que pasará. Incluso meses o años después, es posible que sientas un impulso repentino y fugaz de fumar, quizás provocado por un olor específico o un evento particularmente estresante. Esto es normal y no significa que estés fracasando; son solo ecos que se desvanecen de un viejo hábito. Al conocer el tiempo que transcurre, puedes mantener la paciencia y el compromiso, sabiendo que cada día que pasas sin fumar facilita el siguiente.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "El vapeo: ¿es realmente más seguro?",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>El vapeo, o el uso de cigarrillos electrónicos, se suele promocionar como una alternativa más segura al tabaco tradicional, pero es importante comprender todos los riesgos. Si bien el vapeo no implica la combustión del tabaco, que produce la mayor parte de los alquitranes y gases cancerígenos de los cigarrillos, no está exento de riesgos. La mayoría de los vaporizadores siguen liberando nicotina, lo que significa que la adicción subyacente persiste. Además, el aerosol producido al vapear contiene diversos químicos, saborizantes y metales pesados cuyos efectos a largo plazo en la salud aún se están estudiando. Para algunos fumadores adultos, pasarse completamente al vapeo puede ser un paso para dejar el tabaco, pero debe considerarse una herramienta transitoria, no la solución definitiva. El uso dual —fumar y vapear— es particularmente dañino. Para los jóvenes y los no fumadores, el vapeo representa un riesgo significativo para la salud que puede provocar adicción a la nicotina y daños en los pulmones y el cerebro en desarrollo. El objetivo final para su salud es liberarse de todas las sustancias inhaladas. Si está utilizando el vapeo como método para dejar de fumar, elabore un plan para ir reduciendo gradualmente el consumo de ambos. Mereces respirar aire puro y tener un cuerpo libre de la influencia de cualquier dependencia química. Concéntrate en el objetivo a largo plazo de liberarte por completo de la nicotina en todas sus formas.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Mantenerse libre de humo",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Construyendo tu identidad libre de humo",
+            "time": "7 min",
+            "type": "Actividad",
+            "content": "<p>Una parte fundamental para dejar de fumar con éxito y a largo plazo es cambiar la forma en que te ves a ti mismo. En lugar de ser un &quot;fumador que intenta dejar de fumar&quot;, aspira a ser un &quot;no fumador&quot;. Este es el proceso de construir una identidad libre de humo. Tu identidad se moldea por tus acciones y las historias que te cuentas sobre quién eres. Cada vez que decides no fumar en una situación en la que normalmente lo harías, estás votando por tu nueva identidad. Empieza a centrarte en los beneficios que estás experimentando: el mejor olor de tu ropa, el mejor sabor de tu comida, el dinero extra en tu bolsillo y la sensación de orgullo por tu logro. Cuando alguien te ofrezca un cigarrillo, practica decir &quot;No fumo&quot; en lugar de &quot;Estoy dejando de fumar&quot;. Este cambio de lenguaje refuerza tu nueva realidad. Piensa en los valores que son importantes para ti —salud, libertad, autoestima— y cómo el hecho de no fumar se alinea con ellos. Ya no eres alguien cuyo día está dictado por la necesidad de un paquete de cigarrillos. Eres alguien que valora su salud y tiene el control de sus decisiones. Esta nueva identidad se convierte en un poderoso escudo contra las recaídas, ya que fumar ya no encajaría con la persona en la que te has convertido. Estás construyendo una vida definida por tus valores, no por un hábito que has superado.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Cómo controlar el estrés sin fumar",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>Uno de los mayores temores de quienes intentan dejar de fumar es cómo manejarán el estrés sin su &quot;herramienta de afrontamiento&quot;. Es importante comprender que los cigarrillos nunca resolvieron sus problemas; solo proporcionaron una breve distracción mientras su cuerpo sufría la abstinencia de nicotina. Aprender nuevas formas de manejar el estrés es fundamental para mantenerse libre de humo. El primer paso es reconocer las señales físicas del estrés (tensión en los hombros, taquicardia, respiración superficial) y responder a ellas de inmediato. La respiración diafragmática profunda es una de las formas más efectivas de indicarle a su sistema nervioso que puede relajarse. Dedique unos minutos cada día a practicar respiraciones lentas y profundas. La actividad física es otro poderoso reductor del estrés; incluso una caminata de diez minutos puede disminuir significativamente sus niveles de cortisol. Busque otras formas saludables de relajarse, como escuchar música, hablar con un amigo o practicar un pasatiempo. También es útil analizar las fuentes de estrés en su vida y ver si alguna se puede reducir o eliminar. Está construyendo una versión de sí mismo más resiliente y mejor preparada para afrontar los desafíos de la vida. No necesitas ningún producto químico para mantener la calma; tienes la fuerza interior y las herramientas prácticas para afrontar incluso los días más estresantes con claridad y serenidad.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Qué hacer cuando te resbalas",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Si fumas un cigarrillo después de haber decidido dejar de fumar, se llama una &quot;recaída&quot;. Es un momento incómodo, pero no tiene por qué significar el fin de tu proceso para dejar de fumar. Muchas personas que lograron dejar de fumar definitivamente tuvieron una o más recaídas en el camino. La clave está en cómo reaccionas. Evita la trampa del pensamiento de todo o nada: la idea de que, por haber fumado una vez, has &quot;fracasado&quot; y deberías terminarte el paquete. Esta forma de pensar es la que convierte una pequeña recaída en una recaída total. En cambio, trata la recaída como una experiencia de aprendizaje. ¿Qué pasó? ¿Cómo te sentías? ¿Con quién estabas? ¿Hubo algún desencadenante que no anticipaste? Sé honesto contigo mismo sin ser cruel. Usa la información para fortalecer tu plan. Tal vez necesites evitar cierta situación social por un tiempo más, o llevar chicles de terapia de reemplazo de nicotina contigo con más frecuencia. Retoma tu camino sin fumar de inmediato. No esperes hasta mañana o la próxima semana; la próxima hora puede ser sin fumar. Recuerda tus razones para dejar de fumar y todo el progreso que ya has logrado. Un tropiezo es solo un pequeño obstáculo, no un motivo para rendirse. Sigues siendo una persona que no fuma y que tuvo una recaída temporal; tienes el poder de seguir avanzando hacia tus metas.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Cronograma de recuperación de la salud a largo plazo",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>Una de las cosas más motivadoras de dejar de fumar es la rapidez con la que el cuerpo comienza a recuperarse. Apenas 20 minutos después del último cigarrillo, la frecuencia cardíaca y la presión arterial empiezan a bajar. Después de 12 horas, el nivel de monóxido de carbono en la sangre vuelve a la normalidad, permitiendo que llegue más oxígeno a los órganos y tejidos. Entre dos semanas y tres meses después, la función pulmonar empieza a mejorar y la circulación sanguínea se normaliza, facilitando la actividad física. Entre uno y nueve meses después, las diminutas estructuras similares a pelos en los pulmones, llamadas cilios, vuelven a funcionar correctamente, eliminando la mucosidad y reduciendo el riesgo de infección. La tos del fumador y la dificultad para respirar disminuyen significativamente. Un año después de dejar de fumar, el riesgo de padecer una enfermedad coronaria se reduce a la mitad en comparación con el de un fumador. A los cinco años, el riesgo de padecer cáncer de boca, garganta y esófago se reduce a la mitad, y el riesgo de sufrir un accidente cerebrovascular empieza a disminuir hasta alcanzar el de una persona no fumadora. Después de diez años, el riesgo de morir de cáncer de pulmón es aproximadamente la mitad que el de una persona que aún fuma. A los quince años, tu riesgo de padecer una enfermedad coronaria es el mismo que el de una persona que nunca ha fumado. Este proceso de recuperación es una poderosa prueba de la resistencia de tu cuerpo. Cada día que te mantienes sin fumar es una inversión en tu salud y longevidad futuras.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Hablando con personas que aún fuman.",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>Cuando dejas de fumar, tus relaciones con quienes aún fuman pueden complicarse. Es posible que sientas cierta distancia o incluso te preocupe que tu decisión los incomode. Es útil tener un plan para manejar estas interacciones sin juzgar ni poner en riesgo tu propia sobriedad. Sé claro y honesto sobre tu decisión: &quot;He decidido dejar de fumar por mi salud, así que intentaré evitar el contacto con el tabaco por un tiempo&quot;. Los verdaderos amigos respetarán tu decisión y te apoyarán, incluso si ellos mismos no están listos para dejar de fumar. En las primeras etapas, lo mejor es evitar las pausas para fumar o los eventos sociales donde fumar sea el tema central. Si te encuentras con fumadores, puedes seguir formando parte del grupo, pero alejarte si alguien enciende un cigarrillo o sugerir actividades donde no se permita fumar, como ir al cine o a un restaurante. Evita la tentación de sermonear a los demás sobre su hábito de fumar; concéntrate en tu propio proceso. Es posible que tu éxito los inspire a considerar dejar de fumar también, pero ese es su camino. Tu prioridad es proteger tu vida libre de humo y construir relaciones basadas en valores compartidos e interacción genuina, en lugar de un hábito común. Estás avanzando, y eso es algo de lo que puedes estar orgulloso.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

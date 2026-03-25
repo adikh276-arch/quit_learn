@@ -1,0 +1,137 @@
+{
+  "app_title": "Learn Module",
+  "progress_label": "Progress",
+  "back_label": "Back",
+  "minutes_label": "min",
+  "type_article": "Article",
+  "type_assessment": "Assessment",
+  "type_activity": "Activity",
+  "substance_name": "Alcohol",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Awareness & Readiness",
+        "articles": [
+          {
+            "id": "a1",
+            "title": "Why Quit Alcohol",
+            "time": "5 min",
+            "type": "Article",
+            "content": "<p>You might be here because you've noticed a pattern that doesn't serve you anymore. Alcohol has a way of becoming a quiet constant in our lives, often starting as a social tool or a way to unwind, but eventually becoming something that demands more than it gives. When you choose to step away from drinking, you're not just giving something up; you're gaining a clarity that has likely been missing for some time. You will start to notice that your sleep becomes more restorative and your moods become more stable. The anxiety that often follows a night of drinking—that low-level hum of dread—begins to dissipate. This isn't about being a 'bad person' or failing; it's about recognising that your body and mind deserve a different kind of care. By quitting, you allow your brain's natural reward systems to reset, meaning you can eventually find genuine joy in small moments again without needing a chemical catalyst. You are choosing to be present for your own life, with all its challenges and its beauty, rather than viewing it through a filtered lens. This journey starts with a single realization: that your life could be bigger, brighter, and more authentic without the weight of alcohol holding you back.</p>"
+          },
+          {
+            "id": "a2",
+            "title": "How Addicted Am I",
+            "time": "5 min",
+            "type": "Assessment",
+            "content": "<p>Evaluating your relationship with alcohol requires a level of radical honesty that can feel uncomfortable at first. It's helpful to move away from the binary idea of being either 'an alcoholic' or 'fine.' Instead, think of it as a spectrum of use. You might ask yourself how much of your mental energy is consumed by thinking about your next drink or recovering from the last one. If you find that you are frequently setting rules for yourself—such as only drinking on weekends or never before 6 PM—and then finding reasons to break them, your brain is already showing signs of chemical dependency. This isn't a failure of willpower; it's a physiological response to a powerful substance. You might also notice that your tolerance has increased, meaning you need more to feel the effects you once got from a single glass. Another key indicator is whether you continue to drink despite experiencing negative consequences, like strain on your relationships or decreased performance at work. If your use of alcohol is making your world smaller or more complicated, that is a sign worth listening to. This self-assessment is not for judgment, but for information. Once you know where you stand on this spectrum, you can begin to make informed decisions about the path forward that best supports your well-being and your future.</p>"
+          },
+          {
+            "id": "a3",
+            "title": "The Signs of an Alcohol Problem",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>The signs of a problematic relationship with alcohol are often subtle before they become obvious. You might notice that you've started to hide the extent of your drinking from others, perhaps by having a few drinks before a social event or keeping a private supply at home. This social masking is a common defense mechanism when you're subconsciously aware that your use has exceeded what you consider healthy. Physically, you might experience 'the shakes' in the morning, or a pervasive sense of irritability that only subsides after your first drink of the day. Your interest in previously enjoyed hobbies might be waning, replaced by a preference for activities where alcohol is central. Another significant sign is the 'blackout' or 'brownout,' where periods of time during a drinking session become hazy or completely lost to memory. This indicates that your brain is being overwhelmed to the point where it can no longer form new memories. You might also find yourself increasingly defensive when people close to you express concern. If you are more protective of your right to drink than you are of your own health and peace of mind, it's a clear signal that the substance has gained a significant foothold. Recognizing these signs is the first step toward reclaiming your agency and building a life where you are the one in control, not the bottle.</p>"
+          },
+          {
+            "id": "a4",
+            "title": "How to Map Your Alcohol Triggers",
+            "time": "6 min",
+            "type": "Activity",
+            "content": "<p>Triggers are the specific internal or external cues that spark an almost automatic desire to drink. To map yours, you need to become an observer of your own life. Start by looking for the Four Ps: People, Places, Points in Time, and Physical States. Maybe there's a certain friend who always encourages another round, or a specific bar you pass on your way home that makes your mouth water. Time is often a trigger, such as the 'witching hour' between 5 PM and 7 PM when the workday ends. Physical states like hunger, anger, loneliness, or tiredness—the HALT acronym—are notoriously powerful triggers. When you're depleted, alcohol seems like the quickest way to find relief. Emotions, both positive and negative, are also significant. You might use alcohol to celebrate a win or to numb the sting of a loss. By writing down every time you feel an urge to drink, you'll start to see patterns emerge. You might realize that your cravings aren't random, but are tied to specific, predictable events. Once you have this map, you can begin to plan. You might choose a different route home, ensure you've eaten a full meal before 5 PM, or plan a specific non-alcoholic activity for Friday nights. Mapping your triggers turns a vague, overwhelming struggle into a manageable series of strategic decisions.</p>"
+          },
+          {
+            "id": "a5",
+            "title": "The Lies We Tell to Keep Using Alcohol",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>The brain is remarkably adept at protecting its habits, and when it comes to alcohol, it will often generate highly convincing rationales to keep you drinking. These aren't just mistakes; they are tactical lies that your mind uses to avoid the discomfort of change. You might tell yourself, 'I only drink because my job is stressful,' which places the responsibility on external factors and suggests that until your job changes, you can't quit. Or you might say, 'I'm not as bad as a person who drinks in the morning,' using comparison to minimize your own experience and maintain a sense of control. Another common one is 'I'll just have one tonight,' a promise made in the morning that feels completely sincere but often fails to survive the reality of the evening. Then there's the lie that alcohol makes you more creative, more social, or more fun. While it might temporarily lower inhibitions, it often replaces genuine connection with a shallow, chemically induced substitute. Recognizing these 'addiction whispers' is a crucial skill. When you hear that voice saying 'you deserve this' after a hard day, recognize it for what it is: a well-worn neural pathway trying to stay active. By calling out these lies as they happen, you strip them of their power and remind yourself of the truth you've already discovered: that you are better off without it.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Detox & Early Healing",
+        "articles": [
+          {
+            "id": "a6",
+            "title": "How to Urge Surf",
+            "time": "6 min",
+            "type": "Activity",
+            "content": "<p>When a craving hits, it can feel like a solid, immovable object that will only go away if you give in to it. Urge surfing is a technique that teaches you to view a craving as a wave instead. Like a wave in the ocean, a craving starts small, builds in intensity, reaches a peak, and then inevitably breaks and dissipates. It doesn't last forever. To surf an urge, your first step is to simply notice it without judgment. Say to yourself, 'I am experiencing a craving for alcohol right now.' This simple act of naming it moves you from being the victim of the urge to being an observer of it. Next, bring your attention to your body. Where do you feel the urge? Is it a tightening in your throat, a restlessness in your hands, or a fluttering in your stomach? Focus on that physical sensation and breathe through it. Don't try to push the urge away, as that often makes it stronger. Instead, imagine yourself riding on top of the sensation, staying present and balanced until it begins to subside. Most cravings reach their peak within 15 to 30 minutes. If you can stay with the sensation without acting on it for that short period, you will find that the wave passes. Every time you successfully surf an urge, you strengthen the part of your brain that handles self-regulation, making the next wave even easier to ride.</p>"
+          },
+          {
+            "id": "a7",
+            "title": "How to Defuse Thoughts About Alcohol",
+            "time": "6 min",
+            "type": "Activity",
+            "content": "<p>Cognitive defusion is the practice of stepping back from your thoughts and seeing them as just words or images, rather than absolute truths or commands that must be followed. When you're trying to quit alcohol, your mind will likely produce thoughts like 'I need a drink' or 'Everything would be better with a glass of wine.' If you take these thoughts at face value, they can feel overwhelming. Defusion allows you to create distance between yourself and the thought. A simple way to do this is to add a prefix to your thought. Instead of saying 'I need a drink,' say 'I am having the thought that I need a drink.' This subtle shift reminds you that the thought is an event happening in your mind, not a requirement for action. You can also try 'thanking' your mind for the thought: 'Thanks, mind, for that suggestion about the wine, but I'm going in a different direction today.' This takes the conflict out of the internal dialogue. You don't have to argue with the thought or prove it wrong; you just have to acknowledge it as a product of your brain's old programming. You are the one who chooses which thoughts to act on and which to let pass by. By practicing defusion, you stop being a slave to every impulse that crosses your mind and start becoming the conscious director of your own behavior.</p>"
+          },
+          {
+            "id": "a8",
+            "title": "How to Tame Your Emotions",
+            "time": "6 min",
+            "type": "Article",
+            "content": "<p>Alcohol is often used as a way to chemically manage our emotions. Whether you used it to drown out sadness, quieten anxiety, or even boost excitement, your brain has likely learned to rely on a bottle rather than its own internal resources. When you stop drinking, you are often faced with a 'raw' version of your feelings that can feel intense and unmanageable. Taming these emotions starts with the realization that they are temporary and cannot actually harm you. Feelings like boredom or restlessness, which many people find particularly triggering, are just signals that your brain is looking for its old reward. Instead of reaching for a drink to change how you feel, try to simply name the emotion. 'I am feeling lonely right now.' Naming an emotion has been shown to reduce its intensity in the brain. Next, find a healthy way to process it. This might be writing in a journal, going for a brisk walk, or talking to a friend. You aren't trying to make the emotion go away instantly; you are building your 'emotional muscle' by learning to sit with discomfort. Over time, your brain will relearn how to regulate its own moods. You will discover that you are far more resilient than you thought, and that you have the capacity to handle life’s ups and downs without needing to numb yourself with alcohol.</p>"
+          },
+          {
+            "id": "a9",
+            "title": "What Alcohol Withdrawal Feels Like",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>Withdrawal is the process of your body and brain recalibrating after being accustomed to the constant presence of alcohol. For many, this process starts within hours of the last drink. You might first notice a sense of heightened anxiety, irritability, or social withdrawal. Physically, you may experience headaches, nausea, or excessive sweating. Sleep is often disrupted, with vivid dreams or difficulty falling and staying asleep as your nervous system remains in a state of high alert. It's important to understand that these symptoms are your body's way of healing—it is trying to remember how to function without a depressant. However, for those who have been heavy drinkers for a long time, alcohol withdrawal can be medically serious and even life-threatening. Symptoms such as severe tremors, confusion, hallucinations (known as delirium tremens or DTs), or seizures require immediate medical attention. Never attempt to detox alone if you have a history of heavy, long-term use. A medical detox provides a safe environment where professionals can manage your symptoms and ensure your physical safety. Even if your symptoms are mild, the initial days can be exhausting and emotionally draining. Be kind to yourself, stay hydrated, and remember that the discomfort you are feeling is temporary. It is the necessary bridge to a life where you no longer need alcohol to feel 'normal.'</p>"
+          },
+          {
+            "id": "a10",
+            "title": "Managing Anxiety Without Alcohol",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>One of the most common reasons people drink is to manage anxiety, but alcohol is a deceptive solution. While it might provide a few hours of relief, it actually creates a 'rebound effect' that makes anxiety significantly worse the next day. This happens because alcohol suppresses the central nervous system; when it wears off, the system overcompensates by becoming hyper-active. Learning to manage anxiety without it is a cornerstone of recovery. The first step is to recognize that anxiety is often a physical sensation that doesn't always require a logical reason. When you feel that familiar tightening in your chest or racing heart, try a simple grounding technique. Focus on five things you can see, four things you can touch, three things you can hear, two things you can smell, and one thing you can taste. This pulls your brain out of its anxious loop and into the present moment. Deep breathing—inhaling for four counts and exhaling for six—signals to your nervous system that you are safe. Over the long term, regular physical activity and a consistent sleep schedule will help stabilize your baseline anxiety levels. You might find that once the chemical roller coaster of drinking ends, your 'natural' level of anxiety is much lower than you realized. You are learning to trust your own ability to remain calm and centered, even when life becomes stressful.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Building a Sober Life",
+        "articles": [
+          {
+            "id": "a11",
+            "title": "Building New Routines",
+            "time": "7 min",
+            "type": "Activity",
+            "content": "<p>When you quit alcohol, you often find yourself with a significant amount of 'empty' time, especially during the evenings and on weekends. If you don't fill this time intentionally, you leave the door open for old habits to creep back in. Building new routines is about creating a structure that supports your sobriety and gives you something to look forward to. Start by identifying your 'danger zones'—the times when you would normally be drinking—and planning a specific, non-alcoholic activity for those windows. This might be joining a local sports team, taking up a creative hobby like pottery or painting, or simply establishing a new evening ritual like reading and a specialty tea. The goal is to give your brain a new source of reward and your body a new set of cues. Routine provides a sense of safety and predictability that is incredibly helpful in early recovery. It helps you navigate the day without having to make a constant series of exhausting choices. Your new routine might include a morning walk, a midday check-in with a support buddy, and an early bedtime. Over time, these new behaviors will become as automatic as drinking once was. You are not just 'not drinking'; you are actively building a life that is full, interesting, and structured in a way that makes sobriety the natural and easiest choice.</p>"
+          },
+          {
+            "id": "a12",
+            "title": "Dealing with Social Pressure",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>Living in a culture where alcohol is everywhere means that you will inevitably face social pressure to drink. This can range from well-meaning friends offering 'just one' to the unspoken expectation that you need a glass in your hand to be part of the group. Learning to navigate these situations with confidence is a vital skill. Before you go into a social event, decide on your non-alcoholic drink of choice and have a simple, direct response ready. You don't owe anyone a detailed medical history; a firm 'I'm not drinking tonight' or 'I've decided to take a break from alcohol' is usually enough. If people push, remember that their insistence often says more about their own relationship with alcohol than it does about yours. In early recovery, it is perfectly acceptable to skip high-risk events altogether. Your sobriety is more important than a party. If you do go, arrive with your own transportation so you can leave whenever you want. Finding a 'sober buddy' within your social circle or a support group can also make a huge difference. Having someone you can text when you feel uncomfortable provides an immediate sense of connection and accountability. You will eventually find that you can lead a rich social life and have genuine fun without alcohol being the centerpiece of every interaction.</p>"
+          },
+          {
+            "id": "a13",
+            "title": "Repairing Relationships",
+            "time": "10 min",
+            "type": "Article",
+            "content": "<p>Alcohol use doesn't just affect the person drinking; it ripples through their entire network of friends, family, and colleagues. Over time, trust may have been eroded by broken promises, missed commitments, or emotional unavailability. Repairing these relationships is a process that requires patience, honesty, and consistent action. It's important to recognize that an apology is only the beginning. For those who have been hurt, your words may carry less weight than they once did. The real work of repair happens through your daily choices. By showing up when you say you will, being emotionally present, and maintaining your sobriety, you are slowly rebuilding the foundation of trust. It's also helpful to have honest conversations about the harm that was caused, giving the other person space to express their feelings without becoming defensive. This can be difficult, but it is necessary for genuine healing. Some relationships may have become so toxic or centered around drinking that they can no longer be part of your life, and that is a painful but healthy realization. For the ones you choose to keep, be prepared for recovery to be a marathon, not a sprint. People need time to see that the change is real. As you heal, you will find that your connections become deeper and more authentic because they are based on who you really are, not the person alcohol made you.</p>"
+          },
+          {
+            "id": "a14",
+            "title": "Understanding Relapse",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>A relapse is not a sign that you have failed or that your recovery journey has ended. Instead, it is a significant piece of information that tells you something about your current plan needs to be adjusted. While the goal is always sustained sobriety, the reality is that many people experience slips along the way. If a relapse occurs, the most important thing is how you respond to it. Avoid the 'all or nothing' thinking that tells you that because you've had one drink, you've ruined everything and might as well continue. This is a lie that leads to much deeper trouble. Instead, treat the relapse as a learning opportunity. What were the circumstances? What were you feeling? Were there triggers you didn't anticipate or stressors you weren't equipped to handle? Once you identify the 'why,' you can strengthen your plan. This might mean increasing your support meetings, being more diligent with your routines, or identifying new triggers to avoid. Recovery is a skill that you are learning, and like any complex skill, it takes practice and persistence. The most successful people in recovery are not the ones who never stumble, but the ones who have the courage to get back up, be honest about what happened, and continue moving forward with a renewed commitment to their health and their future.</p>"
+          },
+          {
+            "id": "a15",
+            "title": "Long-term Recovery Mindset",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Long-term recovery is about more than just staying away from alcohol; it's about a fundamental shift in how you view yourself and your place in the world. It requires moving from a mindset of 'denial'—feeling like you're missing out on something—to a mindset of 'abundance.' You start to see that sobriety isn't a restriction, but a superpower that gives you back your time, your money, your health, and your agency. In the long term, you move beyond the daily struggle of avoiding a drink and into the realm of personal growth and fulfillment. This mindset involves a commitment to ongoing self-awareness. You continue to monitor your stress levels, check in on your emotional health, and maintain the connections that support you. It also means being comfortable with being different. In a society that often prioritizes quick fixes and numbness, choosing to be present and sober is a bold and radical act of self-love. You might find that you have a new passion for life, a deeper capacity for joy, and a resilience that allows you to face even the hardest challenges with a clear head. The goal isn't to reach a destination called 'recovered,' but to embrace a lifelong journey of becoming the best version of yourself. You are building a life that you no longer feel the need to escape from, and that is the greatest gift of all.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

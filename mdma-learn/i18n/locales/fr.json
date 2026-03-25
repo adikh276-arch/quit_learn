@@ -1,0 +1,137 @@
+{
+  "app_title": "Module d&#39;apprentissage",
+  "progress_label": "Progrès",
+  "back_label": "Dos",
+  "minutes_label": "min",
+  "type_article": "Article",
+  "type_assessment": "Évaluation",
+  "type_activity": "Activité",
+  "substance_name": "MDMA",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Comprendre la MDMA",
+        "articles": [
+          {
+            "id": "m1",
+            "title": "Quels sont les effets de la MDMA sur la sérotonine ?",
+            "time": "5 min",
+            "type": "Article",
+            "content": "<p>La MDMA (3,4-méthylènedioxyméthamphétamine) est une drogue de synthèse qui agit à la fois comme stimulant et comme hallucinogène. Son action repose principalement sur la libération massive de sérotonine, ainsi que de dopamine et de noradrénaline, dans le cerveau. La sérotonine est un neurotransmetteur qui régule l&#39;humeur, le sommeil, la douleur et l&#39;appétit, et joue un rôle essentiel dans les sentiments d&#39;empathie, de confiance et de proximité émotionnelle. Cette forte libération de sérotonine est à l&#39;origine des effets caractéristiques de la MDMA : une euphorie intense, une énergie accrue et un profond sentiment de connexion avec autrui. Cependant, cette poussée artificielle épuise complètement les réserves naturelles de sérotonine du cerveau. Il faut plusieurs jours, voire des semaines, au cerveau pour reconstituer ces réserves, ce qui entraîne une période de baisse d&#39;énergie souvent appelée « coup de blues du milieu de semaine ». Une consommation fréquente peut rendre le cerveau moins efficace pour produire et utiliser naturellement la sérotonine, ce qui peut induire des changements d&#39;humeur et une instabilité émotionnelle à long terme. Comprendre ce « prêt » biologique de sérotonine est essentiel pour bien vivre le processus de rétablissement. Cela vous aide à reconnaître que la forte diminution que vous ressentez est une conséquence directe de cette carence, et non un changement permanent de votre personnalité. En arrêtant votre consommation, votre cerveau entamera progressivement le processus de rétablissement de son équilibre naturel en sérotonine, vous permettant ainsi de retrouver une joie et des relations authentiques et stables, sans avoir besoin de substances.</p>"
+          },
+          {
+            "id": "m2",
+            "title": "La crise émotionnelle : pourquoi elle survient",
+            "time": "6 min",
+            "type": "Article",
+            "content": "<p>La descente émotionnelle qui suit la prise de MDMA est une conséquence directe de la forte diminution de sérotonine évoquée précédemment. Souvent appelée « mardi du suicide » ou « descente », elle survient généralement deux à quatre jours après la consommation. Lorsque les réserves de sérotonine du cerveau sont épuisées, vous pouvez ressentir toute une gamme d&#39;émotions négatives intenses, notamment une profonde tristesse, de l&#39;anxiété, de l&#39;irritabilité et un sentiment général de vide ou de désespoir. Vous pouvez également avoir des difficultés à vous concentrer et souffrir de troubles du sommeil. Cette descente peut être particulièrement brutale car elle succède à une période d&#39;euphorie intense et artificielle. Il est important de comprendre que cet état est un phénomène physiologique et ne reflète ni votre véritable personnalité ni votre santé mentale à long terme. Le cerveau est en quelque sorte en phase de « récupération » pour tenter de rétablir son équilibre chimique. Reconnaître que cette descente est temporaire et d&#39;origine biologique peut vous aider à résister à l&#39;envie de consommer à nouveau pour échapper à ce malaise. Durant cette période, concentrez-vous sur le bien-être, une communication sincère avec vos proches et évitez les situations stressantes. Chaque fois que vous traversez une période difficile sans rechuter, vous permettez à votre cerveau de progresser vers une stabilité naturelle et une véritable résilience émotionnelle.</p>"
+          },
+          {
+            "id": "m3",
+            "title": "Usage à long terme et risques pour la santé mentale",
+            "time": "5 min",
+            "type": "Article",
+            "content": "<p>Bien que la MDMA soit souvent perçue comme une drogue festive ou sociale, sa consommation régulière ou prolongée comporte des risques importants pour la santé mentale. La diminution répétée de la sérotonine peut entraîner des modifications persistantes de la chimie du cerveau, provoquant dépression chronique, troubles anxieux et troubles de la mémoire. Certains usagers rapportent une « perte de magie », où la drogue ne produit plus d&#39;effets euphorisants, mais conserve tous ses effets négatifs. C&#39;est le signe de changements neuroadaptatifs importants au niveau des circuits de la récompense et des émotions dans le cerveau. La consommation prolongée a également été associée à des difficultés au niveau des fonctions exécutives, comme la prise de décision et le contrôle des impulsions. Si vous constatez une instabilité d&#39;humeur constante, ou si vous souffrez plus fréquemment et intensément du « coup de blues » de milieu de semaine, ce sont des signes que votre consommation de MDMA nuit à votre bien-être mental. Prendre conscience de ces risques est une motivation puissante pour choisir une vie sans MDMA. En arrêtant, vous réduisez immédiatement la pression exercée sur les systèmes de régulation émotionnelle de votre cerveau et vous vous donnez les moyens de reconstruire une base solide pour une santé mentale stable et naturelle. La guérison consiste à retrouver sa capacité à éprouver une joie et une connexion authentiques, indépendantes de tout déclencheur chimique.</p>"
+          },
+          {
+            "id": "m4",
+            "title": "Consignes d’utilisation sécuritaire — Tests, dosage, espacement",
+            "time": "7 min",
+            "type": "Activité",
+            "content": "<p>Pour celles et ceux qui ne sont pas encore capables ou disposés à arrêter la MDMA, il est essentiel de comprendre les principes de réduction des risques grâce à des recommandations d&#39;usage responsable. L&#39;un des plus grands dangers de la MDMA réside dans le fait que les substances vendues sous les noms d&#39;« ecstasy » ou de « molly » contiennent souvent d&#39;autres drogues, comme la caféine, les amphétamines, voire le fentanyl. Tester sa substance à l&#39;aide d&#39;un kit de test est une étape primordiale de réduction des risques, permettant de s&#39;assurer de sa composition. Le dosage est également crucial ; avec la MDMA, « moins, c&#39;est souvent mieux », car des doses plus élevées augmentent considérablement le risque de neurotoxicité et de descente brutale, sans pour autant améliorer l&#39;expérience. Une dose standard est généralement considérée comme étant son poids en kilogrammes plus 50 milligrammes. Espacer sa consommation est peut-être la recommandation la plus importante ; la « règle des trois mois » est une norme largement acceptée dans le milieu de la réduction des risques, afin de laisser au cerveau le temps de rétablir pleinement son niveau de sérotonine et aux récepteurs de se réinitialiser. Une consommation plus fréquente augmente considérablement le risque de dommages à long terme et de dépendance. Ces recommandations ne visent pas à cautionner la consommation, mais à valoriser la vie humaine et à offrir la sécurité et le soutien nécessaires pour permettre à chacun de choisir une voie plus saine et sobre. Votre sécurité est importante, et même de petites mesures pour réduire les risques sont un acte de bienveillance envers vous-même.</p>"
+          },
+          {
+            "id": "m5",
+            "title": "MDMA et troubles anxieux",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>La relation entre la MDMA et l&#39;anxiété est complexe et potentiellement dangereuse. Bien que cette drogue soit étudiée dans des cadres cliniques très contrôlés pour le traitement du syndrome de stress post-traumatique (SSPT), son usage illicite peut souvent exacerber les troubles anxieux existants ou en engendrer de nouveaux. Ce paradoxe s&#39;explique par le fait que, si la MDMA peut temporairement abaisser les barrières sociales et procurer une sensation de calme, la déplétion de sérotonine qui s&#39;ensuit et l&#39;instabilité du cycle pic-descente peuvent perturber considérablement les processus naturels du cerveau qui gèrent la peur et le stress. De nombreux usagers ressentent une anxiété intense pendant la phase de descente, ce qui peut parfois déclencher des crises de panique ou aggraver l&#39;anxiété déjà présente. De plus, le risque de consommer une substance frelatée peut entraîner des sensations physiques imprévues et effrayantes qui augmentent encore l&#39;anxiété. Si vous utilisez la MDMA pour gérer votre anxiété sociale ou pour échapper au stress, vous risquez de créer un cercle vicieux de dépendance croissante et de résilience décroissante. Se libérer de la MDMA implique de développer un ensemble de stratégies saines et durables pour gérer l&#39;anxiété, telles que la pleine conscience, la thérapie et une activité physique régulière. En choisissant la sobriété, vous permettez à votre système nerveux de retrouver un état d&#39;équilibre et de stabilité naturels, vous permettant ainsi d&#39;affronter les défis de la vie avec un esprit clair et serein.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Entretien après utilisation",
+        "articles": [
+          {
+            "id": "m6",
+            "title": "La période d&#39;intégration",
+            "time": "6 min",
+            "type": "Activité",
+            "content": "<p>La période d&#39;intégration est le temps qui suit la prise de MDMA, pendant lequel vous traitez les expériences et les émotions vécues durant l&#39;euphorie. Dans le contexte du rétablissement, l&#39;intégration consiste également à comprendre l&#39;impact de la drogue sur votre vie et à renouer avec votre moi sobre. Cette période, qui peut durer des jours ou des semaines, est un moment à la fois de vulnérabilité et de prise de conscience. Vous pourriez vous surprendre à réfléchir au sentiment de connexion ou d&#39;empathie ressenti et à vous demander comment cultiver naturellement ces sentiments au quotidien. Il est important d&#39;être honnête quant au décalage entre l&#39;euphorie artificielle et votre réalité quotidienne. L&#39;intégration consiste à rassembler ces prises de conscience de manière à favoriser votre bien-être à long terme et votre objectif de sobriété. Cela peut impliquer la tenue d&#39;un journal, des échanges avec un thérapeute ou simplement des moments de calme et de réflexion. C&#39;est un moment pour être patient et bienveillant envers vous-même, en reconnaissant la difficulté de la descente tout en vous concentrant sur la clarté que vous souhaitez atteindre. En intégrant activement vos expériences, vous dépassez le cycle de consommation et de descente et accédez à une compréhension plus profonde de vous-même. Vous choisissez de privilégier une croissance authentique et durable plutôt que des expériences temporaires et induites chimiquement, et c&#39;est une étape importante sur le chemin du rétablissement.</p>"
+          },
+          {
+            "id": "m7",
+            "title": "Gérer la descente",
+            "time": "6 min",
+            "type": "Activité",
+            "content": "<p>Gérer la descente après la prise de MDMA, c&#39;est privilégier le confort physique et la stabilité émotionnelle pendant que votre cerveau travaille à reconstituer ses réserves de sérotonine. La première étape consiste à vous installer dans un environnement calme et sûr pour vous reposer. Votre corps et votre cerveau sont épuisés et ont besoin de temps pour récupérer. L&#39;hydratation est essentielle : buvez beaucoup d&#39;eau et de boissons riches en électrolytes. L&#39;alimentation est également vitale : privilégiez les aliments sains et riches en protéines qui fournissent les acides aminés nécessaires à la reconstitution de la sérotonine. Sur le plan émotionnel, préparez-vous à ressentir une profonde tristesse, de l&#39;anxiété et de l&#39;irritabilité. Rappelez-vous constamment que ces sentiments sont une conséquence biologique et temporaire de la descente et qu&#39;ils finiront par passer. Évitez de prendre des décisions importantes ou d&#39;avoir des conversations conflictuelles pendant cette période. Contacter un ami compréhensif qui vit le sevrage de la MDMA peut vous apporter un soutien précieux et un sentiment de sécurité. Si votre dépression vous submerge ou si vous avez des pensées suicidaires, consultez immédiatement un professionnel. Gérer la descente est un acte de bienveillance envers soi-même et la première étape pour sortir de l&#39;engrenage de la consommation. Vous permettez ainsi à votre cerveau d&#39;entamer le processus lent mais certain de retour à son équilibre naturel et à votre vie d&#39;évoluer vers une réalité plus stable et plus saine.</p>"
+          },
+          {
+            "id": "m8",
+            "title": "Sommeil et récupération",
+            "time": "6 min",
+            "type": "Article",
+            "content": "<p>Le sommeil est souvent fortement perturbé par la consommation de MDMA, et le rétablissement d&#39;un rythme de sommeil sain est une étape fondamentale du rétablissement. La MDMA est un stimulant qui peut entraîner une insomnie initiale, suivie de longues périodes de « sommeil de récupération » non réparatrices. Cette drogue perturbe également les niveaux naturels de sérotonine dans le cerveau, essentiels à la régulation du cycle veille-sommeil. À l&#39;arrêt de la consommation, votre sommeil entame un lent processus de réparation. Vous pourriez d&#39;abord connaître une période de sommeil irrégulier, le temps que votre cerveau et votre corps récupèrent des effets néfastes de la MDMA. Pour favoriser ce rétablissement, instaurez une heure de réveil régulière et une routine du coucher relaxante. Évitez la caféine et les écrans au moins une heure avant d&#39;aller au lit. Veillez à ce que votre chambre soit fraîche, sombre et réservée au sommeil. Si vous vous retrouvez éveillé et frustré, levez-vous et pratiquez une activité calme dans une lumière tamisée jusqu&#39;à ce que le sommeil vous gagne. Même si plusieurs semaines peuvent être nécessaires pour que votre sommeil devienne véritablement réparateur, la persévérance dans ces bonnes habitudes permettra à votre cerveau de retrouver son rythme naturel. Un bon sommeil est une source essentielle d&#39;énergie véritable et de stabilité émotionnelle, fournissant les bases nécessaires à un rétablissement durable et sain après la consommation de MDMA.</p>"
+          },
+          {
+            "id": "m9",
+            "title": "Nutrition et récupération de la sérotonine",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>L&#39;alimentation joue un rôle essentiel dans la récupération cérébrale après la prise de MDMA, notamment en contribuant à la reconstitution des réserves de sérotonine. La sérotonine est synthétisée à partir d&#39;un acide aminé appelé tryptophane, présent dans de nombreux aliments riches en protéines de qualité. Privilégiez les sources de tryptophane dans votre alimentation, comme la dinde, les œufs, le poisson, le tofu et les noix. Les associer à une source de glucides sains, tels que les céréales complètes ou les légumes, favorise l&#39;absorption du tryptophane par le cerveau. Les aliments riches en antioxydants, en particulier les baies et les légumes verts à feuilles, sont également importants pour réduire le stress neurochimique induit par la drogue. Il est aussi crucial de bien s&#39;hydrater et d&#39;éviter les aliments transformés et sucrés, qui entraînent des baisses d&#39;énergie et une instabilité émotionnelle. Le soutien nutritionnel ne se limite pas à la santé physique ; il contribue directement à votre rétablissement émotionnel et à votre clarté cognitive. En fournissant à votre corps l&#39;énergie nécessaire à sa synthèse chimique naturelle, vous posez les bases d&#39;un rétablissement efficace. Vous passez d&#39;un état d&#39;épuisement chimique à un état de force naturelle, où votre cerveau peut enfin retrouver son équilibre et votre corps atteindre son plein potentiel de vitalité.</p>"
+          },
+          {
+            "id": "m10",
+            "title": "Quand faire une pause",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Savoir quand faire une pause avec la MDMA – et finalement arrêter complètement – est un signe important de conscience et de respect de soi. Si vous constatez que le coup de blues du milieu de semaine s&#39;intensifie, ou si la drogue ne produit plus les effets positifs d&#39;antan, votre cerveau vous signale qu&#39;il est sursollicité. Parmi les autres signes indiquant qu&#39;une pause est nécessaire, citons le fait que votre consommation interfère avec vos responsabilités professionnelles ou scolaires, ou qu&#39;elle engendre des tensions dans vos relations personnelles. Une période d&#39;abstinence totale permet à votre système sérotoninergique de se réinitialiser et à votre circuit de récompense naturel de retrouver sa sensibilité. Nombreux sont ceux qui constatent qu&#39;une pause de 90 jours leur apporte la clarté et le recul nécessaires pour réévaluer leur rapport à la substance. Cette pause est l&#39;occasion d&#39;observer comment votre humeur, votre énergie et votre vie sociale évoluent lorsque vous n&#39;êtes plus soumis aux fluctuations chimiques de la drogue. Que vous choisissiez par la suite de reprendre la consommation avec des règles plus strictes ou d&#39;opter pour une vie sobre, les enseignements tirés de cette pause sont inestimables. Vous vous offrez le cadeau de la clarté et l&#39;opportunité de prendre des décisions concernant votre avenir en vous appuyant sur votre force intérieure et votre connaissance de vous-même, plutôt que sur les besoins d&#39;une habitude de plus en plus problématique.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Consommation consciente et récupération",
+        "articles": [
+          {
+            "id": "m11",
+            "title": "Identifier les schémas problématiques",
+            "time": "7 min",
+            "type": "Évaluation",
+            "content": "<p>Reconnaître les schémas problématiques de consommation de MDMA est la première étape pour reprendre le contrôle de votre santé et de votre vie. Une consommation problématique se caractérise par un schéma qui entraîne une souffrance ou une altération significative de votre quotidien. Parmi les indicateurs clés, on peut citer une consommation de MDMA plus fréquente que prévu – par exemple, le non-respect de la « règle des trois mois » – ou l&#39;utilisation de doses plus importantes pour obtenir le même effet. Vous constaterez peut-être que vous consacrez beaucoup de temps à planifier votre consommation, à consommer la drogue ou à vous remettre de ses effets émotionnels. Le signe le plus révélateur est peut-être la poursuite de la consommation malgré la conscience que cela aggrave votre anxiété, votre dépression ou vos troubles de la mémoire. Vous remarquerez peut-être aussi que vous avez abandonné des activités sociales ou professionnelles importantes au profit d&#39;événements liés à la MDMA. Si vous avez l&#39;impression que votre vie sociale est entièrement centrée sur la drogue et que vous ne pouvez ni vous amuser ni nouer de relations avec les autres sans elle, vous êtes probablement confronté à un schéma problématique. Reconnaître cela n&#39;est pas un signe d&#39;échec, mais une prise de conscience nécessaire : votre relation actuelle avec la MDMA ne sert plus vos objectifs à long terme. Une fois que vous aurez repéré le schéma, vous pourrez commencer à choisir de construire une vie où vous serez maître de votre destin.</p>"
+          },
+          {
+            "id": "m12",
+            "title": "MDMA et relations",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>On surnomme souvent la MDMA la « drogue de l&#39;amour » en raison des sentiments intenses d&#39;empathie et de proximité qu&#39;elle engendre. Cependant, ces liens chimiques sont souvent superficiels et éphémères. Les relations authentiques reposent sur une présence sincère, une constance dans les comportements et une vulnérabilité partagée – autant d&#39;éléments que la consommation de MDMA peut mettre à mal. L&#39;intense connexion ressentie sous l&#39;effet de la drogue peut parfois mener à une « fausse intimité », où l&#39;on perçoit un lien profond qui ne se traduit pas dans la vie de tous les jours. De plus, l&#39;alternance entre les phases d&#39;euphorie et de descente peut engendrer des conflits accrus et un repli émotionnel vis-à-vis de ses proches. Pour construire des relations authentiques, il est essentiel de s&#39;engager d&#39;abord sur sa propre sobriété et sa propre stabilité. Une connexion authentique exige d&#39;être pleinement présent dans les moments difficiles comme dans les bons. En choisissant la sobriété, vous vous donnez les moyens de développer une véritable empathie et une communication profonde. Vous constaterez que vos relations, une fois sobres, sont bien plus enrichissantes et durables, car elles reposent sur votre véritable nature, et non sur une euphorie chimique passagère. Vous construisez une vie de relations authentiques, ancrées dans la réalité et vos propres valeurs, et c&#39;est une chose vraiment magnifique.</p>"
+          },
+          {
+            "id": "m13",
+            "title": "La règle des 3 mois et pourquoi elle existe",
+            "time": "8 min",
+            "type": "Article",
+            "content": "<p>La « règle des 3 mois » est une norme de réduction des risques largement reconnue qui recommande d&#39;attendre au moins 90 jours entre deux prises de MDMA. Cette règle s&#39;explique par l&#39;impact profond de la MDMA sur le système sérotoninergique du cerveau. Il faut environ ce temps pour que le cerveau reconstitue ses réserves de sérotonine et que les récepteurs retrouvent leur sensibilité naturelle. Une consommation plus fréquente que tous les trois mois peut entraîner un état d&#39;épuisement chronique du système sérotoninergique, augmentant considérablement le risque de neurotoxicité à long terme, de dépression persistante et de troubles cognitifs. Une consommation fréquente conduit également rapidement à une « tolérance », où les effets euphorisants diminuent tandis que les risques physiques et émotionnels augmentent. Pour ceux qui choisissent de continuer à consommer, la règle des 3 mois est une protection essentielle pour leur santé mentale. Cependant, pour de nombreux usagers, la difficulté à respecter cette règle est le premier signe d&#39;une relation problématique avec la drogue. Si vous vous trouvez incapable ou peu disposé à attendre les 90 jours, c&#39;est un signe que votre dépendance s&#39;installe. Comprendre les fondements scientifiques de cette règle ne se limite pas à une utilisation plus sûre ; c&#39;est aussi une façon de comprendre l&#39;impact biologique grave de la drogue et de choisir la voie d&#39;une véritable santé et d&#39;un rétablissement durable.</p>"
+          },
+          {
+            "id": "m14",
+            "title": "Demander de l&#39;aide sans honte",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Demander de l&#39;aide en cas de consommation problématique de MDMA est l&#39;un des choix les plus constructifs et les plus bénéfiques que vous puissiez faire pour votre avenir. Pour beaucoup, la stigmatisation sociale associée à la consommation de drogues festives peut engendrer un sentiment de honte qui rend difficile la demande d&#39;aide. Il est important de comprendre que vos difficultés sont une réaction courante à une substance chimique puissante et ne reflètent en rien votre personnalité. Le soutien vous apporte l&#39;encadrement professionnel, le soutien moral et l&#39;écoute nécessaires à une guérison réussie. Il peut s&#39;agir, par exemple, d&#39;un conseiller spécialisé en toxicomanie qui vous aidera à développer de nouvelles stratégies d&#39;adaptation et à traiter tout problème de santé mentale sous-jacent. Les groupes de soutien offrent un espace sécurisant pour partager votre expérience avec d&#39;autres personnes qui comprennent les difficultés spécifiques liées au sevrage de la MDMA. Vous reconnaissez ainsi que votre santé, votre lucidité et votre avenir sont trop précieux pour être mis en péril. Demander de l&#39;aide n&#39;est pas une honte ; c&#39;est même un signe important de force et de respect de soi. Que vous commenciez par un ami de confiance, un médecin ou un programme de rétablissement spécialisé, faire ce premier pas est le début d&#39;une vie où vous reprenez le contrôle de votre vie et construisez un bien-être stable et authentique.</p>"
+          },
+          {
+            "id": "m15",
+            "title": "Aller de l&#39;avant",
+            "time": "7 min",
+            "type": "Article",
+            "content": "<p>Se libérer de la MDMA, c&#39;est entreprendre un cheminement pour retrouver sa capacité naturelle à la joie, aux liens et à la stabilité émotionnelle. Il s&#39;agit de construire une vie où votre bien-être ne dépend pas d&#39;une substance chimique. Ce processus commence par l&#39;engagement de s&#39;en éloigner et se poursuit par un travail quotidien de bien-être, l&#39;adoption de saines habitudes et des relations authentiques. Vous constaterez peu à peu que votre équilibre, après la consommation de MDMA, est bien plus stable et enrichissant que les hauts et les bas induits par cette substance. Vous redécouvrez qui vous êtes et ce qui compte vraiment pour vous. Cela peut se traduire par le développement de nouveaux loisirs, l&#39;approfondissement de vos relations sincères et la poursuite d&#39;objectifs qui vous procurent un sentiment d&#39;accomplissement authentique. Le rétablissement à long terme consiste à être pleinement présent à sa propre vie, avec tous ses défis et sa beauté, et à avoir la lucidité et la force nécessaires pour la traverser avec sérénité. Vous ne recherchez plus une euphorie éphémère et artificielle ; vous bâtissez des fondations solides de paix intérieure et de résilience. C&#39;est de là que vous pouvez véritablement vous engager dans le monde et créer un avenir radieux, stable et qui vous ressemble. Votre parcours ne fait que commencer, et il regorge de potentiel authentique.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

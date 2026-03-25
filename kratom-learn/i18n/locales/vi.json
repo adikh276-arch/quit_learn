@@ -1,0 +1,137 @@
+{
+  "app_title": "Mô-đun học tập",
+  "progress_label": "Tiến triển",
+  "back_label": "Mặt sau",
+  "minutes_label": "phút",
+  "type_article": "Bài báo",
+  "type_assessment": "Đánh giá",
+  "type_activity": "Hoạt động",
+  "substance_name": "Kratom",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Nhận thức &amp; Sự sẵn sàng",
+        "articles": [
+          {
+            "id": "k1",
+            "title": "Kratom là gì và nó ảnh hưởng đến não bộ của bạn như thế nào?",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>Kratom là một loại cây nhiệt đới có nguồn gốc từ Đông Nam Á, nơi lá của nó đã được sử dụng trong nhiều thế kỷ vì tác dụng kích thích và giống như thuốc phiện. Các hợp chất hoạt tính trong kratom, mitragynine và 7-hydroxymitragynine, tương tác với các thụ thể opioid trong não. Ở liều thấp, kratom hoạt động như một chất kích thích, làm tăng năng lượng, sự tỉnh táo và khả năng giao tiếp xã hội. Ở liều cao hơn, nó tạo ra tác dụng an thần và giảm đau tương tự như các loại thuốc phiện truyền thống. Mặc dù nhiều người sử dụng kratom để kiểm soát cơn đau mãn tính, lo lắng hoặc để giúp cai nghiện các chất khác, nhưng nó tiềm ẩn nguy cơ phụ thuộc đáng kể. Sử dụng thường xuyên có thể dẫn đến việc não bộ điều chỉnh giảm hệ thống điều hòa phần thưởng và cơn đau tự nhiên của chính nó, có nghĩa là bạn cần nhiều kratom hơn để cảm thấy &quot;bình thường&quot;. Chu kỳ sử dụng và cai nghiện này là điều tạo ra sự nghiện ngập về thể chất và tâm lý. Hiểu rằng kratom là một chất hướng thần mạnh mẽ với những tác động sinh học thực sự là bước đầu tiên quan trọng trong việc đánh giá việc sử dụng của bạn. Bằng cách nhận biết cách nó tương tác với não bộ của bạn, bạn có thể đưa ra những quyết định sáng suốt hơn về mối quan hệ của mình với chất này và bắt đầu hành trình hướng tới việc lấy lại sự minh mẫn về nhận thức và sự ổn định cảm xúc tự nhiên của mình.</p>"
+          },
+          {
+            "id": "k2",
+            "title": "Tôi nghiện đến mức nào? — Tự đánh giá",
+            "time": "5 min",
+            "type": "Đánh giá",
+            "content": "<p>Việc đánh giá mối quan hệ của bạn với kratom đòi hỏi sự trung thực tuyệt đối, điều này có thể gây khó chịu nhưng cần thiết cho sự phát triển. Sẽ hữu ích nếu bạn không coi việc &quot;nghiện&quot; là một trạng thái nhị phân mà thay vào đó nhìn nhận việc sử dụng của mình theo một phổ phụ thuộc. Hãy tự hỏi bản thân: Bạn có thấy khó khăn khi bắt đầu ngày mới hoặc thực hiện các công việc cơ bản mà không có kratom không? Bạn có nhận thấy khả năng chịu đựng của mình tăng lên, khiến bạn phải mua số lượng lớn hơn hoặc sử dụng thường xuyên hơn để đạt được hiệu quả tương tự không? Một dấu hiệu quan trọng là liệu bạn có gặp phải các triệu chứng cai nghiện như cáu kỉnh, lo lắng hoặc đau nhức cơ bắp khi cố gắng giảm liều lượng hay không. Bạn có dành nhiều thời gian để nghĩ về kratom, tìm mua nó hoặc hồi phục sau tác dụng của nó không? Nếu việc sử dụng kratom khiến thế giới của bạn thu hẹp lại, gây căng thẳng cho các mối quan hệ hoặc cản trở mục tiêu nghề nghiệp của bạn, đây là những dấu hiệu rõ ràng cho thấy sự phụ thuộc đã hình thành. Việc tự đánh giá này không phải để phán xét; nó là một công cụ để thu thập thông tin. Khi bạn biết mình đang ở đâu, bạn có thể bắt đầu đưa ra những quyết định sáng suốt về con đường phía trước phù hợp nhất với sức khỏe và tương lai của mình.</p>"
+          },
+          {
+            "id": "k3",
+            "title": "Dấu hiệu của vấn đề liên quan đến Kratom",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Những dấu hiệu của mối quan hệ có vấn đề với kratom thường rất tinh tế trước khi chúng trở nên không thể phủ nhận. Bạn có thể nhận thấy mình bắt đầu che giấu mức độ sử dụng khỏi bạn bè và gia đình, có thể bằng cách sử dụng riêng tư hoặc viện cớ cho hành vi của mình. Việc che giấu xã hội này là một cơ chế phòng vệ phổ biến khi bạn nhận thức được một cách tiềm thức rằng việc sử dụng của mình đã vượt quá giới hạn lành mạnh. Về thể chất, bạn có thể trải nghiệm sự mệt mỏi bất thường, các vấn đề về tiêu hóa hoặc cảm giác cáu kỉnh chỉ giảm bớt sau khi dùng thuốc. Sở thích đối với những sở thích trước đây của bạn có thể đang giảm dần, thay vào đó là sự ưa thích các hoạt động mà việc sử dụng kratom là trọng tâm. Một dấu hiệu quan trọng khác là &quot;hiệu ứng hồi phục&quot;, trong đó chính những triệu chứng mà bạn đã sử dụng kratom để kiểm soát - như đau đớn hoặc lo lắng - quay trở lại dữ dội hơn khi chất này hết tác dụng. Bạn cũng có thể thấy mình ngày càng phòng thủ khi những người thân thiết bày tỏ sự lo ngại về việc sử dụng của bạn. Nếu bạn bảo vệ quyền sử dụng kratom của mình hơn là sức khỏe và sự bình yên trong tâm trí của chính mình, đó là một tín hiệu rõ ràng cho thấy chất này đã chiếm một vị trí đáng kể trong cuộc sống của bạn. Nhận biết những dấu hiệu này là bước đầu tiên để lấy lại quyền tự chủ của bạn.</p>"
+          },
+          {
+            "id": "k4",
+            "title": "Cách xác định các yếu tố kích thích Kratom của bạn",
+            "time": "5 min",
+            "type": "Hoạt động",
+            "content": "<p>Các yếu tố kích thích là những tín hiệu cụ thể bên trong hoặc bên ngoài gây ra ham muốn sử dụng kratom gần như tự động. Để kiểm soát việc sử dụng thành công, bạn phải trở thành người quan sát các mô hình của chính mình. Hãy tìm kiếm &quot;Bốn P&quot;: Con người (People), Địa điểm (Places), Thời điểm (Points in Time) và Trạng thái thể chất (Physical States). Có thể có một yếu tố gây căng thẳng nào đó ở nơi làm việc luôn khiến bạn phải tìm đến kratom, hoặc một thời điểm cụ thể trong ngày—như giữa buổi chiều—khi bạn cảm thấy cần một chút năng lượng. Các trạng thái thể chất như đói, giận dữ, cô đơn hoặc mệt mỏi (từ viết tắt HALT) nổi tiếng là những yếu tố kích thích mạnh mẽ. Cảm xúc, cả tích cực và tiêu cực, cũng rất quan trọng; bạn có thể sử dụng kratom để ăn mừng chiến thắng hoặc để làm dịu đi nỗi đau của một ngày làm việc vất vả. Bằng cách ghi nhật ký đơn giản trong vài ngày, ghi lại mỗi khi bạn cảm thấy thôi thúc muốn sử dụng, bạn sẽ bắt đầu thấy các mô hình xuất hiện. Bạn có thể nhận ra rằng cơn thèm thuốc của mình gắn liền với các sự kiện cụ thể, có thể dự đoán được chứ không phải là ngẫu nhiên. Khi bạn có được bản đồ này, bạn có thể bắt đầu lên kế hoạch cho các phản ứng thay thế. Việc xác định các yếu tố gây kích hoạt cảm xúc của bạn sẽ biến một cuộc đấu tranh mơ hồ, khó khăn thành một chuỗi các quyết định chiến lược dễ quản lý, cho phép bạn phản ứng có chủ đích thay vì phản ứng tự động.</p>"
+          },
+          {
+            "id": "k5",
+            "title": "Những lời nói dối chúng ta tự bịa ra để tiếp tục sử dụng Kratom",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Não bộ có khả năng bảo vệ thói quen một cách đáng kinh ngạc, và khi nói đến kratom, nó thường tạo ra những lý lẽ rất thuyết phục để biện minh cho việc tiếp tục sử dụng. Những lời nói dối mang tính chiến thuật này được tâm trí sử dụng để tránh sự khó chịu của việc thay đổi. Bạn có thể tự nhủ, &quot;Tôi chỉ dùng nó để giảm đau lưng,&quot; điều này đổ lỗi cho tình trạng thể chất và cho rằng bạn không có lựa chọn nào khác. Hoặc bạn có thể nói, &quot;Nó chỉ là một loại cây, nên chắc chắn là an toàn,&quot; giảm thiểu thực tế về các đặc tính gây ảo giác mạnh mẽ và khả năng gây nghiện của nó. Một lời nói dối phổ biến khác là &quot;Tôi làm việc hiệu quả hơn khi dùng nó,&quot; sử dụng mục tiêu nghề nghiệp của bạn để che chắn thói quen khỏi sự soi xét. Sau đó là lời nói dối rằng bạn có thể ngừng bất cứ khi nào bạn muốn, một lời hứa được đưa ra vào buổi sáng nhưng thường không thể tồn tại khi thực tế đến chiều. Nhận biết những &quot;lời thì thầm của cơn nghiện&quot; này là một kỹ năng quan trọng. Khi bạn nghe thấy giọng nói đó nói rằng &quot;bạn xứng đáng với điều này&quot; sau một ngày căng thẳng, hãy nhận ra bản chất của nó: một đường dẫn thần kinh cũ đang cố gắng duy trì hoạt động. Bằng cách vạch trần những lời nói dối này ngay khi chúng xảy ra, bạn tước bỏ quyền lực của chúng và nhắc nhở bản thân về sự thật: bạn sẽ tốt hơn nếu không có chúng.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Giải độc và chữa lành sớm",
+        "articles": [
+          {
+            "id": "k6",
+            "title": "Cách kiểm soát cơn thèm Kratom",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Khi cơn thèm kratom ập đến, nó có thể giống như một mệnh lệnh vững chắc, không thể lay chuyển, chỉ biến mất khi bạn khuất phục. Kỹ thuật &quot;lướt sóng cơn thèm&quot; dạy bạn cách nhìn nhận cơn thèm như một con sóng. Giống như một con sóng ngoài đại dương, cơn thèm bắt đầu nhỏ, tăng dần cường độ, đạt đỉnh điểm, và sau đó chắc chắn sẽ vỡ tan. Nó không kéo dài mãi mãi. Để &quot;lướt sóng&quot; cơn thèm, bước đầu tiên là nhận biết nó mà không phán xét. Hãy tự nhủ: &quot;Tôi nhận thấy mình đang thèm kratom ngay lúc này.&quot; Hành động đơn giản này, gọi tên cơn thèm, tạo ra khoảng cách giữa bạn và xung động đó. Tiếp theo, hãy tập trung vào cơ thể. Bạn cảm thấy cơn thèm ở đâu? Tập trung vào cảm giác vật lý đó và hít thở sâu. Đừng cố gắng đẩy cơn thèm đi, vì điều đó thường làm cho nó mạnh hơn. Thay vào đó, hãy tưởng tượng mình đang cưỡi trên cảm giác đó, giữ vững sự hiện diện và cân bằng cho đến khi nó bắt đầu giảm dần. Hầu hết các cơn thèm đạt đỉnh điểm và bắt đầu dịu đi trong vòng 15 đến 30 phút. Mỗi lần bạn thành công trong việc chế ngự một ham muốn, bạn sẽ củng cố phần não bộ chịu trách nhiệm điều chỉnh bản thân, giúp cho lần chinh phục tiếp theo dễ dàng hơn và chứng minh khả năng phục hồi của chính bạn.</p>"
+          },
+          {
+            "id": "k7",
+            "title": "Cách để xua tan những suy nghĩ tiêu cực về Kratom",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Tách rời nhận thức là thực hành lùi lại khỏi suy nghĩ của bạn và nhìn nhận chúng chỉ là những từ ngữ hoặc hình ảnh, chứ không phải là những chân lý tuyệt đối hay mệnh lệnh. Khi bạn đang cố gắng giảm hoặc ngừng sử dụng kratom, tâm trí bạn sẽ tạo ra những suy nghĩ như &quot;Tôi cần một liều&quot; hoặc &quot;Tôi sẽ không thể hoàn thành nhiệm vụ này nếu không có nó&quot;. Nếu bạn nhìn nhận những suy nghĩ này một cách nghiêm túc, chúng có thể khiến bạn cảm thấy choáng ngợp. Tách rời cho phép bạn tạo ra khoảng cách. Một cách đơn giản để làm điều này là thêm một tiền tố: thay vì &quot;Tôi cần một liều&quot;, hãy nói &quot;Tôi đang có suy nghĩ rằng tôi cần một liều&quot;. Sự thay đổi tinh tế này nhắc nhở bạn rằng suy nghĩ đó là một sự kiện trong tâm trí bạn, chứ không phải là một yêu cầu phải hành động. Bạn cũng có thể thử &quot;cảm ơn&quot; tâm trí của mình về suy nghĩ đó: &quot;Cảm ơn tâm trí, vì gợi ý về kratom, nhưng hôm nay tôi sẽ đi theo một hướng khác&quot;. Điều này loại bỏ mâu thuẫn khỏi cuộc đối thoại nội tâm. Bạn không cần phải chứng minh suy nghĩ đó sai; bạn chỉ cần thừa nhận nó là sản phẩm của lập trình cũ trong não bộ của bạn. Bạn là người lựa chọn những suy nghĩ nào mình sẽ hành động theo và những suy nghĩ nào sẽ bỏ qua. Thực hành kỹ thuật tách rời suy nghĩ giúp bạn ngừng trở thành nô lệ cho mọi xung động.</p>"
+          },
+          {
+            "id": "k8",
+            "title": "Kiểm soát cảm xúc trong quá trình hồi phục",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Kratom thường được sử dụng như một cách để kiểm soát cảm xúc bằng hóa chất, từ sự buồn chán của một buổi chiều thảnh thơi đến sự lo lắng trong một tình huống xã giao. Khi bạn ngừng sử dụng, bạn thường phải đối mặt với phiên bản &quot;thô sơ&quot; của những cảm xúc này, chúng có thể trở nên dữ dội và khó kiểm soát. Việc chế ngự những cảm xúc này bắt đầu bằng việc nhận ra rằng chúng chỉ là tạm thời và không thể gây hại cho bạn. Những cảm xúc như bồn chồn hay thất vọng, thường gặp trong giai đoạn phục hồi ban đầu, chỉ là tín hiệu cho thấy não bộ đang tìm kiếm phần thưởng cũ của nó. Thay vì tìm đến kratom để thay đổi cảm xúc, hãy thử gọi tên cảm xúc đó: &quot;Tôi đang cảm thấy lo lắng ngay bây giờ.&quot; Việc gọi tên một cảm xúc đã được chứng minh là làm giảm cường độ vật lý của nó trong não. Tiếp theo, hãy tìm một cách lành mạnh để xử lý nó, chẳng hạn như hít thở sâu, viết nhật ký hoặc đi dạo. Bạn không cố gắng làm cho cảm xúc biến mất ngay lập tức; bạn đang xây dựng &quot;sức mạnh cảm xúc&quot; của mình bằng cách học cách chấp nhận sự khó chịu. Theo thời gian, não bộ của bạn sẽ học lại cách điều chỉnh tâm trạng của chính nó một cách tự nhiên. Bạn sẽ nhận ra rằng mình kiên cường hơn nhiều so với những gì bạn nghĩ và có khả năng vượt qua những thăng trầm của cuộc sống mà không cần đến sự hỗ trợ của thuốc.</p>"
+          },
+          {
+            "id": "k9",
+            "title": "Cảm giác cai nghiện Kratom như thế nào?",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Hội chứng cai Kratom là quá trình cơ thể và não bộ điều chỉnh lại sau khi chất này liên tục hiện diện. Các triệu chứng thường bắt đầu trong vòng vài giờ sau liều cuối cùng và có thể từ nhẹ đến nặng tùy thuộc vào mức độ sử dụng của bạn. Về thể chất, bạn có thể bị đau nhức cơ bắp, sổ mũi và các vấn đề về tiêu hóa. Một triệu chứng phổ biến và đặc biệt khó chịu là &quot;hội chứng chân không yên&quot;, có thể khiến bạn khó ngủ. Bạn cũng có thể cảm thấy lạnh đột ngột hoặc đổ mồ hôi quá nhiều. Về tâm lý, hội chứng cai được đánh dấu bằng sự lo lắng gia tăng, cáu kỉnh và cảm giác chán nản hoặc thiếu năng lượng kéo dài. Điều quan trọng là phải hiểu rằng những triệu chứng này là cách cơ thể bạn tự chữa lành - nó đang cố gắng nhớ lại cách hoạt động mà không cần chất kích thích tâm thần. Mặc dù khó chịu, hội chứng cai Kratom nhìn chung không nguy hiểm về mặt y tế đối với hầu hết mọi người, nhưng nó đòi hỏi sự kiên nhẫn và lòng tự thương. Những ngày đầu có thể rất mệt mỏi và kiệt sức về mặt cảm xúc, nhưng sự khó chịu này chỉ là cầu nối tạm thời đến một cuộc sống khỏe mạnh thực sự. Hãy uống đủ nước, ưu tiên nghỉ ngơi và nhớ rằng những cảm giác này là dấu hiệu cho thấy bạn đang tiến tới một phiên bản rõ ràng và ổn định hơn của chính mình. Mỗi giờ trôi qua mà bạn không sử dụng chất gây nghiện là một bước tiến gần hơn đến sự giải thoát khỏi sự phụ thuộc.</p>"
+          },
+          {
+            "id": "k10",
+            "title": "Kiểm soát cơn thèm Kratom lâu dài",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Kiểm soát cơn thèm kratom lâu dài đòi hỏi sự cam kết duy trì nhận thức bản thân và chủ động thích ứng với môi trường xung quanh. Cơn thèm không phải lúc nào cũng biến mất sau khi các triệu chứng cai nghiện kết thúc; chúng có thể quay trở lại như &quot;tiếng vọng&quot; của thói quen cũ, thường do căng thẳng hoặc hoài niệm gây ra. Chiến lược quan trọng là duy trì những thói quen lành mạnh mà bạn đã xây dựng – ngủ đủ giấc, vận động thường xuyên và giao tiếp thẳng thắn. Khi cơn thèm xuất hiện, hãy sử dụng những kỹ năng bạn đã luyện tập: gọi tên suy nghĩ đó, thừa nhận cảm xúc và sử dụng phương pháp &quot;Trì hoãn và Phân tâm&quot;. Hãy nhắc nhở bản thân về lý do bạn chọn bỏ hoặc giảm sử dụng và những lợi ích bạn đã trải nghiệm kể từ đó. Việc duy trì kết nối với mạng lưới hỗ trợ cũng rất hữu ích, cho dù đó là bạn bè, gia đình hay cộng đồng những người đang trong quá trình phục hồi. Có người để trò chuyện khi bạn cảm thấy dễ bị tổn thương sẽ mang lại cảm giác trách nhiệm và kết nối ngay lập tức. Quản lý lâu dài là phải cảnh giác mà không sợ hãi. Bạn đang xây dựng một cuộc sống trọn vẹn và ý nghĩa đến mức cơn thèm kratom thỉnh thoảng không còn đủ sức làm xáo trộn sự bình yên của bạn nữa. Bạn nắm quyền kiểm soát các lựa chọn của mình, và mỗi ngày trôi qua, sức mạnh và sự sáng suốt của bạn càng tăng lên.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Xây dựng một cuộc sống cân bằng",
+        "articles": [
+          {
+            "id": "k11",
+            "title": "Xây dựng thói quen và nếp sinh hoạt mới",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Khi bạn giảm hoặc ngừng sử dụng kratom, bạn thường thấy mình có những khoảng thời gian &quot;trống rỗng&quot; trong ngày, những khoảng thời gian trước đây được lấp đầy bởi việc chuẩn bị và sử dụng chất này. Việc tạo ra những thói quen lành mạnh mới là việc chủ động lấp đầy khoảng trống này bằng các hoạt động hỗ trợ sức khỏe của bạn. Hãy bắt đầu bằng cách xác định &quot;vùng nguy hiểm&quot; của bạn - những thời điểm trong ngày mà bạn dễ sử dụng nhất - và lên kế hoạch cho một hoạt động cụ thể, không liên quan đến kratom, vào những khoảng thời gian đó. Đó có thể là một buổi tập thể dục buổi sáng, một cuộc đi bộ giữa trưa, hoặc một thói quen buổi tối mới như đọc sách với một tách trà đặc biệt. Thói quen mang lại cảm giác an toàn và khả năng dự đoán, điều này vô cùng hữu ích trong việc duy trì sự cân bằng. Nó giúp bạn trải qua một ngày mà không cần phải liên tục đưa ra một loạt các quyết định mệt mỏi. Những thói quen mới của bạn có thể bao gồm một lịch trình ngủ đều đặn, ăn uống có ý thức và suy ngẫm hàng ngày. Theo thời gian, những hành vi mới này sẽ trở nên tự động như những thói quen cũ. Bạn không chỉ đơn thuần là &quot;không sử dụng kratom&quot;; bạn đang chủ động xây dựng một cuộc sống được cấu trúc theo cách khiến sức khỏe và sự ổn định trở thành lựa chọn tự nhiên và dễ dàng nhất. Bạn đang tạo ra một tương lai tràn đầy những hoạt động thú vị, viên mãn, hỗ trợ phiên bản tốt nhất của chính mình.</p>"
+          },
+          {
+            "id": "k12",
+            "title": "Ứng xử trong các tình huống xã giao mà không cần Kratom",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Sống trong một thế giới mà kratom thường được quảng cáo như một loại thực phẩm bổ sung vô hại có nghĩa là bạn có thể sẽ phải đối mặt với những tình huống xã hội mà việc sử dụng nó được coi là bình thường. Học cách xử lý những khoảnh khắc này một cách tự tin là một kỹ năng quan trọng cho quá trình phục hồi lâu dài. Trước khi tham gia một cuộc gặp gỡ xã giao, hãy quyết định lập trường của mình và chuẩn bị sẵn một câu trả lời đơn giản, trực tiếp. Một câu trả lời dứt khoát như &quot;Không, cảm ơn, tôi ổn&quot; hoặc &quot;Tôi đã quyết định tạm ngừng sử dụng nó một thời gian&quot; thường là đủ. Bạn không nợ ai một lời giải thích chi tiết về hành trình của mình. Nếu người khác cứ nài nỉ, hãy nhớ rằng sự khăng khăng của họ thường phản ánh mối quan hệ của chính họ với chất này hơn là của bạn. Trong giai đoạn đầu, việc hoàn toàn tránh các sự kiện có rủi ro cao là hoàn toàn chấp nhận được. Sự bình yên trong tâm trí và tiến trình của bạn là ưu tiên hàng đầu. Tìm một &quot;người bạn tỉnh táo&quot; hoặc ai đó trong vòng tròn bạn bè ủng hộ lựa chọn của bạn có thể tạo ra sự khác biệt lớn, mang lại cảm giác kết nối và trách nhiệm ngay lập tức. Cuối cùng, bạn sẽ thấy rằng mình có thể có một cuộc sống xã hội phong phú và có những niềm vui thực sự mà không cần kratom là trung tâm của mọi tương tác. Bạn đang xây dựng một lối sống dựa trên sự hiện diện chân thực và các giá trị của riêng mình, điều mà bạn thực sự nên tự hào.</p>"
+          },
+          {
+            "id": "k13",
+            "title": "Xây dựng lại niềm tin và các mối quan hệ",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Việc sử dụng Kratom có thể ảnh hưởng đến các mối quan hệ theo những cách tinh tế nhưng đáng kể, thường dẫn đến sự xa cách về mặt cảm xúc hoặc mất đi sự nhất quán. Theo thời gian, sự tập trung của bạn có thể chuyển sang chất gây nghiện, khiến những người thân yêu cảm thấy bị bỏ rơi hoặc bối rối. Việc hàn gắn những mối quan hệ này là một quá trình đòi hỏi sự kiên nhẫn, trung thực và hành động nhất quán. Lời xin lỗi là một khởi đầu tốt, nhưng công việc thực sự diễn ra thông qua những lựa chọn hàng ngày của bạn. Bằng cách xuất hiện đúng giờ, hiện diện về mặt cảm xúc và duy trì những thói quen mới, bạn đang dần xây dựng lại nền tảng của niềm tin. Việc trò chuyện thẳng thắn về tác động của việc sử dụng chất gây nghiện là rất hữu ích, cho người khác không gian để bày tỏ cảm xúc của họ mà không trở nên phòng thủ. Điều này có thể khó khăn, nhưng nó cần thiết cho sự chữa lành thực sự. Một số mối quan hệ có thể đã trở nên xoay quanh việc sử dụng chất gây nghiện và có thể không còn phù hợp với cuộc sống mới của bạn, và đó là một nhận thức đau đớn nhưng lành mạnh. Đối với những mối quan hệ bạn chọn giữ lại, hãy chuẩn bị cho việc hàn gắn là một cuộc chạy marathon chứ không phải là một cuộc chạy nước rút. Mọi người cần thời gian để thấy rằng sự thay đổi của bạn là có thật và lâu dài. Khi bạn hồi phục, các mối quan hệ của bạn sẽ trở nên sâu sắc và chân thực hơn vì chúng dựa trên con người thật của bạn.</p>"
+          },
+          {
+            "id": "k14",
+            "title": "Các chiến lược phòng ngừa tái phát",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Phòng ngừa tái nghiện là một hoạt động chủ động, thực hành hàng ngày, bao gồm việc nhận biết các nguy cơ và lập kế hoạch để quản lý chúng. Nên nhìn nhận tái nghiện không phải là một thất bại đơn lẻ, mà là một quá trình thường bắt đầu từ sự thay đổi trong thói quen và tư duy. Các dấu hiệu cảnh báo sớm bao gồm việc bỏ bê chăm sóc sức khỏe thể chất, tự cô lập bản thân khỏi những người hỗ trợ và bắt đầu &quot;lãng mạn hóa&quot; việc sử dụng kratom trong quá khứ. Ngăn ngừa tái nghiện có nghĩa là can thiệp ngay khi bạn nhận thấy những dấu hiệu này. Hãy giữ liên lạc với mạng lưới hỗ trợ của bạn và thành thật về những thách thức bạn đang gặp phải. Hãy lập một &quot;kế hoạch phòng ngừa tái nghiện&quot; bao gồm danh sách những người cần gọi và các hoạt động lành mạnh cần làm khi bạn cảm thấy bị cám dỗ quay trở lại thói quen cũ. Nếu tái nghiện xảy ra, hãy phản ứng một cách thành thật thay vì xấu hổ. Một lần tái nghiện không phá hủy tất cả những gì bạn đã nỗ lực; đó là tín hiệu để bạn điều chỉnh kế hoạch và cam kết lại với mục tiêu của mình. Bạn đang xây dựng một bộ kỹ năng và một cuộc sống ngày càng kiên cường. Hãy cảnh giác, duy trì thói quen và tiếp tục tiến về phía trước. Bạn có đủ công cụ và sức mạnh để bảo vệ tiến trình của mình và tiếp tục xây dựng một tương lai khỏe mạnh và hạnh phúc thực sự.</p>"
+          },
+          {
+            "id": "k15",
+            "title": "Tư duy hướng đến hạnh phúc lâu dài",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Sức khỏe lâu dài sau khi cai nghiện kratom là sự thay đổi cơ bản trong cách bạn nhìn nhận bản thân và vị trí của mình trong thế giới. Điều đó có nghĩa là chuyển từ tư duy &quot;hạn chế&quot; - cảm giác như bạn đang bỏ lỡ một liều tăng cường - sang tư duy &quot;dồi dào&quot;, nơi bạn nhận ra rằng sự tỉnh táo mang lại cho bạn sự minh mẫn, khả năng tự chủ và sức khỏe. Về lâu dài, bạn vượt qua được sự giằng xé giữa việc tránh dùng thuốc và bước vào lĩnh vực phát triển cá nhân và sự viên mãn. Tư duy này bao gồm cam kết duy trì nhận thức về bản thân và sẵn sàng chấp nhận sự &quot;khác biệt&quot; trong một thế giới thường ưu tiên những giải pháp nhanh chóng. Bạn tiếp tục theo dõi mức độ căng thẳng, kiểm tra sức khỏe tinh thần và duy trì các mối quan hệ hỗ trợ bạn. Bạn bắt đầu tìm thấy niềm vui sâu sắc trong những trải nghiệm nhỏ bé hàng ngày - vẻ đẹp của thiên nhiên, một cuộc trò chuyện ý nghĩa, hoặc sự hài lòng từ chính công sức của mình. Mục tiêu không phải là đạt đến đích cuối cùng gọi là &quot;đã hồi phục&quot;, mà là đón nhận một hành trình suốt đời để trở thành phiên bản tốt nhất của chính mình. Bạn đang xây dựng một cuộc sống thực sự hấp dẫn và ý nghĩa đến mức bạn không còn cảm thấy cần phải trốn thoát khỏi nó nữa. Đó chính là món quà tuyệt vời nhất của một cuộc sống cân bằng, không phụ thuộc vào kratom.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

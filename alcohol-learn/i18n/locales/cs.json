@@ -1,0 +1,137 @@
+{
+  "app_title": "Modul Učení",
+  "progress_label": "Pokrok",
+  "back_label": "Zadní",
+  "minutes_label": "min.",
+  "type_article": "Článek",
+  "type_assessment": "Posouzení",
+  "type_activity": "Aktivita",
+  "substance_name": "Alkohol",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Povědomí a připravenost",
+        "articles": [
+          {
+            "id": "a1",
+            "title": "Proč přestat s alkoholem",
+            "time": "5 min",
+            "type": "Článek",
+            "content": "<p>Možná jste tady, protože jste si všimli vzorce, který vám už neslouží. Alkohol má tendenci se stát tichou konstantou v našich životech, často zpočátku jako společenský nástroj nebo způsob, jak se uvolnit, ale nakonec se stane něčím, co vyžaduje víc, než dává. Když se rozhodnete s pitím přestat, nevzdáváte se jen něčeho; získáváte jasnost, která vám pravděpodobně nějakou dobu chyběla. Začnete si všímat, že váš spánek se stává regenerativnějším a vaše nálady stabilnějšími. Úzkost, která často následuje po noci pití – to tiché bzučení strachu – začíná mizet. Nejde o to být „špatným člověkem“ nebo selhat; jde o to si uvědomit, že vaše tělo a mysl si zaslouží jiný druh péče. Tím, že přestanete pít, dovolíte přirozeným systémům odměny vašeho mozku, aby se resetovaly, což znamená, že nakonec můžete znovu najít skutečnou radost v malých okamžicích, aniž byste potřebovali chemický katalyzátor. Volíte být přítomni pro svůj vlastní život, se všemi jeho výzvami a krásou, spíše než abyste se na něj dívali přes filtrovanou čočku. Tato cesta začíná jediným poznáním: že váš život by mohl být větší, jasnější a autentičtější bez tíhy alkoholu, která by vás brzdila.</p>"
+          },
+          {
+            "id": "a2",
+            "title": "Jak moc jsem závislý/á",
+            "time": "5 min",
+            "type": "Posouzení",
+            "content": "<p>Zhodnocení vašeho vztahu k alkoholu vyžaduje určitou míru radikální upřímnosti, která může zpočátku působit nepříjemně. Je užitečné odklonit se od binární představy, že jste buď „alkoholik“, nebo „v pohodě“. Místo toho si to představte jako spektrum využití. Můžete se zeptat sami sebe, kolik vaší duševní energie spotřebujete přemýšlením o svém dalším drinku nebo zotavováním se z toho posledního. Pokud zjistíte, že si často stanovujete pravidla – například pijete pouze o víkendech nebo nikdy před 18. hodinou – a pak hledáte důvody, proč je porušovat, váš mozek již vykazuje známky chemické závislosti. Nejde o selhání vůle; je to fyziologická reakce na silnou látku. Můžete si také všimnout, že se zvýšila vaše tolerance, což znamená, že potřebujete více, abyste pocítili účinky, které jste dříve měli z jediné skleničky. Dalším klíčovým ukazatelem je, zda pokračujete v pití i přes negativní důsledky, jako je napětí ve vašich vztazích nebo snížený výkon v práci. Pokud vám užívání alkoholu zmenšuje nebo komplikuje svět, je to znamení, kterému stojí za to naslouchat. Toto sebehodnocení neslouží k hodnocení, ale k informaci. Jakmile budete vědět, kde se na tomto spektru nacházíte, můžete začít činit informovaná rozhodnutí o cestě vpřed, která nejlépe podpoří vaši pohodu a vaši budoucnost.</p>"
+          },
+          {
+            "id": "a3",
+            "title": "Příznaky problému s alkoholem",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Příznaky problematického vztahu s alkoholem jsou často nenápadné, než se stanou zjevnými. Možná si všimnete, že jste začali před ostatními skrývat rozsah svého pití, třeba tím, že si před společenskou akcí dáte pár drinků nebo si doma necháváte soukromou zásobu. Toto sociální maskování je běžným obranným mechanismem, když si podvědomě uvědomujete, že vaše užívání překročilo to, co považujete za zdravé. Fyzicky můžete ráno pociťovat „třes“ nebo všudypřítomný pocit podrážděnosti, který odezní až po prvním drinku dne. Váš zájem o dříve milované koníčky může slábnout a nahrazovat ho preference aktivit, kde je alkohol ústředním bodem. Dalším významným příznakem je „výpadek paměti“ nebo „zatemnění“, kdy se během pití alkoholu určité úseky stávají mlhavými nebo zcela ztracenými v paměti. To naznačuje, že váš mozek je zahlcen do té míry, že si již nedokáže vytvářet nové vzpomínky. Můžete se také ocitnout v defenzivnějším postoji, když lidé ve vaší blízkosti vyjádří obavy. Pokud více chráníte své právo pít než své vlastní zdraví a klid, je to jasný signál, že se látka ve vás významně uchytila. Rozpoznání těchto signálů je prvním krokem k opětovnému získání vlastní vůle a vybudování života, kde máte vše pod kontrolou vy, ne láhev.</p>"
+          },
+          {
+            "id": "a4",
+            "title": "Jak zmapovat spouštěče alkoholu",
+            "time": "6 min",
+            "type": "Aktivita",
+            "content": "<p>Spouštěče jsou specifické vnitřní nebo vnější signály, které vyvolávají téměř automatickou touhu po pití. Abyste si je zmapovali, musíte se stát pozorovatelem svého vlastního života. Začněte hledáním čtyř P: People (lidé), Places (místa), Points in Time (časové body) a Physical States (fyzické stavy). Možná existuje určitý přítel, který vždycky povzbudí k dalšímu kolu, nebo konkrétní bar, kolem kterého míjíte cestou domů a který vám sbíhá sliny. Čas je často spouštěčem, například „čarodějnická hodina“ mezi 17. a 19. hodinou, kdy končí pracovní den. Fyzické stavy, jako je hlad, hněv, osamělost nebo únava – zkratka HALT – jsou notoricky silné spouštěče. Když jste vyčerpaní, alkohol se zdá být nejrychlejším způsobem, jak najít úlevu. Emoce, pozitivní i negativní, jsou také významné. Alkohol můžete užívat k oslavě vítězství nebo k utlumení palčivé bolesti z prohry. Zaznamenáním si pokaždé, když pocítíte nutkání pít, začnete vidět, jak se objevují vzorce. Možná si uvědomíte, že vaše chutě nejsou náhodné, ale jsou vázány na konkrétní, předvídatelné události. Jakmile budete mít tuto mapu, můžete začít plánovat. Můžete si zvolit jinou cestu domů, ujistit se, že jste si před 17. hodinou dali plné jídlo, nebo si na páteční večer naplánovat konkrétní nealkoholickou aktivitu. Zmapování vašich spouštěčů promění vágní, ohromující boj v zvládnutelnou sérii strategických rozhodnutí.</p>"
+          },
+          {
+            "id": "a5",
+            "title": "Lži, které říkáme, abychom dál pili alkohol",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Mozek je pozoruhodně zdatný v ochraně svých návyků a pokud jde o alkohol, často generuje velmi přesvědčivé důvody, proč vás pít dál. Nejsou to jen chyby; jsou to taktické lži, které vaše mysl používá, aby se vyhnula nepohodlí ze změny. Můžete si říkat: „Piju jen proto, že moje práce je stresující,“ což svaluje odpovědnost na vnější faktory a naznačuje, že dokud se vaše práce nezmění, nemůžete přestat. Nebo můžete říkat: „Nejsem tak špatný jako člověk, který pije ráno,“ a pomocí srovnání minimalizujete svou vlastní zkušenost a udržujete si pocit kontroly. Dalším častým slibem je „Dám si dnes večer jen jedno,“ slib daný ráno, který zní naprosto upřímně, ale často nepřežije realitu večera. Pak je tu lež, že alkohol vás dělá kreativnějšími, společenskějšími nebo zábavnějšími. I když může dočasně snížit zábrany, často nahrazuje skutečné spojení povrchní, chemicky vyvolanou náhražkou. Rozpoznání těchto „šeptů závislosti“ je klíčová dovednost. Když po náročném dni uslyšíte hlas, který říká „zasloužíš si to“, rozpoznáte ho jako to, čím je: opotřebovaná nervová dráha, která se snaží zůstat aktivní. Tím, že tyto lži vyvoláváte v okamžiku, kdy se dějí, je zbavujete jejich moci a připomínáte si pravdu, kterou jste již objevili: že jste bez nich lepší.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Detoxikace a včasné uzdravení",
+        "articles": [
+          {
+            "id": "a6",
+            "title": "Jak podnítit surfování",
+            "time": "6 min",
+            "type": "Aktivita",
+            "content": "<p>Když vás přepadne touha, může se cítit jako pevný, nehybný předmět, který zmizí pouze tehdy, když se jí poddáte. Surfování nutkání je technika, která vás učí vnímat touhu jako vlnu. Stejně jako vlna v oceánu, i touha začíná v malém měřítku, stupňuje se, dosahuje vrcholu a pak se nevyhnutelně zlomí a rozplyne. Netrvá věčně. Chcete-li nutkání zvládnout, musíte si ho nejprve jednoduše všimnout bez soudů. Řekněte si: „Právě teď mám chuť na alkohol.“ Tento jednoduchý akt pojmenování vás posune od pozice oběti nutkání k jeho pozorovateli. Poté zaměřte svou pozornost na své tělo. Kde cítíte nutkání? Je to stažení v krku, neklid v rukou nebo třepotání v břiše? Soustřeďte se na tento fyzický pocit a dýchejte skrze něj. Nesnažte se nutkání odhánět, protože to ho často zesiluje. Místo toho si představte, že se na něm jedete, zůstaňte přítomni a v rovnováze, dokud nezačne ustupovat. Většina chutí dosáhne svého vrcholu během 15 až 30 minut. Pokud dokážete s daným pocitem setrvat, aniž byste na něj po tu krátkou dobu reagovali, zjistíte, že vlna pomine. Pokaždé, když úspěšně zvládnete nutkání, posílíte část mozku, která se stará o seberegulaci, takže další vlna se vám bude ještě snadněji sjíždět.</p>"
+          },
+          {
+            "id": "a7",
+            "title": "Jak zmírnit myšlenky na alkohol",
+            "time": "6 min",
+            "type": "Aktivita",
+            "content": "<p>Kognitivní defúze je praxe, při které se od svých myšlenek odpoutáme a vnímáme je jen jako slova nebo obrazy, spíše než jako absolutní pravdy nebo příkazy, které je nutné dodržovat. Když se snažíte přestat pít alkohol, vaše mysl pravděpodobně vyvolá myšlenky jako „Potřebuji se napít“ nebo „Všechno by bylo lepší se sklenkou vína“. Pokud tyto myšlenky berete doslova, mohou se zdát ohromující. Defúze vám umožňuje vytvořit si odstup mezi sebou a myšlenkou. Jednoduchý způsob, jak toho dosáhnout, je přidat k myšlence předponu. Místo toho, abyste řekli „Potřebuji se napít“, řekněte „Mám na mysli, že se potřebuji napít.“ Tato jemná změna vám připomíná, že myšlenka je událost, která se odehrává ve vaší mysli, nikoli požadavek na akci. Můžete také zkusit „poděkovat“ své mysli za myšlenku: „Díky, mysli, za ten návrh ohledně vína, ale dnes jdu jiným směrem.“ Tím se konflikt vyloučí z vnitřního dialogu. Nemusíte se s myšlenkou hádat ani dokazovat, že se mýlí; stačí ji uznat jako produkt starého programování vašeho mozku. Vy jste ten, kdo si vybírá, na základě kterých myšlenek budete jednat a které necháte projít. Praktikováním defuze přestanete být otrokem každého impulsu, který vám projde hlavou, a začnete se vědomě řídit svým vlastním chováním.</p>"
+          },
+          {
+            "id": "a8",
+            "title": "Jak zkrotit své emoce",
+            "time": "6 min",
+            "type": "Článek",
+            "content": "<p>Alkohol se často používá k chemickému řízení našich emocí. Ať už jste ho použili k utopení smutku, ztišení úzkosti nebo dokonce k posílení vzrušení, váš mozek se pravděpodobně naučil spoléhat spíše na lahev než na své vlastní vnitřní zdroje. Když přestanete pít, často čelíte „syrové“ verzi svých pocitů, které se mohou zdát intenzivní a nezvládnutelné. Zkrocení těchto emocí začíná uvědoměním si, že jsou dočasné a ve skutečnosti vám nemohou ublížit. Pocity jako nuda nebo neklid, které mnoho lidí považuje za obzvláště iritující, jsou jen signály, že váš mozek hledá svou starou odměnu. Místo abyste sáhnuli po drinku, abyste změnili své pocity, zkuste emoci jednoduše pojmenovat. „Právě teď se cítím osaměle.“ Pojmenování emoce prokazatelně snižuje její intenzitu v mozku. Dále najděte zdravý způsob, jak ji zpracovat. Může to být psaní do deníku, svižná procházka nebo rozhovor s přítelem. Nesnažíte se emoci okamžitě zbavit; budujete si „emoční sval“ tím, že se učíte sedět s nepohodlím. Postupem času se váš mozek znovu naučí, jak regulovat své vlastní nálady. Zjistíte, že jste mnohem odolnější, než jste si mysleli, a že máte schopnost zvládat životní vzestupy i pády, aniž byste se museli otupovat alkoholem.</p>"
+          },
+          {
+            "id": "a9",
+            "title": "Jaké jsou abstinenční příznaky při abstinenci od alkoholu",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Abstinenční příznaky jsou proces rekalibrace těla a mozku po zvyknutí si na neustálou přítomnost alkoholu. U mnoha lidí tento proces začíná během několika hodin po posledním drinku. Nejprve si můžete všimnout pocitu zvýšené úzkosti, podrážděnosti nebo sociální izolace. Fyzicky se mohou objevit bolesti hlavy, nevolnost nebo nadměrné pocení. Spánek je často narušen, s živými sny nebo potížemi s usínáním a udržením spánku, protože váš nervový systém zůstává ve stavu vysoké pohotovosti. Je důležité si uvědomit, že tyto příznaky jsou způsobem, jakým se vaše tělo uzdravuje – snaží se vzpomenout si, jak fungovat bez tlumivého účinku. Pro ty, kteří dlouhodobě pijí hodně alkoholu, však může být abstinenční příznaky po alkoholu lékařsky závažné a dokonce život ohrožující. Příznaky, jako je silný třes, zmatenost, halucinace (známé jako delirium tremens) nebo záchvaty, vyžadují okamžitou lékařskou pomoc. Nikdy se nepokoušejte o detoxikaci sami, pokud máte v anamnéze silné a dlouhodobé užívání alkoholu. Lékařská detoxikace poskytuje bezpečné prostředí, kde odborníci mohou zvládat vaše příznaky a zajistit vaši fyzickou bezpečnost. I když jsou vaše příznaky mírné, první dny mohou být vyčerpávající a emocionálně vyčerpávající. Buďte k sobě laskaví, pijte dostatek tekutin a pamatujte, že nepohodlí, které cítíte, je dočasné. Je to nezbytný most k životu, kde už nebudete potřebovat alkohol, abyste se cítili „normálně“.</p>"
+          },
+          {
+            "id": "a10",
+            "title": "Zvládání úzkosti bez alkoholu",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Jedním z nejčastějších důvodů, proč lidé pijí, je zvládání úzkosti, ale alkohol je klamné řešení. I když může poskytnout úlevu na několik hodin, ve skutečnosti vytváří „rebound efekt“, který úzkost následující den výrazně zhoršuje. Děje se to proto, že alkohol potlačuje centrální nervový systém; když jeho účinky odezní, systém to kompenzuje hyperaktivitou. Naučit se zvládat úzkost bez ní je základním kamenem zotavení. Prvním krokem je uvědomit si, že úzkost je často fyzický pocit, který ne vždy vyžaduje logický důvod. Když cítíte to známé svírání na hrudi nebo zrychlený srdeční tep, vyzkoušejte jednoduchou techniku uzemnění. Soustřeďte se na pět věcí, které vidíte, čtyři věci, kterých se můžete dotknout, tři věci, které slyšíte, dvě věci, které můžete cítit, a jednu věc, kterou můžete ochutnat. Tím se váš mozek dostane z úzkostné smyčky a vrátí se do přítomného okamžiku. Hluboké dýchání – nádech na čtyřikrát a výdech na šestkrát – signalizuje vašemu nervovému systému, že jste v bezpečí. Z dlouhodobého hlediska vám pravidelná fyzická aktivita a konzistentní spánkový režim pomohou stabilizovat základní úroveň úzkosti. Možná zjistíte, že jakmile chemická horská dráha pití skončí, vaše „přirozená“ úroveň úzkosti je mnohem nižší, než jste si uvědomovali. Učíte se důvěřovat své schopnosti zůstat klidní a soustředění, i když se život stane stresujícím.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Budování střízlivého života",
+        "articles": [
+          {
+            "id": "a11",
+            "title": "Budování nových rutin",
+            "time": "7 min",
+            "type": "Aktivita",
+            "content": "<p>Když přestanete pít alkohol, často se ocitnete ve značném množství „prázdného“ času, zejména večer a o víkendech. Pokud tento čas záměrně nevyplníte, necháte dveře otevřené pro staré zvyky, aby se mohly znovu vkrádat. Budování nových rutin znamená vytvořit strukturu, která podporuje vaši střízlivost a dává vám něco, na co se můžete těšit. Začněte tím, že si identifikujete své „nebezpečné zóny“ – časy, kdy byste normálně pili – a naplánujete si pro tato okna konkrétní nealkoholickou aktivitu. Může se jednat o vstup do místního sportovního týmu, věnování se kreativnímu koníčku, jako je hrnčířství nebo malování, nebo jednoduše o zavedení nového večerního rituálu, jako je čtení a speciální čaj. Cílem je dát vašemu mozku nový zdroj odměny a vašemu tělu novou sadu signálů. Rutina poskytuje pocit bezpečí a předvídatelnosti, což je neuvěřitelně užitečné pro brzkou rekonvalescenci. Pomáhá vám projít dnem, aniž byste museli neustále dělat sérii vyčerpávajících rozhodnutí. Vaše nová rutina může zahrnovat ranní procházku, polední setkání s podpůrným kamarádem a brzký chůzi do postele. Postupem času se toto nové chování stane stejně automatické, jako kdysi bylo pití. Nejenže „nepijete“; aktivně si budujete život, který je naplněný, zajímavý a strukturovaný tak, aby se střízlivost stala přirozenou a nejjednodušší volbou.</p>"
+          },
+          {
+            "id": "a12",
+            "title": "Zvládání společenského tlaku",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Život v kultuře, kde je alkohol všudypřítomný, znamená, že nevyhnutelně budete čelit společenskému tlaku na pití. Ten se může pohybovat od dobře míněných přátel, kteří vám nabídnou „jen jeden“, až po nevyslovené očekávání, že k tomu, abyste byli součástí skupiny, potřebujete skleničku v ruce. Naučit se v těchto situacích orientovat s jistotou je zásadní dovednost. Než se vydáte na společenskou událost, rozhodněte se o svém oblíbeném nealkoholickém nápoji a mějte připravenou jednoduchou a přímou odpověď. Nikomu nedlužíte podrobnou anamnézu; obvykle stačí pevné „Dnes večer nepiju“ nebo „Rozhodl jsem se dát si od alkoholu pauzu“. Pokud lidé naléhají, pamatujte, že jejich naléhání často vypovídá více o jejich vlastním vztahu k alkoholu než o vašem. V rané fázi zotavení je naprosto přijatelné zcela vynechat vysoce rizikové události. Vaše střízlivost je důležitější než večírek. Pokud se tam už vydáte, dorazte vlastní dopravou, abyste mohli odejít, kdykoli budete chtít. Nalezení „střízlivého kamaráda“ ve vašem sociálním kruhu nebo podpůrné skupině může také mít velký význam. Mít někoho, komu můžete napsat SMS, když se cítíte nepříjemně, poskytuje okamžitý pocit spojení a zodpovědnosti. Časem zjistíte, že můžete vést bohatý společenský život a užít si opravdovou zábavu, aniž by alkohol byl středem každé interakce.</p>"
+          },
+          {
+            "id": "a13",
+            "title": "Oprava vztahů",
+            "time": "10 min",
+            "type": "Článek",
+            "content": "<p>Užívání alkoholu neovlivňuje jen osobu, která pije; šíří se celou její sítí přátel, rodiny a kolegů. Důvěra může být časem narušena porušenými sliby, nesplněnými závazky nebo emocionální nedostupností. Obnova těchto vztahů je proces, který vyžaduje trpělivost, upřímnost a důsledné jednání. Je důležité si uvědomit, že omluva je jen začátek. Pro ty, kteří byli zraněni, mohou mít vaše slova menší váhu než kdysi. Skutečná práce na nápravě se odehrává skrze vaše každodenní rozhodnutí. Tím, že se ukážete, když slíbíte, jste emocionálně přítomni a udržujete si střízlivost, pomalu obnovujete základy důvěry. Je také užitečné vést upřímné rozhovory o způsobené škodě a dát druhé osobě prostor k vyjádření svých pocitů, aniž by se dostala do defenzivní pozice. To může být obtížné, ale je to nezbytné pro skutečné uzdravení. Některé vztahy se mohly stát tak toxickými nebo se soustředit na pití, že už nemohou být součástí vašeho života, a to je bolestivé, ale zdravé uvědomění. U těch, které se rozhodnete udržet, buďte připraveni na to, že zotavení bude maraton, ne sprint. Lidé potřebují čas, aby si uvědomili, že změna je skutečná. Jak se budete uzdravovat, zjistíte, že vaše vztahy se prohlubují a jsou autentičtější, protože jsou založeny na tom, kým skutečně jste, ne na tom, kým z vás alkohol udělal.</p>"
+          },
+          {
+            "id": "a14",
+            "title": "Pochopení relapsu",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Recidiva není známkou toho, že jste selhali nebo že vaše cesta k uzdravení skončila. Spíše je to důležitá informace, která vám říká něco o vašem současném plánu, co je třeba upravit. I když cílem je vždy udržitelná střízlivost, realita je taková, že mnoho lidí na cestě zažívá chyby. Pokud k relapsu dojde, nejdůležitější je, jak na něj zareagujete. Vyhněte se myšlence „všechno, nebo nic“, která vám říká, že protože jste si dali jeden drink, zničili jste všechno a můžete stejně tak pokračovat. To je lež, která vede k mnohem hlubším problémům. Místo toho berte recidivu jako příležitost k učení. Jaké byly okolnosti? Co jste cítili? Byly tam spouštěče, které jste nepředpokládali, nebo stresory, se kterými jste nebyli schopni se vypořádat? Jakmile identifikujete „proč“, můžete svůj plán posílit. To může znamenat častější schůzky s podporou, pečlivější dodržování vašich rutin nebo identifikaci nových spouštěčů, kterým se máte vyhnout. Uzdravení je dovednost, kterou se učíte, a stejně jako každá složitá dovednost vyžaduje praxi a vytrvalost. Nejúspěšnější lidé v uzdravování nejsou ti, kteří nikdy nezakopnou, ale ti, kteří mají odvahu se znovu zvednout, být upřímní o tom, co se stalo, a pokračovat v cestě s obnoveným závazkem vůči svému zdraví a budoucnosti.</p>"
+          },
+          {
+            "id": "a15",
+            "title": "Myšlení dlouhodobé obnovy",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Dlouhodobé zotavení je víc než jen o vyhýbání se alkoholu; jde o zásadní změnu v tom, jak vnímáte sebe a své místo ve světě. Vyžaduje to přechod od myšlení „popírání“ – pocitu, že o něco přicházíte – k myšlení „hojnosti“. Začnete chápat, že střízlivost není omezení, ale superschopnost, která vám vrátí váš čas, peníze, zdraví a vaši samostatnost. Z dlouhodobého hlediska se posunete od každodenního boje s vyhýbáním se alkoholu do sféry osobního růstu a naplnění. Toto myšlení zahrnuje závazek k neustálému sebeuvědomění. Neustále sledujete svou úroveň stresu, kontrolujete své emocionální zdraví a udržujete si spojení, která vás podporují. Znamená to také cítit se dobře s tím, že jste odlišní. Ve společnosti, která často upřednostňuje rychlá řešení a otupělost, je volba být přítomný a střízlivý odvážným a radikálním aktem sebelásky. Možná zjistíte, že máte novou vášeň pro život, hlubší schopnost radosti a odolnost, která vám umožní čelit i těm nejtěžším výzvám s jasnou hlavou. Cílem není dosáhnout cíle zvaného „uzdravení“, ale vydat se na celoživotní cestu, na které se stanete tou nejlepší verzí sebe sama. Budujete si život, ze kterého už necítíte potřebu utíkat, a to je největší dar ze všech.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

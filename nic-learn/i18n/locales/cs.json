@@ -1,0 +1,137 @@
+{
+  "app_title": "Modul Učení",
+  "progress_label": "Pokrok",
+  "back_label": "Zadní",
+  "minutes_label": "min.",
+  "type_article": "Článek",
+  "type_assessment": "Posouzení",
+  "type_activity": "Aktivita",
+  "substance_name": "Nikotin",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Pochopení svého zvyku",
+        "articles": [
+          {
+            "id": "n1",
+            "title": "Co nikotin dělá s vaším mozkem",
+            "time": "5 min",
+            "type": "Článek",
+            "content": "<p>Nikotin je jednou z nejvíce návykových látek, které známe, a to především kvůli tomu, jak rychle interaguje s mozkovým systémem odměny. Když vdechnete nikotin, dostane se do mozku během několika sekund a spouští uvolňování dopaminu – neurotransmiteru „dobrý pocit“. To vytváří dočasný pocit potěšení a relaxace, ale má to svou cenu. Váš mozek se této umělé stimulaci rychle přizpůsobí snížením vlastní přirozené produkce dopaminu. To znamená, že v průběhu času potřebujete nikotin jen k tomu, abyste se cítili „normálně“, spíše než abyste cítili extra potěšení. Tento cyklus užívání a abstinenčních příznaků vytváří silnou fyzickou závislost na kouření. Kromě dopaminu nikotin ovlivňuje také chemické látky související s pozorností a pamětí, a proto si kuřáci často myslí, že jim pomáhá se soustředěním. Jedná se však o krátkodobý účinek, který maskuje dlouhodobé poškození, které nikotin způsobuje přirozené chemii vašeho mozku. Pochopení tohoto biologického „únosu“ je klíčovým krokem k odvykání kouření. Umožňuje vám vidět, že vaše chutě nejsou nedostatkem vůle, ale fyziologickou reakcí na mozek, který byl rekalibrován chemikálií. Jakmile přestanete kouřit, váš mozek zahájí pomalý, ale jistý proces návratu do svého přirozeného stavu a obnoví vaši schopnost cítit potěšení a soustředit se bez nutnosti cigarety.</p>"
+          },
+          {
+            "id": "n2",
+            "title": "Vaše spouštěče kouření",
+            "time": "6 min",
+            "type": "Aktivita",
+            "content": "<p>Pro mnoho kuřáků je tento zlozvyk hluboce vetkán do struktury každodenního života, vázán na specifické činnosti, emoce a místa. To jsou vaše spouštěče. Mezi běžné spouštěče patří první šálek kávy ráno, řízení, dojídání jídla nebo pití na konci dne. Emoce jsou také silnými hnacími silami; můžete sáhnout po cigaretě, když se cítíte ve stresu, znuděni, osamělí nebo dokonce obzvlášť šťastní. Sociální situace, jako je pobyt v blízkosti jiných kuřáků, vytvářejí silnou touhu se k nim přidat. Abyste úspěšně přestali kouřit, musíte tyto signály identifikovat, abyste se na ně mohli připravit. Začněte tím, že si po dobu několika dní budete vést „záznam spouštěčů“, do kterého si zaznamenáte pokaždé, když si zapálíte nebo pocítíte silnou touhu to udělat. Co jste dělali? Jak jste se cítili? S kým jste byli? Jakmile budete mít tuto mapu, můžete začít rozvíjet alternativní reakce. Pokud vždy kouříte s kávou, zkuste přejít na čaj nebo změnit místo, kde sedíte. Pokud je spouštěčem stres, najděte si místo toho pětiminutové dechové cvičení, které můžete dělat. Nejenže vyndáváte cigaretu; znovu se učíte, jak prožít den bez ní. Předvídáním spouštěčů se zbavíte „automatického“ zvyku a dáte si prostor k vědomému rozhodnutí nekuřáctví.</p>"
+          },
+          {
+            "id": "n3",
+            "title": "Vysvětlení Fagerströmova testu",
+            "time": "5 min",
+            "type": "Posouzení",
+            "content": "<p>Fagerströmův test na závislost na nikotinu je standardní klinický nástroj používaný k měření intenzity vaší fyzické závislosti na nikotinu. Klade řadu specifických otázek, například jak brzy po probuzení si dáte první cigaretu, zda je pro vás obtížné zdržet se kouření na místech, kde je to zakázáno, a kolik cigaret denně vykouříte. Nejvýmluvnějším ukazatelem vysoké závislosti je často „první cigareta dne“ – pokud si potřebujete zakouřit do pěti nebo třiceti minut po probuzení, váš mozek signalizuje významnou fyzickou potřebu nikotinu k fungování. Pochopení vašeho Fagerströmova skóre nespočívá v sebenálepkování, ale v přizpůsobení vaší strategie odvykání kouření. Ti s vysokým skóre mohou zjistit, že nikotinová substituční terapie (NRT) nebo léky na předpis jsou obzvláště užitečné při zvládání intenzivních fyzických abstinenčních příznaků. Pokud je vaše skóre nižší, vaše problémy mohou být více spojeny se sociálními a behaviorálními aspekty zlozvyku. Bez ohledu na vaše skóre vám znalost úrovně vaší závislosti umožňuje vstoupit do procesu odvykání s realistickými očekáváními. Pomůže vám to pochopit, proč se prvních několik dní může zdát obzvláště obtížných a proč mohou být určité nástroje nezbytné k překlenutí mezery k životu bez kouře.</p>"
+          },
+          {
+            "id": "n4",
+            "title": "Proč je tak těžké přestat",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Přestat kouřit nikotin je notoricky obtížné, protože s sebou nese „trojí hrozbu“ závislosti: fyzickou, behaviorální a psychologickou. Fyzickou částí je abstinenční syndrom, který může zahrnovat podrážděnost, úzkost, potíže s koncentrací a intenzivní chutě, protože vaše tělo nikotin zbavuje. Behaviorální částí je ztráta mnoha rituálů spojených s kouřením – pohyb ruky do úst, „pauza“ od práce, sociální spojení s ostatními kuřáky. Tyto rituály se opakovaly tisíckrát a vytvářely hluboké nervové dráhy, které nezmizí přes noc. Psychologická část je pravděpodobně nejsložitější; pro mnohé se cigareta stala „přítelem“ nebo spolehlivým mechanismem zvládání životních vzestupů a pádů. Když přestanete kouřit, můžete cítit smutek nebo ztrátu, jako byste se vzdávali části své identity. Je důležité si uvědomit, že tato obtíž není známkou slabosti; je to důkaz síly této látky. Mnoho lidí potřebuje několik pokusů, než s kouřením úspěšně přestanou nadobro. Každý pokus není neúspěchem, ale poučením, které vás přibližuje k vašemu cíli. Pochopením, proč je to tak těžké, můžete být k sobě během procesu soucitnější a zůstat oddaní dlouhodobým výhodám zdravého života bez kouře.</p>"
+          },
+          {
+            "id": "n5",
+            "title": "Kouření a duševní zdraví",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Existuje přetrvávající mýtus, že kouření pomáhá zvládat stres a úzkost, ale realita je přesně opačná. I když samotný akt kouření může poskytnout dočasnou úlevu, ve skutečnosti zvyšuje vaši dlouhodobou hladinu stresu. Děje se to proto, že „uvolnění“, které cítíte, je ve skutečnosti jen úlevou od abstinenčních příznaků, které předchozí cigareta způsobila. Mezi cigaretami je vaše tělo ve stavu nízkého stresu, protože hladina nikotinu klesá; kouření vás jednoduše vrací na základní úroveň, kterou si nekuřák užívá neustále. Kouření je navíc spojováno s vyšší mírou deprese a úzkostných poruch. Neustálé chemické výkyvy v mozku mohou narušovat emoční regulaci a ztěžovat zvládání problémů s duševním zdravím. Když přestanete kouřit, můžete pociťovat dočasný nárůst úzkosti nebo špatnou náladu, protože se váš mozek rekalibruje, ale postupem času většina lidí zjistí, že se jejich duševní zdraví výrazně zlepšuje. Uvádějí, že se cítí stabilnější, méně úzkostní a lépe ovládají své emoce. Odvykání kouření je jednou z nejúčinnějších věcí, které můžete udělat pro podporu své dlouhodobé duševní pohody. Přecházíte ze stavu chemické závislosti do stavu přirozené odolnosti, kde dokážete zvládat životní výzvy s jasnou a stabilní myslí.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Nástroje pro ukončení",
+        "articles": [
+          {
+            "id": "n6",
+            "title": "Možnosti náhrady nikotinu",
+            "time": "6 min",
+            "type": "Článek",
+            "content": "<p>Nikotinová substituční terapie (NRT) je vysoce účinný nástroj pro zvládání fyzických abstinenčních příznaků, které ztěžují odvykání. NRT poskytuje vašemu tělu kontrolovanou dávku nikotinu bez tisíců škodlivých chemických látek obsažených v tabákovém kouři. To pomáhá zmírnit „ostrost“ chutí a umožňuje vám soustředit se na behaviorální a psychologické aspekty odvykání. NRT se dodává v různých formách, včetně dlouhodobě působících náplastí, které poskytují stálý proud nikotinu po celý den, a krátkodobě působících možností, jako jsou žvýkačky, pastilky, inhalátory a nosní spreje, které lze použít k potlačení náhlých nutkání. Výzkum ukazuje, že užívání NRT může zdvojnásobit vaše šance na úspěšné odvykání ve srovnání s „naprostým odvykáním“. Mnoho lidí zjišťuje, že kombinovaný přístup – použití náplasti jako výchozího bodu a žvýkačky pro průlomové chutě – funguje nejlépe. Je důležité užívat NRT správně a po celou doporučenou dobu, obvykle asi 8 až 12 týdnů, aby váš mozek měl dostatek času na adaptaci. I když se někteří lidé obávají, že se stanou „závislými“ na NRT, riziko je mnohem nižší než u cigaret a zdravotní přínosy odvykání kouření jsou okamžité a obrovské. Promluvte si se svým lékárníkem nebo lékařem, abyste našli plán NRT, který je pro vás a vaši míru závislosti ten pravý.</p>"
+          },
+          {
+            "id": "n7",
+            "title": "Metoda zpoždění a rozptýlení",
+            "time": "6 min",
+            "type": "Aktivita",
+            "content": "<p>Metoda „Odkládání a rozptýlení“ je jednoduchý, ale účinný behaviorální nástroj pro zvládání chutí v daném okamžiku. Když vás přepadne silná touha zakouřit, vaším prvním krokem je odložení. Řekněte si: „Teď kouřit nebudu; počkám deset minut.“ Většina chutí, bez ohledu na jejich intenzitu, dosáhne svého vrcholu a poté začne během pěti až deseti minut ustupovat. Odkládáním necháte vlnu nutkání projít, aniž byste na ni reagovali. Během těchto deseti minut je vaším druhým krokem rozptýlení. Udělejte něco, co vyžaduje vaši plnou pozornost nebo mění vaše fyzické prostředí. Může to být vypití velké sklenice vody, svižná procházka, zavolání příteli nebo luštění křížovky. Cílem je přesunout svou pozornost od cigarety k něčemu jinému. Často se stává, že po uplynutí deseti minut intenzita chuti výrazně poklesne a bezprostřední nebezpečí sáhnutí po cigaretě pomine. Pokaždé, když tuto metodu úspěšně použijete, oslabujete nervové signály, které spojují spouštěč s cigaretou, a posilujete svou schopnost zvládat nepohodlí. Je to praktický a proveditelný způsob, jak si dokázat, že máte své jednání pod kontrolou, bez ohledu na to, jak se chuť cítí.</p>"
+          },
+          {
+            "id": "n8",
+            "title": "Zvládnutí prvního týdne",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>První týden po odvykání kouření je často fyzicky i emocionálně nejnáročnější. Vaše tělo se zbavuje posledních zbytků nikotinu a váš mozek začíná pracovat na rekalibraci svého systému odměn. Můžete pociťovat řadu abstinenčních příznaků, včetně podrážděnosti, neklidu, bolestí hlavy a přetrvávající „mozkové mlhy“. Je důležité vstoupit do tohoto týdne s jasným plánem a spoustou soucitu se sebou samým. Udržujte si co nejlehčí rozvrh a vyhýbejte se stresovým situacím nebo společenským akcím, kde je kouření běžné. Zásobte se zdravými rozptýleními, jako jsou žvýkačky bez cukru, mrkvové tyčinky nebo bylinkový čaj. Dodržujte pitný režim a snažte se co nejvíce odpočívat, protože únava může snížit vaši obranyschopnost proti chutím. Pamatujte, že intenzivní pocity, které prožíváte, jsou známkou toho, že se vaše tělo uzdravuje – každá minuta nepohodlí je o minutu blíž k tomu, aby se člověk přestal kouřit. Mnoho lidí považuje za užitečné říct několika podpůrným přátelům nebo členům rodiny, že přestávají kouřit, a mohou být na pár dní trochu mrzutí. Oslavujte každé malé vítězství: první ráno bez cigarety, první úspěšné dojíždění, první dokončený den. Do konce prvního týdne začnou fyzické abstinenční příznaky vrcholit a poté ustupovat a vy si vybudujete pevný základ pro svůj nový, zdravý život.</p>"
+          },
+          {
+            "id": "n9",
+            "title": "Jak vypadá časová osa chutí",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Pochopení časové osy chutí vám může pomoci s větší jistotou zvládat proces odvykání. Během prvních 24 až 72 hodin jsou chutě obvykle nejčastější a nejintenzivnější, protože nikotin zcela opouští váš organismus. Toto je často nejtěžší období, kdy se můžete cítit, jako byste sváděli neustálý boj se svými nutkáními. Po prvních třech dnech frekvence a intenzita fyzických chutí obvykle začíná klesat. Stále však budete čelit psychologickým spouštěčům – „kuřáckým vzpomínkám“, které se objevují v určitých situacích nebo emocionálních stavech. Do konce druhého týdne mnoho lidí uvádí, že „neustálou“ touhu kouřit nahradily občasné, zvládnutelné vlny. Do konce prvního měsíce je fyzická závislost z velké části přerušena a vaše pozornost se přesouvá k udržování nových návyků a zvládání sociálních situací. Je důležité si uvědomit, že touha není rozkaz; je to jen dočasný pocit, který pomine. I po měsících nebo letech můžete pociťovat náhodnou, prchavou touhu kouřit, možná vyvolanou specifickým zápachem nebo obzvláště stresující událostí. To je normální a neznamená to, že selháváte; Jsou to jen slábnoucí ozvěny starého zvyku. Znalost časového plánu vám pomůže zůstat trpěliví a odhodlaní s vědomím, že každý den nekuřáctví vám usnadní den další.</p>"
+          },
+          {
+            "id": "n10",
+            "title": "Vaping – je to skutečně bezpečnější",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Vaping, neboli elektronické cigarety, je často propagován jako bezpečnější alternativa tradičního kouření, ale je důležité pochopit celý obrázek. I když vapování nezahrnuje spalování tabáku, který produkuje většinu rakovinotvorných dehtů a plynů v cigaretách, není bez rizika. Většina vapů stále uvolňuje nikotin, což znamená, že základní závislost přetrvává. Aerosol produkovaný vapováním navíc obsahuje řadu chemikálií, aromat a těžkých kovů, jejichž dlouhodobé účinky na zdraví jsou stále předmětem výzkumu. Pro některé dospělé kuřáky může být úplný přechod na vapování krokem k odvykání tabáku, ale měl by být vnímán spíše jako přechodný nástroj než jako konečný cíl. Dvojí užívání – kouření i vapování – je obzvláště škodlivé. Pro mladé lidi a nekuřáky představuje vapování významné zdravotní riziko, které může vést k závislosti na nikotinu a poškození vyvíjejících se plic a mozku. Konečným cílem pro vaše zdraví je zbavit se všech vdechovaných látek. Pokud vapování používáte jako způsob, jak přestat kouřit, pracujte na plánu, jak nakonec obě látky vysadit. Zasloužíte si dýchat čistý vzduch a mít tělo, které je osvobozeno od vlivu jakékoli chemické závislosti. Zaměřte se na dlouhodobý cíl úplné svobody od nikotinu ve všech jeho formách.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Zůstat bez kouření",
+        "articles": [
+          {
+            "id": "n11",
+            "title": "Budování vaší identity bez kouře",
+            "time": "7 min",
+            "type": "Aktivita",
+            "content": "<p>Ústřední součástí úspěšného a dlouhodobého odvykání kouření je změna pohledu na sebe sama. Místo toho, abyste byli „kuřákem, který se snaží přestat“, snažte se stát „nekuřákem“. Toto je proces budování identity bez kouření. Vaše identita je formována vašimi činy a příběhy, které si vyprávíte o tom, kdo jste. Pokaždé, když se rozhodnete nekouřit v situaci, kdy byste to normálně udělali, hlasujete pro svou novou identitu. Začněte se soustředit na výhody, které zažíváte: lepší vůni vašeho oblečení, lepší chuť jídla, peníze navíc v kapse a pocit hrdosti na váš úspěch. Když vám někdo nabídne cigaretu, nacvičte si říkat „Nekouřím“ spíše než „Přestávám“. Tato změna jazyka posiluje vaši novou realitu. Zamyslete se nad hodnotami, které jsou pro vás důležité – zdraví, svoboda, sebeúcta – a nad tím, jak se s nimi shoduje nekuřáctví. Už nejste někdo, jehož den je diktován potřebou krabičky cigaret. Jste někdo, kdo si váží svého zdraví a má kontrolu nad svými rozhodnutími. Tato nová identita se stává silným štítem proti relapsu, protože kouření by již „neodpovídalo“ tomu, kým jste se stali. Budujete si život, který je definován tím, čeho si ceníte, nikoli zvykem, ze kterého jste vyrostli.</p>"
+          },
+          {
+            "id": "n12",
+            "title": "Zvládání stresu bez cigaret",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Jedním z největších strachů, které lidé mají při odvykání kouření, je, jak zvládnou stres bez svého „nástroje na zvládání“. Je důležité si uvědomit, že cigarety ve skutečnosti vaše problémy nikdy nevyřešily; pouze poskytly krátké rozptýlení, když vaše tělo bylo v abstinenčních příznacích po nikotinu. Naučit se nové způsoby zvládání stresu je nezbytné pro to, abyste zůstali bez kouření. Prvním krokem je rozpoznat fyzické příznaky stresu – napětí v ramenou, zrychlený srdeční tep, mělké dýchání – a okamžitě na ně reagovat. Hluboké brániční dýchání je jedním z nejúčinnějších způsobů, jak signalizovat nervovému systému, že je bezpečné relaxovat. Věnujte každý den několik minut pomalému, hlubokému dýchání. Fyzická aktivita je dalším silným prostředkem k úlevě od stresu; i desetiminutová procházka může výrazně snížit hladinu kortizolu. Najděte si další zdravé způsoby, jak se uvolnit, například poslech hudby, rozhovor s přítelem nebo provozování koníčku. Je také užitečné podívat se na zdroje stresu ve vašem životě a zjistit, zda je možné některé z nich snížit nebo eliminovat. Budujete si verzi sebe sama, která je odolnější a lépe vybavená k zvládání životních výzev. Nepotřebujete chemikálii, abyste zůstali klidní; Máte vnitřní sílu a praktické nástroje, abyste i ty nejstresovější dny zvládli s jasností a grácií.</p>"
+          },
+          {
+            "id": "n13",
+            "title": "Co dělat, když uklouznete",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Pokud si dáte cigaretu poté, co jste se rozhodli přestat, nazývá se to „přeskočení“. Je to nepříjemný okamžik, ale nemusí znamenat konec vaší cesty odvykání. Mnoho lidí, kteří úspěšně přestali kouřit nadobro, si po cestě jednou nebo vícekrát přeskočilo. Klíčem je, jak na to reagujete. Vyhněte se pasti myšlení „všechno, nebo nic“ – představě, že protože jste si potáhli jen jednou, „selhali“ jste a klidně byste mohli dokouřit celou krabičku. Tento způsob myšlení je to, co promění drobné přeskočení v plnohodnotnou recidivu. Místo toho berte přeskočení jako poučnou zkušenost. Co se stalo? Co jste cítili? S kým jste byli? Byl tam nějaký spouštěč, který jste nečekali? Buďte k sobě upřímní, aniž byste byli hrubí. Využijte tyto informace k posílení svého plánu. Možná se budete muset na chvíli vyhýbat určité společenské situaci nebo s sebou pravidelněji nosit žvýkačku NRT. Okamžitě se vraťte na cestu bez kouření. Nečekejte do zítřka nebo příštího týdne; další hodina může být bez kouření. Připomeňte si důvody, proč jste přestali kouřit, a veškerý pokrok, kterého jste již dosáhli. Přešlap je malý hrbolek na cestě, ne důvod k obratu. Stále jste nekuřák, který dočasně přestal kouřit, a máte sílu pokračovat v cestě ke svým cílům.</p>"
+          },
+          {
+            "id": "n14",
+            "title": "Časová osa dlouhodobé obnovy zdraví",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Jednou z nejvíce motivujících věcí při odvykání kouření je rychlost, s jakou se vaše tělo začne regenerovat. Během pouhých 20 minut po poslední cigaretě začne klesat tepová frekvence a krevní tlak. Po 12 hodinách se hladina oxidu uhelnatého v krvi vrátí k normálu, což umožní přístup většího množství kyslíku k vašim orgánům a tkáním. Během dvou týdnů až tří měsíců se začne zlepšovat funkce plic a krevní oběh, což usnadňuje fyzickou aktivitu. Po jednom až devíti měsících začnou drobné vlasové struktury v plicích, zvané řasinky, opět správně fungovat, odstraňují hlen a snižují riziko infekce. Kašel a dušnost u kuřáka se výrazně sníží. Rok po odvykání kouření je vaše riziko ischemické choroby srdeční poloviční ve srovnání s kuřákem. Po pěti letech se vaše riziko rakoviny úst, krku a jícnu sníží na polovinu a riziko mrtvice se začne snižovat směrem k riziku nekuřáka. Po deseti letech je vaše riziko úmrtí na rakovinu plic přibližně poloviční ve srovnání s někým, kdo stále kouří. Do patnácti let je vaše riziko ischemické choroby srdeční stejné jako u někoho, kdo nikdy nekouřil. Tato cesta k uzdravení je silným důkazem odolnosti vašeho těla. Každý den, kdy zůstanete bez kouření, je investicí do vašeho budoucího zdraví a dlouhověkosti.</p>"
+          },
+          {
+            "id": "n15",
+            "title": "Mluvíme s lidmi, kteří stále kouří",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Když přestanete kouřit, vaše vztahy s lidmi, kteří stále kouří, se mohou zkomplikovat. Můžete pociťovat odstup nebo se dokonce obávat, že je vaše volba znepokojuje. Je užitečné mít plán, jak se v těchto interakcích vypořádat, aniž byste byli odsuzováni nebo ohrozili svou vlastní střízlivost. Buďte ohledně svého rozhodnutí jasní a upřímní: „Rozhodl jsem se přestat kouřit kvůli svému zdraví, takže se mu na chvíli snažím vyhýbat.“ Praví přátelé budou vaši volbu respektovat a podpoří vás, i když sami ještě nejsou připraveni přestat. V počátečních fázích může být nejlepší vyhýbat se „přestávkám na kouření“ nebo společenským akcím, kde je kouření ústředním bodem. Pokud se ocitnete s kuřáky, můžete zůstat součástí skupiny, ale odstoupit, pokud si někdo zapálí, nebo navrhnout aktivity, kde kouření není povoleno, například návštěvu kina nebo restaurace. Vyhněte se pokušení přednášet ostatním o jejich kouření; soustřeďte se na svou vlastní cestu. Možná zjistíte, že váš úspěch je nakonec inspiruje k tomu, aby také přemýšleli o tom, že přestanou kouřit, ale to je jejich cesta, kterou mají jít. Vaší prioritou je chránit si vlastní život bez kouření a budovat vztahy založené na sdílených hodnotách a skutečné interakci, spíše než na sdíleném zvyku. Posouváte se vpřed a na to můžete být hrdí.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

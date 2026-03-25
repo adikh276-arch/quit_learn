@@ -1,0 +1,137 @@
+{
+  "app_title": "Módulo de aprendizaje",
+  "progress_label": "Progreso",
+  "back_label": "Atrás",
+  "minutes_label": "min",
+  "type_article": "Artículo",
+  "type_assessment": "Evaluación",
+  "type_activity": "Actividad",
+  "substance_name": "Alcohol",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Concienciación y preparación",
+        "articles": [
+          {
+            "id": "a1",
+            "title": "¿Por qué dejar el alcohol?",
+            "time": "5 min",
+            "type": "Artículo",
+            "content": "<p>Puede que estés aquí porque has notado un patrón que ya no te beneficia. El alcohol tiende a convertirse en una constante silenciosa en nuestras vidas, a menudo comenzando como una herramienta social o una forma de relajarse, pero con el tiempo transformándose en algo que exige más de lo que da. Cuando decides dejar de beber, no solo renuncias a algo; ganas una claridad que probablemente te ha faltado durante algún tiempo. Empezarás a notar que tu sueño es más reparador y tu estado de ánimo más estable. La ansiedad que suele seguir a una noche de copas —ese zumbido sordo de temor— comienza a disiparse. No se trata de ser una &quot;mala persona&quot; ni de fracasar; se trata de reconocer que tu cuerpo y tu mente merecen un tipo de cuidado diferente. Al dejar de beber, permites que los sistemas de recompensa naturales de tu cerebro se reinicien, lo que significa que eventualmente podrás encontrar alegría genuina en los pequeños momentos de nuevo sin necesidad de un catalizador químico. Estás eligiendo estar presente en tu propia vida, con todos sus desafíos y su belleza, en lugar de verla a través de una lente filtrada. Este viaje comienza con una simple constatación: que tu vida podría ser más plena, más brillante y más auténtica sin el peso del alcohol que te frena.</p>"
+          },
+          {
+            "id": "a2",
+            "title": "¿Qué tan adicto soy?",
+            "time": "5 min",
+            "type": "Evaluación",
+            "content": "<p>Evaluar tu relación con el alcohol requiere una honestidad radical que puede resultar incómoda al principio. Es útil alejarse de la idea binaria de ser &quot;alcohólico&quot; o &quot;estar bien&quot;. En cambio, considéralo como un espectro de consumo. Puedes preguntarte cuánta energía mental consumes pensando en tu próxima copa o recuperándote de la anterior. Si te das cuenta de que con frecuencia te impones reglas —como beber solo los fines de semana o nunca antes de las 6 de la tarde— y luego encuentras excusas para romperlas, tu cerebro ya está mostrando signos de dependencia química. Esto no es falta de fuerza de voluntad; es una respuesta fisiológica a una sustancia potente. También puedes notar que tu tolerancia ha aumentado, lo que significa que necesitas más para sentir los efectos que antes obtenías con una sola copa. Otro indicador clave es si sigues bebiendo a pesar de experimentar consecuencias negativas, como tensión en tus relaciones o disminución del rendimiento laboral. Si tu consumo de alcohol está haciendo que tu mundo sea más pequeño o más complicado, es una señal a la que debes prestar atención. Esta autoevaluación no es para juzgar, sino para informar. Una vez que sepas en qué punto de este espectro te encuentras, podrás empezar a tomar decisiones informadas sobre el camino a seguir que mejor favorezca tu bienestar y tu futuro.</p>"
+          },
+          {
+            "id": "a3",
+            "title": "Las señales de un problema con el alcohol",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Las señales de una relación problemática con el alcohol suelen ser sutiles antes de hacerse evidentes. Es posible que notes que has empezado a ocultar a los demás la cantidad de alcohol que consumes, por ejemplo, tomando unas copas antes de un evento social o guardando una reserva en casa. Este enmascaramiento social es un mecanismo de defensa común cuando, inconscientemente, sabes que tu consumo ha superado lo que consideras saludable. Físicamente, podrías experimentar temblores por la mañana o una irritabilidad generalizada que solo desaparece después de la primera copa del día. Tu interés por aficiones que antes disfrutabas podría estar disminuyendo, sustituido por una preferencia por actividades donde el alcohol es protagonista. Otra señal importante es el desmayo o la pérdida de memoria, en el que los momentos durante una sesión de consumo de alcohol se vuelven borrosos o se olvidan por completo. Esto indica que tu cerebro está sobrecargado hasta el punto de que ya no puede formar nuevos recuerdos. También podrías ponerte cada vez más a la defensiva cuando las personas cercanas a ti expresan su preocupación. Si te preocupas más por tu derecho a beber que por tu propia salud y tranquilidad, es una clara señal de que el alcohol se ha arraigado en tu vida. Reconocer estas señales es el primer paso para recuperar el control y construir una vida donde tú tengas el control, no la botella.</p>"
+          },
+          {
+            "id": "a4",
+            "title": "Cómo identificar los factores desencadenantes del consumo de alcohol",
+            "time": "6 min",
+            "type": "Actividad",
+            "content": "<p>Los desencadenantes son las señales internas o externas específicas que provocan un deseo casi automático de beber. Para identificar los tuyos, necesitas observar tu propia vida. Empieza por buscar las Cuatro P: Personas, Lugares, Momentos y Estados Físicos. Quizás haya un amigo que siempre te anima a tomar otra ronda, o un bar por el que pasas de camino a casa que te abre el apetito. El tiempo suele ser un desencadenante, como la hora punta entre las 5 y las 7 de la tarde, cuando termina la jornada laboral. Los estados físicos como el hambre, la ira, la soledad o el cansancio (el acrónimo HALT) son desencadenantes muy potentes. Cuando estás agotado, el alcohol parece la forma más rápida de encontrar alivio. Las emociones, tanto positivas como negativas, también son importantes. Puedes usar el alcohol para celebrar una victoria o para mitigar el dolor de una derrota. Anotando cada vez que sientas ganas de beber, empezarás a ver patrones. Puede que te des cuenta de que tus antojos no son aleatorios, sino que están ligados a eventos específicos y predecibles. Una vez que tengas este mapa, puedes empezar a planificar. Podrías elegir una ruta diferente para volver a casa, asegurarte de haber comido bien antes de las 5 de la tarde o planificar una actividad sin alcohol para los viernes por la noche. Identificar tus desencadenantes transforma una lucha vaga y abrumadora en una serie de decisiones estratégicas manejables.</p>"
+          },
+          {
+            "id": "a5",
+            "title": "Las mentiras que contamos para seguir consumiendo alcohol.",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>El cerebro es extraordinariamente hábil para proteger sus hábitos, y cuando se trata de alcohol, a menudo genera justificaciones muy convincentes para que sigas bebiendo. No se trata solo de errores; son mentiras tácticas que tu mente usa para evitar la incomodidad del cambio. Puedes decirte a ti mismo: &quot;Solo bebo porque mi trabajo es estresante&quot;, lo que traslada la responsabilidad a factores externos y sugiere que, hasta que tu trabajo cambie, no puedes dejar de beber. O puedes decir: &quot;No soy tan malo como alguien que bebe por la mañana&quot;, usando la comparación para minimizar tu propia experiencia y mantener una sensación de control. Otra mentira común es &quot;Solo tomaré una esta noche&quot;, una promesa hecha por la mañana que parece completamente sincera, pero que a menudo no sobrevive a la realidad de la noche. Luego está la mentira de que el alcohol te hace más creativo, más sociable o más divertido. Si bien puede disminuir temporalmente las inhibiciones, a menudo reemplaza la conexión genuina con un sustituto superficial, inducido químicamente. Reconocer estos &quot;susurros de adicción&quot; es una habilidad crucial. Cuando oigas esa voz que te dice &quot;te lo mereces&quot; después de un día duro, reconócela por lo que es: un patrón neuronal desgastado que intenta mantenerse activo. Al desenmascarar estas mentiras en el momento en que surgen, les quitas su poder y te recuerdas la verdad que ya has descubierto: que estás mejor sin ellas.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Desintoxicación y curación temprana",
+        "articles": [
+          {
+            "id": "a6",
+            "title": "Cómo fomentar el surf",
+            "time": "6 min",
+            "type": "Actividad",
+            "content": "<p>Cuando te ataca un antojo, puede sentirse como un objeto sólido e inamovible que solo desaparecerá si cedes a él. Surfear los antojos es una técnica que te enseña a verlos como una ola. Como una ola en el océano, un antojo comienza pequeño, aumenta en intensidad, alcanza su punto máximo y luego inevitablemente se disipa. No dura para siempre. Para surfear un antojo, el primer paso es simplemente observarlo sin juzgarlo. Dite a ti mismo: &quot;Ahora mismo tengo antojo de alcohol&quot;. Este simple acto de nombrarlo te permite pasar de ser la víctima del antojo a ser su observador. Luego, dirige tu atención a tu cuerpo. ¿Dónde sientes el antojo? ¿Es una opresión en la garganta, inquietud en las manos o un aleteo en el estómago? Concéntrate en esa sensación física y respira profundamente. No intentes reprimir el antojo, ya que eso suele hacerlo más fuerte. En cambio, imagínate surfeando sobre la sensación, manteniéndote presente y equilibrado hasta que comience a disminuir. La mayoría de los antojos alcanzan su punto máximo entre 15 y 30 minutos después. Si logras mantener la sensación sin ceder a ella durante ese breve periodo, verás que la oleada pasa. Cada vez que superas un impulso, fortaleces la parte del cerebro que se encarga de la autorregulación, lo que facilita aún más afrontar la siguiente oleada.</p>"
+          },
+          {
+            "id": "a7",
+            "title": "Cómo disipar los pensamientos sobre el alcohol",
+            "time": "6 min",
+            "type": "Actividad",
+            "content": "<p>La defusión cognitiva es la práctica de distanciarse de los pensamientos y verlos simplemente como palabras o imágenes, en lugar de verdades absolutas u órdenes que deben seguirse. Cuando intentas dejar el alcohol, es probable que tu mente genere pensamientos como &quot;Necesito una copa&quot; o &quot;Todo sería mejor con una copa de vino&quot;. Si tomas estos pensamientos al pie de la letra, pueden resultar abrumadores. La defusión te permite crear distancia entre tú y el pensamiento. Una forma sencilla de hacerlo es añadir un prefijo al pensamiento. En lugar de decir &quot;Necesito una copa&quot;, di &quot;Estoy teniendo el pensamiento de que necesito una copa&quot;. Este sutil cambio te recuerda que el pensamiento es un evento que ocurre en tu mente, no una exigencia de acción. También puedes intentar &quot;agradecer&quot; a tu mente por el pensamiento: &quot;Gracias, mente, por esa sugerencia sobre el vino, pero hoy voy en otra dirección&quot;. Esto elimina el conflicto del diálogo interno. No tienes que discutir con el pensamiento ni demostrar que está equivocado; simplemente tienes que reconocerlo como producto de la antigua programación de tu cerebro. Tú decides qué pensamientos seguir y cuáles dejar pasar. Al practicar la defusión, dejas de ser esclavo de cada impulso que cruza por tu mente y comienzas a dirigir conscientemente tu propio comportamiento.</p>"
+          },
+          {
+            "id": "a8",
+            "title": "Cómo controlar tus emociones",
+            "time": "6 min",
+            "type": "Artículo",
+            "content": "<p>El alcohol se usa a menudo para controlar químicamente nuestras emociones. Ya sea para ahogar la tristeza, calmar la ansiedad o incluso aumentar la excitación, es probable que tu cerebro haya aprendido a depender de la bebida en lugar de sus propios recursos internos. Al dejar de beber, a menudo te enfrentas a una versión cruda de tus sentimientos que puede resultar intensa e incontrolable. Controlar estas emociones comienza por comprender que son temporales y que no pueden hacerte daño. Sentimientos como el aburrimiento o la inquietud, que a muchas personas les resultan particularmente molestos, son solo señales de que tu cerebro busca su antigua recompensa. En lugar de recurrir a la bebida para cambiar cómo te sientes, intenta simplemente nombrar la emoción. &quot;Me siento solo/a ahora mismo&quot;. Se ha demostrado que nombrar una emoción reduce su intensidad en el cerebro. A continuación, busca una forma saludable de procesarla. Esto podría ser escribir en un diario, dar un paseo a paso ligero o hablar con un amigo/a. No se trata de hacer que la emoción desaparezca al instante; se trata de fortalecer tu &quot;músculo emocional&quot; aprendiendo a tolerar la incomodidad. Con el tiempo, tu cerebro reaprenderá a regular sus propias emociones. Descubrirás que eres mucho más resiliente de lo que creías y que tienes la capacidad de afrontar los altibajos de la vida sin necesidad de adormecer tus sentimientos con alcohol.</p>"
+          },
+          {
+            "id": "a9",
+            "title": "¿Cómo se siente la abstinencia de alcohol?",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>La abstinencia es el proceso mediante el cual el cuerpo y el cerebro se reajustan tras haberse acostumbrado a la presencia constante de alcohol. Para muchos, este proceso comienza a las pocas horas de la última copa. Es posible que primero notes una mayor ansiedad, irritabilidad o aislamiento social. Físicamente, puedes experimentar dolores de cabeza, náuseas o sudoración excesiva. El sueño suele verse interrumpido, con sueños vívidos o dificultad para conciliar y mantener el sueño, ya que el sistema nervioso permanece en estado de alerta constante. Es importante comprender que estos síntomas son la forma en que el cuerpo se recupera: intenta recordar cómo funcionar sin un depresor. Sin embargo, para quienes han bebido en exceso durante mucho tiempo, la abstinencia de alcohol puede ser médicamente grave e incluso mortal. Síntomas como temblores severos, confusión, alucinaciones (conocidas como delirium tremens o DT) o convulsiones requieren atención médica inmediata. Nunca intentes desintoxicarte solo si tienes antecedentes de consumo excesivo y prolongado de alcohol. Una desintoxicación médica proporciona un entorno seguro donde los profesionales pueden controlar tus síntomas y garantizar tu seguridad física. Aunque tus síntomas sean leves, los primeros días pueden ser agotadores y emocionalmente extenuantes. Cuídate, mantente hidratado y recuerda que la incomodidad que sientes es temporal. Es el paso necesario hacia una vida en la que ya no necesites alcohol para sentirte &quot;normal&quot;.</p>"
+          },
+          {
+            "id": "a10",
+            "title": "Cómo controlar la ansiedad sin alcohol",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Una de las razones más comunes por las que la gente bebe es para controlar la ansiedad, pero el alcohol es una solución engañosa. Si bien puede brindar alivio durante unas horas, en realidad crea un &quot;efecto rebote&quot; que empeora significativamente la ansiedad al día siguiente. Esto sucede porque el alcohol suprime el sistema nervioso central; cuando su efecto desaparece, el sistema compensa en exceso volviéndose hiperactivo. Aprender a controlar la ansiedad sin alcohol es fundamental para la recuperación. El primer paso es reconocer que la ansiedad suele ser una sensación física que no siempre requiere una razón lógica. Cuando sientas esa familiar opresión en el pecho o taquicardia, prueba una sencilla técnica de conexión con el presente. Concéntrate en cinco cosas que puedas ver, cuatro que puedas tocar, tres que puedas oír, dos que puedas oler y una que puedas saborear. Esto saca a tu cerebro del círculo vicioso de la ansiedad y lo trae al momento presente. La respiración profunda —inhalar durante cuatro segundos y exhalar durante seis— le indica a tu sistema nervioso que estás a salvo. A largo plazo, la actividad física regular y un horario de sueño constante ayudarán a estabilizar tus niveles de ansiedad. Es posible que, una vez que cese el efecto altísimo del alcohol, tu nivel de ansiedad &quot;natural&quot; sea mucho menor de lo que creías. Estás aprendiendo a confiar en tu propia capacidad para mantener la calma y la serenidad, incluso en los momentos más estresantes.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Construyendo una vida sobria",
+        "articles": [
+          {
+            "id": "a11",
+            "title": "Construyendo nuevas rutinas",
+            "time": "7 min",
+            "type": "Actividad",
+            "content": "<p>Cuando dejas el alcohol, a menudo te encuentras con una cantidad considerable de tiempo libre, especialmente por las noches y los fines de semana. Si no lo ocupas intencionalmente, dejas la puerta abierta para que los viejos hábitos vuelvan a aparecer. Crear nuevas rutinas consiste en establecer una estructura que apoye tu sobriedad y te dé algo que esperar con ilusión. Empieza por identificar tus &quot;zonas de peligro&quot; —los momentos en los que normalmente beberías— y planifica una actividad específica sin alcohol para esos momentos. Esto podría ser unirte a un equipo deportivo local, dedicarte a un pasatiempo creativo como la cerámica o la pintura, o simplemente establecer un nuevo ritual nocturno como leer y disfrutar de un té especial. El objetivo es darle a tu cerebro una nueva fuente de recompensa y a tu cuerpo nuevas señales. La rutina proporciona una sensación de seguridad y previsibilidad que es increíblemente útil en la recuperación inicial. Te ayuda a afrontar el día sin tener que tomar una serie constante de decisiones agotadoras. Tu nueva rutina podría incluir un paseo matutino, una reunión a mediodía con un compañero de apoyo y acostarte temprano. Con el tiempo, estos nuevos comportamientos se volverán tan automáticos como lo era beber antes. No se trata solo de &quot;dejar de beber&quot;; se trata de construir activamente una vida plena, interesante y estructurada, de manera que la sobriedad se convierta en la opción más natural y sencilla.</p>"
+          },
+          {
+            "id": "a12",
+            "title": "Cómo afrontar la presión social",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>Vivir en una cultura donde el alcohol está por todas partes implica que inevitablemente te enfrentarás a la presión social para beber. Esto puede ir desde amigos bienintencionados que te ofrecen &quot;solo una&quot; hasta la expectativa tácita de que necesitas una copa en la mano para ser parte del grupo. Aprender a manejar estas situaciones con confianza es fundamental. Antes de asistir a un evento social, decide qué bebida sin alcohol vas a tomar y ten preparada una respuesta sencilla y directa. No tienes que dar un historial médico detallado; un firme &quot;No voy a beber esta noche&quot; o &quot;He decidido tomarme un descanso del alcohol&quot; suele ser suficiente. Si la gente insiste, recuerda que su insistencia a menudo dice más sobre su propia relación con el alcohol que sobre la tuya. Al principio de la recuperación, es perfectamente aceptable evitar por completo los eventos de alto riesgo. Tu sobriedad es más importante que una fiesta. Si vas, llega con tu propio medio de transporte para poder irte cuando quieras. Encontrar un compañero de sobriedad dentro de tu círculo social o un grupo de apoyo también puede marcar una gran diferencia. Tener a alguien con quien puedas comunicarte por mensaje cuando te sientes incómodo te brinda una conexión inmediata y te ayuda a sentirte responsable. Con el tiempo, descubrirás que puedes tener una vida social plena y divertirte de verdad sin que el alcohol sea el centro de todas tus interacciones.</p>"
+          },
+          {
+            "id": "a13",
+            "title": "Reparar relaciones",
+            "time": "10 min",
+            "type": "Artículo",
+            "content": "<p>El consumo de alcohol no solo afecta a quien bebe; sus repercusiones se extienden a toda su red de amigos, familiares y compañeros de trabajo. Con el tiempo, la confianza puede haberse erosionado por promesas incumplidas, compromisos no alcanzados o indisponibilidad emocional. Reparar estas relaciones es un proceso que requiere paciencia, honestidad y constancia. Es importante reconocer que una disculpa es solo el comienzo. Para quienes han sido heridos, tus palabras pueden tener menos peso que antes. El verdadero trabajo de reparación se realiza a través de tus decisiones diarias. Al cumplir tus promesas, estar presente emocionalmente y mantener tu sobriedad, estás reconstruyendo poco a poco la base de la confianza. También es útil tener conversaciones honestas sobre el daño causado, dándole a la otra persona espacio para expresar sus sentimientos sin ponerse a la defensiva. Esto puede ser difícil, pero es necesario para una verdadera sanación. Algunas relaciones pueden haberse vuelto tan tóxicas o centradas en el alcohol que ya no pueden formar parte de tu vida, y esa es una constatación dolorosa pero saludable. Para las personas que decidas conservar, prepárate para que la recuperación sea una carrera de fondo, no una carrera de velocidad. La gente necesita tiempo para darse cuenta de que el cambio es real. A medida que te recuperes, descubrirás que tus relaciones se vuelven más profundas y auténticas porque se basan en quién eres realmente, no en la persona en la que te convirtió el alcohol.</p>"
+          },
+          {
+            "id": "a14",
+            "title": "Comprender la recaída",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Una recaída no significa que hayas fracasado ni que tu recuperación haya terminado. En cambio, es una información valiosa que te indica que tu plan actual necesita ajustes. Si bien el objetivo siempre es la sobriedad sostenida, la realidad es que muchas personas experimentan recaídas en el camino. Si ocurre una recaída, lo más importante es cómo reaccionas. Evita la mentalidad de &quot;todo o nada&quot; que te hace pensar que, por haber tomado una copa, lo has arruinado todo y puedes seguir bebiendo. Esta es una mentira que te acarreará problemas mucho mayores. En lugar de eso, considera la recaída como una oportunidad de aprendizaje. ¿Cuáles fueron las circunstancias? ¿Cómo te sentías? ¿Hubo factores desencadenantes que no anticipaste o situaciones estresantes para las que no estabas preparado? Una vez que identifiques el &quot;por qué&quot;, podrás fortalecer tu plan. Esto podría significar aumentar tus reuniones de apoyo, ser más constante con tus rutinas o identificar nuevos factores desencadenantes que debes evitar. La recuperación es una habilidad que estás aprendiendo y, como cualquier habilidad compleja, requiere práctica y perseverancia. Las personas que más éxito tienen en su recuperación no son las que nunca tropiezan, sino las que tienen el valor de levantarse, ser honestas sobre lo sucedido y seguir adelante con un compromiso renovado con su salud y su futuro.</p>"
+          },
+          {
+            "id": "a15",
+            "title": "Mentalidad de recuperación a largo plazo",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>La recuperación a largo plazo va más allá de simplemente mantenerse alejado del alcohol; implica un cambio fundamental en la forma en que te ves a ti mismo y tu lugar en el mundo. Requiere pasar de una mentalidad de negación —la sensación de estar perdiéndote algo— a una mentalidad de abundancia. Empiezas a ver que la sobriedad no es una restricción, sino un superpoder que te devuelve tu tiempo, tu dinero, tu salud y tu autonomía. A largo plazo, trasciendes la lucha diaria por evitar beber y entras en el ámbito del crecimiento personal y la plenitud. Esta mentalidad implica un compromiso con la autoconciencia constante. Sigues controlando tus niveles de estrés, cuidando tu salud emocional y manteniendo las relaciones que te apoyan. También significa sentirte cómodo siendo diferente. En una sociedad que a menudo prioriza las soluciones rápidas y la insensibilidad, elegir estar presente y sobrio es un acto audaz y radical de amor propio. Es posible que descubras una nueva pasión por la vida, una mayor capacidad para la alegría y una resiliencia que te permite afrontar incluso los desafíos más difíciles con la mente clara. El objetivo no es llegar a un destino llamado &quot;recuperado&quot;, sino emprender un camino de por vida para convertirte en la mejor versión de ti mismo. Estás construyendo una vida de la que ya no sientes la necesidad de escapar, y ese es el mayor regalo de todos.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

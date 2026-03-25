@@ -1,0 +1,137 @@
+{
+  "app_title": "Módulo de aprendizaje",
+  "progress_label": "Progreso",
+  "back_label": "Atrás",
+  "minutes_label": "min",
+  "type_article": "Artículo",
+  "type_assessment": "Evaluación",
+  "type_activity": "Actividad",
+  "substance_name": "Canabis",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Comprender su uso",
+        "articles": [
+          {
+            "id": "c1",
+            "title": "¿Es adictivo el cannabis? — La respuesta honesta",
+            "time": "5 min",
+            "type": "Artículo",
+            "content": "<p>Durante muchos años, se creyó que el cannabis no era una sustancia adictiva. Sin embargo, a medida que nuestra comprensión de la neurociencia ha avanzado, la respuesta honesta se ha vuelto clara: sí, el cannabis puede ser adictivo. Si bien funciona de manera diferente a sustancias como los opioides o la nicotina, el consumo regular de cannabis puede conducir a lo que los médicos denominan Trastorno por Consumo de Cannabis (TCC). Esto sucede porque el THC, el principal componente psicoactivo del cannabis, interactúa con el sistema endocannabinoide interno del cerebro, que ayuda a regular el estado de ánimo, la memoria, el sueño y el apetito. Cuando se consume cannabis con frecuencia, el cerebro comienza a reducir la actividad de sus receptores naturales para compensar la gran cantidad de THC. Esto significa que, con el tiempo, se necesita una mayor cantidad de la sustancia para sentir los mismos efectos, y el cerebro se vuelve menos eficiente para realizar sus funciones reguladoras naturales sin ella. Aproximadamente 1 de cada 10 adultos que consumen cannabis se volverá adicto, y esa cifra aumenta a 1 de cada 6 para quienes comienzan a consumirlo en la adolescencia. Reconocer la posibilidad de adicción no significa demonizar la planta, sino comprender el potencial de dependencia química. Una vez que aceptes esta posibilidad, podrás analizar con mayor honestidad tu propio consumo y tomar decisiones informadas sobre si tu relación con el cannabis contribuye a tus objetivos y bienestar a largo plazo.</p>"
+          },
+          {
+            "id": "c2",
+            "title": "THC, CBD y cómo afectan al cerebro",
+            "time": "6 min",
+            "type": "Artículo",
+            "content": "<p>Para comprender cómo te afecta el cannabis, es fundamental entender las funciones del THC y el CBD. El THC (tetrahidrocannabinol) es el componente responsable del efecto psicoactivo. Imita un neurotransmisor natural llamado anandamida y se une a los receptores cannabinoides en partes del cerebro que influyen en el placer, la memoria, el pensamiento, la concentración, la percepción sensorial y temporal, y el movimiento coordinado. Esta imitación es lo que crea la euforia, pero también altera los sistemas de comunicación naturales del cerebro. El CBD (cannabidiol), por otro lado, no produce euforia y, de hecho, puede contrarrestar algunos de los efectos ansiolíticos del THC. Sin embargo, el mercado actual del cannabis ha experimentado un aumento drástico en los niveles de THC, mientras que los de CBD se han mantenido bajos o se han eliminado por completo mediante la selección genética. Este cambio hacia productos con alto contenido de THC ha incrementado el riesgo de dependencia y problemas de salud mental. Cuando consumes cannabis con alto contenido de THC con regularidad, estás sobreentrenando los centros de recompensa de tu cerebro, lo que puede provocar una disminución de la motivación y un aumento de la ansiedad con el tiempo. Comprender este equilibrio químico te ayuda a ver que las sensaciones que experimentas al consumir cannabis son una respuesta biológica compleja, no solo un simple estado de relajación. Saber cómo interactúan estas sustancias químicas con tu cerebro es el primer paso para recuperar tu claridad mental y tu equilibrio emocional.</p>"
+          },
+          {
+            "id": "c3",
+            "title": "Cannabis y salud mental",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>La relación entre el cannabis y la salud mental es profundamente personal y a menudo se malinterpreta. Si bien muchas personas usan cannabis específicamente para controlar la ansiedad, la depresión o el estrés, la evidencia sugiere que, para muchos, puede empeorar estas afecciones con el tiempo. Esto se conoce como la &quot;paradoja del cannabis&quot;. A corto plazo, una dosis de THC puede calmar una mente ansiosa, pero a medida que desaparece su efecto, puede provocar un efecto rebote en el que la ansiedad regresa con mayor intensidad. El uso regular también puede interferir con el procesamiento natural de las emociones, dificultando el desarrollo de mecanismos de afrontamiento saludables. Más grave aún, el consumo de cannabis de alta potencia se ha relacionado estrechamente con un mayor riesgo de desarrollar trastornos psicóticos, particularmente en personas con antecedentes familiares de problemas de salud mental. También puede causar un estado de &quot;síndrome amotivacional&quot;, en el que los usuarios sienten una falta generalizada de motivación y una disminución del interés en sus metas sociales y profesionales. Si descubre que su salud mental está estrechamente ligada a su consumo de cannabis, o si siente que su mundo se ha vuelto más pequeño y menos vibrante, vale la pena considerar el impacto de esta sustancia. La recuperación consiste en restaurar la capacidad natural del cerebro para regular el estado de ánimo y la perspectiva, lo que permite experimentar toda la gama de emociones humanas con claridad y resiliencia.</p>"
+          },
+          {
+            "id": "c4",
+            "title": "Uso intensivo y motivación",
+            "time": "6 min",
+            "type": "Artículo",
+            "content": "<p>Uno de los efectos más comunes del consumo prolongado y excesivo de cannabis es su impacto significativo en la motivación y el impulso. Esto no es un defecto de personalidad ni un signo de pereza; es el resultado directo de cómo el THC interactúa con el sistema dopaminérgico del cerebro. La dopamina es la sustancia química que indica recompensa y nos anima a perseguir objetivos, ya sea completar una tarea en el trabajo, aprender una nueva habilidad o mantener relaciones sociales. Cuando el cerebro se ve constantemente inundado por la recompensa &quot;fácil&quot; del cannabis, comienza a desregular sus receptores de dopamina naturales. Esto puede llevar a un estado en el que las actividades cotidianas ya no resultan gratificantes ni interesantes, una condición a veces denominada &quot;síndrome amotivacional&quot;. Es posible que te encuentres priorizando el consumo de cannabis por encima de objetivos que antes eran importantes o que sientas apatía hacia tu futuro. Romper este ciclo requiere un período de abstinencia para permitir que tu sistema dopaminérgico se reajuste y recalibre. También requiere la práctica deliberada de participar en actividades no relacionadas con drogas que proporcionen una sensación natural de logro. A medida que reduzcas su uso, probablemente notarás un retorno gradual de tu motivación interna y una mayor capacidad de perseverancia y concentración. Estás recuperando tu recurso más valioso: tu capacidad para visualizar un futuro y dar los pasos necesarios para convertirlo en realidad.</p>"
+          },
+          {
+            "id": "c5",
+            "title": "Reconocer el trastorno por consumo de cannabis",
+            "time": "5 min",
+            "type": "Evaluación",
+            "content": "<p>Reconocer el trastorno por consumo de cannabis (TCC) requiere una reflexión honesta sobre cómo la sustancia está afectando tu vida y tu autoestima. El TCC se define como un patrón problemático de consumo de cannabis que provoca un deterioro o malestar clínicamente significativo. Los indicadores clave incluyen consumir más cannabis del previsto o durante un período más prolongado del planeado. Es posible que tengas un deseo persistente de reducir o dejar de consumir, pero te resulte imposible. Es posible que dediques gran parte de tu tiempo a obtener, consumir o recuperarte de los efectos del cannabis. Quizás la señal más reveladora sea cuando continúas consumiendo a pesar de saber que está causando o empeorando problemas físicos o psicológicos. También podrías notar que has abandonado actividades sociales, laborales o recreativas importantes en favor del consumo de cannabis. Los signos físicos incluyen tolerancia (necesitar mayores cantidades para obtener el mismo efecto) y síntomas de abstinencia como irritabilidad, dificultades para dormir y disminución del apetito cuando no consumes. Si sientes que el cannabis se ha convertido en el centro de tu vida y que ya no tienes el control, es probable que estés lidiando con un TCC. Reconocer esto es el primer paso para construir una vida en la que tus decisiones se basen en tus valores y objetivos, y no en las necesidades de un hábito.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Tomarse un descanso",
+        "articles": [
+          {
+            "id": "c6",
+            "title": "Cómo planificar una pausa para reducir la tolerancia.",
+            "time": "7 min",
+            "type": "Actividad",
+            "content": "<p>Un descanso de tolerancia, o &quot;T-break&quot;, es un período deliberado de abstinencia —generalmente de 21 a 30 días— diseñado para permitir que los receptores cannabinoides del cerebro se reajusten. Para los consumidores frecuentes, esto puede mejorar significativamente la claridad mental, los niveles de energía y la salud en general. Planificar un T-break exitoso comienza con elegir una fecha de inicio y eliminar el cannabis y los accesorios relacionados de tu entorno. Esto crea una brecha entre el deseo de consumir y la capacidad de hacerlo. También es importante identificar tus horarios habituales de consumo y planificar actividades específicas, no relacionadas con el cannabis, para esos momentos. Por ejemplo, si normalmente fumas por la noche, podrías planear una sesión de gimnasio o una noche de películas. Informar a algunos amigos de confianza que te apoyen también puede brindarte apoyo. Prepárate para que los primeros días sean los más difíciles, ya que tu cuerpo se adapta a la ausencia de THC. Podrías experimentar irritabilidad, inquietud y sueños vívidos mientras tu patrón de sueño comienza a regularse. Considera la pausa en el consumo de testosterona como un experimento personal para descubrir cómo te sientes y quién eres sin la influencia de la sustancia. Muchas personas descubren que, después de 30 días, su nivel de bienestar es mucho mayor de lo que esperaban. Ya sea que decidas volver a consumir de forma más controlada o mantenerte abstinente, la claridad mental que obtienes durante la pausa es una herramienta invaluable para tu salud a largo plazo.</p>"
+          },
+          {
+            "id": "c7",
+            "title": "Cómo se siente realmente la abstinencia de cannabis.",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Aunque la abstinencia de cannabis generalmente no es peligrosa desde el punto de vista médico, es una experiencia muy real y a menudo incómoda que puede durar varias semanas. Los síntomas suelen comenzar entre 24 y 72 horas después del último consumo y alcanzan su punto máximo durante la primera semana. Psicológicamente, es probable que experimente irritabilidad, ansiedad e inquietud generalizada. Puede sentir una sensación de vacío o falta de interés en cosas que antes disfrutaba, a medida que su sistema dopaminérgico comienza el lento proceso de reajuste. Físicamente, el síntoma más común es una alteración significativa del sueño. Puede que le resulte difícil conciliar o mantener el sueño, y cuando lo logre, puede experimentar sueños intensos y vívidos a medida que su cerebro entra en la fase REM. También puede notar una disminución del apetito, náuseas ocasionales o molestias abdominales. Los dolores de cabeza y los sudores nocturnos también son comunes a medida que su cuerpo elimina el THC almacenado. Es importante comprender que estos síntomas son la forma en que su cerebro y su cuerpo se recuperan; son señales de que sus sistemas naturales están volviendo a funcionar. Saber que la incomodidad es temporal y esperable puede ayudarte a mantenerte comprometido con el proceso. Sé amable contigo mismo, mantente hidratado y recuerda que la claridad y la resiliencia que estás desarrollando bien valen las primeras semanas de desafío.</p>"
+          },
+          {
+            "id": "c8",
+            "title": "Cómo gestionar el sueño durante un descanso",
+            "time": "8 min",
+            "type": "Actividad",
+            "content": "<p>Dormir suele ser el mayor desafío al dejar el cannabis, ya que muchas personas lo han integrado a su rutina nocturna. Al dejar de consumirlo, es posible que experimentes dificultad para conciliar el sueño y un período intenso de sueños vívidos. Esto se debe a que el cannabis suprime la fase REM (movimiento ocular rápido) del sueño; al dejarlo, el cerebro compensa entrando en la fase REM con mayor frecuencia e intensidad. Para gestionar esta transición, es fundamental establecer una rutina de higiene del sueño. Comienza por mantener una hora fija para despertarte, independientemente de cuánto hayas dormido la noche anterior. Esto ayuda a regular tu ritmo circadiano natural. Evita las pantallas (teléfonos, tabletas y televisores) al menos una hora antes de acostarte, ya que la luz azul interfiere con la producción de melatonina. En su lugar, prueba con un baño caliente, un libro o una infusión. Asegúrate de que tu habitación esté fresca, oscura y se utilice exclusivamente para dormir. Si te encuentras despierto durante más de 20 minutos, levántate de la cama y realiza una actividad tranquila con poca luz hasta que vuelvas a sentir sueño. Esto evita que tu cerebro asocie estar en la cama con la frustración y el insomnio. Si bien la primera o segunda semana puede ser difícil, la mayoría de las personas descubren que, para la tercera semana, experimentan un sueño reparador de mayor calidad que nunca antes, incluso después de haber consumido cannabis. Le estás brindando a tu cerebro el regalo de un descanso natural y sanador.</p>"
+          },
+          {
+            "id": "c9",
+            "title": "Cómo afrontar los cambios en el apetito",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Es muy común experimentar cambios en el apetito, especialmente falta de hambre, durante la primera o segunda semana después de dejar de consumir cannabis. Esto sucede porque el sistema endocannabinoide, con el que el cannabis interactúa fuertemente, desempeña un papel fundamental en la regulación del hambre y el disfrute de la comida. Sin la estimulación artificial del THC, las señales naturales de hambre pueden sentirse atenuadas o incluso molestas. Para controlar esto, no intentes obligarte a comer comidas copiosas si no tienes hambre. En su lugar, concéntrate en pequeños refrigerios nutritivos a lo largo del día. Los batidos, los licuados de proteínas y las sopas suelen ser más fáciles de tolerar cuando tienes poco apetito. Mantente bien hidratado con agua e infusiones, ya que la deshidratación puede empeorar la sensación de letargo e irritabilidad. También puedes notar que los alimentos picantes o con mucho sabor pueden ayudarte a despertar tu apetito. Es importante recordar que esta es una fase temporal; tu apetito natural regresará a medida que los sistemas de tu cuerpo recuperen su equilibrio. De hecho, muchas personas descubren que, tras el periodo inicial, desarrollan una relación más estable y sana con la comida, libres de los antojos y los consiguientes bajones de energía. Permites que tu cuerpo encuentre su propio ritmo natural y obtenga energía genuina de una nutrición sana y equilibrada.</p>"
+          },
+          {
+            "id": "c10",
+            "title": "El reinicio de 30 días",
+            "time": "8 min",
+            "type": "Actividad",
+            "content": "<p>El programa de reinicio de 30 días es un compromiso firme con tu salud cognitiva y bienestar emocional. Se necesitan aproximadamente 30 días para que la mayor parte del THC almacenado en las células grasas del cuerpo se elimine y los receptores cerebrales recuperen un estado de sensibilidad más natural. Este período de 30 días es un momento de profunda sanación y autodescubrimiento. Durante las dos primeras semanas, probablemente te concentrarás en controlar los síntomas de abstinencia y en identificar tus desencadenantes. En las dos semanas siguientes, la incomodidad física suele disminuir y comienzas a experimentar los beneficios de la claridad mental, una mejor memoria y un estado de ánimo más estable. Es un momento para observar cómo cambia tu vida cuando no estás bajo los efectos del cannabis. Podrías notar que tienes más energía para tus aficiones, más paciencia en tus relaciones y una mayor sensación de presencia en tu día a día. Aprovecha este tiempo para reflexionar sobre el papel que quieres que el cannabis desempeñe en tu futuro. ¿Deseas volver a consumirlo de forma más consciente y ocasional, o la claridad que te ha brindado el reinicio te ha demostrado que prefieres una vida sobria? No hay respuestas correctas ni incorrectas, solo lo que es adecuado para ti. El programa de reinicio de 30 días te brinda la perspectiva clara que necesitas para tomar esa decisión desde una posición de fortaleza y autoconocimiento.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Patrones más saludables",
+        "articles": [
+          {
+            "id": "c11",
+            "title": "Reducir el consumo sin abandonarlo por completo",
+            "time": "7 min",
+            "type": "Actividad",
+            "content": "<p>Para algunas personas, el objetivo no es la abstinencia total, sino una relación más consciente y controlada con el cannabis. Esto se conoce como «reducción de daños» o «uso responsable». Si has decidido consumir menos, es importante tener un plan claro y reglas específicas. Esto podría significar consumir solo ciertos días de la semana, no consumir nunca antes de una hora determinada o establecer un límite estricto en la cantidad que compras. También puede implicar cambiar a productos con menor contenido de THC o con una mayor proporción de CBD respecto al THC, lo que puede reducir el riesgo de ansiedad y dependencia. Presta mucha atención a tus desencadenantes y a las razones por las que consumes: ¿buscas un disfrute genuino o intentas escapar de una emoción difícil o una situación aburrida? El consumo consciente implica estar plenamente presente en la experiencia y ser consciente de cómo te afecta al día siguiente. También requiere la fuerza de voluntad para mantener tus propias reglas, incluso cuando tengas la tentación de romperlas. Si descubres que no puedes mantener tus nuevos límites más bajos de forma constante, puede ser una señal de que necesitas un período de abstinencia total para reajustar tus hábitos. Reducir su consumo es una práctica activa y continua de autorregulación y un compromiso para que el cannabis sea una pequeña parte de una vida plena y equilibrada.</p>"
+          },
+          {
+            "id": "c12",
+            "title": "Cannabis y ansiedad: la paradoja",
+            "time": "8 min",
+            "type": "Artículo",
+            "content": "<p>Uno de los aspectos más complejos del consumo de cannabis es su relación con la ansiedad. Muchas personas lo consumen precisamente porque les proporciona una sensación de alivio para una mente hiperactiva. Sin embargo, para muchos, la droga contribuye a un ciclo de ansiedad creciente. Esta es la &quot;paradoja del cannabis&quot;. A corto plazo, el THC puede calmar el sistema nervioso, pero a medida que su efecto desaparece, puede provocar un efecto rebote en el que la ansiedad regresa con mayor intensidad. Además, el consumo excesivo puede interferir con la capacidad natural del cerebro para regular el miedo y el estrés, lo que aumenta la propensión a sufrir ataques de pánico y ansiedad social a largo plazo. Si sientes que &quot;necesitas&quot; cannabis para afrontar una situación social o para relajarte al final del día, es posible que estés enmascarando una ansiedad subyacente que debe abordarse mediante otros métodos más sostenibles. Aprender a controlar la ansiedad sin cannabis implica desarrollar un conjunto de estrategias alternativas: respiración profunda, ejercicio físico, terapia y atención plena. A medida que reduces su consumo, es posible que notes que tu nivel de ansiedad disminuye, ya que dejas de experimentar la montaña rusa emocional del consumo y la abstinencia. Estás construyendo una versión de ti mismo más tranquila y mejor preparada para afrontar los desafíos de la vida desde una base de auténtica paz interior.</p>"
+          },
+          {
+            "id": "c13",
+            "title": "Presión social y cannabis",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>A medida que el cannabis se vuelve más aceptado socialmente y legal en muchos lugares, la presión para consumirlo puede ser omnipresente. Ya sea en una fiesta, con amigos o incluso en casa, puedes encontrarte en situaciones donde compartir un porro es lo habitual. Manejar esta presión social es fundamental para mantener hábitos más saludables. Comienza por sentirte cómodo con tu propia decisión y tener una forma sencilla y directa de decir que no. No necesitas dar una larga explicación; un simple &quot;No, gracias, estoy bien&quot; o &quot;Ahora mismo estoy descansando&quot; suele ser más que suficiente. Si estás con personas que realmente valoran tu amistad, respetarán tu decisión sin dudarlo. También es útil tener tu propia bebida o refrigerio sin cannabis para mantener las manos y la boca ocupadas. Al principio de la recuperación o durante un descanso para reducir la tolerancia, puedes optar por evitar ciertos círculos sociales o eventos donde el consumo excesivo está garantizado. No se trata de ser &quot;aburrido&quot;, sino de proteger tu propio progreso. Con el tiempo, descubrirás que puedes tener una vida social plena y conectar de verdad con los demás sin que el cannabis sea el centro de atención. Estás construyendo un estilo de vida basado en la autenticidad y tus propios valores, y eso es algo que merece la pena defender.</p>"
+          },
+          {
+            "id": "c14",
+            "title": "Cuándo buscar apoyo",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>Reconocer cuándo necesitas ayuda es una señal importante de autoconciencia y fortaleza, no de fracaso. Si has intentado repetidamente reducir o dejar de consumir cannabis pero no lo has logrado, vale la pena buscar apoyo profesional. Otras señales incluyen que tu consumo interfiera con tu trabajo, estudios o relaciones, o si sientes que tu salud mental se ve afectada significativamente. La adicción puede ser una carga pesada para sobrellevar en soledad, y existen muchas personas y programas dedicados a ayudarte a recuperar el equilibrio. Esto podría incluir un consejero especializado en adicciones que te ayude a desarrollar nuevas estrategias de afrontamiento, o un grupo de apoyo donde puedas compartir tu experiencia con otras personas que te comprenden. En algunos casos, programas más intensivos pueden ser apropiados para proporcionar un entorno claro para el reinicio inicial. Buscar apoyo te brinda un nivel de orientación profesional, responsabilidad y conexión emocional difícil de encontrar en otro lugar. Estás reconociendo que tu salud y tu futuro son demasiado importantes como para arriesgarlos. Hay ayuda disponible, y dar ese primer paso hacia un médico, un terapeuta o una reunión de apoyo es una de las decisiones más proactivas y poderosas que puedes tomar para tu futuro.</p>"
+          },
+          {
+            "id": "c15",
+            "title": "La vida con un nivel de vida más bajo",
+            "time": "7 min",
+            "type": "Artículo",
+            "content": "<p>A medida que reduzcas o dejes de consumir cannabis, eventualmente alcanzarás un nivel basal más bajo de actividad neuroquímica. Esto no significa que te sentirás mal; significa que tu cerebro ya no está siendo estimulado artificialmente por altas dosis de THC y, en cambio, está volviendo a su estado natural. Este nivel basal se caracteriza por un estado de ánimo más estable, una mente más clara y un nivel de energía más constante. Al principio, esto puede parecer aburrido o incluso un poco monótono, ya que el sistema de recompensa de tu cerebro se ha acostumbrado a los subidones extremos del cannabis. Sin embargo, este es el estado donde se construye un bienestar genuino y duradero. En este nivel basal más bajo, puedes encontrar más significado y alegría en las pequeñas experiencias cotidianas: el sabor de una buena comida, la belleza de una puesta de sol, una conversación significativa o la satisfacción de un trabajo bien hecho. Ya no buscas un subidón temporal; estás construyendo una base sólida de paz interior y resiliencia. Este es el lugar desde donde puedes conectar verdaderamente con el mundo y construir la vida que deseas. La vida en un nivel basal más bajo no es menos vibrante; es más auténtica. Estás presente en tu propia vida, con todos sus desafíos y su belleza, y tienes la claridad y la fuerza para afrontarlo todo con firmeza.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

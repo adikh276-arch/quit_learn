@@ -1,0 +1,137 @@
+{
+  "app_title": "Mô-đun học tập",
+  "progress_label": "Tiến triển",
+  "back_label": "Mặt sau",
+  "minutes_label": "phút",
+  "type_article": "Bài báo",
+  "type_assessment": "Đánh giá",
+  "type_activity": "Hoạt động",
+  "substance_name": "Thuốc phiện",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Hiểu về việc sử dụng thuốc giảm đau opioid",
+        "articles": [
+          {
+            "id": "o1",
+            "title": "Cơ chế hoạt động của opioid trong não bộ",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>Opioid là một nhóm thuốc tương tác với các thụ thể opioid trên tế bào thần kinh trong não và hệ thần kinh. Khi các loại thuốc này, bao gồm thuốc giảm đau theo toa và các chất bất hợp pháp như heroin, gắn vào các thụ thể này, chúng giải phóng một lượng lớn dopamine. Điều này không chỉ làm giảm cảm giác đau mà còn tạo ra cảm giác hưng phấn và bình tĩnh tạm thời, mãnh liệt. Phản ứng phần thưởng mạnh mẽ này là điều khiến opioid gây nghiện. Não bộ của bạn nhanh chóng bắt đầu liên kết thuốc với cảm giác khoái lạc tột độ này, tạo ra động lực mạnh mẽ để sử dụng lại. Tuy nhiên, với việc sử dụng lặp đi lặp lại, quá trình sản sinh endorphin tự nhiên của não – phiên bản “nội sinh” của opioid – bị ức chế. Điều này có nghĩa là theo thời gian, bạn cần thuốc không chỉ để cảm thấy hưng phấn, mà còn để cảm thấy bình thường và tránh những đau đớn về thể chất và tinh thần khi cai nghiện. Về cơ bản, thuốc làm thay đổi cấu trúc mạch thần kinh của não, ưu tiên chất này hơn tất cả các nhu cầu khác. Hiểu được thực tế sinh học này là bước đầu tiên quan trọng trong quá trình phục hồi. Nó chuyển đổi quan điểm từ sự thất bại về mặt đạo đức sang một tình trạng y tế nghiêm trọng đòi hỏi một phương pháp chữa trị toàn diện, dựa trên khoa học. Khi bạn bắt đầu quá trình hồi phục, não bộ của bạn sẽ bắt đầu hành trình dài khôi phục lại sự cân bằng tự nhiên, cho phép bạn cuối cùng tìm thấy sự thoải mái và bình yên mà không cần đến các chất hóa học bên ngoài.</p>"
+          },
+          {
+            "id": "o2",
+            "title": "Lạm dụng thuốc theo toa dẫn đến nghiện như thế nào?",
+            "time": "6 min",
+            "type": "Bài báo",
+            "content": "<p>Đối với nhiều người, hành trình dẫn đến nghiện opioid bắt đầu từ phòng khám bác sĩ với một đơn thuốc hợp lệ để giảm đau. Opioid rất hiệu quả trong điều trị đau cấp tính, nhưng chúng cũng tiềm ẩn nguy cơ gây nghiện đáng kể, ngay cả khi dùng theo chỉ dẫn. Sự phụ thuộc có thể phát triển nhanh chóng, thường chỉ trong vài tuần sử dụng thường xuyên. Nó bắt đầu bằng hiện tượng dung nạp thuốc – cần liều lượng cao hơn để đạt được mức độ giảm đau hoặc hưng phấn tương tự. Khi khả năng dung nạp tăng lên, cơ thể bạn trở nên phụ thuộc về mặt sinh lý vào thuốc để hoạt động. Nếu bạn ngừng dùng thuốc, bạn sẽ trải qua các triệu chứng cai nghiện. Sự chuyển đổi từ &quot;sử dụng để giảm đau&quot; sang &quot;sử dụng để tránh các triệu chứng cai nghiện&quot; là một bước ngoặt quan trọng. Nhiều người thấy mình bị mắc kẹt trong một vòng luẩn quẩn, nơi họ không còn kiểm soát được chấn thương ban đầu mà thay vào đó là kiểm soát sự phụ thuộc do thuốc gây ra. Điều quan trọng là phải nhận ra rằng đây là một tác dụng phụ phổ biến, mặc dù rất nguy hiểm, của những loại thuốc mạnh này. Nếu bạn nhận thấy mình đang dùng nhiều hơn liều lượng được kê đơn, đi khám nhiều bác sĩ hoặc cảm thấy lo lắng về thời điểm cần cấp thuốc lại, đó là những dấu hiệu cho thấy sự phụ thuộc đã hình thành. Nhận thức được thực tế này là bước đầu tiên để bạn nhận được sự giúp đỡ cần thiết nhằm cai nghiện các chất gây nghiện một cách an toàn và tìm ra những cách lành mạnh hơn để kiểm soát cơn đau và cuộc sống của mình.</p>"
+          },
+          {
+            "id": "o3",
+            "title": "Fentanyl là gì và tại sao nó lại nguy hiểm?",
+            "time": "5 min",
+            "type": "Bài báo",
+            "content": "<p>Fentanyl là một loại opioid tổng hợp mạnh hơn morphine từ 50 đến 100 lần. Mặc dù được sử dụng trong y học để điều trị các cơn đau dữ dội, nhưng phiên bản bất hợp pháp của nó đã trở thành nguyên nhân chính gây ra khủng hoảng quá liều. Độ mạnh cực cao của fentanyl có nghĩa là một lượng nhỏ như vài hạt muối cũng có thể gây tử vong. Một trong những mối nguy hiểm lớn nhất là fentanyl thường được trộn lẫn với các chất bất hợp pháp khác – bao gồm heroin, cocaine và thuốc kê đơn giả – mà người sử dụng không hề hay biết. Sự hiện diện không được biết đến này làm tăng đáng kể nguy cơ quá liều do vô ý. Fentanyl tác động rất nhanh lên trung tâm hô hấp của não, khiến nhịp thở chậm lại hoặc ngừng hoàn toàn. Điều này có thể xảy ra trong vài phút, khiến thời gian can thiệp rất ngắn. Vì nó quá mạnh, nên có thể cần nhiều liều thuốc giải độc naloxone để cứu sống người bệnh. Hiểu rõ về sự phổ biến và nguy cơ của fentanyl là điều cần thiết đối với bất kỳ ai sử dụng các chất bất hợp pháp hoặc thuốc không kê đơn. Đó là lời nhắc nhở về sự biến động và nguy hiểm cực độ của thị trường ma túy hiện nay. Luôn cập nhật thông tin, mang theo naloxone và không bao giờ sử dụng một mình là những chiến lược giảm thiểu tác hại thiết yếu trong quá trình hướng tới mục tiêu phục hồi. Cuộc sống của bạn rất quý giá, và nhận thức được sự nguy hiểm của fentanyl là một phần quan trọng để bảo vệ nó.</p>"
+          },
+          {
+            "id": "o4",
+            "title": "Nhận biết các dấu hiệu của rối loạn sử dụng opioid",
+            "time": "7 min",
+            "type": "Đánh giá",
+            "content": "<p>Nhận biết các dấu hiệu của Rối loạn Sử dụng Opioid (OUD) ở bản thân hoặc người thân là một bước khó khăn nhưng cần thiết để phục hồi. OUD được đặc trưng bởi một mô hình sử dụng opioid có vấn đề dẫn đến suy giảm chức năng hoặc đau khổ đáng kể. Một trong những dấu hiệu phổ biến nhất là mất kiểm soát việc sử dụng - dùng nhiều hơn hoặc sử dụng trong thời gian dài hơn dự định. Bạn có thể dành một lượng thời gian đáng kể để tìm kiếm opioid, sử dụng chúng hoặc phục hồi sau tác dụng của chúng. Mong muốn dai dẳng hoặc những nỗ lực không thành công để giảm bớt hoặc kiểm soát việc sử dụng là một dấu hiệu đặc trưng khác của tình trạng này. Bạn có thể thấy rằng việc sử dụng opioid đang cản trở trách nhiệm của bạn tại nơi làm việc, trường học hoặc nhà, và bạn đang xa lánh các hoạt động và mối quan hệ từng rất quan trọng đối với bạn. Về thể chất, bạn có thể nhận thấy đồng tử co nhỏ, buồn ngủ cực độ (được gọi là &quot;cơn gật gù&quot;) và thiếu phối hợp. Các triệu chứng cai nghiện như buồn nôn, đau cơ và lo lắng dữ dội khi không sử dụng cũng là những dấu hiệu rõ ràng của sự phụ thuộc về thể chất. Nếu bạn tiếp tục sử dụng opioid mặc dù biết rằng chúng đang gây ra hoặc làm trầm trọng thêm các vấn đề về thể chất hoặc tâm lý của bạn, đó là dấu hiệu cho thấy chất này đã chiếm lấy bạn. Nhận biết sớm và thái độ không phán xét khi tìm kiếm sự giúp đỡ là những cách hiệu quả nhất để bắt đầu hành trình hướng tới sức khỏe và sự ổn định.</p>"
+          },
+          {
+            "id": "o5",
+            "title": "Đau và thuốc giảm đau opioid — Phá vỡ vòng luẩn quẩn",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Mối quan hệ giữa đau mãn tính và việc sử dụng opioid rất phức tạp và thường mang tính vòng luẩn quẩn. Mặc dù opioid được dùng để giảm đau, nhưng việc sử dụng lâu dài thực tế có thể khiến bạn nhạy cảm hơn với thuốc – một tình trạng được gọi là tăng cảm đau do opioid gây ra. Điều này có nghĩa là chính loại thuốc bạn đang dùng để giảm đau có thể đang làm cho cơn đau của bạn trở nên tồi tệ hơn theo thời gian, dẫn đến một vòng luẩn quẩn tăng liều và các triệu chứng xấu đi. Phá vỡ vòng luẩn quẩn này đòi hỏi phải chuyển sang một phương pháp quản lý đau toàn diện hơn. Điều này bao gồm vật lý trị liệu, tập thể dục, thiền định và các loại thuốc không phải opioid nhắm vào cơn đau thông qua các con đường khác nhau. Nó cũng bao gồm việc giải quyết các khía cạnh tâm lý và cảm xúc của đau mãn tính, vốn có thể quan trọng không kém gì các cảm giác thể chất. Việc từ bỏ opioid có thể là một viễn cảnh đáng sợ khi bạn đang sống chung với cơn đau, nhưng nhiều người nhận thấy rằng mức độ đau của họ thực sự được cải thiện và trở nên dễ kiểm soát hơn sau khi họ ngừng dùng thuốc. Điều quan trọng là phải hợp tác chặt chẽ với một chuyên gia chăm sóc sức khỏe hiểu biết về đau mãn tính và nghiện để phát triển một kế hoạch giảm liều an toàn và một chiến lược toàn diện để quản lý lâu dài. Bạn không chỉ đơn thuần là từ bỏ một loại thuốc; Bạn đang khôi phục khả năng tự nhiên của cơ thể trong việc kiểm soát cơn đau và xây dựng một cuộc sống không bị chi phối bởi lọ thuốc kê đơn.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Cai nghiện và giải độc",
+        "articles": [
+          {
+            "id": "o6",
+            "title": "Cảm giác cai nghiện opioid như thế nào?",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Hội chứng cai opioid thường được mô tả như một cơn cúm nặng, &quot;chảy sâu vào tận xương tủy&quot;, gây ra cả đau đớn về thể chất lẫn tinh thần. Mặc dù hiếm khi đe dọa đến tính mạng đối với những người khỏe mạnh, nhưng nó vô cùng khó chịu và là rào cản lớn đối với việc cai nghiện. Các triệu chứng thường bắt đầu trong vòng vài giờ sau liều cuối cùng và có thể kéo dài từ vài ngày đến vài tuần. Về thể chất, bạn có thể bị đau nhức cơ và xương dữ dội, chuột rút ở bụng, buồn nôn, nôn mửa và tiêu chảy. Bạn có thể bị lạnh đột ngột kèm nổi da gà (nguồn gốc của thuật ngữ &quot;cai nghiện đột ngột&quot;) và cử động chân không kiểm soát (&quot;cắt bỏ thói quen&quot;). Nhịp tim và huyết áp của bạn thường tăng lên, và bạn có thể bị đổ mồ hôi nhiều và chảy nước mắt. Về tâm lý, hội chứng cai nghiện được đánh dấu bằng sự lo lắng tột độ, cáu kỉnh và thèm thuốc mãnh liệt. Ngủ gần như không thể, dẫn đến tình trạng kiệt sức trầm trọng. Điều quan trọng là phải hiểu rằng những triệu chứng này là phản ứng mạnh mẽ của cơ thể bạn đối với sự thiếu vắng một chất mà nó đã hoàn toàn phụ thuộc vào. Mức độ nghiêm trọng của hội chứng cai nghiện phản ánh sức mạnh của thuốc đối với hệ thần kinh của bạn, chứ không phải phản ánh tính cách của bạn. Việc biết trước những gì sẽ xảy ra và có kế hoạch hỗ trợ y tế và tinh thần vững chắc có thể giúp bạn vượt qua giai đoạn khó khăn nhưng tạm thời này trên con đường hồi phục và hướng tới một tương lai khỏe mạnh hơn.</p>"
+          },
+          {
+            "id": "o7",
+            "title": "Quản lý các triệu chứng cai nghiện",
+            "time": "7 min",
+            "type": "Hoạt động",
+            "content": "<p>Việc vượt qua hội chứng cai opioid đòi hỏi sự kết hợp giữa hỗ trợ y tế, chuẩn bị thực tế và khả năng phục hồi tinh thần. Vì các triệu chứng có thể rất nghiêm trọng, nên việc tìm kiếm sự trợ giúp y tế chuyên nghiệp được khuyến khích mạnh mẽ. Bác sĩ có thể cung cấp các loại thuốc nhắm mục tiêu cụ thể vào các triệu chứng cai nghiện—clonidine cho huyết áp và lo lắng, loperamide cho các vấn đề về đường tiêu hóa và thuốc giảm đau không opioid cho các cơn đau nhức. Quan trọng hơn, họ có thể cung cấp các phương pháp điều trị hỗ trợ bằng thuốc như buprenorphine hoặc methadone, có thể làm giảm đáng kể cường độ cai nghiện và cảm giác thèm thuốc, giúp quá trình này an toàn hơn và dễ quản lý hơn. Về mặt thực tế, hãy đảm bảo bạn ở trong một môi trường an toàn, thoải mái để có thể nghỉ ngơi. Uống đủ nước và các loại đồ uống điện giải, vì nôn mửa và tiêu chảy có thể dẫn đến mất nước. Chuẩn bị sẵn các loại thực phẩm dễ tiêu hóa và quần áo thoải mái. Về mặt tinh thần, điều quan trọng là phải có một mạng lưới hỗ trợ—bạn bè, gia đình hoặc một nhà tư vấn—những người có thể cung cấp sự động viên và trách nhiệm. Hãy luôn tự nhắc nhở bản thân rằng nỗi đau chỉ là tạm thời và cơ thể bạn đang trong quá trình hồi phục. Mỗi giờ bạn chịu đựng là một bước tiến ra khỏi sự phụ thuộc và một bước tiến tới việc lấy lại cuộc sống của mình. Bạn không cần phải làm điều này một mình; Sự trợ giúp chuyên nghiệp luôn sẵn có và có thể tạo ra sự khác biệt lớn đối với sự thoải mái và thành công của bạn.</p>"
+          },
+          {
+            "id": "o8",
+            "title": "Giải thích về phương pháp điều trị hỗ trợ bằng thuốc",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Điều trị hỗ trợ bằng thuốc (MAT) là việc sử dụng các loại thuốc được FDA phê duyệt, kết hợp với tư vấn và liệu pháp hành vi, để cung cấp phương pháp tiếp cận &quot;toàn diện&quot; cho việc điều trị rối loạn sử dụng opioid. MAT được coi là tiêu chuẩn vàng trong điều trị vì nó làm giảm đáng kể nguy cơ quá liều và tăng tỷ lệ phục hồi lâu dài. Các loại thuốc được sử dụng, chẳng hạn như buprenorphine, methadone và naltrexone, hoạt động bằng cách tương tác với cùng các thụ thể opioid trong não như các chất mà chúng đang thay thế. Buprenorphine và methadone là các chất &quot;chủ vận&quot; giúp thỏa mãn cơn thèm thuốc của não và ngăn ngừa hội chứng cai nghiện mà không gây ra cảm giác &quot;phê&quot; hoặc suy hô hấp như các opioid khác. Điều này cho phép các cá nhân ổn định cuộc sống, trở lại làm việc và tham gia trị liệu. Naltrexone là một chất &quot;đối kháng&quot; ngăn chặn hoàn toàn tác dụng của opioid, tạo ra một lá chắn chống tái phát cho những người đã cai nghiện. Điều quan trọng cần hiểu là MAT không phải là &quot;thay thế chứng nghiện này bằng chứng nghiện khác&quot;. Đó là một can thiệp y tế để quản lý một bệnh mãn tính, giống như insulin đối với bệnh tiểu đường. Liệu pháp hỗ trợ bằng thuốc (MAT) giúp não bộ phục hồi khỏi những tổn thương do sử dụng opioid gây ra và mang lại sự ổn định cần thiết cho sức khỏe và sự an lành lâu dài. Hợp tác với nhà cung cấp chuyên môn để tìm ra loại thuốc và liều lượng phù hợp là một phần thiết yếu của kế hoạch phục hồi toàn diện.</p>"
+          },
+          {
+            "id": "o9",
+            "title": "Naloxone là gì và cách sử dụng nó?",
+            "time": "6 min",
+            "type": "Hoạt động",
+            "content": "<p>Naloxone, thường được biết đến với tên thương hiệu Narcan, là một loại thuốc cứu mạng có thể đảo ngược tình trạng quá liều opioid ngay khi nó đang xảy ra. Thuốc hoạt động bằng cách nhanh chóng gắn vào các thụ thể opioid và thay thế bất kỳ opioid nào có mặt, tạm thời khôi phục nhịp thở bình thường. Naloxone rất dễ sử dụng và có dạng xịt mũi đơn giản, không cần đào tạo y tế. Nếu bạn nghi ngờ ai đó đang bị quá liều – họ bất tỉnh, đồng tử co nhỏ và thở rất chậm hoặc không thở – bước đầu tiên là gọi dịch vụ cấp cứu. Sau đó, xịt naloxone bằng cách đưa đầu vòi vào lỗ mũi và ấn pít tông. Tác dụng thường kéo dài từ 30 đến 90 phút, vì vậy điều quan trọng là phải có sự trợ giúp y tế kịp thời, vì người đó có thể bị quá liều trở lại khi tác dụng của naloxone hết. Naloxone không có tác dụng đối với người chưa sử dụng opioid, vì vậy không có hại gì khi sử dụng nếu bạn không chắc chắn. Mang theo naloxone và biết cách sử dụng nó là một kỹ năng quan trọng đối với bất kỳ ai trong cộng đồng cai nghiện và người thân của họ. Đây là một công cụ thiết yếu giúp duy trì sự sống cho người bệnh, tạo cơ hội cho họ hồi phục. Bạn có thể mua naloxone ở nhiều hiệu thuốc mà không cần đơn thuốc, thường là miễn phí hoặc với giá thấp thông qua các chương trình y tế cộng đồng.</p>"
+          },
+          {
+            "id": "o10",
+            "title": "Vai trò của giám sát y tế",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Việc tự mình cai nghiện opioid có thể là một hành trình khó khăn và thường không thành công. Vai trò của sự giám sát y tế trong quá trình phục hồi là cung cấp một môi trường an toàn, có cấu trúc và được hỗ trợ lâm sàng cho cả giai đoạn cai nghiện ban đầu và quản lý lâu dài chứng rối loạn sử dụng opioid. Các chuyên gia y tế có thể đánh giá sức khỏe tổng thể của bạn, quản lý các rủi ro về thể chất khi cai nghiện và cung cấp các loại thuốc giúp quá trình này dễ chịu hơn. Sự giám sát này đặc biệt quan trọng đối với những người có các bệnh lý đi kèm hoặc có tiền sử sử dụng opioid nặng trong thời gian dài. Trong môi trường nội trú hoặc ngoại trú chuyên sâu, bạn được chăm sóc 24/7, điều này có thể tạo nên sự khác biệt giữa việc cai nghiện thành công và tái nghiện do các triệu chứng không thể chịu đựng được. Ngoài khía cạnh thể chất, sự giám sát y tế còn bao gồm tư vấn thường xuyên và hỗ trợ tâm thần để giải quyết các nguyên nhân tiềm ẩn dẫn đến việc sử dụng opioid và phát triển các chiến lược đối phó lành mạnh mới. Nó cung cấp mức độ trách nhiệm và hướng dẫn chuyên nghiệp mà bạn khó có thể tự mình thực hiện được. Tìm kiếm sự giám sát y tế không phải là dấu hiệu của sự yếu đuối; đó là một quyết định chiến lược để sử dụng các công cụ hiệu quả nhất hiện có nhằm đảm bảo an toàn và thành công của bạn. Bạn đang cho mình cơ hội tốt nhất có thể để vượt qua opioid và xây dựng một cuộc sống khỏe mạnh, ổn định và bình yên thực sự.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Phục hồi và tái thiết",
+        "articles": [
+          {
+            "id": "o11",
+            "title": "Cuộc sống sau khi cai thuốc phiện",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Bước vào cuộc sống sau khi cai nghiện opioid là một hành trình khám phá lại bản thân khi không còn bị định nghĩa bởi chất gây nghiện. Đó là một giai đoạn thay đổi đáng kể, khi não bộ và cơ thể bạn tiếp tục hồi phục và cuộc sống hàng ngày bắt đầu được sắp xếp lại xoay quanh sức khỏe và ý nghĩa chứ không phải là liều thuốc tiếp theo. Bạn có thể thấy cảm xúc của mình trở nên sống động hơn, năng lượng thể chất dần dần trở lại và các mối quan hệ bắt đầu sâu sắc hơn khi bạn sống trọn vẹn hơn. Giai đoạn này cũng là về việc khám phá lại các giá trị và sở thích của bạn. Nhiều người tìm thấy những đam mê mới—cho dù trong công việc, sở thích hay hoạt động cộng đồng—mang lại nguồn thỏa mãn và phần thưởng tự nhiên. Tuy nhiên, cuộc sống sau khi cai nghiện opioid cũng đòi hỏi sự cam kết duy trì liên tục. Điều đó có nghĩa là phải thành thật với bản thân về những yếu tố kích hoạt, duy trì mạng lưới hỗ trợ và tiếp tục bất kỳ phương pháp điều trị y tế hoặc tâm lý cần thiết nào. Đó là thời điểm xây dựng cái mà các chuyên gia lâm sàng gọi là &quot;vốn phục hồi&quot;—các nguồn lực và mối quan hệ hỗ trợ sự tỉnh táo của bạn. Bạn không chỉ &quot;tránh xa ma túy&quot;; bạn đang tích cực xây dựng một cuộc sống mà bạn trân trọng và muốn bảo vệ. Hành trình này không phải lúc nào cũng dễ dàng, nhưng nó vô cùng bổ ích. Mỗi ngày trôi qua, bạn càng chứng tỏ sự kiên cường của mình và đang tạo dựng một tương lai tươi sáng, ổn định và hoàn toàn thuộc về chính bạn.</p>"
+          },
+          {
+            "id": "o12",
+            "title": "Xây dựng lại niềm tin vào chính mình",
+            "time": "8 min",
+            "type": "Hoạt động",
+            "content": "<p>Một trong những tác động sâu sắc nhất của việc sử dụng opioid là sự xói mòn lòng tự tin. Theo thời gian, bạn có thể đã tự hứa với bản thân vô số lần sẽ cai nghiện, nhưng rồi lại tái nghiện. Chu kỳ ý định và thất bại này có thể dẫn đến cảm giác xấu hổ sâu sắc và cảm giác rằng bản thân vốn dĩ không đáng tin cậy. Xây dựng lại lòng tin vào bản thân là một phần chậm nhưng thiết yếu của quá trình phục hồi. Nó bắt đầu bằng việc đưa ra những cam kết nhỏ, dễ thực hiện và giữ lời hứa. Điều này có thể đơn giản như uống đủ nước, dọn giường hoặc tham dự buổi trị liệu theo lịch trình. Mỗi lần bạn làm những gì bạn đã nói sẽ làm, bạn đang &quot;gửi&quot; lại vào tài khoản lòng tự tin của mình. Điều này cũng liên quan đến việc thực hành sự trung thực tuyệt đối với bản thân. Điều này có nghĩa là thừa nhận cảm xúc của bạn, nhận biết các yếu tố kích hoạt và trung thực về những thách thức bạn đang phải đối mặt. Lòng tự tin không có nghĩa là hoàn hảo; nó có nghĩa là nhất quán và sẵn sàng quay trở lại đúng hướng khi bạn vấp ngã. Khi thời gian cai nghiện của bạn kéo dài, sự tự tin vào khả năng tự chủ và khả năng đưa ra những quyết định lành mạnh của bạn cũng sẽ tăng lên. Mỗi ngày, bạn đều chứng minh cho chính mình thấy rằng bạn là người đáng tin cậy và có đủ sức mạnh để xây dựng một tương lai tốt đẹp hơn. Niềm tin nội tâm này chính là nền tảng mà phần còn lại của cuộc sống mới của bạn được xây dựng dựa trên đó.</p>"
+          },
+          {
+            "id": "o13",
+            "title": "Điều trị đau mãn tính mà không cần thuốc giảm đau opioid",
+            "time": "8 min",
+            "type": "Bài báo",
+            "content": "<p>Kiểm soát cơn đau mãn tính mà không cần dùng thuốc giảm đau opioid là một thách thức lớn, nhưng đối với nhiều người, đó là con đường cần thiết và cuối cùng sẽ mang lại kết quả xứng đáng. Trọng tâm chuyển từ việc &quot;loại bỏ&quot; cơn đau sang &quot;kiểm soát&quot; nó thông qua phương pháp đa chiều. Điều này bao gồm nhiều chiến lược phối hợp với nhau để giảm tín hiệu đau và cải thiện khả năng hoạt động của bạn. Vật lý trị liệu và vận động nhẹ nhàng thường xuyên như bơi lội hoặc đi bộ là nền tảng; chúng giúp tăng cường sức mạnh cơ thể và cải thiện khả năng vận động, từ đó có thể giảm đau về lâu dài. Các kỹ thuật kết hợp tâm trí và cơ thể như giảm căng thẳng dựa trên chánh niệm (MBSR) và liệu pháp nhận thức hành vi (CBT) cho cơn đau cũng rất hiệu quả. Những phương pháp này dạy bạn thay đổi mối quan hệ của mình với cơn đau, giảm bớt sự căng thẳng và lo lắng về cảm xúc thường khiến các cảm giác thể chất trở nên tồi tệ hơn. Các loại thuốc không opioid, chẳng hạn như thuốc chống viêm hoặc thuốc nhắm vào cơn đau thần kinh, cũng có thể mang lại hiệu quả giảm đau đáng kể với rủi ro thấp hơn nhiều. Đó là một quá trình thử và sai để tìm ra sự kết hợp phù hợp nhất với cơ thể và tình trạng cụ thể của bạn. Làm việc với một chuyên gia quản lý đau ủng hộ phương pháp không opioid là rất quan trọng. Bạn đang học một bộ kỹ năng mới để quản lý các tín hiệu của cơ thể, và mặc dù cần thời gian, nhưng nó mở ra con đường dẫn đến một cuộc sống mà nỗi đau là một phần có thể kiểm soát được trong trải nghiệm của bạn, chứ không phải là trọng tâm của nó.</p>"
+          },
+          {
+            "id": "o14",
+            "title": "Mạng lưới hỗ trợ và những gì chúng thực sự làm",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Mạng lưới hỗ trợ thường được coi là yếu tố quan trọng nhất trong quá trình phục hồi lâu dài khỏi việc sử dụng opioid. Nhưng mạng lưới hỗ trợ thực sự làm được gì? Về cơ bản, nó cung cấp ba điều thiết yếu: sự kết nối, trách nhiệm giải trình và sự hiểu biết chung về kinh nghiệm. Nghiện ngập phát triển mạnh trong sự cô lập; sự kết nối chính là liều thuốc giải. Có một nhóm người – dù đó là một cuộc họp chính thức như Narcotics Anonymous (NA) hay SMART Recovery, hay một nhóm bạn bè và gia đình không chính thức – mang lại cảm giác thuộc về và nhắc nhở bạn rằng bạn không đơn độc trong cuộc đấu tranh của mình. Trách nhiệm giải trình có nghĩa là có những người biết mục tiêu của bạn và có thể nhẹ nhàng nhưng kiên quyết kiểm tra tiến độ của bạn. Họ có thể giúp bạn nhận ra khi nào bạn đang đi chệch hướng và hỗ trợ trước khi một sai sót trở thành tái nghiện. Sự hiểu biết chung của một mạng lưới hỗ trợ cũng vô cùng quý giá. Những người đã trải qua nhiều thăng trầm trong hành trình của họ có thể đưa ra lời khuyên thiết thực về việc quản lý các yếu tố kích hoạt, điều hướng hệ thống chăm sóc sức khỏe và xây dựng lại cuộc sống. Họ cung cấp một ví dụ sống động rằng sự phục hồi là có thể. Mạng lưới hỗ trợ của bạn là &#39;lưới an toàn&#39; của bạn, luôn ở đó để đỡ bạn khi mọi việc trở nên khó khăn và cùng bạn ăn mừng những thành công. Xây dựng và duy trì những mối liên hệ này là một quá trình chủ động, liên tục và có ý nghĩa nền tảng đối với sức khỏe và sự ổn định lâu dài của bạn. Bạn sẽ mạnh mẽ hơn khi là một phần của cộng đồng quan tâm đến nhau.</p>"
+          },
+          {
+            "id": "o15",
+            "title": "Ngăn ngừa tái phát",
+            "time": "7 min",
+            "type": "Bài báo",
+            "content": "<p>Phòng ngừa tái nghiện là một hoạt động chủ động, thực hành hàng ngày, bao gồm việc nhận biết các nguy cơ và có kế hoạch rõ ràng để quản lý chúng. Điều hữu ích là không nên coi tái nghiện là một sự kiện đơn lẻ mà hãy xem nó như một quá trình thường bắt đầu từ rất lâu trước khi bạn thực sự sử dụng chất gây nghiện. Quá trình này thường bao gồm ba giai đoạn: tái nghiện về cảm xúc, tinh thần và thể chất. Tái nghiện về cảm xúc bắt đầu bằng việc tự chăm sóc bản thân kém – tự cô lập, ngủ không ngon và bỏ bê cảm xúc của mình. Tái nghiện về tinh thần là cuộc giằng co nội tâm, nơi bạn bắt đầu lý tưởng hóa việc sử dụng trong quá khứ hoặc nghĩ về việc sử dụng như một cách để đối phó với căng thẳng hiện tại. Tái nghiện về thể chất là hành động sử dụng thực tế. Ngăn ngừa tái nghiện có nghĩa là can thiệp càng sớm càng tốt. Điều này bao gồm duy trì thói quen hàng ngày, giữ liên lạc với mạng lưới hỗ trợ của bạn và thành thật về cảm xúc và các yếu tố kích thích của bạn. Nó cũng có nghĩa là có một &#39;kế hoạch phòng ngừa tái nghiện&#39; bao gồm danh sách những người cần gọi, những nơi cần đến và các hoạt động lành mạnh cần làm khi mọi việc trở nên khó khăn. Nếu có sự sa ngã xảy ra, điều quan trọng là phải phản ứng một cách thành thật chứ không phải xấu hổ. Một lần sa ngã không phá hỏng quá trình phục hồi của bạn; Đây là tín hiệu cho thấy bạn cần điều chỉnh kế hoạch và tái cam kết với mục tiêu của mình. Bạn đang xây dựng một bộ kỹ năng và một cuộc sống ngày càng kiên cường. Hãy luôn cảnh giác, giữ liên lạc và tiếp tục tiến về phía trước.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "app_title": "Modul Učení",
+  "progress_label": "Pokrok",
+  "back_label": "Zadní",
+  "minutes_label": "min.",
+  "type_article": "Článek",
+  "type_assessment": "Posouzení",
+  "type_activity": "Aktivita",
+  "substance_name": "Konopí",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Pochopení vašeho užívání",
+        "articles": [
+          {
+            "id": "c1",
+            "title": "Je konopí návykové – upřímná odpověď",
+            "time": "5 min",
+            "type": "Článek",
+            "content": "<p>Po mnoho let se všeobecně věřilo, že konopí není návyková látka. S tím, jak se však rozšiřovalo naše chápání neurovědy, se upřímná odpověď stala jasnou: ano, konopí může být návykové. I když funguje jinak než látky jako opioidy nebo nikotin, pravidelné užívání konopí může vést k tomu, co lékaři nazývají poruchou užívání konopí (CUD). Děje se to proto, že THC, primární psychoaktivní složka konopí, interaguje s vnitřním endokanabinoidním systémem mozku, který pomáhá regulovat náladu, paměť, spánek a chuť k jídlu. Při častém užívání konopí začíná váš mozek snižovat regulaci svých přirozených receptorů, aby kompenzoval záplavu THC. To znamená, že časem potřebujete více látky, abyste pocítili stejné účinky, a váš mozek se bez ní stává méně efektivním při výkonu svých přirozených regulačních funkcí. Přibližně 1 z 10 dospělých, kteří užívají konopí, se stane závislým a toto číslo stoupá na 1 ze 6 u těch, kteří s užíváním začnou v dospívání. Uznání možnosti závislosti neznamená démonizovat rostlinu, ale pochopit potenciál chemické závislosti. Jakmile tuto možnost přijmete, můžete se upřímněji podívat na své vlastní užívání a činit informovaná rozhodnutí o tom, zda váš vztah ke konopí slouží vašim dlouhodobým cílům a blahobytu.</p>"
+          },
+          {
+            "id": "c2",
+            "title": "THC, CBD a jejich vliv na mozek",
+            "time": "6 min",
+            "type": "Článek",
+            "content": "<p>Abychom pochopili, jak na vás konopí ovlivňuje, je nezbytné pochopit roli THC a CBD. THC (tetrahydrokanabinol) je složka zodpovědná za „rauš“. Napodobuje přirozený neurotransmiter zvaný anandamid a váže se na kanabinoidní receptory v částech mozku, které ovlivňují potěšení, paměť, myšlení, soustředění, smyslové a časové vnímání a koordinovaný pohyb. Tato napodobenina vytváří euforii, ale také narušuje přirozené komunikační systémy mozku. CBD (kanabidiol) na druhou stranu rauš nevyvolává a ve skutečnosti může působit proti některým úzkostně vyvolávajícím účinkům THC. Moderní trh s konopím však zaznamenal dramatický nárůst hladin THC, zatímco hladiny CBD zůstaly nízké nebo byly zcela vymizely. Tento posun směrem k produktům s vysokým obsahem THC zvýšil riziko závislosti a problémů s duševním zdravím. Při pravidelném užívání konopí s vysokým obsahem THC v podstatě přetrénujete centra odměny ve svém mozku, což může časem vést ke snížení motivace a zvýšení úzkosti. Pochopení této chemické rovnováhy vám pomůže pochopit, že pocity, které zažíváte z konopí, jsou složitou biologickou reakcí, nikoli jen jednoduchým „uvolněným“ stavem. Znalost toho, jak tyto chemikálie interagují s vaším mozkem, je prvním krokem k obnovení kognitivní jasnosti a emoční rovnováhy.</p>"
+          },
+          {
+            "id": "c3",
+            "title": "Konopí a duševní zdraví",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Vztah mezi konopím a duševním zdravím je hluboce osobní a často nepochopený. Zatímco mnoho lidí užívá konopí konkrétně ke zvládání úzkosti, deprese nebo stresu, důkazy naznačují, že u mnohých může tyto stavy časem ve skutečnosti zhoršovat. Tomu se často říká „paradox konopí“. Krátkodobě může dávka THC uklidnit úzkostnou mysl, ale jakmile její účinek odezní, může vést k rebound efektu, kdy se úzkost vrací intenzivněji. Pravidelné užívání může také narušovat přirozené zpracování emocí, což ztěžuje rozvoj zdravých mechanismů zvládání. Ještě závažnější je užívání konopí s vysokou účinností silně spojeno se zvýšeným rizikem vzniku psychotických poruch, zejména u osob s rodinnou anamnézou problémů s duševním zdravím. Může také způsobit stav „amotivačního syndromu“, kdy uživatelé pociťují všudypřítomný nedostatek motivace a snížený zájem o sociální a profesní cíle. Pokud zjistíte, že vaše duševní zdraví je úzce spjato s užíváním konopí, nebo pokud máte pocit, že se váš svět zmenšil a stal se méně živým, stojí za zvážení dopad této látky. Rekonvalescence spočívá v obnovení přirozené schopnosti mozku regulovat náladu a vnímání světelných jevů, což vám umožní prožívat celou škálu lidských emocí s jasností a odolností.</p>"
+          },
+          {
+            "id": "c4",
+            "title": "Intenzivní užívání a motivace",
+            "time": "6 min",
+            "type": "Článek",
+            "content": "<p>Jedním z nejčastěji zaznamenaných účinků dlouhodobého, intenzivního užívání konopí je významný dopad na motivaci a úsilí. Nejedná se o osobnostní vadu ani o známku lenosti; je to přímý důsledek toho, jak THC interaguje s dopaminovým systémem mozku. Dopamin je chemická látka, která signalizuje odměnu a povzbuzuje nás k dosažení cílů, ať už jde o dokončení úkolu v práci, učení se nové dovednosti nebo udržování sociálních vazeb. Když je mozek pravidelně zaplaven „snadnou“ odměnou z konopí, začne deregulovat své přirozené dopaminové receptory. To může vést ke stavu, kdy běžné činnosti již nepůsobí obohacujícím nebo zajímavým dojmem, což je stav, který se někdy nazývá „amotivační syndrom“. Můžete se ocitnout v situaci, kdy upřednostňujete užívání konopí před dříve důležitými cíli nebo pociťujete apatii vůči své budoucnosti. Prolomení tohoto cyklu zahrnuje období abstinence, aby se váš dopaminový systém mohl resetovat a znovu kalibrovat. Vyžaduje to také vědomé procvičování aktivit nesouvisejících s drogami, které poskytují přirozený pocit úspěchu. Jak budete snižovat své užívání, pravděpodobně si všimnete postupného návratu svého „vnitřního pohonu“ a větší schopnosti vytrvalosti a soustředění. Získáváte zpět svůj nejcennější zdroj: schopnost představit si budoucnost a podniknout kroky nezbytné k jejímu uskutečnění.</p>"
+          },
+          {
+            "id": "c5",
+            "title": "Rozpoznání poruchy užívání konopí",
+            "time": "5 min",
+            "type": "Posouzení",
+            "content": "<p>Rozpoznání poruchy užívání konopí (CUD) vyžaduje upřímný pohled na to, jak tato látka ovlivňuje váš život a vaše vnímání sebe sama. CUD je definováno jako problematický vzorec užívání konopí, který vede ke klinicky významnému zhoršení nebo tísni. Mezi klíčové indikátory patří užívání většího množství konopí, než bylo zamýšleno, nebo po delší dobu, než bylo plánováno. Můžete mít trvalou touhu omezit užívání nebo přestat, ale zjistíte, že to nejste schopni. Velkou část svého času můžete trávit získáváním, užíváním nebo zotavováním se z účinků konopí. Snad nejvýmluvnějším znakem je, když v užívání pokračujete, i když víte, že způsobuje nebo zhoršuje fyzické nebo psychické problémy. Můžete si také všimnout, že jste se vzdali důležitých společenských, pracovních nebo rekreačních aktivit ve prospěch užívání konopí. Mezi fyzické příznaky patří tolerance – potřeba většího množství pro stejný účinek – a abstinenční příznaky, jako je podrážděnost, potíže se spánkem a snížená chuť k jídlu, když konopí neužíváte. Pokud máte pocit, že se konopí stalo „středem“ vašeho světa a že už nejste tím, kdo má vše pod kontrolou, pravděpodobně se potýkáte s CUD. Uznání tohoto je prvním krokem k budování života, kde jsou vaše rozhodnutí založena na vašich hodnotách a cílech, nikoli na potřebách zvyku.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Dávám si pauzu",
+        "articles": [
+          {
+            "id": "c6",
+            "title": "Jak naplánovat přestávku v toleranci",
+            "time": "7 min",
+            "type": "Aktivita",
+            "content": "<p>Toleranční přestávka neboli „T-pauza“ je záměrné období abstinence – obvykle 21 až 30 dní – určené k resetování kanabinoidních receptorů v mozku. U častých uživatelů to může výrazně zlepšit duševní jasnost, hladinu energie a celkové zdraví. Plánování úspěšné T-pauzy začíná výběrem data zahájení a vyčištěním prostředí od konopí a souvisejících pomůcek. Tím se „vytváří propast“ mezi nutkáním k užívání a schopností tak činit. Je také důležité určit si obvyklou dobu užívání a naplánovat si pro tato okna specifické aktivity, které s konopím nesouvisejí. Pokud například večer obvykle kouříte, můžete si naplánovat cvičení v posilovně nebo filmový večer. Informování několika důvěryhodných a podpůrných přátel může také poskytnout vrstvu odpovědnosti. Buďte připraveni na to, že prvních několik dní bude nejtěžších, protože si vaše tělo zvyká na absenci THC. S tím, jak se vaše spánková architektura začíná opravovat, můžete pociťovat podrážděnost, neklid a živé sny. Berte T-pauzu jako osobní experiment, abyste zjistili, jak se cítíte a kým jste bez vlivu látky. Mnoho lidí zjistí, že po 30 dnech je jejich „základní“ pocit pohody mnohem lepší, než očekávali. Ať už se rozhodnete pro návrat k užívání kontrolovanějším způsobem, nebo zůstat v abstinenci, jasnost, kterou získáte z T-breaku, je neocenitelným nástrojem pro vaše dlouhodobé zdraví.</p>"
+          },
+          {
+            "id": "c7",
+            "title": "Jaký je skutečný pocit při abstinenčních příznacích po konopí",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Ačkoli abstinenční příznaky z konopí obecně nejsou z lékařského hlediska nebezpečné, jedná se o velmi reálný a často nepříjemný zážitek, který může trvat několik týdnů. Příznaky se obvykle objevují během 24 až 72 hodin po posledním užití a vrcholí během prvního týdne. Psychologicky pravděpodobně pocítíte podrážděnost, úzkost a všudypřítomný neklid. Můžete pociťovat pocit „prázdnoty“ nebo nedostatek zájmu o věci, které vás dříve bavily, protože váš dopaminový systém začíná pomalu pracovat na resetování. Fyzicky je nejčastějším příznakem výrazné narušení spánku. Může být pro vás obtížné usnout nebo zůstat v spánku, a když spíte, můžete mít intenzivní, živé sny, když váš mozek vstupuje do „REM rebound“ fáze. Můžete si také všimnout snížené chuti k jídlu, občasné nevolnosti nebo břišních bolestí. Časté jsou také bolesti hlavy a noční pocení, protože vaše tělo zbavuje uložené THC. Je důležité si uvědomit, že tyto příznaky jsou způsobem, jakým se váš mozek a tělo uzdravují – jsou to známky toho, že se vaše přirozené systémy vracejí do normálu. Vědomí, že nepohodlí je dočasné a očekávané, vám může pomoci zůstat v procesu oddaní. Buďte k sobě laskaví, pijte dostatek tekutin a pamatujte, že jasnost a odolnost, které si budujete, rozhodně stojí za těch prvních pár týdnů plných výzev.</p>"
+          },
+          {
+            "id": "c8",
+            "title": "Zvládání spánku během přestávky",
+            "time": "8 min",
+            "type": "Aktivita",
+            "content": "<p>Spánek je často největší výzvou při přestávce od konopí, protože mnoho lidí si ho začlenilo do svého nočního rituálu. Když s ním přestanete, můžete mít potíže s usínáním a intenzivní období živých snů. Je to proto, že konopí potlačuje REM (rychlý pohyb očí) spánek; když s ním přestanete, váš mozek to kompenzuje častějším a intenzivnějším vstupem do REM fáze. Pro zvládnutí tohoto přechodu je nezbytné zavést rutinu „spánkové hygieny“. Začněte tím, že se budete vstávat v pravidelný čas, bez ohledu na to, kolik jste předchozí noc spali. To pomáhá regulovat váš přirozený cirkadiánní rytmus. Vyhýbejte se obrazovkám – telefonům, tabletům a televizím – alespoň hodinu před spaním, protože modré světlo narušuje produkci melatoninu. Místo toho zkuste teplou koupel, knihu nebo speciální čaj. Ujistěte se, že vaše ložnice je chladná, tmavá a slouží pouze ke spánku. Pokud zjistíte, že ležíte vzhůru déle než 20 minut, vstaňte z postele a věnujte se klidné aktivitě při slabém osvětlení, dokud se znovu nebudete cítit ospalí. Tím zabráníte svému mozku v tom, aby si spojoval pobyt v posteli s frustrací a bděním. I když první týden nebo dva mohou být obtížné, většina lidí zjistí, že do třetího týdne zažívají kvalitnější regenerační spánek než kdykoli předtím při užívání konopí. Dáváte svému mozku dar přirozeného, léčivého odpočinku.</p>"
+          },
+          {
+            "id": "c9",
+            "title": "Jak se vypořádat se změnami chuti k jídlu",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Během prvního nebo dvou týdnů po ukončení užívání konopí je velmi běžné zaznamenat změny v chuti k jídlu, zejména její nedostatek. Děje se to proto, že endokanabinoidní systém, se kterým konopí tak silně interaguje, hraje hlavní roli v regulaci hladu a požitku z jídla. Bez umělé stimulace THC se vaše přirozené signály hladu mohou zdát otupené nebo dokonce otravné. Abyste to zvládli, nesnažte se nutit jíst velká jídla, pokud nemáte hlad. Místo toho se zaměřte na malé, na živiny bohaté svačiny během dne. Smoothie, proteinové koktejly a polévky se často snášejí lépe, když máte nízkou chuť k jídlu. Udržujte dobrou hydrataci vodou a bylinnými čaji, protože dehydratace může zhoršit pocity letargie a podrážděnosti. Můžete také zjistit, že kořeněná nebo silně ochucená jídla vám mohou pomoci „nastartovat“ váš zájem o jídlo. Je důležité si uvědomit, že se jedná o dočasnou fázi; vaše přirozená chuť k jídlu se vrátí, jakmile se vaše tělesné systémy znovu dostanou do rovnováhy. Ve skutečnosti mnoho lidí zjistí, že po počátečním období si vytvoří stabilnější a zdravější vztah k jídlu, bez přejídání a následných energetických výpadků. Umožníte svému tělu najít si vlastní přirozený rytmus a čerpat skutečnou energii ze zdravé a vyvážené stravy.</p>"
+          },
+          {
+            "id": "c10",
+            "title": "30denní reset",
+            "time": "8 min",
+            "type": "Aktivita",
+            "content": "<p>30denní reset je silným závazkem k vašemu kognitivnímu zdraví a emoční pohodě. Trvá přibližně 30 dní, než se většina THC uloženého v tukových buňkách vašeho těla vyčistí a než se receptory vašeho mozku vrátí do přirozenějšího stavu citlivosti. Toto 30denní období je obdobím významného uzdravení a znovuobjevení. Během prvních dvou týdnů se pravděpodobně zaměříte na zvládání abstinenčních příznaků a navigaci ve vašich spouštěčích. V druhých dvou týdnech fyzické nepohodlí obvykle odezní a začnete pociťovat výhody jasnosti, zlepšené paměti a stabilnější nálady. Je to čas pozorovat, jak se váš život mění, když nejste pod vlivem. Možná si všimnete, že máte více energie na koníčky, více trpělivosti na vztahy a větší pocit přítomnosti ve svém každodenním životě. Využijte tento čas k zamyšlení se nad tím, jakou roli chcete, aby konopí hrálo ve vaší budoucnosti. Chcete se k užívání vrátit uvědomělejším a občasným způsobem, nebo vám jasnost resetu ukázala, že dáváte přednost střízlivému životu? Neexistuje správná ani špatná odpověď, pouze to, co je pro vás správné. 30denní reset vám poskytne jasný pohled na věc, který potřebujete k tomu, abyste se rozhodli ze silné pozice a sebepoznání.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Zdravější vzorce",
+        "articles": [
+          {
+            "id": "c11",
+            "title": "Méně užívání bez úplného ukončení",
+            "time": "7 min",
+            "type": "Aktivita",
+            "content": "<p>Pro některé lidi není cílem úplná abstinence, ale uvědomělejší a kontrolovanější vztah ke konopí. Tomu se často říká „snížení škod“ nebo „zodpovědné užívání“. Pokud jste se rozhodli užívat méně, je důležité mít jasný plán a specifická pravidla. To může znamenat užívání pouze v určité dny v týdnu, nikdy neužívat před určitou dobou nebo stanovit si přísný limit množství, které kupujete. Může to také zahrnovat přechod na produkty s nižším obsahem THC nebo produkty s vyšším poměrem CBD k THC, což může snížit riziko úzkosti a závislosti. Věnujte velkou pozornost svým spouštěčům a důvodům, proč konopí užíváte; hledáte skutečné potěšení, nebo se snažíte uniknout obtížné emoci či nudné situaci? Vědomé užívání znamená být plně přítomni při daném zážitku a uvědomovat si, jak vás ovlivní další den. Vyžaduje to také sílu držet se vlastních pravidel, i když jste v pokušení je porušit. Pokud zjistíte, že se vám trvale nedaří udržet si nové, nižší limity, může to být známkou toho, že je nutné období úplné abstinence, abyste si obnovili své návyky. Užívání menšího množství je aktivní a trvalou praxí seberegulace a závazkem k tomu, že konopí bude malou součástí plnohodnotného a vyváženého života.</p>"
+          },
+          {
+            "id": "c12",
+            "title": "Konopí a úzkost – Paradox",
+            "time": "8 min",
+            "type": "Článek",
+            "content": "<p>Jedním z nejsložitějších aspektů užívání konopí je jeho vztah k úzkosti. Mnoho lidí užívá konopí právě proto, že se jeví jako „úlevný ventil“ pro hyperaktivní mysl. Pro mnoho lidí však droga ve skutečnosti přispívá k cyklu rostoucí úzkosti. Toto je „konopný paradox“. Krátkodobě může THC skutečně zklidnit nervový systém, ale jakmile jeho účinky odezní, může vést k „rebound“ efektu, kdy se úzkost vrací s větší intenzitou. Nadměrné užívání navíc může narušit přirozenou schopnost mozku regulovat strach a stres, což vás z dlouhodobého hlediska činí náchylnějšími k panickým atakám a sociální úzkosti. Pokud zjistíte, že konopí „potřebujete“ k řešení sociální situace nebo k relaxaci na konci dne, můžete maskovat skrytou úzkost, kterou je třeba řešit jinými, udržitelnějšími způsoby. Naučit se zvládat úzkost bez konopí zahrnuje rozvoj „sady nástrojů“ dalších strategií – hluboké dýchání, fyzické cvičení, terapie a vědomá přítomnost. Jakmile snížíte užívání, můžete zjistit, že vaše základní úroveň úzkosti ve skutečnosti klesá, protože se již nenacházíte na „chemické horské dráze“ užívání a abstinenčních příznaků. Budujete si verzi sebe sama, která je přirozeně klidnější a lépe vybavená k zvládání životních výzev na základě skutečného vnitřního klidu.</p>"
+          },
+          {
+            "id": "c13",
+            "title": "Sociální tlak a konopí",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Vzhledem k tomu, že se konopí na mnoha místech stává společensky akceptovanějším a legálním, může se tlak na jeho užívání zdát všudypřítomný. Ať už je to na večírku, s přáteli nebo dokonce doma, můžete se ocitnout v situacích, kdy je „procházet se bez jointa“ normou. Zvládání tohoto společenského tlaku je zásadní součástí udržování zdravějších návyků. Začíná to tím, že se budete cítit dobře s vlastním rozhodnutím a budete mít jednoduchý a přímý způsob, jak říct ne. Nemusíte poskytovat dlouhé vysvětlování; „Ne, díky, jsem v pořádku“ nebo „Dávám si teď pauzu“ obvykle více než stačí. Pokud jste s lidmi, kteří si vašeho přátelství skutečně váží, budou vaši volbu bez otázek respektovat. Je také užitečné mít vlastní nápoj nebo svačinu bez konopí, abyste si zabavili ruce a ústa. Na začátku rekonvalescence nebo během pauzy na toleranci se můžete rozhodnout vyhýbat se určitým společenským kruhům nebo událostem, kde je nadměrné užívání zaručeno. Nejde o to, abyste „nebyli zábavní“, ale o to, abyste si chránili svůj vlastní pokrok. Nakonec zjistíte, že můžete vést bohatý společenský život a mít skutečné spojení s ostatními, aniž by konopí bylo jeho středem. Budujete si životní styl založený na autentické přítomnosti a vašich vlastních hodnotách, a za to stojí za to se postavit.</p>"
+          },
+          {
+            "id": "c14",
+            "title": "Kdy vyhledat podporu",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Rozpoznat, kdy potřebujete pomoc, je významným znakem sebeuvědomění a síly, nikoli známkou selhání. Pokud jste se opakovaně pokoušeli omezit nebo přestat užívat konopí, ale zjistíte, že to nedokážete, vyplatí se vyhledat odbornou pomoc. Dalšími signály mohou být narušení vaší závislosti v práci, škole nebo vztazích, nebo pokud máte pocit, že vaše duševní zdraví výrazně trpí. Závislost může být těžkým břemenem, které musíte nést sami, a existuje mnoho lidí a programů, které se věnují tomu, aby vám pomohly najít cestu zpět k rovnováze. Může to zahrnovat specializovaného poradce pro závislosti, který vám může pomoci s vývojem nových strategií zvládání, nebo podpůrnou skupinu, kde můžete sdílet své zkušenosti s ostatními, kteří vám rozumí. V některých případech mohou být vhodné intenzivnější programy, které vám poskytnou jasné prostředí pro počáteční reset. Vyhledání podpory vám poskytne úroveň profesionálního vedení, odpovědnosti a emocionálního spojení, které je těžké najít jinde. Uznáváte, že vaše zdraví a vaše budoucnost jsou příliš důležité na to, abyste je riskovali. Pomoc je k dispozici a první krok k lékaři, poradci nebo podpůrné schůzce je jedním z nejaktivnějších a nejsilnějších rozhodnutí, která můžete pro své budoucí já udělat.</p>"
+          },
+          {
+            "id": "c15",
+            "title": "Život na nižší základní úrovni",
+            "time": "7 min",
+            "type": "Článek",
+            "content": "<p>Jakmile snížíte nebo úplně přestanete užívat konopí, nakonec dosáhnete „nižší základní úrovně“ neurochemické aktivity. To neznamená, že se budete cítit skleslí; znamená to, že váš mozek již není uměle stimulován vysokými dávkami THC a místo toho se vrací do svého přirozeného stavu. Tato základní úroveň se vyznačuje stabilnější náladou, jasnější myslí a konzistentnější úrovní energie. Zpočátku se to může zdát nudné nebo dokonce trochu ploché, protože systém odměny vašeho mozku si zvykl na extrémní euforii z konopí. Toto je však stav, ve kterém se buduje skutečná, dlouhodobá pohoda. Na této nižší základní úrovni jste schopni najít více smyslu a radosti v malých, každodenních zážitcích – chuti dobrého jídla, kráse západu slunce, smysluplném rozhovoru nebo uspokojení z dobře odvedené práce. Už se nehoníte za dočasnou euforií; budujete pevný základ vnitřního klidu a odolnosti. Toto je místo, ze kterého se můžete skutečně zapojit do světa a vybudovat si život, jaký chcete. Život na nižší základní úrovni není méně živý; je autentičtější. Jste přítomni pro svůj vlastní život, se všemi jeho výzvami a krásami, a máte jasnou představivost a sílu se vším orientovat s pevnou rukou.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

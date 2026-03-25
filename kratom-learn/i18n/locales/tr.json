@@ -1,0 +1,137 @@
+{
+  "app_title": "Öğrenme Modülü",
+  "progress_label": "İlerlemek",
+  "back_label": "Geri",
+  "minutes_label": "dakika",
+  "type_article": "Madde",
+  "type_assessment": "Değerlendirme",
+  "type_activity": "Aktivite",
+  "substance_name": "Kratom",
+  "DATA": {
+    "sections": [
+      {
+        "num": "01",
+        "title": "Farkındalık ve Hazırlık",
+        "articles": [
+          {
+            "id": "k1",
+            "title": "Kratom Nedir ve Beyninizi Nasıl Etkiler?",
+            "time": "5 min",
+            "type": "Madde",
+            "content": "<p>Kratom, Güneydoğu Asya&#39;ya özgü tropikal bir ağaçtır ve yaprakları yüzyıllardır uyarıcı ve opioid benzeri etkileri için kullanılmaktadır. Kratomdaki aktif bileşikler olan mitraginin ve 7-hidroksimitraginin, beynin opioid reseptörleriyle etkileşime girer. Düşük dozlarda kratom, enerji, uyanıklık ve sosyalliği artırarak uyarıcı görevi görür. Daha yüksek dozlarda ise geleneksel opioidlere benzer yatıştırıcı ve ağrı kesici etkiler üretir. Birçok insan kronik ağrıyı, kaygıyı yönetmek veya diğer maddelerden kurtulmaya yardımcı olmak için kratom kullanırken, önemli bir bağımlılık riski taşır. Düzenli kullanım, beynin kendi doğal ödül ve ağrı düzenleme sistemlerini baskılamasına yol açabilir; bu da &#39;normal&#39; hissetmek için daha fazla kratoma ihtiyaç duyduğunuz anlamına gelir. Bu kullanım ve yoksunluk döngüsü, fiziksel ve psikolojik bağımlılığı yaratır. Kratomun gerçek biyolojik etkileri olan güçlü bir psikoaktif madde olduğunu anlamak, kullanımınızı değerlendirmede çok önemli bir ilk adımdır. Maddenin beyninizle nasıl etkileşim kurduğunu anlayarak, maddeyle olan ilişkiniz hakkında daha bilinçli kararlar verebilir ve bilişsel berraklığınızı ve doğal duygusal istikrarınızı yeniden kazanma yolculuğuna başlayabilirsiniz.</p>"
+          },
+          {
+            "id": "k2",
+            "title": "Bağımlılık Düzeyim Ne Kadar? — Kendi Kendimi Değerlendirme",
+            "time": "5 min",
+            "type": "Değerlendirme",
+            "content": "<p>Kratom ile ilişkinizi değerlendirmek, rahatsız edici gelebilecek ancak gelişim için gerekli olan radikal bir dürüstlük gerektirir. &#39;Bağımlı&#39; olmayı ikili bir durum olarak düşünmekten uzaklaşmak ve bunun yerine kullanımınızı bir bağımlılık spektrumu boyunca incelemek faydalı olacaktır. Kendinize şu soruları sorun: Kratom olmadan güne başlamakta veya temel görevleri yerine getirmekte zorlanıyor musunuz? Toleransınızın arttığını, aynı etkiyi elde etmek için daha büyük miktarlarda satın almanız veya daha sık dozlar kullanmanız gerektiğini fark ettiniz mi? Önemli bir gösterge, azaltmaya çalıştığınızda sinirlilik, kaygı veya kas ağrıları gibi yoksunluk belirtileri yaşayıp yaşamadığınızdır. Zamanınızın önemli bir kısmını kratom hakkında düşünerek, onu temin ederek veya etkilerinden kurtularak mı geçiriyorsunuz? Kratom kullanımınız dünyanızı küçültüyorsa, ilişkilerinizi zorluyorsa veya profesyonel hedeflerinize müdahale ediyorsa, bunlar bir bağımlılığın oluştuğunun açık işaretleridir. Bu öz değerlendirme yargılamak için değil; bilgi edinmek için bir araçtır. Mevcut durumunuzu anladıktan sonra, refahınızı ve geleceğinizi en iyi şekilde destekleyecek yol hakkında bilinçli kararlar vermeye başlayabilirsiniz.</p>"
+          },
+          {
+            "id": "k3",
+            "title": "Kratom Sorununun Belirtileri",
+            "time": "6 min",
+            "type": "Madde",
+            "content": "<p>Kratom ile sorunlu bir ilişkinin belirtileri, inkar edilemez hale gelmeden önce genellikle ince ayrıntılarda gizlidir. Belki de kullanımınızın boyutunu arkadaşlarınızdan ve ailenizden gizlemeye başladığınızı, özel olarak kullandığınızı veya davranışlarınız için bahaneler uydurduğunuzu fark edebilirsiniz. Bu sosyal maskeleme, bilinçaltınızda kullanımınızın sağlıklı sınırları aştığının farkında olduğunuzda yaygın bir savunma mekanizmasıdır. Fiziksel olarak, alışılmadık bir yorgunluk, sindirim sorunları veya yalnızca bir dozdan sonra geçen bir sinirlilik hissi yaşayabilirsiniz. Daha önce keyif aldığınız hobilere olan ilginiz azalabilir ve yerini kratom kullanımının merkezinde olduğu aktivitelere olan tercihiniz alabilir. Bir diğer önemli işaret ise, kratom ile yönetmek için kullandığınız semptomların (ağrı veya kaygı gibi) madde etkisi geçtiğinde daha yoğun bir şekilde geri dönmesi olan &#39;geri tepme etkisi&#39;dir. Ayrıca, size yakın kişiler kullanımınızla ilgili endişelerini dile getirdiğinde giderek daha savunmacı bir tavır sergilediğinizi fark edebilirsiniz. Kratom kullanma hakkınızı kendi sağlığınızdan ve huzurunuzdan daha fazla koruyorsanız, bu maddenin hayatınızda önemli bir yer edindiğinin açık bir işaretidir. Bu işaretleri tanımak, kendi iradenizi geri kazanmanın ilk adımıdır.</p>"
+          },
+          {
+            "id": "k4",
+            "title": "Kratom Tetikleyicilerinizi Nasıl Haritalandırabilirsiniz?",
+            "time": "5 min",
+            "type": "Aktivite",
+            "content": "<p>Tetikleyiciler, kratom kullanma isteğini neredeyse otomatik olarak tetikleyen belirli içsel veya dışsal ipuçlarıdır. Kullanımınızı başarılı bir şekilde yönetmek için kendi kalıplarınızın gözlemcisi olmalısınız. &#39;Dört P&#39;yi arayın: İnsanlar, Yerler, Zaman Noktaları ve Fiziksel Durumlar. Belki de iş yerinde sizi sürekli kratom kullanmaya iten belirli bir stres faktörü vardır veya öğleden sonraki yorgunluk gibi belirli bir zaman diliminde kendinizi bir desteğe ihtiyaç duyuyormuş gibi hissedersiniz. Açlık, öfke, yalnızlık veya yorgunluk (HALT kısaltması) gibi fiziksel durumlar, bilindiği gibi güçlü tetikleyicilerdir. Hem olumlu hem de olumsuz duygular da önemlidir; bir zaferi kutlamak veya zor bir günün acısını dindirmek için kratom kullanabilirsiniz. Birkaç gün boyunca basit bir kayıt tutarak, kullanma isteği duyduğunuz her anı not ederek, kalıpların ortaya çıktığını görmeye başlayacaksınız. İsteklerinizin rastgele olmaktan ziyade belirli, tahmin edilebilir olaylarla bağlantılı olduğunu fark edebilirsiniz. Bu haritaya sahip olduktan sonra, alternatif yanıtlar planlamaya başlayabilirsiniz. Tetikleyicilerinizi haritalamak, belirsiz ve bunaltıcı bir mücadeleyi yönetilebilir bir dizi stratejik karara dönüştürür ve otomatik olarak tepki vermek yerine bilinçli bir şekilde yanıt vermenizi sağlar.</p>"
+          },
+          {
+            "id": "k5",
+            "title": "Kratom Kullanmaya Devam Etmek İçin Söylediğimiz Yalanlar",
+            "time": "6 min",
+            "type": "Madde",
+            "content": "<p>Beyin, alışkanlıklarını korumakta son derece yeteneklidir ve kratom söz konusu olduğunda, sürekli kullanımı haklı çıkarmak için genellikle oldukça ikna edici gerekçeler üretir. Bu taktiksel yalanlar, zihin tarafından değişimin getirdiği rahatsızlıktan kaçınmak için kullanılır. Kendinize, &quot;Sadece sırt ağrım için kullanıyorum&quot; diyebilirsiniz; bu, sorumluluğu fiziksel bir duruma yükler ve başka seçeneğiniz olmadığını ima eder. Ya da &quot;Sadece bir bitki, bu yüzden güvenli olmalı&quot; diyebilirsiniz; bu, güçlü psikoaktif özelliklerinin ve bağımlılık potansiyelinin gerçekliğini küçümser. Bir diğer yaygın yalan ise &quot;Kullandığımda daha üretken oluyorum&quot;dur; bu, alışkanlığı incelemeden korumak için mesleki hedeflerinizi kullanır. Sonra da istediğiniz zaman bırakabileceğiniz yalanı vardır; sabah verilen bu söz, genellikle öğleden sonranın gerçekliğine dayanamaz. Bu &quot;bağımlılık fısıltılarını&quot; tanımak çok önemli bir beceridir. Stresli bir günün ardından &quot;bunu hak ediyorsun&quot; diyen sesi duyduğunuzda, bunun ne olduğunu anlayın: aktif kalmaya çalışan eski bir sinir yolu. Bu yalanları ortaya çıktıkları anda dile getirerek, onların gücünü ortadan kaldırır ve kendinize gerçeği hatırlatırsınız: Onlarsız daha iyi durumdasınız.</p>"
+          }
+        ]
+      },
+      {
+        "num": "02",
+        "title": "Detoks ve Erken İyileşme",
+        "articles": [
+          {
+            "id": "k6",
+            "title": "Kratom Kullanma İsteğini Nasıl Bastırabilirsiniz?",
+            "time": "6 min",
+            "type": "Aktivite",
+            "content": "<p>Kratom isteği geldiğinde, bu istek, ancak boyun eğdiğinizde geçecek, sağlam ve yerinden oynatılamaz bir emir gibi hissedilebilir. İstek sörfü, bu isteği bir dalga gibi görmeyi öğreten bir tekniktir. Okyanustaki bir dalga gibi, istek küçük başlar, yoğunluğu artar, zirveye ulaşır ve sonra kaçınılmaz olarak kırılır ve dağılır. Sonsuza dek sürmez. Bir isteği sörf etmek için ilk adımınız, onu yargılamadan fark etmektir. Kendinize, &#39;Şu anda kratom isteği duyduğumu fark ediyorum&#39; deyin. Bu basit isimlendirme eylemi, sizinle dürtü arasında mesafe yaratır. Ardından, dikkatinizi vücudunuza getirin. İsteği nerede hissediyorsunuz? Bu fiziksel duyuma odaklanın ve nefes alıp verin. İsteği uzaklaştırmaya çalışmayın, çünkü bu genellikle onu daha da güçlendirir. Bunun yerine, kendinizi o duygunun üzerinde hayal edin, azalmaya başlayana kadar mevcut ve dengeli kalın. Çoğu istek 15 ila 30 dakika içinde zirveye ulaşır ve yumuşamaya başlar. Her başarılı sörf dürtüsüne kapıldığınızda, beyninizin öz düzenlemeyi yöneten bölümünü güçlendirirsiniz; bu da bir sonraki dalgayı sürmeyi daha da kolaylaştırır ve kendi dayanıklılığınızı kanıtlar.</p>"
+          },
+          {
+            "id": "k7",
+            "title": "Kratom Hakkındaki Düşünceleri Nasıl Bastırabilirsiniz?",
+            "time": "6 min",
+            "type": "Aktivite",
+            "content": "<p>Bilişsel ayrışma, düşüncelerinizden geri adım atıp onları mutlak gerçekler veya emirler yerine sadece kelimeler veya imgeler olarak görme pratiğidir. Kratom kullanımını azaltmaya veya bırakmaya çalışırken, zihniniz &quot;Bir doza ihtiyacım var&quot; veya &quot;Onsuz bu görevi bitiremem&quot; gibi düşünceler üretecektir. Bu düşünceleri olduğu gibi kabul ederseniz, bunaltıcı gelebilirler. Ayrışma, mesafe yaratmanıza olanak tanır. Bunu yapmanın basit bir yolu, bir ön ek eklemektir: &quot;Bir doza ihtiyacım var&quot; yerine, &quot;Bir doza ihtiyacım olduğu düşüncesine sahibim&quot; deyin. Bu ince değişiklik, düşüncenin zihninizde bir olay olduğunu, bir eylem gerekliliği olmadığını hatırlatır. Ayrıca, düşünce için zihninize &quot;teşekkür&quot; etmeyi de deneyebilirsiniz: &quot;Teşekkürler zihin, kratom hakkındaki o öneri için, ama bugün farklı bir yöne gidiyorum.&quot; Bu, iç diyalogdaki çatışmayı ortadan kaldırır. Düşüncenin yanlış olduğunu kanıtlamak zorunda değilsiniz; sadece beyninizin eski programlamasının bir ürünü olduğunu kabul etmeniz yeterlidir. Hangi düşüncelere göre hareket edeceğinizi ve hangilerini görmezden geleceğinizi siz seçersiniz. Düşüncelerden arınma pratiği, her dürtünün kölesi olmaktan kurtulmanıza yardımcı olur.</p>"
+          },
+          {
+            "id": "k8",
+            "title": "İyileşme Sürecinde Duygularınızı Kontrol Altına Almak",
+            "time": "6 min",
+            "type": "Madde",
+            "content": "<p>Kratom, genellikle yavaş geçen bir öğleden sonranın can sıkıntısından sosyal bir durumun kaygısına kadar duyguları kimyasal olarak yönetmenin bir yolu olarak kullanılır. Kullanmayı bıraktığınızda, genellikle yoğun ve yönetilemez hissettirebilen &quot;ham&quot; bir duyguyla karşı karşıya kalırsınız. Bu duyguları evcilleştirmek, bunların geçici olduğunu ve size zarar veremeyeceğini fark etmekle başlar. Erken iyileşme döneminde yaygın olan huzursuzluk veya hayal kırıklığı gibi duygular, beyninizin eski ödülünü aradığının sinyalleridir. Nasıl hissettiğinizi değiştirmek için kratom&#39;a başvurmak yerine, duyguyu basitçe adlandırmayı deneyin: &quot;Şu anda kaygılı hissediyorum.&quot; Bir duyguyu adlandırmanın, beyindeki fiziksel yoğunluğunu azalttığı gösterilmiştir. Ardından, derin nefes almak, günlük tutmak veya yürüyüşe çıkmak gibi sağlıklı bir şekilde işlemenin bir yolunu bulun. Duyguyu anında yok etmeye çalışmıyorsunuz; rahatsızlıkla oturmayı öğrenerek &quot;duygusal kasınızı&quot; geliştiriyorsunuz. Zamanla, beyniniz kendi ruh hallerini doğal olarak nasıl düzenleyeceğini yeniden öğrenecektir. Kendinizin sandığınızdan çok daha dirençli olduğunu ve kimyasal kestirme yollara başvurmadan hayatın iniş çıkışlarıyla başa çıkabilecek kapasitede olduğunuzu keşfedeceksiniz.</p>"
+          },
+          {
+            "id": "k9",
+            "title": "Kratom yoksunluğu nasıl bir his?",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Kratom yoksunluğu, maddenin sürekli varlığından sonra vücudunuzun ve beyninizin yeniden dengeye oturması sürecidir. Belirtiler genellikle son dozdan saatler sonra başlar ve kullanım seviyenize bağlı olarak hafiften şiddetliye kadar değişebilir. Fiziksel olarak, kas ağrıları, burun akıntısı ve sindirim sorunları yaşayabilirsiniz. Yaygın ve özellikle rahatsız edici bir belirti, uyumayı zorlaştırabilen &quot;huzursuz bacaklar&quot;dır. Ayrıca soğuk basmaları hissedebilir veya aşırı terleme yaşayabilirsiniz. Psikolojik olarak, yoksunluk artan kaygı, sinirlilik ve yaygın bir düşük ruh hali veya enerji eksikliği ile kendini gösterir. Bu belirtilerin vücudunuzun iyileşme yolu olduğunu anlamak önemlidir; psikoaktif bir destekleyici olmadan nasıl işlev göreceğini hatırlamaya çalışıyordur. Rahatsız edici olsa da, kratom yoksunluğu genellikle çoğu insan için tıbbi olarak tehlikeli değildir, ancak sabır ve öz şefkat gerektirir. İlk günler yorucu ve duygusal olarak yıpratıcı olabilir, ancak rahatsızlık, gerçek bir sağlık yaşamına giden geçici bir köprüdür. Bol su içerek vücudunuzun susuz kalmasını önleyin, dinlenmeye öncelik verin ve bu duyguların kendinizin daha berrak, daha istikrarlı bir versiyonuna doğru ilerlediğinizin bir işareti olduğunu unutmayın. Kullanmadan geçirdiğiniz her saat, bağımlılıktan kurtulmaya doğru atılmış bir adımdır.</p>"
+          },
+          {
+            "id": "k10",
+            "title": "Kratom Bağımlılığını Uzun Vadede Yönetmek",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Kratom bağımlılığını uzun vadede yönetmek, sürekli öz farkındalık ve çevrenize karşı proaktif bir yaklaşım gerektirir. Bağımlılık, fiziksel yoksunluk sona erdiğinde her zaman ortadan kaybolmaz; genellikle stres veya nostalji tarafından tetiklenen eski alışkanlığınızın &#39;yankıları&#39; olarak geri dönebilirler. Temel strateji, oluşturduğunuz sağlıklı rutinleri sürdürmektir: düzenli uyku, düzenli hareket ve dürüst iletişim. Bağımlılık ortaya çıktığında, pratik yaptığınız araçları kullanın: düşünceyi adlandırın, duyguyu kabul edin ve &#39;Geciktir ve Dikkat Dağıt&#39; yöntemini kullanın. Bırakmayı veya kullanımınızı azaltmayı seçmenizin nedenlerini ve o zamandan beri deneyimlediğiniz faydaları kendinize hatırlatın. Ayrıca, ister arkadaşlar, aile veya iyileşme sürecindeki diğer kişilerden oluşan bir topluluk olsun, bir destek ağına bağlı kalmak da faydalıdır. Kendinizi savunmasız hissettiğinizde konuşabileceğiniz birinin olması, anında bir sorumluluk ve bağlantı duygusu sağlar. Uzun vadeli yönetim, korkmadan tetikte olmakla ilgilidir. Öyle dolu ve anlamlı bir hayat kuruyorsunuz ki, ara sıra gelen kratom kullanma isteği huzurunuzu bozma gücünü kaybediyor. Seçimlerinizin kontrolü sizde ve her geçen gün gücünüz ve netliğiniz artıyor.</p>"
+          }
+        ]
+      },
+      {
+        "num": "03",
+        "title": "Dengeli Bir Yaşam İnşa Etmek",
+        "articles": [
+          {
+            "id": "k11",
+            "title": "Yeni Alışkanlıklar ve Rutinler Oluşturmak",
+            "time": "7 min",
+            "type": "Aktivite",
+            "content": "<p>Kratom kullanımını azalttığınızda veya bıraktığınızda, gününüzde daha önce maddeyi hazırlama ve tüketme ritüeliyle dolu olan &quot;boş&quot; dönemler olduğunu fark edersiniz. Yeni, sağlıklı rutinler oluşturmak, bu boşluğu bilinçli olarak iyiliğinizi destekleyen aktivitelerle doldurmakla ilgilidir. Öncelikle &quot;risk bölgelerinizi&quot; -kullanım olasılığınızın en yüksek olduğu zaman dilimlerini- belirleyin ve bu zaman dilimleri için özel, kratom dışı bir aktivite planlayın. Bu, sabah spor salonu seansı, öğlen yürüyüşü veya özel bir çay eşliğinde okuma gibi yeni bir akşam ritüeli olabilir. Rutin, dengeyi korumada inanılmaz derecede yardımcı olan bir güvenlik ve öngörülebilirlik duygusu sağlar. Sürekli yorucu kararlar almak zorunda kalmadan günü atlatmanıza yardımcı olur. Yeni alışkanlıklarınız düzenli bir uyku programı, bilinçli beslenme ve günlük düşünmeyi içerebilir. Zamanla, bu yeni davranışlar eskisi kadar otomatik hale gelecektir. Sadece &quot;kratom kullanmıyorsunuz&quot;; sağlık ve istikrarı doğal ve en kolay seçim haline getiren bir şekilde yapılandırılmış bir yaşam inşa ediyorsunuz. Kendinizin en iyi versiyonunu destekleyen, ilgi çekici ve tatmin edici aktivitelerle dolu bir gelecek yaratıyorsunuz.</p>"
+          },
+          {
+            "id": "k12",
+            "title": "Kratom Kullanmadan Sosyal Durumlarda Yol Almak",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Kratomun sıklıkla zararsız bir takviye olarak pazarlandığı bir dünyada yaşamak, kullanımının normalleştirildiği sosyal durumlarla karşılaşacağınız anlamına gelir. Bu anlarda özgüvenle hareket etmeyi öğrenmek, uzun vadeli iyileşme için hayati bir beceridir. Sosyal bir ortama girmeden önce, duruşunuzu belirleyin ve basit, doğrudan bir yanıtınız hazır olsun. &quot;Hayır teşekkürler, iyiyim&quot; veya &quot;Bir süreliğine kullanmayı bırakmaya karar verdim&quot; gibi kesin bir yanıt genellikle yeterlidir. Kimseye yolculuğunuzun ayrıntılı bir açıklamasını borçlu değilsiniz. İnsanlar ısrar ederse, ısrarlarının genellikle sizinkinden çok kendi maddeyle olan ilişkilerini yansıttığını unutmayın. İlk aşamalarda, yüksek riskli etkinliklerden tamamen uzak durmak tamamen kabul edilebilir. Önceliğiniz huzurunuz ve ilerlemenizdir. &quot;Ayık bir arkadaş&quot; veya çevrenizden seçiminizi destekleyen birini bulmak, anında bir bağlantı ve sorumluluk duygusu sağlayarak büyük bir fark yaratabilir. Sonunda, kratomun etkileşimin merkezinde olmadığı zengin bir sosyal yaşam sürebileceğinizi ve gerçek anlamda eğlenebileceğinizi göreceksiniz. Gerçek varlığınızı ve kendi değerlerinizi temel alan bir yaşam tarzı inşa ediyorsunuz; bu gerçekten gurur duyulacak bir şey.</p>"
+          },
+          {
+            "id": "k13",
+            "title": "Güveni ve İlişkileri Yeniden İnşa Etmek",
+            "time": "8 min",
+            "type": "Madde",
+            "content": "<p>Kratom kullanımı, ilişkileri ince ama önemli şekillerde etkileyebilir ve genellikle duygusal geri çekilmeye veya tutarlılık kaybına yol açabilir. Zamanla, odağınız maddeye kaymış olabilir ve sevdikleriniz kendilerini ihmal edilmiş veya kafası karışmış hissedebilirler. Bu bağlantıları onarmak, sabır, dürüstlük ve tutarlı eylem gerektiren bir süreçtir. Özür dilemek iyi bir başlangıçtır, ancak gerçek çalışma günlük seçimlerinizle gerçekleşir. Söz verdiğiniz zaman orada olarak, duygusal olarak mevcut olarak ve yeni alışkanlıklarınızı sürdürerek, yavaş yavaş güvenin temelini yeniden inşa ediyorsunuz. Kullanımınızın etkileri hakkında dürüst konuşmalar yapmak, başkalarına savunmaya geçmeden duygularını ifade etmeleri için alan tanımak faydalıdır. Bu zor olabilir, ancak gerçek iyileşme için gereklidir. Bazı ilişkiler kullanım etrafında merkezlenmiş olabilir ve artık yeni hayatınıza uymayabilir; bu acı verici ama sağlıklı bir farkındalıktır. Korumayı seçtiğiniz ilişkiler için, onarımın bir maraton olacağına, kısa bir koşu olmayacağına hazırlıklı olun. İnsanların değişiminizin gerçek ve kalıcı olduğunu görmeleri için zamana ihtiyaçları vardır. İyileştikçe, bağlantılarınız daha derin ve daha otantik hale gelecektir çünkü bunlar gerçekte kim olduğunuza dayanmaktadır.</p>"
+          },
+          {
+            "id": "k14",
+            "title": "Nüks Önleme Stratejileri",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Nüks önleme, risklerinizi tanımayı ve bunları yönetmek için bir plana sahip olmayı içeren aktif, günlük bir uygulamadır. Nüksü tek bir başarısızlık olarak değil, genellikle alışkanlıklarınızda ve zihniyetinizde bir kaymayla başlayan bir süreç olarak görmek faydalıdır. Erken uyarı işaretleri arasında fiziksel öz bakımınızı ihmal etmek, destekleyici insanlardan uzaklaşmak ve geçmişteki kratom kullanımını &#39;romantize etmeye&#39; başlamak yer alır. Bir kaymayı önlemek, bu işaretleri fark ettiğiniz anda müdahale etmek anlamına gelir. Destek ağınızla bağlantıda kalın ve karşılaştığınız zorluklar konusunda dürüst olun. Eski alışkanlığınıza doğru bir çekim hissettiğinizde arayabileceğiniz kişilerin listesini ve yapabileceğiniz sağlıklı aktiviteleri içeren bir &#39;nüks önleme planı&#39; oluşturun. Bir kayma meydana gelirse, utanç yerine dürüstlükle yanıt verin. Tek bir kayma, emeklerinizin tamamını mahvetmez; planınızı ayarlamanız ve hedeflerinize yeniden bağlı kalmanız için bir sinyaldir. Giderek daha dirençli bir yaşam ve beceriler geliştiriyorsunuz. Dikkatli olun, rutinlerinizi sürdürün ve ilerlemeye devam edin. İlerlemenizi korumak ve sağlıklı ve gerçek anlamda refah dolu bir gelecek inşa etmeye devam etmek için gereken araçlara ve güce sahipsiniz.</p>"
+          },
+          {
+            "id": "k15",
+            "title": "Uzun Vadeli Refah İçin Bir Zihniyet",
+            "time": "7 min",
+            "type": "Madde",
+            "content": "<p>Kratom kullanımından sonra uzun vadeli iyilik hali, kendinize ve dünyadaki yerinize bakış açınızda temel bir değişimle ilgilidir. Bu, &quot;kısıtlama&quot; zihniyetinden (bir takviyeden mahrum kalma hissi) &quot;bolluk&quot; zihniyetine geçmek anlamına gelir; burada ayıklığın size netliğinizi, özgürlüğünüzü ve sağlığınızı geri verdiğini görürsünüz. Uzun vadede, bir dozdan kaçınma mücadelesinin ötesine geçip kişisel gelişim ve tatmin alanına girersiniz. Bu zihniyet, sürekli öz farkındalığa bağlılığı ve genellikle hızlı çözümlere öncelik veren bir dünyada &quot;farklı&quot; olmaktan rahat olma isteğini içerir. Stresinizi izlemeye, duygusal sağlığınızı kontrol etmeye ve sizi destekleyen bağlantıları sürdürmeye devam edersiniz. Küçük, günlük deneyimlerde -doğanın güzelliği, anlamlı bir sohbet veya kendi sıkı çalışmanızın verdiği tatmin- derin bir neşe bulmaya başlarsınız. Amaç, &quot;iyileşmiş&quot; denilen nihai bir hedefe ulaşmak değil, kendinizin en iyi versiyonu olma yolculuğunu kucaklamaktır. Öyle içten ve anlamlı bir hayat kuruyorsunuz ki, artık ondan kaçma ihtiyacı duymuyorsunuz. Dengeli, kratomdan arınmış bir hayatın en büyük hediyesi budur.</p>"
+          }
+        ]
+      }
+    ]
+  }
+}

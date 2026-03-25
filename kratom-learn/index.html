@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Kratom Learn Module</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #A18567;
+            --text-dark: #1A1A1A;
+            --text-meta: #717171;
+            --border: #EEEEEE;
+            --bg: #FFFFFF;
+        }
+
+        html, body {
+            overflow: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-dark);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        #app {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .view {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #list-view {
+            z-index: 10;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #reader-view {
+            z-index: 20;
+            transform: translateX(100%);
+            padding-top: 20px;
+        }
+
+        #reader-view.active {
+            transform: translateX(0);
+        }
+
+        #list-view.inactive {
+            transform: translateX(-20%);
+        }
+
+        .top-module {
+            padding: 24px 0 16px;
+            flex-shrink: 0;
+        }
+
+        .substance-pill {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: #F0F0F0;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.4s ease;
+        }
+
+        .section-header {
+            margin: 32px 0 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-num {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--text-dark);
+        }
+
+        .article-row {
+            display: flex;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: background 0.2s;
+            min-height: 48px;
+        }
+
+        .article-row:hover {
+            opacity: 0.8;
+            background: #FAFAFA;
+        }
+
+        .doc-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            color: #999;
+            flex-shrink: 0;
+        }
+
+        .article-info {
+            flex: 1;
+        }
+
+        .article-title {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+            display: block;
+        }
+
+        .article-meta {
+            font-size: 11px;
+            color: var(--text-meta);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .type-badge {
+            background: #F0F0F0;
+            padding: 1px 6px;
+            border-radius: 3px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        .chevron {
+            color: #CCC;
+            font-size: 18px;
+            margin-left: 8px;
+            font-weight: 300;
+        }
+
+        .reader-nav {
+            margin-bottom: 8px;
+            flex-shrink: 0;
+        }
+
+        .back-arrow {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            margin-left: -14px;
+        }
+
+        .reader-header {
+            margin-bottom: 24px;
+            flex-shrink: 0;
+        }
+
+        .reader-title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        .reader-content {
+            flex: 1;
+            overflow-y: auto;
+            height: calc(100vh - 120px);
+            padding-bottom: 80px;
+            scrollbar-width: none;
+        }
+
+        .reader-content p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #2D2D2D;
+            margin-bottom: 20px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+    
+        .lang-wrapper {
+            position: absolute;
+            top: 24px;
+            right: 0px;
+            z-index: 100;
+        }
+        .lang-picker {
+            appearance: none;
+            background: #F0F0F0;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #666;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .lang-picker:hover { background: #E5E5E5; }
+    
+    </style>
+    <script src="/i18n/loader.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="list-view" class="view">
+            <div class="top-module">
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-picker">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                    <option value="de">DE</option>
+                    <option value="hi">HI</option>
+                    <option value="ja">JA</option>
+                    <option value="zh-CN">ZH</option>
+                    <option value="ko">KO</option>
+                    <option value="ru">RU</option>
+                    <option value="it">IT</option>
+                    <option value="pt">PT</option>
+                    <option value="ar">AR</option>
+                    <option value="tr">TR</option>
+                    <option value="nl">NL</option>
+                    <option value="pl">PL</option>
+                    <option value="vi">VI</option>
+                    <option value="th">TH</option>
+                    <option value="id">ID</option>
+                    <option value="sv">SV</option>
+                    <option value="cs">CS</option>
+                </select>
+            </div>
+                <div class="substance-pill" data-i18n="substance_name">Kratom</div>
+                <div class="progress-container">
+                    <div id="main-progress" class="progress-bar"></div>
+                </div>
+            </div>
+            <div id="content-list"></div>
+        </div>
+
+        <div id="reader-view" class="view">
+            <div class="reader-nav">
+                <div class="back-arrow" onclick="closeReader()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </div>
+            </div>
+            <div class="reader-header">
+                <h1 class="reader-title" id="rt-title"></h1>
+                <div class="article-meta">
+                    <span id="rt-time"></span>
+                    <span class="type-badge" id="rt-type"></span>
+                </div>
+            </div>
+            <div class="reader-content" id="rt-content"></div>
+        </div>
+    </div>
+
+    <script>
+        let DATA = {
+            sections: [
+                {
+                    num: '01',
+                    title: 'Awareness & Readiness',
+                    articles: [
+                        { id: 'k1', title: 'What Kratom Is and How It Affects Your Brain', time: '5 min', type: 'Article', content: '<p>Kratom is a tropical tree native to Southeast Asia, where its leaves have been used for centuries for their stimulant and opioid-like effects. The active compounds in kratom, mitragynine and 7-hydroxymitragynine, interact with the brain\'s opioid receptors. In low doses, kratom acts as a stimulant, increasing energy, alertness, and sociability. In higher doses, it produces sedative and pain-relieving effects similar to traditional opioids. While many people use kratom to manage chronic pain, anxiety, or to help quit other substances, it carries a significant risk of dependency. Regular use can lead to the brain downregulating its own natural reward and pain-regulation systems, meaning you need more kratom to feel \'normal\'. This cycle of use and withdrawal is what creates physical and psychological addiction. Understanding that kratom is a powerful psychoactive substance with real biological impacts is a crucial first step in evaluating your use. By recognizing how it interacts with your brain, you can make more informed decisions about your relationship with the substance and begin the journey toward reclaiming your cognitive clarity and natural emotional stability.</p>' },
+                        { id: 'k2', title: 'How Addicted Am I — A Self-Assessment', time: '5 min', type: 'Assessment', content: '<p>Evaluating your relationship with kratom requires a level of radical honesty that can feel uncomfortable but is necessary for growth. It\'s helpful to move away from the idea of being \'addicted\' as a binary state and instead look at your use along a spectrum of dependency. Ask yourself: do you find it difficult to start your day or perform basic tasks without kratom? Have you noticed your tolerance increasing, requiring you to buy larger amounts or use more frequent doses to get the same effect? A key indicator is whether you experience withdrawal symptoms like irritability, anxiety, or muscle aches when you try to cut down. Do you spend a significant amount of your time thinking about kratom, obtaining it, or recovering from its effects? If your use of kratom is making your world smaller, straining your relationships, or interfering with your professional goals, these are clear signs that a dependency has formed. This self-assessment is not for judgment; it\'s a tool for information. Once you know where you stand, you can begin to make informed decisions about the path forward that best supports your well-being and your future.</p>' },
+                        { id: 'k3', title: 'The Signs of a Kratom Problem', time: '6 min', type: 'Article', content: '<p>The signs of a problematic relationship with kratom are often subtle before they become undeniable. You might notice that you\'ve started to hide the extent of your use from friends and family, perhaps by using in private or making excuses for your behavior. This social masking is a common defense mechanism when you\'re subconsciously aware that your use has exceeded healthy boundaries. Physically, you might experience unusual fatigue, digestive issues, or a sense of irritability that only subsides after a dose. Your interest in previously enjoyed hobbies may be waning, replaced by a preference for activities where kratom use is centered. Another significant sign is the \'rebound effect,\' where the very symptoms you used kratom to manage—like pain or anxiety—return more intensely when the substance wears off. You may also find yourself increasingly defensive when people close to you express concern about your use. If you are more protective of your right to use kratom than you are of your own health and peace of mind, it\'s a clear signal that the substance has gained a significant foothold in your life. Recognizing these signs is the first step toward reclaiming your agency.</p>' },
+                        { id: 'k4', title: 'How to Map Your Kratom Triggers', time: '5 min', type: 'Activity', content: '<p>Triggers are the specific internal or external cues that spark an almost automatic desire to use kratom. To successfully manage your use, you must become an observer of your own patterns. Look for the \'Four Ps\': People, Places, Points in Time, and Physical States. Maybe there\'s a certain stressor at work that always makes you reach for your stash, or a specific time of day—like the midafternoon slump—when you feel you need a boost. Physical states like hunger, anger, loneliness, or tiredness (the HALT acronym) are notoriously powerful triggers. Emotions, both positive and negative, are also significant; you might use kratom to celebrate a win or to numb the sting of a hard day. By keeping a simple log for a few days, noting every time you feel an urge to use, you\'ll start to see patterns emerge. You might realize that your cravings are tied to specific, predictable events rather than being random. Once you have this map, you can begin to plan alternative responses. Mapping your triggers turns a vague, overwhelming struggle into a manageable series of strategic decisions, allowing you to respond with intention rather than reacting automatically.</p>' },
+                        { id: 'k5', title: 'The Lies We Tell to Keep Using Kratom', time: '6 min', type: 'Article', content: '<p>The brain is remarkably adept at protecting its habits, and when it comes to kratom, it will often generate highly convincing rationales to justify continued use. These tactical lies are used by the mind to avoid the discomfort of change. You might tell yourself, \'I only use it for my back pain,\' which places the responsibility on a physical condition and suggests that you have no other choice. Or you might say, \'It\'s just a plant, so it must be safe,\' minimizing the reality of its powerful psychoactive properties and potential for dependency. Another common one is \'I\'m more productive when I use it,\' using your professional goals to shield the habit from scrutiny. Then there\'s the lie that you can stop whenever you want, a promise made in the morning that often fails to survive the reality of the afternoon. Recognizing these \'addiction whispers\' is a crucial skill. When you hear that voice saying \'you deserve this\' after a stressful day, recognize it for what it is: an old neural pathway trying to stay active. By calling out these lies as they happen, you strip them of their power and remind yourself of the truth: you are better off without it.</p>' }
+                    ]
+                },
+                {
+                    num: '02',
+                    title: 'Detox & Early Healing',
+                    articles: [
+                        { id: 'k6', title: 'How to Urge Surf Kratom Cravings', time: '6 min', type: 'Activity', content: '<p>When a craving for kratom hits, it can feel like a solid, immovable command that will only go away if you give in. Urge surfing is a technique that teaches you to view a craving as a wave instead. Like a wave in the ocean, a craving starts small, builds in intensity, reaches a peak, and then inevitably breaks and dissipates. It doesn\'t last forever. To surf an urge, your first step is to notice it without judgment. Say to yourself, \'I notice I am having a craving for kratom right now.\' This simple act of naming it creates distance between you and the impulse. Next, bring your attention to your body. Where do you feel the urge? Focus on that physical sensation and breathe through it. Don\'t try to push the urge away, as that often makes it stronger. Instead, imagine yourself riding on top of the sensation, staying present and balanced until it begins to subside. Most cravings reach their peak and begin to soften within 15 to 30 minutes. Every time you successfully surf an urge, you strengthen the part of your brain that handles self-regulation, making the next wave even easier to ride and proving your own resilience.</p>' },
+                        { id: 'k7', title: 'How to Defuse Thoughts About Kratom', time: '6 min', type: 'Activity', content: '<p>Cognitive defusion is the practice of stepping back from your thoughts and seeing them as just words or images, rather than absolute truths or commands. When you\'re trying to reduce or stop kratom use, your mind will produce thoughts like \'I need a dose\' or \'I won\'t be able to finish this task without it.\' If you take these thoughts at face value, they can feel overwhelming. Defusion allows you to create distance. A simple way to do this is to add a prefix: instead of \'I need a dose,\' say \'I am having the thought that I need a dose.\' This subtle shift reminds you that the thought is an event in your mind, not a requirement for action. You can also try \'thanking\' your mind for the thought: \'Thanks, mind, for that suggestion about the kratom, but I\'m going in a different direction today.\' This takes the conflict out of the internal dialogue. You don\'t have to prove the thought wrong; you just have to acknowledge it as a product of your brain\'s old programming. You are the one who chooses which thoughts to act on and which to let pass. Practicing defusion helps you stop being a slave to every impulse.</p>' },
+                        { id: 'k8', title: 'Taming Your Emotions in Recovery', time: '6 min', type: 'Article', content: '<p>Kratom is often used as a way to chemically manage emotions, from the boredom of a slow afternoon to the anxiety of a social situation. When you stop using, you are often faced with a \'raw\' version of your feelings that can feel intense and unmanageable. Taming these emotions starts with the realization that they are temporary and cannot harm you. Feelings like restlessness or frustration, which are common in early recovery, are just signals that your brain is looking for its old reward. Instead of reaching for kratom to change how you feel, try to simply name the emotion: \'I am feeling anxious right now.\' Naming an emotion has been shown to reduce its physical intensity in the brain. Next, find a healthy way to process it, such as deep breathing, writing in a journal, or going for a walk. You aren\'t trying to make the emotion disappear instantly; you are building your \'emotional muscle\' by learning to sit with discomfort. Over time, your brain will relearn how to regulate its own moods naturally. You will discover that you are far more resilient than you thought and capable of handling life\'s ups and downs without a chemical shortcut.</p>' },
+                        { id: 'k9', title: 'What Kratom Withdrawal Feels Like', time: '8 min', type: 'Article', content: '<p>Kratom withdrawal is the process of your body and brain recalibrating after the substance\'s constant presence. Symptoms typically begin within hours of the last dose and can range from mild to significant depending on your level of use. Physically, you might experience muscle aches, runny nose, and digestive issues. A common and particularly distressing symptom is \'restless legs,\' which can make sleep difficult. You may also feel cold flashes or experience excessive sweating. Psychologically, the withdrawal is marked by heightened anxiety, irritability, and a pervasive sense of low mood or lack of energy. It\'s important to understand that these symptoms are your body\'s way of healing—it is trying to remember how to function without a psychoactive booster. While uncomfortable, kratom withdrawal is generally not medically dangerous for most people, but it requires patience and self-compassion. The initial days can be exhausting and emotionally draining, but the discomfort is a temporary bridge to a life of genuine health. Stay hydrated, prioritize rest, and remember that these feelings are a sign of your progress toward a clearer, more stable version of yourself. Every hour you move through without using is a step toward freedom from dependency.</p>' },
+                        { id: 'k10', title: 'Managing Kratom Cravings Long-Term', time: '7 min', type: 'Article', content: '<p>Managing kratom cravings over the long term requires a commitment to ongoing self-awareness and a proactive approach to your environment. Cravings don\'t always disappear once the physical withdrawal ends; they can return as \'echoes\' of your old habit, often triggered by stress or nostalgia. A primary strategy is to maintain the healthy routines you\'ve built—consistent sleep, regular movement, and honest communication. When a craving arises, use the tools you\'ve practiced: name the thought, acknowledge the emotion, and use the \'Delay and Distract\' method. Remind yourself of the reasons you chose to quit or reduce your use and the benefits you\'ve experienced since then. It\'s also helpful to stay connected to a support network, whether it\'s friends, family, or a community of others in recovery. Having someone to talk to when you feel vulnerable provides an immediate sense of accountability and connection. Long-term management is about being vigilant without being fearful. You are building a life that is so full and meaningful that the occasional urge to use kratom loses its power to disrupt your peace. You are in control of your choices, and with each day that passes, your strength and clarity grow.</p>' }
+                    ]
+                },
+                {
+                    num: '03',
+                    title: 'Building a Balanced Life',
+                    articles: [
+                        { id: 'k11', title: 'Building New Habits and Routines', time: '7 min', type: 'Activity', content: '<p>When you reduce or stop kratom use, you often find yourself with \'empty\' periods in your day that were previously filled by the ritual of preparing and consuming the substance. Creating new, healthy routines is about intentionally filling this space with activities that support your well-being. Start by identifying your \'danger zones\'—the times of day when you were most likely to use—and plan a specific, non-kratom activity for those windows. This could be a morning gym session, a midday walk, or a new evening ritual like reading with a specialty tea. Routine provides a sense of safety and predictability that is incredibly helpful in maintaining balance. It helps you navigate the day without having to make a constant series of exhausting decisions. Your new habits might include a regular sleep schedule, mindful eating, and daily reflection. Over time, these new behaviors will become as automatic as the old ones once were. You are not just \'not using kratom\'; you are actively building a life that is structured in a way that makes health and stability the natural and easiest choice. You are creating a future that is full of interesting, fulfilling activities that support the best version of yourself.</p>' },
+                        { id: 'k12', title: 'Navigating Social Situations Without Kratom', time: '8 min', type: 'Article', content: '<p>Living in a world where kratom is often marketed as a harmless supplement means you will likely face social situations where its use is normalized. Learning to navigate these moments with confidence is a vital skill for long-term recovery. Before you enter a social setting, decide on your stance and have a simple, direct response ready. A firm \'No thanks, I\'m good\' or \'I\'ve decided to step back from using it for a while\' is usually enough. You don\'t owe anyone a detailed explanation of your journey. If people push, remember that their insistence often reflects their own relationship with the substance more than yours. In the early stages, it\'s perfectly acceptable to skip high-risk events altogether. Your peace of mind and your progress are the priority. Finding a \'sober buddy\' or someone within your circle who supports your choice can make a huge difference, providing an immediate sense of connection and accountability. You will eventually find that you can lead a rich social life and have genuine fun without kratom being the center of the interaction. You are building a lifestyle based on authentic presence and your own values, which is something to be truly proud of.</p>' },
+                        { id: 'k13', title: 'Rebuilding Trust and Relationships', time: '8 min', type: 'Article', content: '<p>Kratom use can impact relationships in subtle but significant ways, often leading to emotional withdrawal or a loss of consistency. Over time, your focus may have shifted toward the substance, leaving loved ones feeling neglected or confused. Repairing these connections is a process that requires patience, honesty, and consistent action. An apology is a good start, but the real work happened through your daily choices. By showing up when you say you will, being emotionally present, and maintaining your new habits, you are slowly rebuilding the foundation of trust. It\'s helpful to have honest conversations about the impact of your use, giving others space to express their feelings without becoming defensive. This can be difficult, but it\'s necessary for genuine healing. Some relationships may have become centered around use and may no longer fit into your new life, and that\'s a painful but healthy realization. For the ones you choose to keep, be prepared for repair to be a marathon, not a sprint. People need time to see that your change is real and lasting. As you heal, your connections will become deeper and more authentic because they are based on who you really are.</p>' },
+                        { id: 'k14', title: 'Relapse Prevention Strategies', time: '7 min', type: 'Article', content: '<p>Relapse prevention is an active, daily practice that involves recognizing your risks and having a plan to manage them. It\'s helpful to view relapse not as a single failure, but as a process that often starts with a drift in your habits and mindset. Early warning signs include neglecting your physical self-care, isolating from supportive people, and starting to \'romanticize\' past kratom use. Preventing a slip means intervening as soon as you notice these signs. Stay connected to your support network and be honest about the challenges you\'re facing. Have a \'relapse prevention plan\' that includes a list of people to call and healthy activities to do when you feel the pull toward your old habit. If a slip does occur, respond with honesty rather than shame. A single slip doesn\'t ruin everything you\'ve worked for; it\'s a signal to adjust your plan and recommit to your goals. You are building a set of skills and a life that is increasingly resilient. Stay vigilant, maintain your routines, and keep moving forward. You have the tools and the strength to protect your progress and continue building a future of health and genuine well-being.</p>' },
+                        { id: 'k15', title: 'A Mindset for Long-term Well-being', time: '7 min', type: 'Article', content: '<p>Long-term well-being after kratom is about a fundamental shift in how you view yourself and your place in the world. It means moving from a mindset of \'restriction\'—feeling like you\'re missing out on a booster—to a mindset of \'abundance,\' where you see that sobriety gives you back your clarity, your agency, and your health. In the long term, you move beyond the struggle of avoiding a dose and into the realm of personal growth and fulfillment. This mindset involves a commitment to ongoing self-awareness and a willingness to be comfortable with being \'different\' in a world that often prioritizes quick fixes. You continue to monitor your stress, check in on your emotional health, and maintain the connections that support you. You begin to find deep joy in small, everyday experiences—the beauty of nature, a meaningful conversation, or the satisfaction of your own hard work. The goal is not to reach a final destination called \'recovered,\' but to embrace a lifelong journey of becoming the best version of yourself. You are building a life that is so genuinely engaging and meaningful that you no longer feel the need to escape from it. That is the ultimate gift of a balanced, kratom-free life.</p>' }
+                    ]
+                }
+            ]
+        };
+
+        let readArticles = new Set(JSON.parse(localStorage.getItem('read_kratom') || '[]'));
+
+        function init() {
+            renderList();
+            updateProgress();
+        }
+
+        function renderList() {
+            const listEl = document.getElementById('content-list');
+            let html = '';
+
+            DATA.sections.forEach(sec => {
+                html += `
+                    <div class="section-header">
+                        <span class="section-num">${sec.num}.</span>
+                        <span class="section-title">${sec.title}</span>
+                    </div>
+                `;
+                sec.articles.forEach(art => {
+                    const isRead = readArticles.has(art.id);
+                    html += `
+                        <div class="article-row" onclick="openReader('${art.id}')">
+                            <div class="doc-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </div>
+                            <div class="article-info">
+                                <span class="article-title">${art.title}</span>
+                                <div class="article-meta">
+                                    <span>${art.time}</span>
+                                    <span class="type-badge">${art.type}</span>
+                                </div>
+                            </div>
+                            <div class="chevron">›</div>
+                        </div>
+                    `;
+                });
+            });
+            listEl.innerHTML = html;
+        }
+
+        function openReader(id) {
+            let article;
+            DATA.sections.forEach(s => {
+                const found = s.articles.find(a => a.id === id);
+                if (found) article = found;
+            });
+
+            if (!article) return;
+
+            document.getElementById('rt-title').textContent = article.title;
+            document.getElementById('rt-time').textContent = article.time;
+            document.getElementById('rt-type').textContent = article.type;
+            document.getElementById('rt-content').innerHTML = article.content;
+
+            readArticles.add(id);
+            localStorage.setItem('read_kratom', JSON.stringify([...readArticles]));
+            updateProgress();
+
+            document.getElementById('reader-view').classList.add('active');
+            document.getElementById('list-view').classList.add('inactive');
+            document.getElementById('rt-content').scrollTop = 0;
+        }
+
+        function closeReader() {
+            document.getElementById('reader-view').classList.remove('active');
+            document.getElementById('list-view').classList.remove('inactive');
+        }
+
+        function updateProgress() {
+            const total = DATA.sections.reduce((acc, s) => acc + s.articles.length, 0);
+            const pct = (readArticles.size / total) * 100;
+            document.getElementById('main-progress').style.width = pct + '%';
+        }
+
+        
+        window.initModule = (t) => {
+            if (t.DATA) DATA = t.DATA;
+            if (t.substance_name) document.querySelector('.substance-pill').textContent = t.substance_name;
+            renderList();
+            updateProgress();
+        };
+
+        const currentLang = localStorage.getItem('language') || 'en';
+        if (currentLang === 'en') {
+           init();
+        }
+        
+    </script>
+</body>
+</html>
