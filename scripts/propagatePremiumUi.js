@@ -174,7 +174,9 @@ function transform(module) {
         })();
     `;
 
-    newHtml += logicPart.trim();
+    let scriptFinal = logicPart.replace(/\/\/ === SELF-CONTAINED i18n ===[\s\S]*/, '').trim();
+
+    newHtml += scriptFinal;
     newHtml += i18nScript;
     newHtml += '\n    </script>\n</body>\n</html>';
 
