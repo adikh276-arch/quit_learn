@@ -6,90 +6,143 @@
     <title>Quit Learn - Substance Hub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     <script src="/i18n/loader.js" defer></script>
     <style>
         :root {
             --bg: #FFFFFF;
-            --text: #1A1A1A;
-            --accent: #4F46E5;
-            --border: #F0F0F0;
+            --text-dark: #0F172A;
+            --text-meta: #64748B;
+            --accent: #5B4FE8;
+            --border: #E2E8F0;
+            --bg-muted: #F8FAFC;
         }
+        
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text-dark);
             margin: 0;
             padding: 0;
-            background: var(--bg);
-            color: var(--text);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            min-height: 100vh;
         }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            padding: 60px 24px 100px;
+            position: relative;
+        }
+
+        .lang-wrapper {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+        }
+        .lang-picker {
+            appearance: none;
+            background: var(--bg-muted);
+            border: 1px solid var(--border);
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            color: var(--text-meta);
+            transition: all 0.2s;
+        }
+        .lang-picker:hover { border-color: var(--accent); color: var(--accent); }
+
         header {
-            padding: 60px 20px 40px;
             text-align: center;
-            max-width: 600px;
+            margin-bottom: 60px;
         }
-        h1 { font-size: 32px; font-weight: 800; margin-bottom: 12px; letter-spacing: -0.5px; }
-        p { color: #666; font-size: 16px; line-height: 1.6; }
+
+        .brand-pill {
+            display: inline-block;
+            background: rgba(91, 79, 232, 0.1);
+            color: var(--accent);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 48px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: var(--text-meta);
+            max-width: 580px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
 
         .hub-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            width: 100%;
-            max-width: 900px;
-            padding: 20px;
-            box-sizing: border-box;
+            gap: 24px;
         }
+
         .hub-card {
-            background: #FAFAFA;
+            background: var(--bg-muted);
             border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 24px;
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.2s ease;
+            border-radius: 24px;
+            padding: 32px;
             display: flex;
             flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
+
         .hub-card:hover {
-            transform: translateY(-4px);
-            background: #FFF;
-            box-shadow: 0 12px 24px rgba(0,0,0,0.05);
+            transform: translateY(-6px);
+            background: white;
             border-color: var(--accent);
+            box-shadow: 0 20px 40px rgba(91, 79, 232, 0.1);
         }
-        .hub-card .badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 100px;
+
+        .sub-badge {
+            display: inline-flex;
+            width: fit-content;
+            padding: 6px 12px;
+            border-radius: 8px;
             font-size: 11px;
-            font-weight: 700;
+            font-weight: 800;
             text-transform: uppercase;
-            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
             color: white;
         }
-        .hub-card h2 { font-size: 20px; font-weight: 700; margin: 0 0 8px; }
-        .hub-card p { font-size: 14px; margin: 0; color: #777; }
 
-        .lang-wrapper {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-        }
-        .lang-picker {
-            appearance: none;
-            background: #F0F0F0;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
+        .hub-card h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 24px;
+            margin-bottom: 12px;
         }
 
-        /* Substance Colors */
+        .hub-card p {
+            font-size: 14px;
+            color: var(--text-meta);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Substance Palette */
         .color-alcohol { background: #5B4FE8; }
         .color-nicotine { background: #FF4D4D; }
         .color-opioids { background: #6B21A8; }
@@ -99,84 +152,89 @@
         .color-kratom { background: #A18567; }
 
         @media (max-width: 600px) {
-            h1 { font-size: 24px; }
-            .hub-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 36px; }
+            .subtitle { font-size: 16px; }
         }
     </style>
 </head>
 <body>
-    <div class="lang-wrapper">
-        <select id="language-selector" class="lang-picker">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-            <option value="hi">हिन्दी</option>
-            <option value="ja">日本語</option>
-            <option value="zh-CN">中文 (简体)</option>
-            <option value="ko">한국어</option>
-            <option value="ru">Русский</option>
-            <option value="it">Italiano</option>
-            <option value="pt">Português</option>
-            <option value="ar">العربية</option>
-            <option value="tr">Türkçe</option>
-            <option value="nl">Nederlands</option>
-            <option value="pl">Polski</option>
-            <option value="vi">Tiếng Việt</option>
-            <option value="th">ไทย</option>
-            <option value="id">Bahasa Indonesia</option>
-            <option value="sv">Svenska</option>
-            <option value="cs">Čeština</option>
-        </select>
-    </div>
+    <div class="container">
+        <div class="lang-wrapper">
+            <select id="language-selector" class="lang-picker">
+                <option value="en">EN</option>
+                <option value="es">ES</option>
+                <option value="fr">FR</option>
+                <option value="de">DE</option>
+                <option value="hi">HI</option>
+                <option value="ja">JA</option>
+                <option value="zh-CN">ZH</option>
+                <option value="ko">KO</option>
+                <option value="ru">RU</option>
+                <option value="it">IT</option>
+                <option value="pt">PT</option>
+                <option value="ar">AR</option>
+                <option value="tr">TR</option>
+                <option value="nl">NL</option>
+                <option value="pl">PL</option>
+                <option value="vi">VI</option>
+                <option value="th">TH</option>
+                <option value="id">ID</option>
+                <option value="sv">SV</option>
+                <option value="cs">CS</option>
+            </select>
+        </div>
 
-    <header>
-        <h1 data-i18n="app_title">Substance Learning Hub</h1>
-        <p>Select a module to begin your journey toward recovery and clarity.</p>
-    </header>
+        <header>
+            <div class="brand-pill">Learn Modules</div>
+            <h1 data-i18n="app_title">Choose Your Path</h1>
+            <p class="subtitle" data-i18n="app_subtitle">Select a substance below to access high-quality learning modules designed for your recovery journey.</p>
+        </header>
 
-    <div class="hub-grid">
-        <a href="./alcohol-learn/" class="hub-card">
-            <span class="badge color-alcohol">Alcohol</span>
-            <h2>Alcohol</h2>
-            <p>Master the tools to break free from alcohol dependency.</p>
-        </a>
-        <a href="./nic-learn/" class="hub-card">
-            <span class="badge color-nicotine">Nicotine</span>
-            <h2>Nicotine</h2>
-            <p>Quit smoking or vaping with science-backed strategies.</p>
-        </a>
-        <a href="./opi-learn/" class="hub-card">
-            <span class="badge color-opioids">Opioids</span>
-            <h2>Opioids</h2>
-            <p>Recovery pathways for pain management and dependency.</p>
-        </a>
-        <a href="./can-learn/" class="hub-card">
-            <span class="badge color-cannabis">Cannabis</span>
-            <h2>Cannabis</h2>
-            <p>Strategies for reducing use and gaining mental focus.</p>
-        </a>
-        <a href="./stim-learn/" class="hub-card">
-            <span class="badge color-stimulants">Stimulants</span>
-            <h2>Stimulants</h2>
-            <p>Reclaiming energy and focus without chemical aid.</p>
-        </a>
-        <a href="./mdma-learn/" class="hub-card">
-            <span class="badge color-mdma">MDMA</span>
-            <h2>MDMA</h2>
-            <p>Emotional healing and neural recovery guidance.</p>
-        </a>
-        <a href="./kratom-learn/" class="hub-card">
-            <span class="badge color-kratom">Kratom</span>
-            <h2>Kratom</h2>
-            <p>Understanding and managing kratom dependency.</p>
-        </a>
+        <div class="hub-grid">
+            <a href="./alcohol-learn/" class="hub-card">
+                <span class="sub-badge color-alcohol">Alcohol</span>
+                <h2 data-i18n="card_alcohol_title">Alcohol</h2>
+                <p data-i18n="card_alcohol_desc">Master the tools to break free from alcohol dependency and regain clarity.</p>
+            </a>
+            <a href="./nic-learn/" class="hub-card">
+                <span class="sub-badge color-nicotine">Nicotine</span>
+                <h2 data-i18n="card_nicotine_title">Nicotine</h2>
+                <p data-i18n="card_nicotine_desc">Quit smoking or vaping with science-backed behavioral strategies.</p>
+            </a>
+            <a href="./opi-learn/" class="hub-card">
+                <span class="sub-badge color-opioids">Opioids</span>
+                <h2 data-i18n="card_opioids_title">Opioids</h2>
+                <p data-i18n="card_opioids_desc">A clear pathway toward pain management and freedom from dependency.</p>
+            </a>
+            <a href="./can-learn/" class="hub-card">
+                <span class="sub-badge color-cannabis">Cannabis</span>
+                <h2 data-i18n="card_cannabis_title">Cannabis</h2>
+                <p data-i18n="card_cannabis_desc">Strategies for reducing use and gaining mental focus and stability.</p>
+            </a>
+            <a href="./stim-learn/" class="hub-card">
+                <span class="sub-badge color-stimulants">Stimulants</span>
+                <h2 data-i18n="card_stimulants_title">Stimulants</h2>
+                <p data-i18n="card_stimulants_desc">Reclaiming energy and natural focus without chemical dependency.</p>
+            </a>
+            <a href="./mdma-learn/" class="hub-card">
+                <span class="sub-badge color-mdma">MDMA</span>
+                <h2 data-i18n="card_mdma_title">MDMA</h2>
+                <p data-i18n="card_mdma_desc">Guidance for emotional healing and cognitive recovery after use.</p>
+            </a>
+            <a href="./kratom-learn/" class="hub-card">
+                <span class="sub-badge color-kratom">Kratom</span>
+                <h2 data-i18n="card_kratom_title">Kratom</h2>
+                <p data-i18n="card_kratom_desc">Understanding and managing the unique challenges of kratom dependency.</p>
+            </a>
+        </div>
     </div>
 
     <script>
-        // Use the same i18n logic for the hub if needed
-        window.initModule = (t) => {
-           // Hub specific translation updates could go here
+        // Use generic key for the Hub if we want to track Hub translations separately
+        // But for now, just the app_title is enough.
+        window.onTranslationsLoaded = (t) => {
+           // If we have localized descriptions, apply them
+           // The i18n loader's data-i18n mechanism handles simple tags automatically
         };
     </script>
 </body>
