@@ -304,6 +304,10 @@ function transform(module) {
         function openArt(id) {
             const ls = DATA.phases.flatMap(p => p.lessons).find(l => l.id === id);
             if (!ls) return;
+            if (ls.type === 'Assessment') {
+                window.location.href = 'https://web.mantracare.com/app/quit_assessments';
+                return;
+            }
             if(window.location.hash !== '#article-' + id) {
                 window.location.hash = 'article-' + id;
             }
