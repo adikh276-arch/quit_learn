@@ -34,8 +34,8 @@ function push(dir, msg) {
 
 // Push all modules
 MODULES.forEach(mod => {
-    push(path.join(ROOT, mod), "Simplified UI: removed progress tracking, completion buttons and feedback forms. Triggering v1.5 build.");
+    push(path.join(ROOT, mod), "Premium UI Upgrade: restored missing styles, improved article layout and design. Triggering v1.5 build.");
 });
 
 // Push root
-push(ROOT, "Update root Docker tag to 1.5 and push substance module changes.");
+push(ROOT, "Premium UI Upgrade: restored missing styles, improved article layout and design.");
