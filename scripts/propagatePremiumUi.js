@@ -112,6 +112,42 @@ function transform(module) {
         ]
     };
 
+    newHtml += `
+    <nav id="main-nav">
+        <div class="nav-logo" onclick="location.href='../'">Quit<span>Mantra</span> <small style="opacity:0.5;font-size:9px;font-weight:400;margin-left:4px">v2.1</small></div>
+        <div class="nav-right">
+            <a href="../" class="nav-home-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                <span data-i18n="nav_courses">Courses</span>
+            </a>
+            <div class="lang-wrapper">
+                <select id="language-selector" class="lang-picker">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                    <option value="de">DE</option>
+                    <option value="hi">HI</option>
+                    <option value="ja">JA</option>
+                    <option value="zh-CN">ZH</option>
+                    <option value="ko">KO</option>
+                    <option value="ru">RU</option>
+                    <option value="it">IT</option>
+                    <option value="pt">PT</option>
+                    <option value="ar">AR</option>
+                    <option value="tr">TR</option>
+                    <option value="nl">NL</option>
+                    <option value="pl">PL</option>
+                    <option value="vi">VI</option>
+                    <option value="th">TH</option>
+                    <option value="id">ID</option>
+                    <option value="sv">SV</option>
+                    <option value="cs">CS</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <div id="view-list">
+`;
     newHtml += '<script>\n        let DATA = ' + JSON.stringify(dataObj, null, 4) + ';\n';
     
     // Self-contained i18n
